@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-08-18T12:42:00+02:00",
+  "data_mode": "REAL_ONLY",
+  "queue_projects": [],
+  "queue_source": {
+    "name": "Statnett – Statistikk om tilknytningssaker",
+    "url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
+    "status": "PUBLIC_POWER_BI_NO_DOCUMENTED_API",
+    "notes": [
+      "Statnett opplyser at statistikken er basert på manuelt registrerte tilknytningshenvendelser fra 2018 til i dag og oppdateres kontinuerlig.",
+      "For tiden vises saker i kø, reservert og tilknyttet.",
+      "Statnett opplyser at listene kan kopieres manuelt til Excel.",
+      "Statnett opplyste 31.03.2025 at statistikken viser aktør, volum, geografi, næringskategori og planlagt ferdigstillelsesdato, og kan filtreres på prisområde og områdeplan."
+    ]
+  },
+  "regional_facts": [
+    {
+      "area": "NO1",
+      "title": "Oslo, Akershus og Østfold – mulig ny reservasjon i planlagt nett",
+      "value": 500,
+      "unit": "MW",
+      "as_of": "2024-12-05",
+      "kind": "capacity_opportunity_not_queue",
+      "text": "Statnett vurderte at det kunne reserveres inntil 500 MW nytt forbruk lokalt i planlagt nett i Oslo, Akershus og Østfold, forutsatt lokal kapasitet.",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2024/statnett-styrker-forsyningssikkerheten-i-oslo-akershus-og-ostfold/"
+    }
+  ],
+  "network_projects": [
+    {
+      "area": "NO1",
+      "name": "Hamang–Bærum–Smestad",
+      "phase": "Planlegging",
+      "type": "420 kV nettforsterkning",
+      "status": "Pågående prosjekt",
+      "capacity_mw": null,
+      "source_date": "2026-03-25",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/vare-prosjekter/region-ost/hamang-barum-smestad/",
+      "note": "Del av trinnvis utvikling av hovedstrømnettet i Oslo, Akershus og Østfold."
+    },
+    {
+      "area": "NO1",
+      "name": "Lillehammer–Gran",
+      "phase": "Utredning",
+      "type": "420 kV ledning",
+      "status": "Planlagt konsesjonssøknad 2027",
+      "capacity_mw": null,
+      "source_date": "2026-08-18",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/vare-prosjekter/region-ost/faberg-ulven/",
+      "note": "Inngår i trinn 2 i områdeplanene Innlandet og Oslo, Akershus og Østfold."
+    },
+    {
+      "area": "NO1",
+      "name": "Sogn–Ulven",
+      "phase": "Bygging",
+      "type": "420 kV kabeltunnel",
+      "status": "Under bygging",
+      "capacity_mw": null,
+      "source_date": "2026-04-10",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/vare-prosjekter/region-ost/sogn-ulven/",
+      "note": "6,6 km kabeltunnel med plass til to sett 420 kV-kabler."
+    },
+    {
+      "area": "NO5",
+      "name": "Fana transformatorstasjon",
+      "phase": "Ferdig",
+      "type": "Transformatorstasjon",
+      "status": "Ferdigstilt",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Oppgradert anlegg i Bergensområdet; Statnett beskriver dette som et tiltak som øker kapasiteten i eksisterende anlegg."
+    },
+    {
+      "area": "NO5",
+      "name": "Lindås transformatorstasjon",
+      "phase": "Ferdig",
+      "type": "Transformatorstasjon",
+      "status": "Ferdigstilt",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Oppgradert anlegg i Bergensområdet."
+    },
+    {
+      "area": "NO5",
+      "name": "Fensfjordkabelen",
+      "phase": "Ferdig",
+      "type": "Kabelprosjekt",
+      "status": "Ferdigstilt",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Ferdigstilt prosjekt i trinn 1 i områdeplan Bergensområdet og Haugalandet."
+    },
+    {
+      "area": "NO5",
+      "name": "Øygardskabelen 2",
+      "phase": "Bygging",
+      "type": "Kabelprosjekt",
+      "status": "Under bygging",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Byggeprosjekt i trinn 1 i områdeplan Bergensområdet og Haugalandet."
+    },
+    {
+      "area": "NO5",
+      "name": "Sogndal–Modalen–Øygarden",
+      "phase": "Konsesjon / utvikling",
+      "type": "Spenningsoppgradering",
+      "status": "Trinn 2",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Spenningsoppgradering i trinn 2."
+    },
+    {
+      "area": "NO5",
+      "name": "Samnanger–Øygarden",
+      "phase": "Planlegging",
+      "type": "Ny forbindelse",
+      "status": "Trinn 3 – planlegging",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Ny forbindelse i trinn 3; Statnett utreder sørlig alternativ."
+    },
+    {
+      "area": "NO5",
+      "name": "Sauda–Blåfalli–Mauranger–Samnanger",
+      "phase": "Utredning",
+      "type": "Spenningsoppgradering",
+      "status": "Utredning mot konsesjon",
+      "capacity_mw": null,
+      "source_date": "2025-11-19",
+      "source": "Statnett",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2025/statnett-oker-kapasiteten-i-kraftnettet-i-vestland/",
+      "note": "Trinn 3; utredningsarbeider pågår mot konsesjonssøknader."
+    }
+  ]
+}
