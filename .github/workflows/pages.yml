@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "index.html"
+      - "map-fix.js"
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -45,6 +46,8 @@ jobs:
           )
           s=s.replace('<style>', '<style>\n.leaflet-container img{max-width:none!important}.leaflet-container .leaflet-tile{max-width:none!important}.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}')
           s=s.replace('initMap();initialized=true', 'initMap();setTimeout(()=>{if(map)map.invalidateSize(true)},250);initialized=true')
+          if 'map-fix.js' not in s:
+            s=s.replace('</body>','<script src="./map-fix.js?v=2"></script>\n</body>')
           p.write_text(s,encoding='utf-8')
           PY
 
