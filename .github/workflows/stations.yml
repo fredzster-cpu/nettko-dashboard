@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/stations.yml"
+      - "data/current.json"
   schedule:
     - cron: "45 3 * * *"
 
@@ -19,12 +20,14 @@ concurrency:
 jobs:
   geocode:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Hent repository
         uses: actions/checkout@v4
 
       - name: Koordinatfest transmisjonsnettstasjoner
+        env:
+          NODE_OPTIONS: "--dns-result-order=ipv4first"
         run: node scripts/geocode-stations.mjs
 
       - name: Verifiser koordinater
@@ -44,5 +47,6 @@ jobs:
           git add data/stations.json
           if ! git diff --cached --quiet; then
             git commit -m "Oppdater stasjonskoordinater"
+            git pull --rebase origin main
             git push
           fi
