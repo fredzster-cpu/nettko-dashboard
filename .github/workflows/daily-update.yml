@@ -1,8 +1,42 @@
-name: Daily real-data snapshot
+name: Oppdater Nettkø
+
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "20 5 * * *"
+
+permissions:
+  contents: write
+
 jobs:
-  note:
+  fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
     steps:
-      - run: echo "Enable scheduled run when a verified Statnett export/feed is configured."
+      - name: Hent repository
+        uses: actions/checkout@v4
+
+      - name: Sett opp Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installer Playwright
+        run: |
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Kjør Statnett-henter
+        run: node scripts/fetch-statnett.mjs
+        continue-on-error: true
+
+      - name: Lagre nye data
+        run: |
+          git config user.name "nettko-bot"
+          git config user.email "nettko-bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Daglig Statnett-oppdatering"
+            git push
+          fi
