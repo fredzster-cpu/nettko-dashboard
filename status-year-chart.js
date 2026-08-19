@@ -30,6 +30,7 @@
   }
 
   function baseRows(){
+    if(typeof all!=='function') return [];
     const ind=industry?.value||'ALL';
     const q=(search?.value||'').trim().toLowerCase();
     const st=statusSelect?.value||'ALL';
@@ -46,7 +47,9 @@
   }
 
   function renderYearChart(){
-    if(typeof all!=='function' || !window.current) return;
+    // `current` is declared with top-level `let` in index.html and therefore is not
+    // exposed as window.current. Use all() as the readiness check instead.
+    if(typeof all!=='function') return;
     const rows=baseRows();
     const byYear=new Map();
     for(const r of rows){
@@ -57,16 +60,21 @@
     const years=[...byYear.keys()].sort((a,b)=>a-b);
     const vals=years.map(y=>Math.round(byYear.get(y)||0));
     const total=rows.reduce((s,r)=>s+(Number(r.mw)||0),0);
-    document.getElementById('statusYearTotal').textContent=Math.round(total).toLocaleString('nb-NO');
-    document.getElementById('statusYearTitle').textContent=activeLabel()+' – forbruk (MW)';
-    document.getElementById('statusYearHint').textContent=`${rows.length} saker i aktivt utvalg · fordelt etter publisert dato/statusdato.`;
+    const totalEl=document.getElementById('statusYearTotal');
+    const titleEl=document.getElementById('statusYearTitle');
+    const hintEl=document.getElementById('statusYearHint');
+    if(totalEl) totalEl.textContent=Math.round(total).toLocaleString('nb-NO');
+    if(titleEl) titleEl.textContent=activeLabel()+' – forbruk (MW)';
+    if(hintEl) hintEl.textContent=rows.length
+      ? `${rows.length} saker i aktivt utvalg · fordelt etter publisert dato/statusdato.`
+      : 'Ingen saker i aktivt utvalg.';
 
     if(yearlyChart) yearlyChart.destroy();
     const ctx=document.getElementById('statusYearChart');
-    if(!ctx) return;
+    if(!ctx || !years.length) return;
     yearlyChart=new Chart(ctx,{
       type:'bar',
-      data:{labels:years,datasets:[{data:vals,borderWidth:0,borderRadius:0,maxBarThickness:90}]},
+      data:{labels:years,datasets:[{data:vals,borderWidth:0,borderRadius:0,maxBarThickness:90,backgroundColor:'#0b4b3a'}]},
       options:{
         responsive:true,maintainAspectRatio:false,
         plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>Number(c.raw).toLocaleString('nb-NO')+' MW'}}},
@@ -83,7 +91,7 @@
         }
       }]
     });
-    setTimeout(()=>{if(window.map) map.invalidateSize(true)},80);
+    setTimeout(()=>{if(typeof map!=='undefined'&&map) map.invalidateSize(true)},80);
   }
 
   const style=document.createElement('style');
@@ -104,7 +112,8 @@
   [statusSelect,industry].filter(Boolean).forEach(el=>el.addEventListener('change',()=>setTimeout(renderYearChart,0)));
   search?.addEventListener('input',()=>setTimeout(renderYearChart,0));
   document.querySelectorAll('[data-area]').forEach(b=>b.addEventListener('click',()=>setTimeout(renderYearChart,0)));
-  document.querySelectorAll('[data-status-card]').forEach(b=>b.addEventListener('click',()=>setTimeout(renderYearChart,10)));
-  setTimeout(renderYearChart,120);
+  // Status cards are added by another sidecar script; delegate clicks so this works regardless of load order.
+  document.addEventListener('click',e=>{if(e.target.closest?.('[data-status-card]')) setTimeout(renderYearChart,20)});
+  setTimeout(renderYearChart,250);
   setInterval(renderYearChart,5*60*1000);
 })();
