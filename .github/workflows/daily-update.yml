@@ -1,0 +1,8 @@
+name: Daily real-data snapshot
+on:
+  workflow_dispatch:
+jobs:
+  note:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Enable scheduled run when a verified Statnett export/feed is configured."
