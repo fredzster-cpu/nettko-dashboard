@@ -1,0 +1,2290 @@
+{
+  "fetched_at": "2026-08-19T10:54:56.304Z",
+  "source": "Statnett Kapasitetskø",
+  "clicked_list_view": true,
+  "frame_index": 2,
+  "frame_url": "https://app.powerbi.com/view?r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=e919fd623fe16c1f1b5b%22",
+  "grid_count": 2,
+  "row_count": 44,
+  "cell_count": 461,
+  "rows_sample": [
+    {
+      "text": "Radvalg Statnett saksnr. Tilko saksnr. Stasjon for tilknytning i transmisjonsnettet Områdeplan Prisområde Statnetts kunde Sluttkunde Næringstype Kapasitet i kø (MW) Dato - moden bestilling fra sluttkunde",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00869 ELB1336 Moskog TRA Sogn og Sunnmøre NO3 Linja AS HyFuel AS Hydrogen/ammoniakk 20",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02165 ELB275 Vardal TRA Innlandet NO1 Elvia As Daba Eiendom AS Datasenter 200",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 26/04065 ELB2879 Vang TRA Innlandet NO1 Elvia As Sørliterterminalen Stange AS Industri 100",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 26/04386 ELB3385 Balsfjord TRA Nord NO4 Arva AS CEDRUS AS Datasenter 15",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01748 ELB813 Litle Sotra TRA Bergen og Haugalandet NO5 BKK AS Tresmarka AS Transport 20 22.12.2020",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 22/00602 ELB1426 Rød TRA Telemark og Vestfold NO2 WS Computing AS WSC Datasenter 480 29.03.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01593 ELB2534 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Hydro Aluminium AS Industri 40 25.04.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01595 ELB2533 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Hydro Aluminium AS Industri 40 25.04.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 22/00715 ELB79 Kolsvik KRA/TRA Helgeland og Salten NO4 Linea AS Helgeland Miljøfisk Oppdrettsnæring 25 27.04.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00809 ELB1782 Tveiten TRA Telemark og Vestfold NO2 Lede AS SLAGENTANGEN HYDROGEN AS Hydrogen/ammoniakk 59 04.09.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01121 ELB1414 Aura KRA/TRA Midt NO3 Hydro Aluminium As Hydro Aluminium AS Industri 85 25.10.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 21/00473 ELB85 Marka TRA Helgeland og Salten NO4 Linea AS Gen2 energy Hydrogen/ammoniakk 500 30.10.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 21/00098 ELB1788 Tveiten TRA Telemark og Vestfold NO2 Lede AS GREEN MOUNTAIN HOLDINGS AS Datasenter 20 14.12.2022",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00826 ELB2118 Ørskog TRA Sogn og Sunnmøre NO3 Linja AS Norwegian Hydrogen AS Hydrogen/ammoniakk 250 25.01.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 22/00654 ELB3954 Vågåmo TRA Innlandet NO3 Linja AS Ugna Properties AS Datasenter 10 22.02.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00931 ELB1194 Strinda TRA Midt NO3 Tensio AS LUNERA ENERGI AS Annet forbruk 10 04.04.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00951 ELB765 Hinnøy Nord NO4 Noranett AS NorthSafe AS Datasenter 25 23.04.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/00977 ELB1933 Orkdal TRA Midt NO3 Tensio AS Ellinor Batteries AS Batteriproduksjon 100 16.05.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01018 ELB1626 Viklandet TRA Midt NO3 Linja AS BIO3 Oppdrettsnæring 40 30.05.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01086 ELB1625 Viklandet TRA Midt NO3 Linja AS Averøy Industripark AS Oppdrettsnæring 20 15.08.2023",
+      "aria": ""
+    },
+    {
+      "text": "Totalt 16 169",
+      "aria": ""
+    },
+    {
+      "text": "Radvalg Statnett saksnr. Tilko saksnr. Stasjon for tilknytning i transmisjonsnettet Områdeplan Prisområde Statnetts kunde Sluttkunde Næringstype Kapasitet i kø (MW) Dato - moden bestilling fra sluttkunde",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01677 ELB141 Minne TRA Innlandet NO1 Elvia As Løvhaugsåa Kraftverk AS Vannkraft 2 24.10.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02402 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Offerdal Kraftverk AS Vannkraft 2 29.05.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01385 ELB183 Minne TRA Innlandet NO1 Elvia As Endra AS Solkraft 3 08.11.2023",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01673 ELB508 Rendalen transformatorstasjon TRA Innlandet NO1 Elvia As NØK Forbybar AS Solkraft 4 02.06.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02194 ELB289 Fåberg TRA Innlandet NO1 Elvia As Hafslund Kraft AS Vannkraft 5 24.03.2026",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01710 ELB218 Minne TRA Innlandet NO1 Elvia As Otto Langmoen Solkraft 5 17.06.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01337 ELB187 Vang TRA Innlandet NO1 Elvia As Differ Energy AS Solkraft 5 20.02.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01452 ELB1060 Flesaker TRA Telemark og Vestfold NO1 Glitre Nett AS Energeia Gunnhus AS Solkraft 5 29.09.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 23/01386 ELB144 Vang TRA Innlandet NO1 Elvia As Hafslund Kraft AS Vannkraft 5 26.03.2025",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02511 ELB823 Evanger KRA/TRA Bergen og Haugalandet NO5 Indre Hordaland Kraftnett AS Småkraft AS Vannkraft 5 20.03.2026",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02478 ELB1623 Aura KRA/TRA Midt NO3 Linja AS Småkraft AS Vannkraft 5 01.03.2025",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02069 ELB1987 Ålfoten TRA Sogn og Sunnmøre NO3 Linja AS Småkraft AS Vannkraft 5 06.01.2025",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 26/03942 ELB2685 Rød TRA Telemark og Vestfold NO2 Lede AS TINFOS AS Vannkraft 6 13.05.2026",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01557 ELB509 Rendalen transformatorstasjon TRA Innlandet NO1 Elvia As Småkraft AS Vannkraft 6 17.06.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02510 ELB824 Sima KRA/TRA Bergen og Haugalandet NO5 Indre Hordaland Kraftnett AS Småkraft AS Vannkraft 6 20.03.2026",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01531 ELB1926 Åfjord TRA Midt NO3 Tensio AS Småkraft AS Vannkraft 6 15.11.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02257 ELB247 Salten transformatorstasjon TRA Helgeland og Salten NO4 Arva AS CADRE AS Vannkraft 6 15.10.2025",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 24/01450 ELB190 Vang TRA Innlandet NO1 Elvia As Differ Energy AS Solkraft 6 17.03.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 25/02137 ELB638 Haugsvær transformatorstasjon TRA Bergen og Haugalandet NO5 BKK AS Småkraft AS Vannkraft 6 07.11.2024",
+      "aria": ""
+    },
+    {
+      "text": "Velg rad 26/03950 ELB2635 Høyanger TRA Sogn og Sunnmøre NO3 Hydro Aluminium As STATKRAFT ENERGI AS Vannkraft 7 12.05.2026",
+      "aria": ""
+    },
+    {
+      "text": "Totalt 8 198",
+      "aria": ""
+    }
+  ],
+  "cells_sample": [
+    {
+      "role": "columnheader",
+      "text": "Radvalg",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Statnett saksnr.",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Tilko saksnr.",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Stasjon for tilknytning i transmisjonsnettet",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Områdeplan",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Prisområde",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Statnetts kunde",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Sluttkunde",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Næringstype",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Kapasitet i kø (MW)",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Dato - moden bestilling fra sluttkunde",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00869",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1336",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Moskog TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sogn og Sunnmøre",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "HyFuel AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydrogen/ammoniakk",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "20",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25/02165",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB275",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vardal TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Daba Eiendom AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "200",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "26/04065",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB2879",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vang TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sørliterterminalen Stange AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Industri",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "100",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "26/04386",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB3385",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Balsfjord TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Nord",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO4",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Arva AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "CEDRUS AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "15",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01748",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB813",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Litle Sotra TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Bergen og Haugalandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO5",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "BKK AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Tresmarka AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Transport",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "20",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "22.12.2020",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "22/00602",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1426",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Rød TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Telemark og Vestfold",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO2",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "WS Computing AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "WSC",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "480",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "29.03.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01593",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB2534",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Fortun KRA/TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sogn og Sunnmøre",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO5",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydro Aluminium AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Industri",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "40",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25.04.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01595",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB2533",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Fortun KRA/TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sogn og Sunnmøre",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO5",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydro Aluminium AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Industri",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "40",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25.04.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "22/00715",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB79",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Kolsvik KRA/TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Helgeland og Salten",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO4",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linea AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Helgeland Miljøfisk",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Oppdrettsnæring",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "27.04.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00809",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1782",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Tveiten TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Telemark og Vestfold",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO2",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Lede AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "SLAGENTANGEN HYDROGEN AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydrogen/ammoniakk",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "59",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "04.09.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/01121",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1414",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Aura KRA/TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Midt",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydro Aluminium As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydro Aluminium AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Industri",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "85",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25.10.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "21/00473",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB85",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Marka TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Helgeland og Salten",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO4",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linea AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Gen2 energy",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydrogen/ammoniakk",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "500",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "30.10.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "21/00098",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1788",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Tveiten TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Telemark og Vestfold",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO2",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Lede AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "GREEN MOUNTAIN HOLDINGS AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "20",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "14.12.2022",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00826",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB2118",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Ørskog TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sogn og Sunnmøre",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Norwegian Hydrogen AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hydrogen/ammoniakk",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "250",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25.01.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "22/00654",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB3954",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vågåmo TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Ugna Properties AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "10",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "22.02.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00931",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1194",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Strinda TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Midt",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Tensio AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "LUNERA ENERGI AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Annet forbruk",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "10",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "04.04.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00951",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB765",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hinnøy",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Nord",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO4",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Noranett AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NorthSafe AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Datasenter",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23.04.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/00977",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1933",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Orkdal TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Midt",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Tensio AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Ellinor Batteries AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Batteriproduksjon",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "100",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "16.05.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/01018",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1626",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Viklandet TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Midt",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "BIO3",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Oppdrettsnæring",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "40",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "30.05.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/01086",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB1625",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Viklandet TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Midt",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO3",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Averøy Industripark AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Oppdrettsnæring",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "20",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "15.08.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Totalt",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "16 169",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Radvalg",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Statnett saksnr.",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Tilko saksnr.",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Stasjon for tilknytning i transmisjonsnettet",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Områdeplan",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Prisområde",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Statnetts kunde",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Sluttkunde",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Næringstype",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Kapasitet i kø (MW)",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "columnheader",
+      "text": "Dato - moden bestilling fra sluttkunde",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01677",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB141",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Minne TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Løvhaugsåa Kraftverk AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vannkraft",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "2",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24.10.2024",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25/02402",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Fortun KRA/TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Sogn og Sunnmøre",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO5",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Linja AS",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Offerdal Kraftverk AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vannkraft",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "2",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "29.05.2024",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "23/01385",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB183",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Minne TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Endra AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Solkraft",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "3",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "08.11.2023",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01673",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB508",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Rendalen transformatorstasjon TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NØK Forbybar AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Solkraft",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "4",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "02.06.2024",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "25/02194",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB289",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Fåberg TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Elvia As",
+      "ariaLabel": null,
+      "colIndex": "7",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Hafslund Kraft AS",
+      "ariaLabel": null,
+      "colIndex": "8",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Vannkraft",
+      "ariaLabel": null,
+      "colIndex": "9",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "5",
+      "ariaLabel": null,
+      "colIndex": "10",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24.03.2026",
+      "ariaLabel": null,
+      "colIndex": "11",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Velg rad",
+      "ariaLabel": null,
+      "colIndex": "1",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "24/01710",
+      "ariaLabel": null,
+      "colIndex": "2",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "ELB218",
+      "ariaLabel": null,
+      "colIndex": "3",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Minne TRA",
+      "ariaLabel": null,
+      "colIndex": "4",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "Innlandet",
+      "ariaLabel": null,
+      "colIndex": "5",
+      "rowIndex": null
+    },
+    {
+      "role": "gridcell",
+      "text": "NO1",
+      "ariaLabel": null,
+      "colIndex": "6",
+      "rowIndex": null
+    }
+  ]
+}

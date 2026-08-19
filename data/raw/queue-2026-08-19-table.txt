@@ -1,0 +1,44 @@
+1	Radvalg Statnett saksnr. Tilko saksnr. Stasjon for tilknytning i transmisjonsnettet Områdeplan Prisområde Statnetts kunde Sluttkunde Næringstype Kapasitet i kø (MW) Dato - moden bestilling fra sluttkunde
+2	Velg rad 23/00869 ELB1336 Moskog TRA Sogn og Sunnmøre NO3 Linja AS HyFuel AS Hydrogen/ammoniakk 20
+3	Velg rad 25/02165 ELB275 Vardal TRA Innlandet NO1 Elvia As Daba Eiendom AS Datasenter 200
+4	Velg rad 26/04065 ELB2879 Vang TRA Innlandet NO1 Elvia As Sørliterterminalen Stange AS Industri 100
+5	Velg rad 26/04386 ELB3385 Balsfjord TRA Nord NO4 Arva AS CEDRUS AS Datasenter 15
+6	Velg rad 24/01748 ELB813 Litle Sotra TRA Bergen og Haugalandet NO5 BKK AS Tresmarka AS Transport 20 22.12.2020
+7	Velg rad 22/00602 ELB1426 Rød TRA Telemark og Vestfold NO2 WS Computing AS WSC Datasenter 480 29.03.2022
+8	Velg rad 24/01593 ELB2534 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Hydro Aluminium AS Industri 40 25.04.2022
+9	Velg rad 24/01595 ELB2533 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Hydro Aluminium AS Industri 40 25.04.2022
+10	Velg rad 22/00715 ELB79 Kolsvik KRA/TRA Helgeland og Salten NO4 Linea AS Helgeland Miljøfisk Oppdrettsnæring 25 27.04.2022
+11	Velg rad 23/00809 ELB1782 Tveiten TRA Telemark og Vestfold NO2 Lede AS SLAGENTANGEN HYDROGEN AS Hydrogen/ammoniakk 59 04.09.2022
+12	Velg rad 23/01121 ELB1414 Aura KRA/TRA Midt NO3 Hydro Aluminium As Hydro Aluminium AS Industri 85 25.10.2022
+13	Velg rad 21/00473 ELB85 Marka TRA Helgeland og Salten NO4 Linea AS Gen2 energy Hydrogen/ammoniakk 500 30.10.2022
+14	Velg rad 21/00098 ELB1788 Tveiten TRA Telemark og Vestfold NO2 Lede AS GREEN MOUNTAIN HOLDINGS AS Datasenter 20 14.12.2022
+15	Velg rad 23/00826 ELB2118 Ørskog TRA Sogn og Sunnmøre NO3 Linja AS Norwegian Hydrogen AS Hydrogen/ammoniakk 250 25.01.2023
+16	Velg rad 22/00654 ELB3954 Vågåmo TRA Innlandet NO3 Linja AS Ugna Properties AS Datasenter 10 22.02.2023
+17	Velg rad 23/00931 ELB1194 Strinda TRA Midt NO3 Tensio AS LUNERA ENERGI AS Annet forbruk 10 04.04.2023
+18	Velg rad 23/00951 ELB765 Hinnøy Nord NO4 Noranett AS NorthSafe AS Datasenter 25 23.04.2023
+19	Velg rad 23/00977 ELB1933 Orkdal TRA Midt NO3 Tensio AS Ellinor Batteries AS Batteriproduksjon 100 16.05.2023
+20	Velg rad 23/01018 ELB1626 Viklandet TRA Midt NO3 Linja AS BIO3 Oppdrettsnæring 40 30.05.2023
+21	Velg rad 23/01086 ELB1625 Viklandet TRA Midt NO3 Linja AS Averøy Industripark AS Oppdrettsnæring 20 15.08.2023
+22	Totalt 16 169
+23	Radvalg Statnett saksnr. Tilko saksnr. Stasjon for tilknytning i transmisjonsnettet Områdeplan Prisområde Statnetts kunde Sluttkunde Næringstype Kapasitet i kø (MW) Dato - moden bestilling fra sluttkunde
+24	Velg rad 24/01677 ELB141 Minne TRA Innlandet NO1 Elvia As Løvhaugsåa Kraftverk AS Vannkraft 2 24.10.2024
+25	Velg rad 25/02402 Fortun KRA/TRA Sogn og Sunnmøre NO5 Linja AS Offerdal Kraftverk AS Vannkraft 2 29.05.2024
+26	Velg rad 23/01385 ELB183 Minne TRA Innlandet NO1 Elvia As Endra AS Solkraft 3 08.11.2023
+27	Velg rad 24/01673 ELB508 Rendalen transformatorstasjon TRA Innlandet NO1 Elvia As NØK Forbybar AS Solkraft 4 02.06.2024
+28	Velg rad 25/02194 ELB289 Fåberg TRA Innlandet NO1 Elvia As Hafslund Kraft AS Vannkraft 5 24.03.2026
+29	Velg rad 24/01710 ELB218 Minne TRA Innlandet NO1 Elvia As Otto Langmoen Solkraft 5 17.06.2024
+30	Velg rad 23/01337 ELB187 Vang TRA Innlandet NO1 Elvia As Differ Energy AS Solkraft 5 20.02.2024
+31	Velg rad 24/01452 ELB1060 Flesaker TRA Telemark og Vestfold NO1 Glitre Nett AS Energeia Gunnhus AS Solkraft 5 29.09.2024
+32	Velg rad 23/01386 ELB144 Vang TRA Innlandet NO1 Elvia As Hafslund Kraft AS Vannkraft 5 26.03.2025
+33	Velg rad 25/02511 ELB823 Evanger KRA/TRA Bergen og Haugalandet NO5 Indre Hordaland Kraftnett AS Småkraft AS Vannkraft 5 20.03.2026
+34	Velg rad 25/02478 ELB1623 Aura KRA/TRA Midt NO3 Linja AS Småkraft AS Vannkraft 5 01.03.2025
+35	Velg rad 25/02069 ELB1987 Ålfoten TRA Sogn og Sunnmøre NO3 Linja AS Småkraft AS Vannkraft 5 06.01.2025
+36	Velg rad 26/03942 ELB2685 Rød TRA Telemark og Vestfold NO2 Lede AS TINFOS AS Vannkraft 6 13.05.2026
+37	Velg rad 24/01557 ELB509 Rendalen transformatorstasjon TRA Innlandet NO1 Elvia As Småkraft AS Vannkraft 6 17.06.2024
+38	Velg rad 25/02510 ELB824 Sima KRA/TRA Bergen og Haugalandet NO5 Indre Hordaland Kraftnett AS Småkraft AS Vannkraft 6 20.03.2026
+39	Velg rad 24/01531 ELB1926 Åfjord TRA Midt NO3 Tensio AS Småkraft AS Vannkraft 6 15.11.2024
+40	Velg rad 25/02257 ELB247 Salten transformatorstasjon TRA Helgeland og Salten NO4 Arva AS CADRE AS Vannkraft 6 15.10.2025
+41	Velg rad 24/01450 ELB190 Vang TRA Innlandet NO1 Elvia As Differ Energy AS Solkraft 6 17.03.2024
+42	Velg rad 25/02137 ELB638 Haugsvær transformatorstasjon TRA Bergen og Haugalandet NO5 BKK AS Småkraft AS Vannkraft 6 07.11.2024
+43	Velg rad 26/03950 ELB2635 Høyanger TRA Sogn og Sunnmøre NO3 Hydro Aluminium As STATKRAFT ENERGI AS Vannkraft 7 12.05.2026
+44	Totalt 8 198

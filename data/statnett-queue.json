@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-08-19T10:54:56.304Z",
+  "source": "Statnett – Kapasitetskø",
+  "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8",
+  "areas": [
+    "NO1",
+    "NO5"
+  ],
+  "extraction": {
+    "method": "Power BI accessibility table",
+    "frame_index": 2,
+    "rows_seen": 44,
+    "cells_seen": 461
+  },
+  "projects": [],
+  "totals": {
+    "NO1": {
+      "cases": 0,
+      "mw": 0
+    },
+    "NO5": {
+      "cases": 0,
+      "mw": 0
+    }
+  }
+}
