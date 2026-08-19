@@ -36,22 +36,23 @@ jobs:
           mkdir -p data
           node scripts/fetch-capacity-prod.mjs 2>&1 | tee data/last-run.log
 
-      - name: Verifiser produksjonsgrunnlag
+      - name: Verifiser komplett produksjonsgrunnlag
         shell: bash
         run: |
           node - <<'NODE'
           const fs=require('fs');
           const d=JSON.parse(fs.readFileSync('data/current.json','utf8'));
-          const q=d.queue||[];
-          const qmw=q.reduce((s,x)=>s+(x.mw||0),0);
-          if(q.length<60 || qmw<3000) throw new Error(`Kødata ufullstendige: ${q.length} / ${qmw} MW`);
-          if(!d.status_meta?.queue?.ok) throw new Error('Kødata er ikke markert validert');
-          if(Date.now()-Date.parse(d.updated_at)>6*60*60*1000) throw new Error('current.json er ikke fersk');
-          console.log(`PRODUKSJONSGRUNNLAG OK: kø ${q.length}/${qmw} MW`);
-          for(const k of ['reservations','withdrawn','connected']) {
-            const m=d.status_meta?.[k];
-            console.log(`${k}: ${m?.ok?'VALIDERT':'ikke validert ennå'}${m?.error?' – '+m.error:''}`);
+          const requirements={queue:{cases:60,mw:3000},reservations:{cases:1,mw:1},withdrawn:{cases:1,mw:1},connected:{cases:1,mw:1}};
+          for(const [k,min] of Object.entries(requirements)) {
+            const rows=d[k]||[];
+            const mw=rows.reduce((s,x)=>s+(x.mw||0),0);
+            const meta=d.status_meta?.[k];
+            if(!meta?.ok || !meta?.fresh) throw new Error(`${k} er ikke ferskt og validert: ${meta?.error||'mangler status'}`);
+            if(rows.length<min.cases || mw<min.mw) throw new Error(`${k} ufullstendig: ${rows.length} saker / ${mw} MW`);
+            console.log(`${k.toUpperCase()} OK: ${rows.length} saker / ${mw} MW`);
           }
+          if(Date.now()-Date.parse(d.updated_at)>6*60*60*1000) throw new Error('current.json er ikke fersk');
+          console.log('KOMPLETT PRODUKSJONSGRUNNLAG OK');
           NODE
 
       - name: Lagre nye data og logg
