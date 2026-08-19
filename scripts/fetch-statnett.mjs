@@ -9,7 +9,7 @@ const SNAP = path.join(DATA, 'snapshots');
 await fs.mkdir(RAW, { recursive: true });
 await fs.mkdir(SNAP, { recursive: true });
 
-const SOURCE = 'https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/';
+const SOURCE = 'https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8';
 const now = new Date().toISOString();
 const day = now.slice(0, 10);
 const productionTypes = new Set(['Vannkraft','Solkraft','Vindkraft','Kraftproduksjon','Havvind']);
@@ -23,10 +23,55 @@ await page.waitForTimeout(10000);
 function n(s){ if(s==null||s==='') return null; const x=Number(String(s).replace(/\s/g,'').replace(',','.')); return Number.isFinite(x)?x:null; }
 function total(rows, area){ const r=rows.filter(x=>x.area===area); return {cases:r.length,mw:r.reduce((a,x)=>a+(x.mw||0),0)}; }
 function keyRow(r){ return r.join('|'); }
+function esc(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
 
 async function clickList(frame, text){
-  const locators=[frame.getByText(text,{exact:false}),frame.getByRole('button',{name:new RegExp(text,'i')}),frame.getByRole('link',{name:new RegExp(text,'i')})];
-  for(const loc of locators){ try{ if(await loc.count()){ await loc.first().scrollIntoViewIfNeeded(); await loc.first().click({timeout:15000,force:true}); return true; } }catch{} }
+  await frame.locator('body').waitFor({state:'attached',timeout:15000}).catch(()=>{});
+  const re=new RegExp(esc(text),'i');
+  const locators=[
+    frame.getByText(text,{exact:false}),
+    frame.getByRole('button',{name:re}),
+    frame.getByRole('link',{name:re}),
+    frame.locator(`text=${text}`)
+  ];
+  for(const loc of locators){
+    try{
+      const count=await loc.count();
+      if(!count) continue;
+      const target=loc.first();
+      await target.scrollIntoViewIfNeeded().catch(()=>{});
+      await target.click({timeout:8000,force:true});
+      await page.waitForTimeout(1200);
+      return true;
+    }catch{}
+  }
+
+  // Power BI kan rendre teksten i et ikke-interaktivt element. Finn teksten i DOM,
+  // klikk nærmeste interaktive forelder, og fall tilbake til syntetisk museklikk.
+  const domClicked=await frame.evaluate((targetText)=>{
+    const norm=s=>(s||'').replace(/\s+/g,' ').trim().toLowerCase();
+    const wanted=norm(targetText);
+    const all=[...document.querySelectorAll('body *')];
+    const hits=all.filter(el=>norm(el.textContent).includes(wanted));
+    if(!hits.length) return false;
+    hits.sort((a,b)=>(a.textContent||'').length-(b.textContent||'').length);
+    const leaf=hits[0];
+    const interactive=leaf.closest('button,a,[role="button"],[role="link"],[tabindex]') || leaf.parentElement || leaf;
+    try{ interactive.scrollIntoView({block:'center',inline:'center'}); }catch{}
+    try{ interactive.click(); }catch{}
+    for(const type of ['pointerdown','mousedown','pointerup','mouseup','click']){
+      try{ interactive.dispatchEvent(new MouseEvent(type,{bubbles:true,cancelable:true,view:window})); }catch{}
+    }
+    return true;
+  },text).catch(()=>false);
+  if(domClicked){ await page.waitForTimeout(1500); return true; }
+
+  // Siste fallback: bruk bounding box og klikk koordinaten i Power BI-framen.
+  try{
+    const textLoc=frame.getByText(text,{exact:false}).first();
+    const box=await textLoc.boundingBox();
+    if(box){ await page.mouse.click(box.x+box.width/2,box.y+box.height/2); await page.waitForTimeout(1200); return true; }
+  }catch{}
   return false;
 }
 
@@ -68,9 +113,7 @@ async function collectAllRows(grid){
     for(const r of rows) unique.set(keyRow(r),r);
     stale=unique.size===before?stale+1:0;
     const scroll=await scrollGrid(grid);
-    if(!scroll.moved){
-      try{ await grid.press('PageDown'); }catch{}
-    }
+    if(!scroll.moved){ try{ await grid.press('PageDown'); }catch{} }
     await page.waitForTimeout(180);
     if((scroll.bottom&&stale>=3)||stale>=10) break;
   }
