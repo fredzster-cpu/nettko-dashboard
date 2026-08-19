@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T15:04:06.143Z",
+  "updated_at": "2026-08-19T17:06:58.397Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
   "scope": "Forbruk, NO1 og NO5",
@@ -1032,7 +1032,7 @@
       "area_plan": "Oslo, Akershus og Østfold",
       "area": "NO1",
       "grid_customer": "Elvia As",
-      "end_customer": "Karmsund Group AS",
+      "end_customer": "KARMSUND GROUP AS",
       "industry": "Annet forbruk",
       "mw": 25,
       "date": "03.08.2026",
@@ -2144,21 +2144,21 @@
     "queue": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-19T15:04:06.143Z",
+      "updated_at": "2026-08-19T17:06:58.397Z",
       "error": null,
       "preserved_previous": false
     },
     "reservations": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-19T15:04:06.143Z",
+      "updated_at": "2026-08-19T17:06:58.397Z",
       "error": null,
       "preserved_previous": false
     },
     "withdrawn": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-19T15:04:06.143Z",
+      "updated_at": "2026-08-19T17:06:58.397Z",
       "error": null,
       "preserved_previous": false
     },

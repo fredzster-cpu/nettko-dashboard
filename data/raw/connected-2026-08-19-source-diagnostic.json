@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-19T15:15:38.583Z",
+  "updated_at": "2026-08-19T17:18:26.813Z",
   "url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#tilknyttet-kapasitet",
-  "attempt": 4,
+  "attempt": 1,
   "frame_url": "https://app.powerbi.com/view?r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=4e3c7301c82c9e197db5%22",
   "grid_count": 2,
-  "cases": 0,
-  "mw": 0,
+  "cases": 36,
+  "mw": 903.5400000000001,
   "NO1": {
-    "cases": 0,
-    "mw": 0
+    "cases": 16,
+    "mw": 286
   },
   "NO5": {
-    "cases": 0,
-    "mw": 0
+    "cases": 20,
+    "mw": 617.5400000000001
   },
   "diag": [
     {
       "grid": 0,
       "rows": 108,
-      "parsed": 0,
+      "parsed": 36,
       "sample": [
         [
           "Radvalg",
@@ -77,7 +77,7 @@
     {
       "grid": 1,
       "rows": 51,
-      "parsed": 0,
+      "parsed": 1,
       "sample": [
         [
           "Radvalg",

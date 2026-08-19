@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-08-19",
-    "updated_at": "2026-08-19T15:14:31.976Z",
+    "updated_at": "2026-08-19T17:18:26.813Z",
     "queue_NO1": 2522,
     "queue_NO5": 1339,
     "reservations_NO1": 1327,
     "reservations_NO5": 1104,
     "withdrawn_NO1": 60,
     "withdrawn_NO5": 130,
-    "connected_NO1": null,
-    "connected_NO5": null,
+    "connected_NO1": 286,
+    "connected_NO5": 617.5400000000001,
     "reserved_NO1": 1327,
     "reserved_NO5": 1104
   }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T15:20:48.885Z",
+  "updated_at": "2026-08-19T17:20:12.133Z",
   "source": "OpenStreetMap/Nominatim",
   "stations": {
     "Arna Transformatorstasjon TRA": {
@@ -374,8 +374,68 @@
       "confidence": "medium",
       "source": "OpenStreetMap/Nominatim",
       "checked_at": "2026-08-19T14:29:08.706Z"
+    },
+    "Husnes TRA": {
+      "station": "Husnes TRA",
+      "base": "Husnes",
+      "lat": 59.8609617,
+      "lon": 5.7563039,
+      "display_name": "Husnes, Kvinnherad, Vestland, 5460, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:19:44.289Z"
+    },
+    "Høyanger TRA": {
+      "station": "Høyanger TRA",
+      "base": "Høyanger",
+      "lat": 61.1254821,
+      "lon": 5.8141394,
+      "display_name": "Høyanger, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:19:49.776Z"
+    },
+    "Moskog TRA": {
+      "station": "Moskog TRA",
+      "base": "Moskog",
+      "lat": 61.442099,
+      "lon": 6.000784,
+      "display_name": "Moskog, Sunnfjord, Vestland, 6819, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:19:54.818Z"
+    },
+    "Ørskog TRA": {
+      "station": "Ørskog TRA",
+      "base": "Ørskog",
+      "lat": 62.478281,
+      "lon": 6.817356,
+      "display_name": "Ørskog, Li, Sjøholt, Ålesund, Møre og Romsdal, 6240, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:20:00.299Z"
+    },
+    "Ålfoten TRA": {
+      "station": "Ålfoten TRA",
+      "base": "Ålfoten",
+      "lat": 61.8392137,
+      "lon": 5.6762836,
+      "display_name": "Ålfoten, Bremanger, Vestland, 6737, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:20:05.494Z"
+    },
+    "Åsen": {
+      "station": "Åsen",
+      "base": "Åsen",
+      "lat": 58.0716482,
+      "lon": 7.9808525,
+      "display_name": "Åsen, Kristiansand, Agder, 4625, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T17:20:11.032Z"
     }
   },
-  "station_count": 38,
-  "resolved_count": 38
+  "station_count": 44,
+  "resolved_count": 44
 }
