@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "scripts/fetch-queue-prod.mjs"
+      - "scripts/fetch-reservations-prod.mjs"
       - ".github/workflows/daily-update.yml"
 
 permissions:
@@ -19,40 +20,49 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     container:
       image: mcr.microsoft.com/playwright:v1.62.0-noble
     steps:
       - name: Hent repository
         uses: actions/checkout@v4
+
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
+
       - name: Hent og valider kapasitetskø
         shell: bash
         run: |
-          set +e
+          set -o pipefail
           mkdir -p data
           node scripts/fetch-queue-prod.mjs 2>&1 | tee data/last-run.log
-          code=${PIPESTATUS[0]}
-          echo "$code" > data/last-run-exit-code.txt
-          exit 0
-      - name: Verifiser produksjonsdata
+
+      - name: Hent og valider reservasjoner
         shell: bash
         run: |
-          code=$(cat data/last-run-exit-code.txt)
-          if [ "$code" != "0" ]; then exit "$code"; fi
+          set -o pipefail
+          node scripts/fetch-reservations-prod.mjs 2>&1 | tee -a data/last-run.log
+
+      - name: Verifiser komplett produksjonsdatasett
+        shell: bash
+        run: |
           node - <<'NODE'
           const fs=require('fs');
           const d=JSON.parse(fs.readFileSync('data/current.json','utf8'));
-          const q=d.queue||[];
-          const mw=q.reduce((s,x)=>s+(x.mw||0),0);
+          const q=d.queue||[], r=d.reservations||[];
+          const qmw=q.reduce((s,x)=>s+(x.mw||0),0), rmw=r.reduce((s,x)=>s+(x.mw||0),0);
           const q1=d.totals?.queue?.NO1||{}, q5=d.totals?.queue?.NO5||{};
-          if(q.length<60) throw new Error(`For få køsaker: ${q.length}`);
-          if(mw<3000) throw new Error(`For lav samlet MW: ${mw}`);
-          if(!(q1.cases>0&&q1.mw>0&&q5.cases>0&&q5.mw>0)) throw new Error('NO1/NO5 mangler');
+          const r1=d.totals?.reservations?.NO1||{}, r5=d.totals?.reservations?.NO5||{};
+          if(q.length<60 || qmw<3000) throw new Error(`Kødata ufullstendige: ${q.length} / ${qmw} MW`);
+          for (const [name,x] of Object.entries({q1,q5,r1,r5})) {
+            if(!(x.cases>0&&x.mw>0)) throw new Error(`${name} mangler saker/MW`);
+          }
+          if(!r.length || rmw<=0) throw new Error('Reservasjoner mangler');
+          if(d.reservation_status!=='validated') throw new Error('Reservasjoner er ikke validert');
           if(Date.now()-Date.parse(d.updated_at)>6*60*60*1000) throw new Error('current.json er ikke fersk');
-          console.log(`PRODUKSJONSDATA OK: ${q.length} saker / ${mw} MW`);
+          console.log(`KOMPLETT DATASETT OK: kø ${q.length}/${qmw} MW, reservasjoner ${r.length}/${rmw} MW`);
           NODE
+
       - name: Lagre nye data og logg
         if: always()
         run: |
@@ -64,8 +74,3 @@ jobs:
             git commit -m "Daglig Statnett-oppdatering"
             git push
           fi
-      - name: Marker feil hvis henteren feilet
-        shell: bash
-        run: |
-          code=$(cat data/last-run-exit-code.txt)
-          if [ "$code" != "0" ]; then exit "$code"; fi
