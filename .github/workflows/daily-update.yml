@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
       - "scripts/fetch-status-source.mjs"
+      - "scripts/fetch-connected-source-v2.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -59,6 +60,12 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs connected 2>&1 | tee -a data/last-run.log
 
+      - name: Korriger og valider prisområde for tilknyttet
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/fetch-connected-source-v2.mjs 2>&1 | tee -a data/last-run.log
+
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
         shell: bash
@@ -74,10 +81,19 @@ jobs:
           const requirements={queue:{cases:60,mw:3000},reservations:{cases:1,mw:1},withdrawn:{cases:1,mw:1},connected:{cases:1,mw:1}};
           for(const [k,min] of Object.entries(requirements)) {
             const rows=d[k]||[];
-            const mw=rows.reduce((s,x)=>s+(x.mw||0),0);
+            const mw=rows.reduce((s,x)=>s+(Number(x.mw)||0),0);
             const meta=d.status_meta?.[k];
             if(!meta?.ok || !meta?.fresh) throw new Error(`${k} er ikke ferskt og validert: ${meta?.error||'mangler status'}`);
             if(rows.length<min.cases || mw<min.mw) throw new Error(`${k} ufullstendig: ${rows.length} saker / ${mw} MW`);
+            const badArea=rows.filter(x=>!['NO1','NO5'].includes(x.area));
+            if(badArea.length) throw new Error(`${k} har ${badArea.length} rader uten gyldig NO1/NO5`);
+            const byArea={NO1:rows.filter(x=>x.area==='NO1'),NO5:rows.filter(x=>x.area==='NO5')};
+            for(const a of ['NO1','NO5']){
+              const calcMw=byArea[a].reduce((s,x)=>s+(Number(x.mw)||0),0);
+              const calcCases=byArea[a].length;
+              const t=d.totals?.[k]?.[a];
+              if(!t || Math.abs((Number(t.mw)||0)-calcMw)>0.01 || Number(t.cases)!==calcCases) throw new Error(`${k} ${a} totals samsvarer ikke med radene`);
+            }
             console.log(`${k.toUpperCase()} OK: ${rows.length} saker / ${mw} MW`);
           }
           if(Date.now()-Date.parse(d.updated_at)>8*60*60*1000) throw new Error('current.json er ikke fersk');
