@@ -6,6 +6,7 @@ on:
     paths:
       - "index.html"
       - "map-fix.js"
+      - "table-enhancements.js"
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -29,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
 
-      - name: Gjør kartlasting robust
+      - name: Gjør dashboard robust
         shell: bash
         run: |
           python - <<'PY'
@@ -48,6 +49,8 @@ jobs:
           s=s.replace('initMap();initialized=true', 'initMap();setTimeout(()=>{if(map)map.invalidateSize(true)},250);initialized=true')
           if 'map-fix.js' not in s:
             s=s.replace('</body>','<script src="./map-fix.js?v=2"></script>\n</body>')
+          if 'table-enhancements.js' not in s:
+            s=s.replace('</body>','<script src="./table-enhancements.js?v=1"></script>\n</body>')
           p.write_text(s,encoding='utf-8')
           PY
 
