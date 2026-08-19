@@ -12,10 +12,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: statnett-daily-update
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     container:
       image: mcr.microsoft.com/playwright:v1.62.0-noble
@@ -27,6 +31,20 @@ jobs:
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
 
+      - name: Sikre frisk Power BI-side før reservasjoner
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/fetch-statnett.mjs')
+          s = p.read_text()
+          needle = "console.log('Henter reservasjoner...');"
+          replacement = "await loadSource();\nconsole.log('Henter reservasjoner...');"
+          if needle in s and replacement not in s:
+              s = s.replace(needle, replacement, 1)
+              p.write_text(s)
+          PY
+
       - name: Kjør Statnett-henter og lagre logg
         shell: bash
         run: |
@@ -37,11 +55,35 @@ jobs:
           echo "$code" > data/last-run-exit-code.txt
           exit 0
 
+      - name: Verifiser publiseringsdata
+        shell: bash
+        run: |
+          code=$(cat data/last-run-exit-code.txt)
+          if [ "$code" != "0" ]; then
+            echo "Henteren feilet; hopper over datavalidering."
+            exit 0
+          fi
+          node - <<'NODE'
+          const fs = require('fs');
+          const d = JSON.parse(fs.readFileSync('data/current.json','utf8'));
+          const age = Date.now() - Date.parse(d.updated_at);
+          const q = (d.queue || []).length;
+          const r = (d.reservations || []).length;
+          const qmw = (d.totals?.queue?.NO1?.mw || 0) + (d.totals?.queue?.NO5?.mw || 0);
+          const rmw = (d.totals?.reservations?.NO1?.mw || 0) + (d.totals?.reservations?.NO5?.mw || 0);
+          if (age > 6*60*60*1000) throw new Error('current.json er ikke fersk');
+          if (q === 0 || qmw === 0) throw new Error('Kapasitetskø er tom');
+          if (r === 0 || rmw === 0) throw new Error('Reservasjoner er tomme');
+          console.log(`Publiseringskontroll OK: kø ${q} saker/${qmw} MW, reservasjoner ${r} saker/${rmw} MW`);
+          NODE
+
       - name: Lagre nye data og logg
+        if: always()
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
           git config user.email "nettko-bot@users.noreply.github.com"
+          git checkout -- scripts/fetch-statnett.mjs
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "Daglig Statnett-oppdatering"
