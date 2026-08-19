@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
+      - "scripts/fetch-status-source.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -20,7 +21,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     container:
       image: mcr.microsoft.com/playwright:v1.62.0-noble
     steps:
@@ -36,6 +37,27 @@ jobs:
           set -o pipefail
           mkdir -p data
           node scripts/fetch-capacity-prod.mjs 2>&1 | tee data/last-run.log
+
+      - name: Fallback reservasjoner via Statnett-siden
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/fetch-status-source.mjs reservations 2>&1 | tee -a data/last-run.log
+
+      - name: Fallback tilbaketrukket via Statnett-siden
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/fetch-status-source.mjs withdrawn 2>&1 | tee -a data/last-run.log
+
+      - name: Fallback tilknyttet via Statnett-siden
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/fetch-status-source.mjs connected 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
