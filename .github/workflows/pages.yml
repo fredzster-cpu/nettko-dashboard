@@ -58,11 +58,10 @@ jobs:
           else:
             s=s.replace('status-card-filter.js?v=1','status-card-filter.js?v=2')
           if 'status-year-chart.js' not in s:
-            s=s.replace('</body>','<script src="./status-year-chart.js?v=4"></script>\n</body>')
+            s=s.replace('</body>','<script src="./status-year-chart.js?v=5"></script>\n</body>')
           else:
-            s=s.replace('status-year-chart.js?v=1','status-year-chart.js?v=4')
-            s=s.replace('status-year-chart.js?v=2','status-year-chart.js?v=4')
-            s=s.replace('status-year-chart.js?v=3','status-year-chart.js?v=4')
+            for v in ['1','2','3','4']:
+              s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=5')
           p.write_text(s,encoding='utf-8')
           PY
 
