@@ -13,16 +13,52 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T17:06:58.397Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-19T17:06:58.397Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-19T17:06:58.397Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":null,"error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":false}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T21:02:55.555Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-19T21:02:55.555Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-19T21:02:55.555Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
-Reservasjoner: 65 saker, 2431 MW
-RESERVASJONER VALIDERT VIA STATNETT-SIDEN
-{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}}
+Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner kildehenter: forsøk 2/4
+Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner kildehenter: forsøk 3/4
+Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner kildehenter: forsøk 4/4
+Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155
+    if(unresolved.length) throw new Error(`uavklarte prisområder: ${unresolved.length} saker / ${unresolved.reduce((s,x)=>s+x.mw,0)} MW`);
+                                ^
+
+Error: uavklarte prisområder: 124 saker / 12226 MW
+    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
+
+Node.js v24.18.0
 Tilbaketrukket kapasitet kildehenter: forsøk 1/4
-Tilbaketrukket kapasitet: 6 saker, 190 MW
-TILBAKETRUKKET KAPASITET VALIDERT VIA STATNETT-SIDEN
-{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}}
-Tilknyttet kapasitet kildehenter: forsøk 1/4
-Tilknyttet kapasitet: 36 saker, 903.5400000000001 MW
-TILKNYTTET KAPASITET VALIDERT VIA STATNETT-SIDEN
-{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}
+Tilbaketrukket kapasitet: uavklarte prisområder: 37 saker / 9177.2 MW
+Tilbaketrukket kapasitet kildehenter: forsøk 2/4
+Tilbaketrukket kapasitet: uavklarte prisområder: 37 saker / 9177.2 MW
+Tilbaketrukket kapasitet kildehenter: forsøk 3/4
+Tilbaketrukket kapasitet: uavklarte prisområder: 37 saker / 9177.2 MW
+Tilbaketrukket kapasitet kildehenter: forsøk 4/4
+Tilbaketrukket kapasitet: uavklarte prisområder: 37 saker / 9177.2 MW
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155
+    if(unresolved.length) throw new Error(`uavklarte prisområder: ${unresolved.length} saker / ${unresolved.reduce((s,x)=>s+x.mw,0)} MW`);
+                                ^
+
+Error: uavklarte prisområder: 37 saker / 9177.2 MW
+    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
+
+Node.js v24.18.0
+Tilknyttet scope: forsøk 1/4
+uavklarte prisområder: 12 saker / 2473.94 MW
+Tilknyttet scope: forsøk 2/4
+uavklarte prisområder: 12 saker / 2473.94 MW
+Tilknyttet scope: forsøk 3/4
+uavklarte prisområder: 12 saker / 2473.94 MW
+Tilknyttet scope: forsøk 4/4
+uavklarte prisområder: 12 saker / 2473.94 MW
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-scope.mjs:65
+    if(unresolved.length) throw new Error(`uavklarte prisområder: ${unresolved.length} saker / ${unresolved.reduce((s,x)=>s+x.mw,0)} MW`);
+                                ^
+
+Error: uavklarte prisområder: 12 saker / 2473.94 MW
+    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-scope.mjs:65:33
+
+Node.js v24.18.0
