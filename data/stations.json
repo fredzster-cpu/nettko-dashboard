@@ -1,0 +1,381 @@
+{
+  "updated_at": "2026-08-19T14:29:09.807Z",
+  "source": "OpenStreetMap/Nominatim",
+  "stations": {
+    "Arna Transformatorstasjon TRA": {
+      "station": "Arna Transformatorstasjon TRA",
+      "base": "Arna Transformatorstasjon",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:04.868Z"
+    },
+    "Aurland 2 KRA/TRA": {
+      "station": "Aurland 2 KRA/TRA",
+      "base": "Aurland 2",
+      "lat": 60.739377,
+      "lon": 7.122826,
+      "display_name": "2, Flåmsdalsvegen, Kårdal, Aurland, Vestland, 5718, Norge",
+      "confidence": "low",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:25.981Z"
+    },
+    "Aurland 3 KRA/TRA": {
+      "station": "Aurland 3 KRA/TRA",
+      "base": "Aurland 3",
+      "lat": 60.736603,
+      "lon": 7.121769,
+      "display_name": "3, Flåmsdalsvegen, Kårdal, Aurland, Vestland, 5718, Norge",
+      "confidence": "low",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:31.245Z"
+    },
+    "Borgund KRA/TRA": {
+      "station": "Borgund KRA/TRA",
+      "base": "Borgund",
+      "lat": 61.0486923,
+      "lon": 7.8134205,
+      "display_name": "Borgund, Lærdal, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:36.761Z"
+    },
+    "Dale TRA": {
+      "station": "Dale TRA",
+      "base": "Dale",
+      "lat": 58.9038662,
+      "lon": 5.7989611,
+      "display_name": "Old Dale water power station, Dale, Sandnes, Rogaland, 4329, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:41.976Z"
+    },
+    "Fana Transformatorstasjon TRA": {
+      "station": "Fana Transformatorstasjon TRA",
+      "base": "Fana Transformatorstasjon",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:47.235Z"
+    },
+    "Flesaker TRA": {
+      "station": "Flesaker TRA",
+      "base": "Flesaker",
+      "lat": 59.7211313,
+      "lon": 9.8468968,
+      "display_name": "Flesaker, Måsnes, Vestfossen, Øvre Eiker, Buskerud, 3320, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:52.451Z"
+    },
+    "Follo TRA": {
+      "station": "Follo TRA",
+      "base": "Follo",
+      "lat": 63.2803686,
+      "lon": 9.841534,
+      "display_name": "Follo, Orkanger, Orkland, Trøndelag, 7300, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:25:57.659Z"
+    },
+    "Fortun KRA/TRA": {
+      "station": "Fortun KRA/TRA",
+      "base": "Fortun",
+      "lat": 61.4951303,
+      "lon": 7.6885938,
+      "display_name": "Fortun, Luster, Vestland, 6877, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:03.891Z"
+    },
+    "Frogner TRA": {
+      "station": "Frogner TRA",
+      "base": "Frogner",
+      "lat": 59.9095504,
+      "lon": 10.68822,
+      "display_name": "Frogner, Oslo, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:08.962Z"
+    },
+    "Furuset TRA": {
+      "station": "Furuset TRA",
+      "base": "Furuset",
+      "lat": 59.9410674,
+      "lon": 10.8963987,
+      "display_name": "Furuset, Trimmen, Granstangen, Furuset, Alna, Oslo, 1052, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:14.377Z"
+    },
+    "Fåberg TRA": {
+      "station": "Fåberg TRA",
+      "base": "Fåberg",
+      "lat": 61.1683792,
+      "lon": 10.4049715,
+      "display_name": "Fåberg, Lillehammer, Innlandet, 2625, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:19.500Z"
+    },
+    "Halden TRA": {
+      "station": "Halden TRA",
+      "base": "Halden",
+      "lat": 59.0680555,
+      "lon": 11.537191,
+      "display_name": "Halden, Østfold, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:25.514Z"
+    },
+    "Hamang TRA": {
+      "station": "Hamang TRA",
+      "base": "Hamang",
+      "lat": 59.896375,
+      "lon": 10.5033667,
+      "display_name": "Hamang, Emma Hjorth, Jong, Sandvika, Bærum, Akershus, 1338, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:30.779Z"
+    },
+    "Hasle TRA": {
+      "station": "Hasle TRA",
+      "base": "Hasle",
+      "lat": 59.9243612,
+      "lon": 10.794713,
+      "display_name": "Hasle, Økernveien, Teglverkstomta, Hovin, Grünerløkka, Oslo, 0579, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:40.344Z"
+    },
+    "Haugsvær transformatorstasjon TRA": {
+      "station": "Haugsvær transformatorstasjon TRA",
+      "base": "Haugsvær transformatorstasjon",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:45.880Z"
+    },
+    "Hove KRA/TRA": {
+      "station": "Hove KRA/TRA",
+      "base": "Hove",
+      "lat": 58.4433488,
+      "lon": 8.8431022,
+      "display_name": "Hove, Arendal, Agder, 4818, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:50.840Z"
+    },
+    "Kollsnes KRA/TRA": {
+      "station": "Kollsnes KRA/TRA",
+      "base": "Kollsnes",
+      "lat": 60.5542142,
+      "lon": 4.8320155,
+      "display_name": "Kollsnes, Øygarden, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:26:56.219Z"
+    },
+    "Leirdøla (LEX) TRA": {
+      "station": "Leirdøla (LEX) TRA",
+      "base": "Leirdøla (LEX)",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:17.021Z"
+    },
+    "Lindås transformatorstasjon TRA": {
+      "station": "Lindås transformatorstasjon TRA",
+      "base": "Lindås transformatorstasjon",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:22.250Z"
+    },
+    "Litle Sotra TRA": {
+      "station": "Litle Sotra TRA",
+      "base": "Litle Sotra",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:27.517Z"
+    },
+    "Minne TRA": {
+      "station": "Minne TRA",
+      "base": "Minne",
+      "lat": 60.3837083,
+      "lon": 5.5241222,
+      "display_name": "Minne, Arna, Bergen, Vestland, 5262, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:32.883Z"
+    },
+    "Nedre Vinstra KRA/TRA": {
+      "station": "Nedre Vinstra KRA/TRA",
+      "base": "Nedre Vinstra",
+      "lat": 61.5716445,
+      "lon": 9.7008633,
+      "display_name": "Nedre Brattlia, Dalen, Vinstra, Nord-Fron, Innlandet, 2640, Norge",
+      "confidence": "low",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:38.803Z"
+    },
+    "Nes Bk TRA": {
+      "station": "Nes Bk TRA",
+      "base": "Nes Bk",
+      "lat": 60.563537,
+      "lon": 9.9878897,
+      "display_name": "Nes, Ringerike, Buskerud, 3524, Norge",
+      "confidence": "low",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:45.378Z"
+    },
+    "Rendalen transformatorstasjon TRA": {
+      "station": "Rendalen transformatorstasjon TRA",
+      "base": "Rendalen transformatorstasjon",
+      "lat": null,
+      "lon": null,
+      "confidence": "unresolved",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:51.182Z"
+    },
+    "Ringerike TRA": {
+      "station": "Ringerike TRA",
+      "base": "Ringerike",
+      "lat": 60.3274063,
+      "lon": 10.0217635,
+      "display_name": "Ringerike, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:27:56.577Z"
+    },
+    "Røykås TRA": {
+      "station": "Røykås TRA",
+      "base": "Røykås",
+      "lat": 59.924883,
+      "lon": 10.9307303,
+      "display_name": "Røykås, Lørenskog, Akershus, 1461, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:01.881Z"
+    },
+    "Samnanger TRA": {
+      "station": "Samnanger TRA",
+      "base": "Samnanger",
+      "lat": 60.4059729,
+      "lon": 5.7820264,
+      "display_name": "Samnanger, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:07.057Z"
+    },
+    "Sima KRA/TRA": {
+      "station": "Sima KRA/TRA",
+      "base": "Sima",
+      "lat": 60.5029774,
+      "lon": 7.1921686,
+      "display_name": "Sima, Eidfjord, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:12.765Z"
+    },
+    "Smestad TRA": {
+      "station": "Smestad TRA",
+      "base": "Smestad",
+      "lat": 59.9372195,
+      "lon": 10.6841674,
+      "display_name": "Smestad, Sørkedalsveien, Nedre Smestad, Heggeli, Ullern, Oslo, 0375, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:18.057Z"
+    },
+    "Sogn TRA": {
+      "station": "Sogn TRA",
+      "base": "Sogn",
+      "lat": 59.9525639,
+      "lon": 10.7324583,
+      "display_name": "Sogn, Nordre Aker, Oslo, 0855, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:23.094Z"
+    },
+    "Sogndal TRA": {
+      "station": "Sogndal TRA",
+      "base": "Sogndal",
+      "lat": 61.329791,
+      "lon": 6.7203648,
+      "display_name": "Sogndal, Vestland, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:28.152Z"
+    },
+    "Sylling TRA": {
+      "station": "Sylling TRA",
+      "base": "Sylling",
+      "lat": 59.8944404,
+      "lon": 10.2841004,
+      "display_name": "Sylling, Lier, 3410, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:33.467Z"
+    },
+    "Tegneby TRA": {
+      "station": "Tegneby TRA",
+      "base": "Tegneby",
+      "lat": 59.5127503,
+      "lon": 10.7368396,
+      "display_name": "Tegneby, Ulfski, Vestby, Akershus, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:39.004Z"
+    },
+    "Ulven TRA": {
+      "station": "Ulven TRA",
+      "base": "Ulven",
+      "lat": 59.9221304,
+      "lon": 10.8144254,
+      "display_name": "Ulven, Alna, Oslo, 0665, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:52.586Z"
+    },
+    "Usta KRA/TRA": {
+      "station": "Usta KRA/TRA",
+      "base": "Usta",
+      "lat": 60.49607,
+      "lon": 7.9503955,
+      "display_name": "Ustevatnet, Haugastøl, Hol, Norge",
+      "confidence": "low",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:28:57.856Z"
+    },
+    "Vang TRA": {
+      "station": "Vang TRA",
+      "base": "Vang",
+      "lat": 61.1922086,
+      "lon": 8.4695189,
+      "display_name": "Vang, Innlandet, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:29:03.435Z"
+    },
+    "Vardal TRA": {
+      "station": "Vardal TRA",
+      "base": "Vardal",
+      "lat": 60.815759,
+      "lon": 10.526288,
+      "display_name": "Vardal, Gjøvik, Innlandet, 2822, Norge",
+      "confidence": "medium",
+      "source": "OpenStreetMap/Nominatim",
+      "checked_at": "2026-08-19T14:29:08.706Z"
+    }
+  },
+  "station_count": 38,
+  "resolved_count": 38
+}
