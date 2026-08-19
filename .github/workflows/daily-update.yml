@@ -9,6 +9,7 @@ on:
       - "scripts/fetch-capacity-prod.mjs"
       - "scripts/fetch-status-source.mjs"
       - "scripts/fetch-connected-source-v2.mjs"
+      - "scripts/fetch-connected-by-area.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -60,12 +61,11 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs connected 2>&1 | tee -a data/last-run.log
 
-      # Always run the hardened connected extractor before final validation.
-      - name: Korriger og valider prisområde for tilknyttet
+      - name: Hent tilknyttet eksplisitt per prisområde
         shell: bash
         run: |
           set -o pipefail
-          node scripts/fetch-connected-source-v2.mjs 2>&1 | tee -a data/last-run.log
+          node scripts/fetch-connected-by-area.mjs 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
