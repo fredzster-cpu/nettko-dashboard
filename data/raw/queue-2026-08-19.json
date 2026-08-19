@@ -1,0 +1,42 @@
+{
+  "fetched_at": "2026-08-19T10:29:32.559Z",
+  "source": "Kapasitetskø",
+  "page_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8",
+  "frames": [
+    {
+      "frameIndex": 0,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZTE4ODU0OTItYjA1ZC00OTY3LTg1ZjktYmI3MzFmNjNkNmI1IiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=a2d0ddce35871d7d6414%22",
+      "textLength": 610,
+      "htmlLength": 3269742,
+      "text": "Vis hurtigtaster\nVis tips for skjermleser\nGå til hovedinnhold\nPower BI-rapport\n\nHistorisk høyeste forbruk og produksjon - med reservert kapasitet og kapasitetskø\n\nInformasjon om oversikten\nDato\nForbruk (MW)\n0\n10 000\n20 000\n30 000\n40 000\n50 000\n60 000\n70 000\nHistorisk maks helelandet\nReservert kapasitet\nKapasitet i kø\n25 000\n7 715\n16 179\nProduksjon (MW)\n0\n10 000\n20 000\n30 000\n40 000\n50 000\n60 000\n70 000\nHistorisk maks helelandet\nReservert kapasitet\nKapasitet i kø\n28 000\n8 277\n8 199\nNæringstype\nAlle\nPrisområde\nAlle\nOmrådeplan\nAlle\nSe relevante begreper\n-\n+\n100 %\nMicrosoft Power BI\nRapport zoomet til 100 %"
+    },
+    {
+      "frameIndex": 1,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZTVkMmNiNDQtM2VhZi00OGQ0LWE0YTAtMjMyOGMxMzhlYmZmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=ccba661604c0f2acf1b4%22",
+      "textLength": 637,
+      "htmlLength": 3308957,
+      "text": "Vis hurtigtaster\nVis tips for skjermleser\nGå til hovedinnhold\nPower BI-rapport\nSe liste over reservasjoner\nInformasjon om reservasjoner\n\nReservasjoner \n\nForbruk (MW)\n7 715\nProduksjon (MW)\n8 277\nDato - Reservert kapasitet\nDato - Planlagt tilknytning\nForbruk (MW)\n0\n2 000\n4 000\n6 000\n8 000\n10 000\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n81\n543\n254\n360\n301\n1 519\n1 415\n2 294\n778\nProduksjon (MW)\n0\n2 000\n4 000\n6 000\n8 000\n10 000\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n51\n6\n68\n103\n597\n434\n3 074\n2 449\n1 298\nNæringstype\nAlle\nPrisområde\nAlle\nOmrådeplan\nAlle\nSe relevante begreper\n-\n+\n100 %\nMicrosoft Power BI\nRapport zoomet til 100 %"
+    },
+    {
+      "frameIndex": 2,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=e919fd623fe16c1f1b5b%22",
+      "textLength": 577,
+      "htmlLength": 3304098,
+      "text": "Vis hurtigtaster\nVis tips for skjermleser\nGå til hovedinnhold\nPower BI-rapport\n\nKapasitetskø\n\nSe liste over saker i kapasitetskø\nInformasjon om kapasitetskø\nDato - Forespurt kapasitet\nForbruk (MW)\n16 169\nProduksjon (MW)\n8 198\nDato - Bestilt kapasitet\nForbruk (MW)\n0\n5 000\n10 000\n15 000\n2021\n2022\n2023\n2024\n2025\n2026\n65\n679\n2 113\n4 359\n5 576\n3 378\nProduksjon (MW)\n0\n5 000\n10 000\n15 000\n2023\n2024\n2025\n2026\n1 287\n1 741\n3 690\n1 480\nDato - Ønsket tilknytning\nNæringstype\nAlle\nPrisområde\nAlle\nOmrådeplan\nAlle\nSe relevante begreper\n-\n+\n94 %\nMicrosoft Power BI\nRapport zoomet til 94 %"
+    },
+    {
+      "frameIndex": 3,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiZjhkMjM1OWQtMDBlYS00NDUzLWE4YTMtNjA4YmYzMWQ2MDFlIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
+      "textLength": 574,
+      "htmlLength": 3288157,
+      "text": "Vis hurtigtaster\nVis tips for skjermleser\nGå til hovedinnhold\nPower BI-rapport\n\nTilbaketrukket kapasitet\n\nSe liste over saker med tilbaketrukket kapasitet\nInformasjon om tilbaketrukket kapasitet\nDato kapasiteten ble tilbaketrukket\nForbruk (MW)\n5 104\nProduksjon (MW)\n1 753\nNæringstype\nAlle\nForbruk (MW)\n0\n1 000\n2 000\n3 000\n4 000\n5 000\n6 000\n2022\n2023\n2024\n2025\n2026\n80\n344\n833\n2338\n1510\nProduksjon (MW)\n0\n1 000\n2 000\n3 000\n4 000\n5 000\n6 000\n2024\n2025\n2026\n47\n1225\n315\nPrisområde\nAlle\nOmrådeplan\nAlle\nSe relevante begreper\n-\n+\n100 %\nMicrosoft Power BI\nRapport zoomet til 100 %"
+    },
+    {
+      "frameIndex": 4,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=4e3c7301c82c9e197db5%22",
+      "textLength": 641,
+      "htmlLength": 3302150,
+      "text": "Vis hurtigtaster\nVis tips for skjermleser\nGå til hovedinnhold\nPower BI-rapport\n\nTilknyttet kapasitet\n\nSe liste over saker med tilknyttet kapasitet\nInformasjon om tilknyttet kapasitet\nDato kapasiteten ble tilknyttet\nForbruk (MW)\n2 160\nProduksjon (MW)\n3 403\nNæringstype\nAlle\nForbruk (MW)\n0\n1 000\n2 000\n3 000\n4 000\n5 000\n6 000\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n35\n25\n124\n153\n292\n478\n323\n494\n235\nProduksjon (MW)\n0\n1 000\n2 000\n3 000\n4 000\n5 000\n6 000\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n50\n60\n1255\n1314\n30\n71\n481\n140\n2\nPrisområde\nAlle\nOmrådeplan\nAlle\nSe relevante begreper\n-\n+\n100 %\nMicrosoft Power BI\nRapport zoomet til 100 %"
+    }
+  ]
+}
