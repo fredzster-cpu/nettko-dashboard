@@ -1,4 +1,5 @@
 // Turn the four status KPI cards into the primary status filter.
+// KPI values stay visible for every status card even when another status is selected.
 (function(){
   const select=document.getElementById('statusFilter');
   if(!select) return;
@@ -8,6 +9,12 @@
 
   const statusCards=[...grid.querySelectorAll('.card.kpi')].slice(0,4);
   const statusNames=['Kapasitetskø','Reservert','Tilknyttet','Tilbaketrukket'];
+  const statusConfig=[
+    {status:'Kapasitetskø',mw:'qmw',cases:'qcases'},
+    {status:'Reservert',mw:'rmw',cases:'rcases'},
+    {status:'Tilknyttet',mw:'cmw',cases:'ccases'},
+    {status:'Tilbaketrukket',mw:'wmw',cases:'wcases'}
+  ];
 
   // Replace dropdown with a simple reset button; filtering happens on KPI cards.
   select.style.display='none';
@@ -17,6 +24,30 @@
   reset.textContent='Alle statuser';
   reset.title='Vis alle statuser';
   select.insertAdjacentElement('afterend',reset);
+
+  function rowsIgnoringStatus(){
+    const ind=document.getElementById('industry')?.value||'ALL';
+    const q=(document.getElementById('search')?.value||'').trim().toLowerCase();
+    return all().filter(p=>(area==='ALL'||p.area===area)
+      &&(ind==='ALL'||p.industry===ind)
+      &&(!q||[p.end_customer,p.grid_customer,p.station,p.area_plan,p.industry,p.statnett_case,p.tilko_case]
+        .filter(Boolean).join(' ').toLowerCase().includes(q)));
+  }
+
+  // Status cards are navigation/filter controls, so their headline numbers should describe
+  // each category independently of which status is currently active.
+  function refreshPersistentMetrics(){
+    try{
+      const base=rowsIgnoringStatus();
+      for(const cfg of statusConfig){
+        const rows=base.filter(p=>p.status===cfg.status);
+        const mw=rows.reduce((s,p)=>s+(Number(p.mw)||0),0);
+        const mwEl=document.getElementById(cfg.mw), casesEl=document.getElementById(cfg.cases);
+        if(mwEl) mwEl.textContent=fmt(mw);
+        if(casesEl) casesEl.textContent=rows.length+' saker';
+      }
+    }catch(e){console.error('status-card metrics',e)}
+  }
 
   statusCards.forEach((card,i)=>{
     card.dataset.statusCard=statusNames[i];
@@ -28,6 +59,9 @@
       select.value=statusNames[i];
       select.dispatchEvent(new Event('change',{bubbles:true}));
       sync();
+      // Main render intentionally filters the page by selected status; restore the
+      // category headline figures immediately afterwards.
+      setTimeout(refreshPersistentMetrics,0);
     };
     card.addEventListener('click',activate);
     card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
@@ -37,6 +71,7 @@
     select.value='ALL';
     select.dispatchEvent(new Event('change',{bubbles:true}));
     sync();
+    setTimeout(refreshPersistentMetrics,0);
   });
 
   function sync(){
@@ -60,6 +95,14 @@
     .controls .status-reset.active{background:#11221a;color:#fff}
   `;
   document.head.appendChild(style);
-  select.addEventListener('change',sync);
+
+  select.addEventListener('change',()=>{sync();setTimeout(refreshPersistentMetrics,0)});
+  document.getElementById('industry')?.addEventListener('change',()=>setTimeout(refreshPersistentMetrics,0));
+  document.getElementById('search')?.addEventListener('input',()=>setTimeout(refreshPersistentMetrics,0));
+  document.querySelectorAll('[data-area]').forEach(b=>b.addEventListener('click',()=>setTimeout(refreshPersistentMetrics,0)));
+
   sync();
+  setTimeout(refreshPersistentMetrics,0);
+  // Data refreshes automatically every five minutes; keep card totals in sync as well.
+  setInterval(refreshPersistentMetrics,5*60*1000);
 })();
