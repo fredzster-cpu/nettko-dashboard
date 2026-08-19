@@ -11,6 +11,7 @@ on:
       - "scripts/fetch-connected-source-v2.mjs"
       - "scripts/fetch-connected-by-area.mjs"
       - "scripts/fetch-connected-scope.mjs"
+      - "scripts/audit-statnett-live.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -82,6 +83,11 @@ jobs:
             if(rows.length<min.cases || mw<min.mw) throw new Error(`${k} ufullstendig: ${rows.length} saker / ${mw} MW`);
             const badArea=rows.filter(x=>!['NO1','NO5'].includes(x.area));
             if(badArea.length) throw new Error(`${k} har ${badArea.length} rader uten gyldig NO1/NO5`);
+            const badMw=rows.filter(x=>!Number.isFinite(Number(x.mw)) || Number(x.mw)<=0);
+            if(badMw.length) throw new Error(`${k} har ${badMw.length} rader med ugyldig MW`);
+            const keys=rows.map(x=>`${x.statnett_case||''}|${x.tilko_case||''}|${x.station||''}|${x.end_customer||''}|${x.mw||''}|${x.date||''}`);
+            const duplicates=keys.filter((x,i)=>keys.indexOf(x)!==i);
+            if(duplicates.length) throw new Error(`${k} har ${duplicates.length} duplikatrader`);
             const byArea={NO1:rows.filter(x=>x.area==='NO1'),NO5:rows.filter(x=>x.area==='NO5')};
             for(const a of ['NO1','NO5']){
               const calcMw=byArea[a].reduce((s,x)=>s+(Number(x.mw)||0),0);
@@ -89,17 +95,19 @@ jobs:
               const t=d.totals?.[k]?.[a];
               if(!t || Math.abs((Number(t.mw)||0)-calcMw)>0.01 || Number(t.cases)!==calcCases) throw new Error(`${k} ${a} totals samsvarer ikke med radene`);
             }
-            console.log(`${k.toUpperCase()} OK: ${rows.length} saker / ${mw} MW`);
-          }
-          if(new Date().toISOString().slice(0,10)==='2026-08-19'){
-            const no1=(d.connected||[]).filter(x=>x.area==='NO1').reduce((s,x)=>s+(Number(x.mw)||0),0);
-            if(Math.abs(no1-296)>0.01) throw new Error(`connected NO1 avviker fra Statnett: ${no1} MW mot 296 MW`);
+            console.log(`${k.toUpperCase()} INTERNKONTROLL OK: ${rows.length} saker / ${mw} MW`);
           }
           if(Date.now()-Date.parse(d.updated_at)>8*60*60*1000) throw new Error('current.json er ikke fersk');
-          console.log('KOMPLETT PRODUKSJONSGRUNNLAG OK');
+          console.log('KOMPLETT PRODUKSJONSGRUNNLAG INTERNKONTROLL OK');
           NODE
 
-      - name: Lagre validerte nye data
+      - name: Kryssjekk alle KPI-tall direkte mot Statnett
+        shell: bash
+        run: |
+          set -o pipefail
+          node scripts/audit-statnett-live.mjs 2>&1 | tee -a data/last-run.log
+
+      - name: Lagre kun data som er kryssjekket mot Statnett
         if: success()
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
@@ -107,6 +115,6 @@ jobs:
           git config user.email "nettko-bot@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Statnett-oppdatering"
+            git commit -m "Statnett-oppdatering – live audit OK"
             git push
           fi
