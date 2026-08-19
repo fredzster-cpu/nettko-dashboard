@@ -21,6 +21,17 @@ const num=s=>{if(s==null||s==='')return null;const x=Number(String(s).replace(/\
 const total=(rows,area)=>{const a=rows.filter(r=>r.area===area);return {cases:a.length,mw:a.reduce((s,r)=>s+(r.mw||0),0)}};
 const browser=await chromium.launch({headless:true});
 
+// Statnetts tilknyttet-tabell mangler per 19.08.2026 kolonnen "Prisområde".
+// Områdeplanene under er entydige for de to prisområdene dashboardet dekker.
+function inferArea(areaPlan=''){
+  const p=String(areaPlan).trim();
+  const no1=new Set(['Oslo, Akershus og Østfold','Innlandet','Hallingdal og Ringerike']);
+  const no5=new Set(['Bergen og Haugalandet','Sogn og Sunnmøre']);
+  if(no1.has(p)) return 'NO1';
+  if(no5.has(p)) return 'NO5';
+  return null;
+}
+
 async function openFresh(){
   const context=await browser.newContext({locale:'nb-NO',viewport:{width:1920,height:1400}});
   const page=await context.newPage(); page.setDefaultTimeout(18000);
@@ -58,10 +69,10 @@ async function detailReady(frame,page){
     const n=await grids.count().catch(()=>0);
     for(let i=0;i<n;i++){
       const t=await grids.nth(i).innerText({timeout:2500}).catch(()=>'');
-      if(t.includes('Prisområde')&&(t.includes('(MW)')||t.includes('Næringstype'))) return true;
+      if((t.includes('Prisområde')||t.includes('Områdeplan'))&&(t.includes('(MW)')||t.includes('Næringstype'))) return true;
     }
     const body=await frame.locator('body').innerText({timeout:2500}).catch(()=>'');
-    if(body.includes('Prisområde')&&body.includes('Næringstype')&&(body.includes('Sluttkunde')||body.includes('Statnett saksnr'))) return true;
+    if((body.includes('Prisområde')||body.includes('Områdeplan'))&&body.includes('Næringstype')&&(body.includes('Sluttkunde')||body.includes('Statnett saksnr'))) return true;
     await page.waitForTimeout(900);
   }
   return false;
@@ -76,11 +87,20 @@ async function scroll(grid,reset=false){return grid.evaluate((el,reset)=>{const 
 async function collect(grid,page){await scroll(grid,true);await page.waitForTimeout(500);const u=new Map();let stale=0,bottom=0;for(let step=0;step<450;step++){const rs=await visibleRows(grid),before=u.size;for(const r of rs)u.set(r.join('|'),r);stale=u.size===before?stale+1:0;const s=await scroll(grid,false);bottom=s.bottom?bottom+1:0;if(!s.moved){try{await grid.press('PageDown')}catch{}}await page.waitForTimeout(230);if(bottom>=3&&stale>=3)break;if(stale>=22)break}return [...u.values()]}
 
 function parse(rows){
-  const h=rows.find(r=>r.some(x=>x.includes('Prisområde'))&&r.some(x=>x.includes('(MW)')));if(!h)return[];
+  const h=rows.find(r=>r.some(x=>x.includes('Næringstype'))&&r.some(x=>x.includes('(MW)'))&&(r.some(x=>x.includes('Prisområde'))||r.some(x=>x.includes('Områdeplan'))));if(!h)return[];
   const idx=n=>h.findIndex(x=>x.toLowerCase().includes(n.toLowerCase()));
-  const iCase=idx('Statnett saksnr'),iTilko=idx('Tilko saksnr'),iStation=idx('Stasjon for tilknytning'),iPlan=idx('Områdeplan'),iArea=idx('Prisområde'),iCustomer=idx('Statnetts kunde'),iEnd=idx('Sluttkunde'),iIndustry=idx('Næringstype'),iMw=h.findIndex(x=>x.includes('(MW)')),iDate=h.findIndex(x=>x.toLowerCase().includes('dato'));
-  if([iArea,iIndustry,iMw].some(i=>i<0))return[];
-  return rows.filter(r=>r!==h&&/^NO\d$/i.test(r[iArea]||'')).map(r=>({id:(r[iCase]||r[iTilko]||`${cfg.status}-${r[iEnd]||r[iCustomer]}-${r[iMw]}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:iCase>=0?r[iCase]||null:null,tilko_case:iTilko>=0?r[iTilko]||null:null,station:iStation>=0?r[iStation]||null:null,area_plan:iPlan>=0?r[iPlan]||null:null,area:r[iArea].toUpperCase(),grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry:r[iIndustry]||null,mw:num(r[iMw]),date:iDate>=0?r[iDate]||null:null,status:cfg.status,source:'Statnett'})).filter(r=>r.mw!=null&&!productionTypes.has(r.industry)&&(r.area==='NO1'||r.area==='NO5'));
+  const iCase=idx('Statnett saksnr'),iTilko=idx('Tilko saksnr'),iStation=idx('Stasjon for tilknytning'),iPlan=idx('Områdeplan'),iArea=idx('Prisområde'),iCustomer=idx('Statnetts kunde'),iEnd=idx('Sluttkunde'),iIndustry=idx('Næringstype');
+  let iMw=h.findIndex(x=>x.includes('(MW)'));
+  if(key==='connected'){
+    const totalMw=h.findIndex(x=>x.toLowerCase().includes('tilknyttet kapasitet totalt')&&x.includes('(MW)'));
+    if(totalMw>=0)iMw=totalMw;
+  }
+  const iDate=h.findIndex(x=>x.toLowerCase().includes('dato'));
+  if([iIndustry,iMw].some(i=>i<0))return[];
+  return rows.filter(r=>r!==h).map(r=>{
+    const area=iArea>=0?(r[iArea]||'').toUpperCase():inferArea(iPlan>=0?r[iPlan]:'');
+    return {id:(r[iCase]||r[iTilko]||`${cfg.status}-${r[iEnd]||r[iCustomer]}-${r[iMw]}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:iCase>=0?r[iCase]||null:null,tilko_case:iTilko>=0?r[iTilko]||null:null,station:iStation>=0?r[iStation]||null:null,area_plan:iPlan>=0?r[iPlan]||null:null,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry:r[iIndustry]||null,mw:num(r[iMw]),date:iDate>=0?r[iDate]||null:null,status:cfg.status,source:'Statnett'};
+  }).filter(r=>r.mw!=null&&!productionTypes.has(r.industry)&&(r.area==='NO1'||r.area==='NO5'));
 }
 
 let data=null,lastError=null;
