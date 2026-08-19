@@ -6,7 +6,7 @@ on:
     - cron: "20 5 * * *"
   push:
     paths:
-      - "scripts/fetch-statnett.mjs"
+      - "scripts/fetch-statnett-v2.mjs"
       - ".github/workflows/daily-update.yml"
 
 permissions:
@@ -31,26 +31,12 @@ jobs:
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
 
-      - name: Sikre frisk Power BI-side før reservasjoner
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('scripts/fetch-statnett.mjs')
-          s = p.read_text()
-          needle = "console.log('Henter reservasjoner...');"
-          replacement = "await loadSource();\nconsole.log('Henter reservasjoner...');"
-          if needle in s and replacement not in s:
-              s = s.replace(needle, replacement, 1)
-              p.write_text(s)
-          PY
-
-      - name: Kjør Statnett-henter og lagre logg
+      - name: Kjør robust Statnett-henter og lagre logg
         shell: bash
         run: |
           set +e
           mkdir -p data
-          node scripts/fetch-statnett.mjs 2>&1 | tee data/last-run.log
+          node scripts/fetch-statnett-v2.mjs 2>&1 | tee data/last-run.log
           code=${PIPESTATUS[0]}
           echo "$code" > data/last-run-exit-code.txt
           exit 0
@@ -60,7 +46,7 @@ jobs:
         run: |
           code=$(cat data/last-run-exit-code.txt)
           if [ "$code" != "0" ]; then
-            echo "Henteren feilet; hopper over datavalidering."
+            echo "Henteren feilet; publiserer ikke nytt datasett."
             exit 0
           fi
           node - <<'NODE'
@@ -69,12 +55,15 @@ jobs:
           const age = Date.now() - Date.parse(d.updated_at);
           const q = (d.queue || []).length;
           const r = (d.reservations || []).length;
-          const qmw = (d.totals?.queue?.NO1?.mw || 0) + (d.totals?.queue?.NO5?.mw || 0);
-          const rmw = (d.totals?.reservations?.NO1?.mw || 0) + (d.totals?.reservations?.NO5?.mw || 0);
+          const q1 = d.totals?.queue?.NO1 || {};
+          const q5 = d.totals?.queue?.NO5 || {};
+          const r1 = d.totals?.reservations?.NO1 || {};
+          const r5 = d.totals?.reservations?.NO5 || {};
           if (age > 6*60*60*1000) throw new Error('current.json er ikke fersk');
-          if (q === 0 || qmw === 0) throw new Error('Kapasitetskø er tom');
-          if (r === 0 || rmw === 0) throw new Error('Reservasjoner er tomme');
-          console.log(`Publiseringskontroll OK: kø ${q} saker/${qmw} MW, reservasjoner ${r} saker/${rmw} MW`);
+          for (const [name,x] of Object.entries({q1,q5,r1,r5})) {
+            if (!(x.cases > 0 && x.mw > 0)) throw new Error(`${name} mangler saker/MW`);
+          }
+          console.log(`Publiseringskontroll OK: kø ${q} saker/${q1.mw+q5.mw} MW, reservasjoner ${r} saker/${r1.mw+r5.mw} MW`);
           NODE
 
       - name: Lagre nye data og logg
@@ -83,7 +72,6 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
           git config user.email "nettko-bot@users.noreply.github.com"
-          git checkout -- scripts/fetch-statnett.mjs
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "Daglig Statnett-oppdatering"
