@@ -27,10 +27,17 @@ jobs:
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
 
-      - name: Kjør Statnett-henter
-        run: node scripts/fetch-statnett.mjs
+      - name: Kjør Statnett-henter og lagre logg
+        shell: bash
+        run: |
+          set +e
+          mkdir -p data
+          node scripts/fetch-statnett.mjs 2>&1 | tee data/last-run.log
+          code=${PIPESTATUS[0]}
+          echo "$code" > data/last-run-exit-code.txt
+          exit 0
 
-      - name: Lagre nye data
+      - name: Lagre nye data og logg
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
@@ -39,4 +46,13 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Daglig Statnett-oppdatering"
             git push
+          fi
+
+      - name: Marker feil hvis henteren feilet
+        shell: bash
+        run: |
+          code=$(cat data/last-run-exit-code.txt)
+          if [ "$code" != "0" ]; then
+            echo "Statnett-henter feilet med exit code $code"
+            exit "$code"
           fi
