@@ -4,12 +4,17 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "20 5 * * *"
+  push:
+    paths:
+      - "scripts/fetch-statnett.mjs"
+      - ".github/workflows/daily-update.yml"
 
 permissions:
   contents: write
 
 jobs:
   fetch:
+    if: github.actor != 'nettko-bot'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -25,7 +30,6 @@ jobs:
 
       - name: Kjør Statnett-henter
         run: node scripts/fetch-statnett.mjs
-        continue-on-error: true
 
       - name: Lagre nye data
         run: |
