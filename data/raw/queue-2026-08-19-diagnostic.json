@@ -1,13 +1,15 @@
 {
-  "fetched_at": "2026-08-19T11:25:31.394Z",
-  "heading": "Kapasitetskø",
+  "fetched_at": "2026-08-19T11:46:26.126Z",
+  "attempt": 1,
   "grid_count": 2,
+  "selected_count": 73,
+  "selected_mw": 4161,
   "diagnostics": [
     {
       "grid": 0,
       "unique_rows": 236,
       "parsed_count": 234,
-      "production_count": 0,
+      "consumption_count": 234,
       "sample": [
         [
           "Radvalg",
@@ -60,27 +62,14 @@
           "Industri",
           "100",
           ""
-        ],
-        [
-          "Velg rad",
-          "26/04386",
-          "ELB3385",
-          "Balsfjord TRA",
-          "Nord",
-          "NO4",
-          "Arva AS",
-          "CEDRUS AS",
-          "Datasenter",
-          "15",
-          ""
         ]
       ]
     },
     {
       "grid": 1,
-      "unique_rows": 141,
-      "parsed_count": 139,
-      "production_count": 117,
+      "unique_rows": 146,
+      "parsed_count": 144,
+      "consumption_count": 22,
       "sample": [
         [
           "Radvalg",
@@ -133,22 +122,8 @@
           "Solkraft",
           "3",
           "08.11.2023"
-        ],
-        [
-          "Velg rad",
-          "24/01673",
-          "ELB508",
-          "Rendalen transformatorstasjon TRA",
-          "Innlandet",
-          "NO1",
-          "Elvia As",
-          "NØK Forbybar AS",
-          "Solkraft",
-          "4",
-          "02.06.2024"
         ]
       ]
     }
-  ],
-  "selected_count": 73
+  ]
 }

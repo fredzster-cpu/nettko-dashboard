@@ -1,19 +1,21 @@
 Henter kapasitetskø...
 Kapasitetskø: forsøk 1/4
-Kapasitetskø: forsøk 1 feilet: Klarte ikke åpne Kapasitetskø-listen
-Kapasitetskø: forsøk 2/4
-Kapasitetskø: forsøk 2 feilet: Klarte ikke åpne Kapasitetskø-listen
-Kapasitetskø: forsøk 3/4
-Kapasitetskø: forsøk 3 feilet: Klarte ikke åpne Kapasitetskø-listen
-Kapasitetskø: forsøk 4/4
-Kapasitetskø: forsøk 4 feilet: Klarte ikke åpne Kapasitetskø-listen
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:252
-      throw new Error(`Klarte ikke åpne ${config.heading}-listen`);
-            ^
+Kapasitetskø: 73 saker, 4161 MW
+Henter reservasjoner...
+Reservasjoner: forsøk 1/4
+Reservasjoner: forsøk 1 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 2/4
+Reservasjoner: forsøk 2 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 3/4
+Reservasjoner: forsøk 3 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 4/4
+Reservasjoner: forsøk 4 feilet: detalj-frame ikke funnet
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:157
+      if(!detail)throw new Error('detalj-frame ikke funnet');
+                       ^
 
-Error: Klarte ikke åpne Kapasitetskø-listen
-    at extractOnce (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:252:13)
-    at async extractWithRetry (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:299:20)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:336:17
+Error: detalj-frame ikke funnet
+    at extract (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:157:24)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:200:20
 
 Node.js v24.18.0
