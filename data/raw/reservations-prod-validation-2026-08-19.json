@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "updated_at": "2026-08-19T12:37:39.709Z",
+  "reservation_cases": 65,
+  "reservation_mw": 2431,
+  "totals": {
+    "NO1": {
+      "cases": 43,
+      "mw": 1327
+    },
+    "NO5": {
+      "cases": 22,
+      "mw": 1104
+    }
+  }
+}
