@@ -335,7 +335,7 @@ const result = {
 
   frames: afterFrames.map(frame => ({
     frameIndex: frame.frameIndex,
-    url: frame.url(),
+    url: frame.url,
     textLength: frame.textLength,
     score: frame.score
   }))
