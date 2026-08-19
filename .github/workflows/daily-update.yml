@@ -3,7 +3,7 @@ name: Oppdater Nettkapasitet
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 5 * * *"
+    - cron: "20 */6 * * *"
   push:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: statnett-daily-update
+  group: statnett-capacity-update
   cancel-in-progress: false
 
 jobs:
@@ -51,7 +51,7 @@ jobs:
             if(rows.length<min.cases || mw<min.mw) throw new Error(`${k} ufullstendig: ${rows.length} saker / ${mw} MW`);
             console.log(`${k.toUpperCase()} OK: ${rows.length} saker / ${mw} MW`);
           }
-          if(Date.now()-Date.parse(d.updated_at)>6*60*60*1000) throw new Error('current.json er ikke fersk');
+          if(Date.now()-Date.parse(d.updated_at)>8*60*60*1000) throw new Error('current.json er ikke fersk');
           console.log('KOMPLETT PRODUKSJONSGRUNNLAG OK');
           NODE
 
@@ -63,6 +63,6 @@ jobs:
           git config user.email "nettko-bot@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Daglig Statnett-oppdatering"
+            git commit -m "Statnett-oppdatering"
             git push
           fi
