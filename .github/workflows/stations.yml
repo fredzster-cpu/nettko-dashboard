@@ -1,0 +1,48 @@
+name: Oppdater stasjonskart
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/geocode-stations.mjs"
+      - ".github/workflows/stations.yml"
+  schedule:
+    - cron: "45 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: station-geocoding
+  cancel-in-progress: false
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Hent repository
+        uses: actions/checkout@v4
+
+      - name: Koordinatfest transmisjonsnettstasjoner
+        run: node scripts/geocode-stations.mjs
+
+      - name: Verifiser koordinater
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const d=JSON.parse(fs.readFileSync('data/stations.json','utf8'));
+          console.log(`Kartfestet ${d.resolved_count||0} av ${d.station_count||0} stasjoner`);
+          if ((d.resolved_count||0) < 1) throw new Error('Ingen stasjoner ble koordinatfestet');
+          NODE
+
+      - name: Lagre stasjonskoordinater
+        if: always()
+        run: |
+          git config user.name "nettko-bot"
+          git config user.email "nettko-bot@users.noreply.github.com"
+          git add data/stations.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Oppdater stasjonskoordinater"
+            git push
+          fi
