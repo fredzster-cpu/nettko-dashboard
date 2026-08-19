@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-08-19T13:08:44.868Z",
+  "updated_at": "2026-08-19T15:04:06.143Z",
+  "url": "https://app.powerbi.com/view?pageName=e919fd623fe16c1f1b5b&r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
   "attempt": 1,
   "grid_count": 2,
-  "cases": 73,
-  "mw": 4161,
+  "cases": 71,
+  "mw": 3861,
   "diag": [
     {
       "grid": 0,
-      "rows": 238,
-      "parsed": 73,
+      "rows": 234,
+      "parsed": 71,
       "sample": [
         [
           "Radvalg",
@@ -25,48 +26,48 @@
         ],
         [
           "Velg rad",
-          "23/00869",
-          "ELB1336",
-          "Moskog TRA",
-          "Sogn og Sunnmøre",
-          "NO3",
-          "Linja AS",
-          "HyFuel AS",
-          "Hydrogen/ammoniakk",
+          "21/00283",
+          "ELB1543",
+          "Kårstø TRA",
+          "Bergen og Haugalandet",
+          "NO2",
+          "Gassco AS",
+          "Gassco AS",
+          "Petroleum",
           "20",
-          ""
+          "15.05.2019"
         ],
         [
           "Velg rad",
-          "25/02165",
-          "ELB275",
-          "Vardal TRA",
-          "Innlandet",
-          "NO1",
-          "Elvia As",
-          "Daba Eiendom AS",
+          "24/01748",
+          "ELB813",
+          "Litle Sotra TRA",
+          "Bergen og Haugalandet",
+          "NO5",
+          "BKK AS",
+          "Tresmarka AS",
+          "Transport",
+          "20",
+          "22.12.2020"
+        ],
+        [
+          "Velg rad",
+          "22/00602",
+          "ELB1426",
+          "Rød TRA",
+          "Telemark og Vestfold",
+          "NO2",
+          "WS Computing AS",
+          "WSC",
           "Datasenter",
-          "200",
-          ""
-        ],
-        [
-          "Velg rad",
-          "26/04065",
-          "ELB2879",
-          "Vang TRA",
-          "Innlandet",
-          "NO1",
-          "Elvia As",
-          "Sørliterterminalen Stange AS",
-          "Industri",
-          "100",
-          ""
+          "480",
+          "29.03.2022"
         ]
       ]
     },
     {
       "grid": 1,
-      "rows": 146,
+      "rows": 145,
       "parsed": 10,
       "sample": [
         [

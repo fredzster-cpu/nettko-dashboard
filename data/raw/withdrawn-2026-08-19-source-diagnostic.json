@@ -1,0 +1,137 @@
+{
+  "updated_at": "2026-08-19T15:14:31.976Z",
+  "url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#tilbaketrukket-kapasitet",
+  "attempt": 1,
+  "frame_url": "https://app.powerbi.com/view?r=eyJrIjoiZjhkMjM1OWQtMDBlYS00NDUzLWE4YTMtNjA4YmYzMWQ2MDFlIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
+  "grid_count": 2,
+  "cases": 6,
+  "mw": 190,
+  "NO1": {
+    "cases": 2,
+    "mw": 60
+  },
+  "NO5": {
+    "cases": 4,
+    "mw": 130
+  },
+  "diag": [
+    {
+      "grid": 0,
+      "rows": 55,
+      "parsed": 6,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Tilbaketrukket kapasitet (MW)",
+          "Dato - tilbaketrukket kapasitet"
+        ],
+        [
+          "Velg rad",
+          "21/00094",
+          "",
+          "Hyggevatn TRA",
+          "Nord",
+          "NO4",
+          "Equinor Asa",
+          "Equinor ASA",
+          "Petroleum",
+          "80,00",
+          "30.11.2022"
+        ],
+        [
+          "Velg rad",
+          "21/00193",
+          "",
+          "Bjerkreim TRA",
+          "Sør Rogaland og Agder",
+          "NO2",
+          "Lnett AS",
+          "North Sea Energy Park",
+          "Datasenter",
+          "144,00",
+          "10.09.2023"
+        ],
+        [
+          "Velg rad",
+          "21/00167",
+          "",
+          "Balsfjord TRA",
+          "Nord",
+          "NO4",
+          "Nordkraft Industrinett",
+          "",
+          "Industri",
+          "200,00",
+          "01.10.2023"
+        ]
+      ]
+    },
+    {
+      "grid": 1,
+      "rows": 27,
+      "parsed": 0,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Tilbaketrukket kapasitet (MW)",
+          "Dato - tilbaketrukket kapasitet"
+        ],
+        [
+          "Velg rad",
+          "24/01583",
+          "ELB201",
+          "Frogner TRA",
+          "Oslo, Akershus og Østfold",
+          "NO1",
+          "Elvia As",
+          "Solutvikling AS",
+          "Solkraft",
+          "16,00",
+          ""
+        ],
+        [
+          "Velg rad",
+          "24/01907",
+          "ELB1703",
+          "Midtfjellet KRA/TRA",
+          "Bergen og Haugalandet",
+          "NO2",
+          "Midtfjellet Vindkraft AS",
+          "Midtfjellet Vindkraft AS",
+          "Vindkraft",
+          "150,00",
+          ""
+        ],
+        [
+          "Velg rad",
+          "23/01405",
+          "ELB124",
+          "Vardal TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Solgrid AS",
+          "Solkraft",
+          "41,00",
+          "10.02.2024"
+        ]
+      ]
+    }
+  ]
+}

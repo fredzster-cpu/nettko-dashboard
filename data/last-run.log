@@ -1,28 +1,40 @@
 Kapasitetskø: forsøk 1/4
-Kapasitetskø: 73 saker, 4161 MW
+Kapasitetskø: 71 saker, 3861 MW
 Reservasjoner: forsøk 1/4
-Reservasjoner: detalj-frame ikke funnet
-Reservasjoner: forsøk 2/4
-Reservasjoner: detalj-frame ikke funnet
-Reservasjoner: forsøk 3/4
-Reservasjoner: detalj-frame ikke funnet
-Reservasjoner: forsøk 4/4
-Reservasjoner: detalj-frame ikke funnet
+Reservasjoner: 65 saker, 2431 MW
 Tilbaketrukket kapasitet: forsøk 1/4
-Tilbaketrukket kapasitet: detalj-frame ikke funnet
-Tilbaketrukket kapasitet: forsøk 2/4
-Tilbaketrukket kapasitet: detalj-frame ikke funnet
-Tilbaketrukket kapasitet: forsøk 3/4
-Tilbaketrukket kapasitet: detalj-frame ikke funnet
-Tilbaketrukket kapasitet: forsøk 4/4
-Tilbaketrukket kapasitet: detalj-frame ikke funnet
+Tilbaketrukket kapasitet: 6 saker, 190 MW
 Tilknyttet kapasitet: forsøk 1/4
-Tilknyttet kapasitet: detalj-frame ikke funnet
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 2/4
-Tilknyttet kapasitet: detalj-frame ikke funnet
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 3/4
-Tilknyttet kapasitet: detalj-frame ikke funnet
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
-Tilknyttet kapasitet: detalj-frame ikke funnet
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T13:08:44.868Z","error":null,"preserved_previous":false},"reservations":{"ok":false,"fresh":false,"updated_at":null,"error":"detalj-frame ikke funnet","preserved_previous":true},"withdrawn":{"ok":false,"fresh":false,"updated_at":null,"error":"detalj-frame ikke funnet","preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":null,"error":"detalj-frame ikke funnet","preserved_previous":false}},"totals":{"queue":{"NO1":{"cases":51,"mw":2822},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}},"connected":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T15:04:06.143Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-19T15:04:06.143Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-19T15:04:06.143Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":null,"error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":false}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}}}}
+Reservasjoner kildehenter: forsøk 1/4
+Reservasjoner: 65 saker, 2431 MW
+RESERVASJONER VALIDERT VIA STATNETT-SIDEN
+{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}}
+Tilbaketrukket kapasitet kildehenter: forsøk 1/4
+Tilbaketrukket kapasitet: 6 saker, 190 MW
+TILBAKETRUKKET KAPASITET VALIDERT VIA STATNETT-SIDEN
+{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}}
+Tilknyttet kapasitet kildehenter: forsøk 1/4
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
+Tilknyttet kapasitet kildehenter: forsøk 2/4
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
+Tilknyttet kapasitet kildehenter: forsøk 3/4
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
+Tilknyttet kapasitet kildehenter: forsøk 4/4
+Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:100
+    if(data.length<cfg.minCases||mw<cfg.minMw||!(t1.cases>0||t5.cases>0))throw new Error(`ufullstendig uttrekk (${data.length} saker / ${mw} MW)`);
+                                                                               ^
+
+Error: ufullstendig uttrekk (0 saker / 0 MW)
+    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:100:80
+
+Node.js v24.18.0

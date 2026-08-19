@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-08-19T15:04:06.143Z",
+  "url": "https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
+  "attempt": 4,
+  "grid_count": 2,
+  "cases": 0,
+  "mw": 0,
+  "diag": [
+    {
+      "grid": 0,
+      "rows": 108,
+      "parsed": 0,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Dato - tilknyttet kapasitet",
+          "Tilknyttet kapasitet totalt (MW)",
+          "Tilknyttet kapasitet med ordinære vilkår (MW)"
+        ],
+        [
+          "Velg rad",
+          "21/00273",
+          "",
+          "Salten transformatorstasjon TRA",
+          "Helgeland og Salten",
+          "Arva AS",
+          "Elkem Asa",
+          "Industri",
+          "29.11.2018",
+          "35,00",
+          "35,00"
+        ],
+        [
+          "Velg rad",
+          "23/01178",
+          "",
+          "Fræna TRA",
+          "Midt",
+          "Elinett AS",
+          "Troll Housing AS",
+          "Datasenter",
+          "14.11.2019",
+          "6,00",
+          "6,00"
+        ],
+        [
+          "Velg rad",
+          "23/00861",
+          "",
+          "Kristiansand TRA",
+          "Sør Rogaland og Agder",
+          "Glitre Nett AS",
+          "Bulk",
+          "Datasenter",
+          "31.12.2019",
+          "19,00",
+          "19,00"
+        ]
+      ]
+    },
+    {
+      "grid": 1,
+      "rows": 51,
+      "parsed": 0,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Dato - tilknyttet kapasitet",
+          "Tilknyttet kapasitet totalt (MW)",
+          "Tilknyttet kapasitet med ordinære vilkår (MW)"
+        ],
+        [
+          "Velg rad",
+          "21/00285",
+          "",
+          "Sortland TRA",
+          "Nord",
+          "Vestall AS",
+          "",
+          "Vindkraft",
+          "16.12.2018",
+          "50,40",
+          "50,40"
+        ],
+        [
+          "Velg rad",
+          "21/00256",
+          "",
+          "Hasle TRA",
+          "Oslo, Akershus og Østfold",
+          "",
+          "Marker Vindpark AS",
+          "Vindkraft",
+          "01.01.2019",
+          "54,00",
+          "54,00"
+        ],
+        [
+          "Velg rad",
+          "21/00252",
+          "",
+          "Vemorktoppen",
+          "Telemark og Vestfold",
+          "Hydro Energi As",
+          "Hydro",
+          "Vannkraft",
+          "31.12.2019",
+          "6,00",
+          "6,00"
+        ]
+      ]
+    }
+  ]
+}
