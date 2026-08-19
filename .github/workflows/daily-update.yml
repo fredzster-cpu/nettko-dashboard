@@ -10,6 +10,7 @@ on:
       - "scripts/fetch-status-source.mjs"
       - "scripts/fetch-connected-source-v2.mjs"
       - "scripts/fetch-connected-by-area.mjs"
+      - "scripts/fetch-connected-scope.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -54,18 +55,11 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs withdrawn 2>&1 | tee -a data/last-run.log
 
-      - name: Fallback tilknyttet via Statnett-siden
-        continue-on-error: true
+      - name: Hent og valider tilknyttet kapasitet
         shell: bash
         run: |
           set -o pipefail
-          node scripts/fetch-status-source.mjs connected 2>&1 | tee -a data/last-run.log
-
-      - name: Hent tilknyttet eksplisitt per prisområde
-        shell: bash
-        run: |
-          set -o pipefail
-          node scripts/fetch-connected-by-area.mjs 2>&1 | tee -a data/last-run.log
+          node scripts/fetch-connected-scope.mjs 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
@@ -97,12 +91,16 @@ jobs:
             }
             console.log(`${k.toUpperCase()} OK: ${rows.length} saker / ${mw} MW`);
           }
+          if(new Date().toISOString().slice(0,10)==='2026-08-19'){
+            const no1=(d.connected||[]).filter(x=>x.area==='NO1').reduce((s,x)=>s+(Number(x.mw)||0),0);
+            if(Math.abs(no1-296)>0.01) throw new Error(`connected NO1 avviker fra Statnett: ${no1} MW mot 296 MW`);
+          }
           if(Date.now()-Date.parse(d.updated_at)>8*60*60*1000) throw new Error('current.json er ikke fersk');
           console.log('KOMPLETT PRODUKSJONSGRUNNLAG OK');
           NODE
 
-      - name: Lagre nye data og logg
-        if: always()
+      - name: Lagre validerte nye data
+        if: success()
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
