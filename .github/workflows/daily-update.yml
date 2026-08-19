@@ -118,3 +118,20 @@ jobs:
             git commit -m "Statnett-oppdatering – live audit OK"
             git push
           fi
+
+      - name: Bevar feildiagnostikk uten å publisere ikke-validerte data
+        if: failure()
+        shell: bash
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name "nettko-bot"
+          git config user.email "nettko-bot@users.noreply.github.com"
+          # Never publish candidate production files from a failed run.
+          git restore --source=HEAD -- data/current.json data/history.json data/stations.json 2>/dev/null || true
+          rm -f data/statnett-audit.json
+          # Preserve only diagnostics/logs so the next repair can see the exact failure.
+          git add data/last-run.log data/raw/ 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Statnett-validering feilet – lagre diagnostikk"
+            git push
+          fi
