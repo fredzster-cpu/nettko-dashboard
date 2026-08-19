@@ -21,9 +21,30 @@ const num=s=>{if(s==null||s==='')return null;const x=Number(String(s).replace(/\
 const total=(rows,area)=>{const a=rows.filter(r=>r.area===area);return {cases:a.length,mw:a.reduce((s,r)=>s+(r.mw||0),0)}};
 const browser=await chromium.launch({headless:true});
 
-// Statnetts tilknyttet-tabell mangler per 19.08.2026 kolonnen "Prisområde".
-// Områdeplanene under er entydige for de to prisområdene dashboardet dekker.
-function inferArea(areaPlan=''){
+// Build a trusted station -> price-area map from already validated Statnett rows.
+// This is safer than assuming that an entire Statnett area plan belongs to one price area.
+let existing={};
+try{existing=JSON.parse(await fs.readFile(path.join(DATA,'current.json'),'utf8'))}catch{}
+const stationAreaVotes=new Map();
+for(const datasetKey of ['queue','reservations','withdrawn','connected']){
+  for(const r of (existing[datasetKey]||[])){
+    if(!r.station || !['NO1','NO5'].includes(r.area)) continue;
+    const s=String(r.station).trim();
+    if(!stationAreaVotes.has(s)) stationAreaVotes.set(s,{NO1:0,NO5:0});
+    stationAreaVotes.get(s)[r.area]++;
+  }
+}
+const stationAreaMap=new Map();
+for(const [station,v] of stationAreaVotes){
+  if(v.NO1 && !v.NO5) stationAreaMap.set(station,'NO1');
+  else if(v.NO5 && !v.NO1) stationAreaMap.set(station,'NO5');
+  else if(v.NO1!==v.NO5) stationAreaMap.set(station,v.NO1>v.NO5?'NO1':'NO5');
+}
+
+// Only use area plan as fallback when it is unambiguous for our scope.
+function inferArea(areaPlan='',station=''){
+  const st=String(station||'').trim();
+  if(stationAreaMap.has(st)) return stationAreaMap.get(st);
   const p=String(areaPlan).trim();
   const no1=new Set(['Oslo, Akershus og Østfold','Innlandet','Hallingdal og Ringerike']);
   const no5=new Set(['Bergen og Haugalandet','Sogn og Sunnmøre']);
@@ -87,7 +108,7 @@ async function scroll(grid,reset=false){return grid.evaluate((el,reset)=>{const 
 async function collect(grid,page){await scroll(grid,true);await page.waitForTimeout(500);const u=new Map();let stale=0,bottom=0;for(let step=0;step<450;step++){const rs=await visibleRows(grid),before=u.size;for(const r of rs)u.set(r.join('|'),r);stale=u.size===before?stale+1:0;const s=await scroll(grid,false);bottom=s.bottom?bottom+1:0;if(!s.moved){try{await grid.press('PageDown')}catch{}}await page.waitForTimeout(230);if(bottom>=3&&stale>=3)break;if(stale>=22)break}return [...u.values()]}
 
 function parse(rows){
-  const h=rows.find(r=>r.some(x=>x.includes('Næringstype'))&&r.some(x=>x.includes('(MW)'))&&(r.some(x=>x.includes('Prisområde'))||r.some(x=>x.includes('Områdeplan'))));if(!h)return[];
+  const h=rows.find(r=>r.some(x=>x.includes('Næringstype'))&&r.some(x=>x.includes('(MW)'))&&(r.some(x=>x.includes('Prisområde'))||r.some(x=>x.includes('Områdeplan'))));if(!h)return {data:[],unresolved:[]};
   const idx=n=>h.findIndex(x=>x.toLowerCase().includes(n.toLowerCase()));
   const iCase=idx('Statnett saksnr'),iTilko=idx('Tilko saksnr'),iStation=idx('Stasjon for tilknytning'),iPlan=idx('Områdeplan'),iArea=idx('Prisområde'),iCustomer=idx('Statnetts kunde'),iEnd=idx('Sluttkunde'),iIndustry=idx('Næringstype');
   let iMw=h.findIndex(x=>x.includes('(MW)'));
@@ -96,11 +117,19 @@ function parse(rows){
     if(totalMw>=0)iMw=totalMw;
   }
   const iDate=h.findIndex(x=>x.toLowerCase().includes('dato'));
-  if([iIndustry,iMw].some(i=>i<0))return[];
-  return rows.filter(r=>r!==h).map(r=>{
-    const area=iArea>=0?(r[iArea]||'').toUpperCase():inferArea(iPlan>=0?r[iPlan]:'');
-    return {id:(r[iCase]||r[iTilko]||`${cfg.status}-${r[iEnd]||r[iCustomer]}-${r[iMw]}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:iCase>=0?r[iCase]||null:null,tilko_case:iTilko>=0?r[iTilko]||null:null,station:iStation>=0?r[iStation]||null:null,area_plan:iPlan>=0?r[iPlan]||null:null,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry:r[iIndustry]||null,mw:num(r[iMw]),date:iDate>=0?r[iDate]||null:null,status:cfg.status,source:'Statnett'};
-  }).filter(r=>r.mw!=null&&!productionTypes.has(r.industry)&&(r.area==='NO1'||r.area==='NO5'));
+  if([iIndustry,iMw].some(i=>i<0))return {data:[],unresolved:[]};
+  const data=[],unresolved=[];
+  for(const r of rows.filter(r=>r!==h)){
+    const industry=r[iIndustry]||null,mw=num(r[iMw]);
+    if(mw==null || productionTypes.has(industry)) continue;
+    const station=iStation>=0?r[iStation]||null:null,plan=iPlan>=0?r[iPlan]||null:null;
+    const explicit=iArea>=0?(r[iArea]||'').toUpperCase():null;
+    const area=['NO1','NO5'].includes(explicit)?explicit:inferArea(plan,station);
+    const row={id:(r[iCase]||r[iTilko]||`${cfg.status}-${r[iEnd]||r[iCustomer]}-${r[iMw]}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:iCase>=0?r[iCase]||null:null,tilko_case:iTilko>=0?r[iTilko]||null:null,station,area_plan:plan,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry,mw,date:iDate>=0?r[iDate]||null:null,status:cfg.status,source:'Statnett'};
+    if(area==='NO1'||area==='NO5') data.push(row);
+    else unresolved.push(row);
+  }
+  return {data,unresolved};
 }
 
 let data=null,lastError=null;
@@ -114,11 +143,18 @@ for(let attempt=1;attempt<=4;attempt++){
     if(!ready)throw new Error('detaljtabell ikke funnet i riktig rapport');
     const grids=frame.locator('[role="grid"],[role="table"],[role="treegrid"]'),gc=await grids.count();
     const candidates=[],diag=[];
-    for(let i=0;i<gc;i++){const rows=await collect(grids.nth(i),page);const parsed=parse(rows);diag.push({grid:i,rows:rows.length,parsed:parsed.length,sample:rows.slice(0,4)});candidates.push(parsed)}
-    candidates.sort((a,b)=>b.length-a.length);data=candidates[0]||[];const mw=data.reduce((s,r)=>s+r.mw,0),t1=total(data,'NO1'),t5=total(data,'NO5');
-    await fs.writeFile(path.join(RAW,`${key}-${day}-source-diagnostic.json`),JSON.stringify({updated_at:now,url,attempt,frame_url:frame.url(),grid_count:gc,cases:data.length,mw,NO1:t1,NO5:t5,diag},null,2));
+    for(let i=0;i<gc;i++){
+      const rows=await collect(grids.nth(i),page),parsed=parse(rows);
+      diag.push({grid:i,rows:rows.length,parsed:parsed.data.length,unresolved:parsed.unresolved.length,unresolved_mw:parsed.unresolved.reduce((s,x)=>s+x.mw,0),unresolved_sample:parsed.unresolved.slice(0,10),sample:rows.slice(0,4)});
+      candidates.push(parsed);
+    }
+    candidates.sort((a,b)=>b.data.length-a.data.length);const best=candidates[0]||{data:[],unresolved:[]};data=best.data;
+    const unresolved=best.unresolved,mw=data.reduce((s,r)=>s+r.mw,0),t1=total(data,'NO1'),t5=total(data,'NO5');
+    await fs.writeFile(path.join(RAW,`${key}-${day}-source-diagnostic.json`),JSON.stringify({updated_at:now,url,attempt,frame_url:frame.url(),grid_count:gc,cases:data.length,mw,NO1:t1,NO5:t5,unresolved_cases:unresolved.length,unresolved_mw:unresolved.reduce((s,x)=>s+x.mw,0),unresolved,station_area_map_size:stationAreaMap.size,diag},null,2));
+    // Never silently discard consumption MW because price-area classification failed.
+    if(unresolved.length) throw new Error(`uavklarte prisområder: ${unresolved.length} saker / ${unresolved.reduce((s,x)=>s+x.mw,0)} MW`);
     if(data.length<cfg.minCases||mw<cfg.minMw||!(t1.cases>0||t5.cases>0))throw new Error(`ufullstendig uttrekk (${data.length} saker / ${mw} MW)`);
-    console.log(`${cfg.heading}: ${data.length} saker, ${mw} MW`);await context.close();break;
+    console.log(`${cfg.heading}: ${data.length} saker, ${mw} MW; NO1 ${t1.cases}/${t1.mw} MW; NO5 ${t5.cases}/${t5.mw} MW`);await context.close();break;
   }catch(e){lastError=e;data=null;console.error(`${cfg.heading}: ${e.message}`);await page.screenshot({path:path.join(RAW,`${key}-${day}-source-attempt-${attempt}.png`),fullPage:true}).catch(()=>{});await context.close().catch(()=>{});if(attempt<4)await sleep(2500*attempt)}
 }
 if(!data){await browser.close();throw lastError||new Error('ingen gyldige data');}
