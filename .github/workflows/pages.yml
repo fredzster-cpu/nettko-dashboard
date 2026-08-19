@@ -53,7 +53,9 @@ jobs:
           if 'table-enhancements.js' not in s:
             s=s.replace('</body>','<script src="./table-enhancements.js?v=1"></script>\n</body>')
           if 'status-card-filter.js' not in s:
-            s=s.replace('</body>','<script src="./status-card-filter.js?v=1"></script>\n</body>')
+            s=s.replace('</body>','<script src="./status-card-filter.js?v=2"></script>\n</body>')
+          else:
+            s=s.replace('status-card-filter.js?v=1','status-card-filter.js?v=2')
           p.write_text(s,encoding='utf-8')
           PY
 
