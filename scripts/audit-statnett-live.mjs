@@ -13,15 +13,18 @@ const current=JSON.parse(await fs.readFile(path.join(DATA,'current.json'),'utf8'
 const reports={
   queueReservations:{
     url:'https://app.powerbi.com/view?pageName=e919fd623fe16c1f1b5b&r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9',
-    heading:'Historisk høyeste forbruk og produksjon'
+    heading:'Historisk høyeste forbruk og produksjon',
+    markers:['Prisområde','Reservert kapasitet','Kapasitet i kø']
   },
   connected:{
     url:'https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9',
-    heading:'Tilknyttet kapasitet'
+    heading:'Tilknyttet kapasitet',
+    markers:['Prisområde','Tilknyttet kapasitet']
   },
   withdrawn:{
     url:'https://app.powerbi.com/view?r=eyJrIjoiZjhkMjM1OWQtMDBlYS00NDUzLWE4YTMtNjA4YmYzMWQ2MDFlIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9',
-    heading:'Tilbaketrukket kapasitet'
+    heading:'Tilbaketrukket kapasitet',
+    markers:['Prisområde','Tilbaketrukket kapasitet']
   }
 };
 
@@ -35,6 +38,12 @@ const count=(rows,area)=>rows.filter(r=>r.area===area).length;
 
 const browser=await chromium.launch({headless:true});
 
+function frameMatches(txt,cfg){
+  const t=clean(txt);
+  if(t.includes(cfg.heading)) return true;
+  return (cfg.markers||[]).every(m=>t.includes(m));
+}
+
 async function openReport(cfg){
   const context=await browser.newContext({locale:'nb-NO',viewport:{width:1920,height:1400}});
   const page=await context.newPage();
@@ -42,35 +51,42 @@ async function openReport(cfg){
   await page.goto(cfg.url,{waitUntil:'domcontentloaded',timeout:90000});
   await page.waitForTimeout(9000);
   let frame=null;
-  for(let i=0;i<30&&!frame;i++){
+  let best=null;
+  for(let i=0;i<40&&!frame;i++){
     for(const f of page.frames()){
       const txt=await f.locator('body').innerText({timeout:2500}).catch(()=>'');
-      if(txt.includes(cfg.heading)){frame=f;break;}
+      if(!txt) continue;
+      if(frameMatches(txt,cfg)){frame=f;break;}
+      if((txt.includes('Prisområde')||txt.includes('Forbruk (MW)')) && (!best || txt.length>best.txt.length)) best={f,txt};
     }
     if(!frame) await page.waitForTimeout(700);
   }
-  if(!frame) throw new Error(`Power BI-frame ikke funnet for ${cfg.heading}`);
+  // Power BI occasionally changes the report title while retaining the same visuals.
+  if(!frame && best) frame=best.f;
+  if(!frame){
+    await page.screenshot({path:path.join(RAW,`audit-open-failed-${day}-${cfg.heading.replace(/[^A-Za-z0-9]+/g,'-')}.png`),fullPage:true}).catch(()=>{});
+    throw new Error(`Power BI-frame ikke funnet for ${cfg.heading}`);
+  }
   return {context,page,frame};
 }
 
 async function chooseArea(frame,page,area){
-  // Locate the slicer by walking upward from the Prisområde label.
   const labels=frame.getByText('Prisområde',{exact:true});
   const n=await labels.count().catch(()=>0);
   for(let i=0;i<n;i++){
     let node=labels.nth(i);
-    for(let up=0;up<5;up++){
+    for(let up=0;up<6;up++){
       try{
         const txt=clean(await node.innerText({timeout:1000}));
         if(txt.includes('Prisområde')){
           const all=node.getByText('Alle',{exact:true});
           if(await all.count()){
             await all.first().click({force:true});
-            await page.waitForTimeout(600);
+            await page.waitForTimeout(700);
             const opt=frame.getByText(area,{exact:true});
             if(await opt.count()){
               await opt.last().click({force:true});
-              await page.waitForTimeout(2200);
+              await page.waitForTimeout(2500);
               return true;
             }
           }
@@ -79,11 +95,23 @@ async function chooseArea(frame,page,area){
       node=node.locator('xpath=..');
     }
   }
+  // Fallback for changed slicer DOM: try any visible "Alle" whose ancestor contains Prisområde.
+  const alls=frame.getByText('Alle',{exact:true});
+  for(let i=0;i<await alls.count().catch(()=>0);i++){
+    let node=alls.nth(i);
+    try{
+      let p=node,hit=false;
+      for(let up=0;up<7;up++){p=p.locator('xpath=..');const txt=clean(await p.innerText({timeout:700}));if(txt.includes('Prisområde')){hit=true;break;}}
+      if(!hit) continue;
+      await node.click({force:true}); await page.waitForTimeout(700);
+      const opt=frame.getByText(area,{exact:true});
+      if(await opt.count()){await opt.last().click({force:true});await page.waitForTimeout(2500);return true;}
+    }catch{}
+  }
   return false;
 }
 
 function parseQueueReservations(body){
-  // The consumption overview contains: Historisk maks helelandet / Reservert kapasitet / Kapasitet i kø / values.
   const lines=body.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
   for(let i=0;i<lines.length-6;i++){
     if(clean(lines[i]).toLowerCase().includes('historisk maks helelandet') && clean(lines[i+1]).toLowerCase().includes('reservert kapasitet') && clean(lines[i+2]).toLowerCase().includes('kapasitet i kø')){
@@ -91,6 +119,16 @@ function parseQueueReservations(body){
       if(hist!=null&&res!=null&&queue!=null) return {reservations:res,queue};
     }
   }
+  // More tolerant fallback: find the labels and take the first numeric token following each one.
+  const valueAfter=label=>{
+    const i=lines.findIndex(x=>clean(x).toLowerCase()===label.toLowerCase());
+    if(i<0) return null;
+    for(let j=i+1;j<Math.min(lines.length,i+12);j++){const v=parseNum(lines[j]);if(v!=null)return v;}
+    return null;
+  };
+  const reservations=valueAfter('Reservert kapasitet');
+  const queue=valueAfter('Kapasitet i kø');
+  if(reservations!=null&&queue!=null) return {reservations,queue};
   throw new Error('Kunne ikke lese oversiktstall for kø/reservasjoner');
 }
 
@@ -98,9 +136,9 @@ function parseSingleForbruk(body,heading){
   const lines=body.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
   const headingIndex=lines.findIndex(x=>clean(x).toLowerCase().includes(clean(heading).toLowerCase()));
   const start=headingIndex>=0?headingIndex:0;
-  for(let i=start;i<Math.min(lines.length,start+120);i++){
+  for(let i=start;i<Math.min(lines.length,start+180);i++){
     if(clean(lines[i]).toLowerCase()==='forbruk (mw)'){
-      for(let j=i+1;j<Math.min(lines.length,i+8);j++){
+      for(let j=i+1;j<Math.min(lines.length,i+10);j++){
         const v=parseNum(lines[j]);
         if(v!=null) return v;
       }
@@ -139,7 +177,6 @@ for(const area of ['NO1','NO5']){
     const rowMw=sum(rows,area);
     const rowCases=count(rows,area);
     const displayed=source[area][key];
-    // Statnett summary cards are shown as whole MW. Compare the same representation used in the dashboard KPI.
     const rowDisplayed=Math.round(rowMw);
     const ok=rowDisplayed===Math.round(displayed);
     audit.checks.push({key,area,statnett_mw:displayed,row_mw:rowMw,row_displayed_mw:rowDisplayed,cases:rowCases,ok});
