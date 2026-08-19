@@ -13,7 +13,7 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T22:07:42.182Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-19T22:07:42.182Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-19T22:07:42.182Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-19T23:05:56.459Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-19T23:05:56.459Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-19T23:05:56.459Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
 Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
 Reservasjoner kildehenter: forsøk 2/4
@@ -49,13 +49,13 @@ Node.js v24.18.0
 Tilknyttet scope: forsøk 1/4
 Tilknyttet validert: NO1 17/296 MW, NO5 21/622.5400000000002 MW
 TILKNYTTET SCOPE VALIDERT
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:52
-  if(!frame) throw new Error(`Power BI-frame ikke funnet for ${cfg.heading}`);
-                   ^
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:132
+  throw new Error('Kunne ikke lese oversiktstall for kø/reservasjoner');
+        ^
 
-Error: Power BI-frame ikke funnet for Historisk høyeste forbruk og produksjon
-    at openReport (file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:52:20)
-    at async auditOverview (file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:113:30)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:128:12
+Error: Kunne ikke lese oversiktstall for kø/reservasjoner
+    at parseQueueReservations (file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:132:9)
+    at auditOverview (file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:157:42)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:166:12
 
 Node.js v24.18.0
