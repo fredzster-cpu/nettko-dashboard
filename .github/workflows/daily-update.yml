@@ -6,7 +6,7 @@ on:
     - cron: "20 5 * * *"
   push:
     paths:
-      - "scripts/fetch-statnett-v4.mjs"
+      - "scripts/fetch-queue-prod.mjs"
       - ".github/workflows/daily-update.yml"
 
 permissions:
@@ -20,52 +20,39 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     container:
       image: mcr.microsoft.com/playwright:v1.62.0-noble
-
     steps:
       - name: Hent repository
         uses: actions/checkout@v4
-
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
-
-      - name: Kjør robust Statnett-henter og lagre logg
+      - name: Hent og valider kapasitetskø
         shell: bash
         run: |
           set +e
           mkdir -p data
-          node scripts/fetch-statnett-v4.mjs 2>&1 | tee data/last-run.log
+          node scripts/fetch-queue-prod.mjs 2>&1 | tee data/last-run.log
           code=${PIPESTATUS[0]}
           echo "$code" > data/last-run-exit-code.txt
           exit 0
-
-      - name: Verifiser publiseringsdata
+      - name: Verifiser produksjonsdata
         shell: bash
         run: |
           code=$(cat data/last-run-exit-code.txt)
-          if [ "$code" != "0" ]; then
-            echo "Henteren feilet; publiserer ikke nytt datasett."
-            exit 0
-          fi
+          if [ "$code" != "0" ]; then exit "$code"; fi
           node - <<'NODE'
-          const fs = require('fs');
-          const d = JSON.parse(fs.readFileSync('data/current.json','utf8'));
-          const age = Date.now() - Date.parse(d.updated_at);
-          const q = (d.queue || []).length;
-          const r = (d.reservations || []).length;
-          const q1 = d.totals?.queue?.NO1 || {};
-          const q5 = d.totals?.queue?.NO5 || {};
-          const r1 = d.totals?.reservations?.NO1 || {};
-          const r5 = d.totals?.reservations?.NO5 || {};
-          if (age > 6*60*60*1000) throw new Error('current.json er ikke fersk');
-          for (const [name,x] of Object.entries({q1,q5,r1,r5})) {
-            if (!(x.cases > 0 && x.mw > 0)) throw new Error(`${name} mangler saker/MW`);
-          }
-          console.log(`Publiseringskontroll OK: kø ${q} saker/${q1.mw+q5.mw} MW, reservasjoner ${r} saker/${r1.mw+r5.mw} MW`);
+          const fs=require('fs');
+          const d=JSON.parse(fs.readFileSync('data/current.json','utf8'));
+          const q=d.queue||[];
+          const mw=q.reduce((s,x)=>s+(x.mw||0),0);
+          const q1=d.totals?.queue?.NO1||{}, q5=d.totals?.queue?.NO5||{};
+          if(q.length<60) throw new Error(`For få køsaker: ${q.length}`);
+          if(mw<3000) throw new Error(`For lav samlet MW: ${mw}`);
+          if(!(q1.cases>0&&q1.mw>0&&q5.cases>0&&q5.mw>0)) throw new Error('NO1/NO5 mangler');
+          if(Date.now()-Date.parse(d.updated_at)>6*60*60*1000) throw new Error('current.json er ikke fersk');
+          console.log(`PRODUKSJONSDATA OK: ${q.length} saker / ${mw} MW`);
           NODE
-
       - name: Lagre nye data og logg
         if: always()
         run: |
@@ -77,12 +64,8 @@ jobs:
             git commit -m "Daglig Statnett-oppdatering"
             git push
           fi
-
       - name: Marker feil hvis henteren feilet
         shell: bash
         run: |
           code=$(cat data/last-run-exit-code.txt)
-          if [ "$code" != "0" ]; then
-            echo "Statnett-henter feilet med exit code $code"
-            exit "$code"
-          fi
+          if [ "$code" != "0" ]; then exit "$code"; fi
