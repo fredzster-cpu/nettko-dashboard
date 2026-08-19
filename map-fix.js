@@ -19,6 +19,13 @@
     const cls=confidence==='low'?' low':'';
     return '<div class="station-pin'+cls+'"><span class="station-dot"></span><span class="station-label">'+escapeHtml(name)+'</span><span class="station-mw">'+Math.round(mw).toLocaleString('nb-NO')+' MW</span></div>';
   }
+  function voltageText(loc){
+    const raw=loc?.voltage_kv;
+    if(raw===null||raw===undefined||raw==='') return 'Spenningsnivå ikke tilgjengelig';
+    if(Array.isArray(raw)) return raw.filter(v=>v!==null&&v!=='').join(' / ')+' kV';
+    const s=String(raw).trim();
+    return s ? s.replace(/\s*kV$/i,'')+' kV' : 'Spenningsnivå ikke tilgjengelig';
+  }
   renderMap=function(ps){
     if(!map||typeof L==='undefined') return;
     if(markerLayer) markerLayer.clearLayers(); else markerLayer=L.layerGroup().addTo(map);
@@ -36,7 +43,13 @@
         html:markerHtml(station,mw,loc.confidence),
         iconSize:[1,1],iconAnchor:[0,0]
       });
-      const popup='<div class="popup-title">'+escapeHtml(station)+'</div><div><span class="popup-kpi">'+fmt(mw)+'</span> · '+rows.length+' saker</div><div class="hint">'+escapeHtml(area0)+' · posisjon '+escapeHtml(loc.confidence||'ukjent')+'</div><ul class="popup-list">'+[...rows].sort((a,b)=>(b.mw||0)-(a.mw||0)).slice(0,12).map(p=>'<li><b>'+escapeHtml(p.end_customer||p.grid_customer||'–')+'</b> · '+fmt(p.mw)+' · '+escapeHtml(p.status||'')+'</li>').join('')+'</ul>'+(rows.length>12?'<div class="hint">+'+(rows.length-12)+' flere saker</div>':'');
+      const popup='<div class="popup-title">'+escapeHtml(station)+'</div>'+
+        '<div><span class="popup-kpi">'+fmt(mw)+'</span> · '+rows.length+' saker</div>'+
+        '<div class="station-meta"><b>Spenningsnivå:</b> '+escapeHtml(voltageText(loc))+'</div>'+
+        (loc.owner?'<div class="station-meta"><b>Eier:</b> '+escapeHtml(loc.owner)+'</div>':'')+
+        '<div class="hint">'+escapeHtml(area0)+' · posisjon '+escapeHtml(loc.confidence||'ukjent')+' · kilde NVE</div>'+
+        '<ul class="popup-list">'+[...rows].sort((a,b)=>(b.mw||0)-(a.mw||0)).slice(0,12).map(p=>'<li><b>'+escapeHtml(p.end_customer||p.grid_customer||'–')+'</b> · '+fmt(p.mw)+' · '+escapeHtml(p.status||'')+'</li>').join('')+'</ul>'+
+        (rows.length>12?'<div class="hint">+'+(rows.length-12)+' flere saker</div>':'');
       L.marker([lat,lon],{icon,zIndexOffset:1000}).bindPopup(popup,{maxWidth:380}).addTo(markerLayer);
       bounds.push([lat,lon]); shown++;
     }
@@ -44,7 +57,7 @@
     if(bounds.length){ map.fitBounds(bounds,{padding:[55,55],maxZoom:8}); mapHasFit=true; setTimeout(()=>map.invalidateSize(true),100); }
   };
   const css=document.createElement('style');
-  css.textContent='.station-div-icon{background:transparent!important;border:0!important}.station-pin{position:relative;transform:translate(-8px,-8px);white-space:nowrap;font:700 11px Inter,system-ui,sans-serif;color:#123b2d}.station-dot{display:inline-block;width:16px;height:16px;border-radius:50%;background:#0a7052;border:3px solid #fff;box-shadow:0 1px 7px rgba(0,0,0,.35);vertical-align:middle}.station-pin.low .station-dot{background:#ad7417}.station-label{display:inline-block;margin-left:5px;padding:3px 6px;background:rgba(255,255,255,.94);border:1px solid #dce7e1;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.12);vertical-align:middle}.station-mw{display:inline-block;margin-left:3px;padding:3px 5px;background:#123b2d;color:#fff;border-radius:6px;vertical-align:middle;font-size:10px}';
+  css.textContent='.station-div-icon{background:transparent!important;border:0!important}.station-pin{position:relative;transform:translate(-8px,-8px);white-space:nowrap;font:700 11px Inter,system-ui,sans-serif;color:#123b2d}.station-dot{display:inline-block;width:16px;height:16px;border-radius:50%;background:#0a7052;border:3px solid #fff;box-shadow:0 1px 7px rgba(0,0,0,.35);vertical-align:middle}.station-pin.low .station-dot{background:#ad7417}.station-label{display:inline-block;margin-left:5px;padding:3px 6px;background:rgba(255,255,255,.94);border:1px solid #dce7e1;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.12);vertical-align:middle}.station-mw{display:inline-block;margin-left:3px;padding:3px 5px;background:#123b2d;color:#fff;border-radius:6px;vertical-align:middle;font-size:10px}.station-meta{margin-top:5px;font-size:12px;color:#263b31}';
   document.head.appendChild(css);
   function apply(){ try{ if(typeof filtered==='function'&&typeof renderMap==='function'&&map) renderMap(filtered()); }catch(e){ console.error('map-fix',e); } }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',()=>setTimeout(apply,700)); else setTimeout(apply,700);
