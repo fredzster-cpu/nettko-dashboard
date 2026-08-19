@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T12:37:39.709Z",
+  "updated_at": "2026-08-19T13:08:44.868Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8",
   "scope": "Forbruk, NO1 og NO5",
@@ -2077,7 +2077,38 @@
       "source": "Statnett"
     }
   ],
-  "reservation_status": "validated",
+  "withdrawn": [],
+  "connected": [],
+  "status_meta": {
+    "queue": {
+      "ok": true,
+      "fresh": true,
+      "updated_at": "2026-08-19T13:08:44.868Z",
+      "error": null,
+      "preserved_previous": false
+    },
+    "reservations": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": true
+    },
+    "withdrawn": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": false
+    },
+    "connected": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": false
+    }
+  },
   "totals": {
     "queue": {
       "NO1": {
@@ -2098,7 +2129,26 @@
         "cases": 22,
         "mw": 1104
       }
+    },
+    "withdrawn": {
+      "NO1": {
+        "cases": 0,
+        "mw": 0
+      },
+      "NO5": {
+        "cases": 0,
+        "mw": 0
+      }
+    },
+    "connected": {
+      "NO1": {
+        "cases": 0,
+        "mw": 0
+      },
+      "NO5": {
+        "cases": 0,
+        "mw": 0
+      }
     }
-  },
-  "source_url_reservations": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#reservasjoner"
+  }
 }

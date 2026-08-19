@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "updated_at": "2026-08-19T13:08:44.868Z",
+  "status_meta": {
+    "queue": {
+      "ok": true,
+      "fresh": true,
+      "updated_at": "2026-08-19T13:08:44.868Z",
+      "error": null,
+      "preserved_previous": false
+    },
+    "reservations": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": true
+    },
+    "withdrawn": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": false
+    },
+    "connected": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": null,
+      "error": "detalj-frame ikke funnet",
+      "preserved_previous": false
+    }
+  },
+  "totals": {
+    "queue": {
+      "NO1": {
+        "cases": 51,
+        "mw": 2822
+      },
+      "NO5": {
+        "cases": 22,
+        "mw": 1339
+      }
+    },
+    "reservations": {
+      "NO1": {
+        "cases": 43,
+        "mw": 1327
+      },
+      "NO5": {
+        "cases": 22,
+        "mw": 1104
+      }
+    },
+    "withdrawn": {
+      "NO1": {
+        "cases": 0,
+        "mw": 0
+      },
+      "NO5": {
+        "cases": 0,
+        "mw": 0
+      }
+    },
+    "connected": {
+      "NO1": {
+        "cases": 0,
+        "mw": 0
+      },
+      "NO5": {
+        "cases": 0,
+        "mw": 0
+      }
+    }
+  }
+}
