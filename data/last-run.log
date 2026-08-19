@@ -1,10 +1,5 @@
 Henter kapasitetskø...
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett.mjs:104
-  if(!await clickList(frame,listText)) throw new Error(`Klarte ikke åpne ${heading}-listen`);
-                                             ^
-
-Error: Klarte ikke åpne Kapasitetskø-listen
-    at extractReport (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett.mjs:104:46)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett.mjs:125:13
-
-Node.js v24.18.0
+Kø: 73 NO1/NO5-saker
+Henter reservasjoner...
+Reservasjoner: 0 NO1/NO5-saker
+Ferdig: {"queue":{"NO1":{"cases":51,"mw":2822},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}}}

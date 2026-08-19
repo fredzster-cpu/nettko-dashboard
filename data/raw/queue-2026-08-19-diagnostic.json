@@ -1,0 +1,154 @@
+{
+  "fetched_at": "2026-08-19T11:25:31.394Z",
+  "heading": "Kapasitetskø",
+  "grid_count": 2,
+  "diagnostics": [
+    {
+      "grid": 0,
+      "unique_rows": 236,
+      "parsed_count": 234,
+      "production_count": 0,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Kapasitet i kø (MW)",
+          "Dato - moden bestilling fra sluttkunde"
+        ],
+        [
+          "Velg rad",
+          "23/00869",
+          "ELB1336",
+          "Moskog TRA",
+          "Sogn og Sunnmøre",
+          "NO3",
+          "Linja AS",
+          "HyFuel AS",
+          "Hydrogen/ammoniakk",
+          "20",
+          ""
+        ],
+        [
+          "Velg rad",
+          "25/02165",
+          "ELB275",
+          "Vardal TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Daba Eiendom AS",
+          "Datasenter",
+          "200",
+          ""
+        ],
+        [
+          "Velg rad",
+          "26/04065",
+          "ELB2879",
+          "Vang TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Sørliterterminalen Stange AS",
+          "Industri",
+          "100",
+          ""
+        ],
+        [
+          "Velg rad",
+          "26/04386",
+          "ELB3385",
+          "Balsfjord TRA",
+          "Nord",
+          "NO4",
+          "Arva AS",
+          "CEDRUS AS",
+          "Datasenter",
+          "15",
+          ""
+        ]
+      ]
+    },
+    {
+      "grid": 1,
+      "unique_rows": 141,
+      "parsed_count": 139,
+      "production_count": 117,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Kapasitet i kø (MW)",
+          "Dato - moden bestilling fra sluttkunde"
+        ],
+        [
+          "Velg rad",
+          "24/01677",
+          "ELB141",
+          "Minne TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Løvhaugsåa Kraftverk AS",
+          "Vannkraft",
+          "2",
+          "24.10.2024"
+        ],
+        [
+          "Velg rad",
+          "25/02402",
+          "",
+          "Fortun KRA/TRA",
+          "Sogn og Sunnmøre",
+          "NO5",
+          "Linja AS",
+          "Offerdal Kraftverk AS",
+          "Vannkraft",
+          "2",
+          "29.05.2024"
+        ],
+        [
+          "Velg rad",
+          "23/01385",
+          "ELB183",
+          "Minne TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Endra AS",
+          "Solkraft",
+          "3",
+          "08.11.2023"
+        ],
+        [
+          "Velg rad",
+          "24/01673",
+          "ELB508",
+          "Rendalen transformatorstasjon TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "NØK Forbybar AS",
+          "Solkraft",
+          "4",
+          "02.06.2024"
+        ]
+      ]
+    }
+  ],
+  "selected_count": 73
+}
