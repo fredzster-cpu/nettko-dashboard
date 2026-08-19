@@ -1,5 +1,19 @@
 Henter kapasitetskø...
-Kø: 73 NO1/NO5-saker
-Henter reservasjoner...
-Reservasjoner: 0 NO1/NO5-saker
-Ferdig: {"queue":{"NO1":{"cases":51,"mw":2822},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":0,"mw":0},"NO5":{"cases":0,"mw":0}}}
+Kapasitetskø: forsøk 1/4
+Kapasitetskø: forsøk 1 feilet: Klarte ikke åpne Kapasitetskø-listen
+Kapasitetskø: forsøk 2/4
+Kapasitetskø: forsøk 2 feilet: Klarte ikke åpne Kapasitetskø-listen
+Kapasitetskø: forsøk 3/4
+Kapasitetskø: forsøk 3 feilet: Klarte ikke åpne Kapasitetskø-listen
+Kapasitetskø: forsøk 4/4
+Kapasitetskø: forsøk 4 feilet: Klarte ikke åpne Kapasitetskø-listen
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:252
+      throw new Error(`Klarte ikke åpne ${config.heading}-listen`);
+            ^
+
+Error: Klarte ikke åpne Kapasitetskø-listen
+    at extractOnce (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:252:13)
+    at async extractWithRetry (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:299:20)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v2.mjs:336:17
+
+Node.js v24.18.0
