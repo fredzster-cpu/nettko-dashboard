@@ -1,0 +1,77 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+Se liste over reservasjoner
+Informasjon om reservasjoner
+
+Reservasjoner 
+
+Forbruk (MW)
+7 715
+Produksjon (MW)
+8 277
+Dato - Reservert kapasitet
+Dato - Planlagt tilknytning
+Forbruk (MW)
+0
+2 000
+4 000
+6 000
+8 000
+10 000
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+81
+543
+254
+360
+301
+1 519
+1 415
+2 294
+778
+Produksjon (MW)
+0
+2 000
+4 000
+6 000
+8 000
+10 000
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+51
+6
+68
+103
+597
+434
+3 074
+2 449
+1 298
+Næringstype
+Alle
+Prisområde
+Alle
+Områdeplan
+Alle
+Se relevante begreper
+-
++
+100 %
+Microsoft Power BI
+Rapport zoomet til 100 %

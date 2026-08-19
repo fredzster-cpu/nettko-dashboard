@@ -1,0 +1,78 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+
+Tilknyttet kapasitet
+
+Se liste over saker med tilknyttet kapasitet
+Informasjon om tilknyttet kapasitet
+Dato kapasiteten ble tilknyttet
+Forbruk (MW)
+2 160
+Produksjon (MW)
+3 403
+Næringstype
+Alle
+Forbruk (MW)
+0
+1 000
+2 000
+3 000
+4 000
+5 000
+6 000
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+35
+25
+124
+153
+292
+478
+323
+494
+235
+Produksjon (MW)
+0
+1 000
+2 000
+3 000
+4 000
+5 000
+6 000
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+50
+60
+1255
+1314
+30
+71
+481
+140
+2
+Prisområde
+Alle
+Områdeplan
+Alle
+Se relevante begreper
+-
++
+100 %
+Microsoft Power BI
+Rapport zoomet til 100 %

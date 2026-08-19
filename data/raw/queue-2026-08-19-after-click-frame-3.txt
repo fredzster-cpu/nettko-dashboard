@@ -1,0 +1,58 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+
+Tilbaketrukket kapasitet
+
+Se liste over saker med tilbaketrukket kapasitet
+Informasjon om tilbaketrukket kapasitet
+Dato kapasiteten ble tilbaketrukket
+Forbruk (MW)
+5 104
+Produksjon (MW)
+1 753
+Næringstype
+Alle
+Forbruk (MW)
+0
+1 000
+2 000
+3 000
+4 000
+5 000
+6 000
+2022
+2023
+2024
+2025
+2026
+80
+344
+833
+2338
+1510
+Produksjon (MW)
+0
+1 000
+2 000
+3 000
+4 000
+5 000
+6 000
+2024
+2025
+2026
+47
+1225
+315
+Prisområde
+Alle
+Områdeplan
+Alle
+Se relevante begreper
+-
++
+100 %
+Microsoft Power BI
+Rapport zoomet til 100 %
