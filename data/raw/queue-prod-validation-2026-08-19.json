@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "updated_at": "2026-08-19T12:08:37.990Z",
+  "queue_cases": 73,
+  "queue_mw": 4161,
+  "totals": {
+    "NO1": {
+      "cases": 51,
+      "mw": 2822
+    },
+    "NO5": {
+      "cases": 22,
+      "mw": 1339
+    }
+  }
+}
