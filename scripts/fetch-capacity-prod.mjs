@@ -4,32 +4,32 @@ import path from 'path';
 
 const ROOT=process.cwd(), DATA=path.join(ROOT,'data'), RAW=path.join(DATA,'raw'), SNAP=path.join(DATA,'snapshots');
 await fs.mkdir(RAW,{recursive:true}); await fs.mkdir(SNAP,{recursive:true});
-const SOURCE='https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8';
+const SOURCE='https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/';
 const now=new Date().toISOString(), day=now.slice(0,10);
 const browser=await chromium.launch({headless:true});
 const productionTypes=new Set(['Vannkraft','Solkraft','Vindkraft','Kraftproduksjon','Havvind']);
 const configs=[
-  {key:'queue',heading:'Kapasitetskø',list:'Se liste over saker i kapasitetskø',status:'Kapasitetskø',required:true,minCases:60,minMw:3000},
-  {key:'reservations',heading:'Reservasjoner',list:'Se liste over reservasjoner',status:'Reservert',required:false,minCases:1,minMw:1},
-  {key:'withdrawn',heading:'Tilbaketrukket kapasitet',list:'Se liste over saker med tilbaketrukket kapasitet',status:'Tilbaketrukket',required:false,minCases:1,minMw:1},
-  {key:'connected',heading:'Tilknyttet kapasitet',list:'Se liste over saker med tilknyttet kapasitet',status:'Tilknyttet',required:false,minCases:1,minMw:1}
+  {key:'queue',heading:'Kapasitetskø',list:'Se liste over saker i kapasitetskø',status:'Kapasitetskø',required:true,minCases:60,minMw:3000,url:'https://app.powerbi.com/view?pageName=e919fd623fe16c1f1b5b&r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9'},
+  {key:'reservations',heading:'Reservasjoner',list:'Se liste over reservasjoner',status:'Reservert',required:false,minCases:1,minMw:1,url:'https://app.powerbi.com/view?pageName=ccba661604c0f2acf1b4&r=eyJrIjoiZTVkMmNiNDQtM2VhZi00OGQ0LWE0YTAtMjMyOGMxMzhlYmZmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9'},
+  {key:'withdrawn',heading:'Tilbaketrukket kapasitet',list:'Se liste over saker med tilbaketrukket kapasitet',status:'Tilbaketrukket',required:false,minCases:1,minMw:1,url:'https://app.powerbi.com/view?r=eyJrIjoiZjhkMjM1OWQtMDBlYS00NDUzLWE4YTMtNjA4YmYzMWQ2MDFlIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9'},
+  {key:'connected',heading:'Tilknyttet kapasitet',list:'Se liste over saker med tilknyttet kapasitet',status:'Tilknyttet',required:false,minCases:1,minMw:1,url:'https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9'}
 ];
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const num=s=>{if(s==null||s==='')return null;const x=Number(String(s).replace(/\s/g,'').replace(',','.'));return Number.isFinite(x)?x:null};
 const total=(rows,area)=>{const a=rows.filter(r=>r.area===area);return {cases:a.length,mw:a.reduce((s,r)=>s+(r.mw||0),0)}};
 
-async function fresh(){
+async function fresh(cfg){
   const context=await browser.newContext({locale:'nb-NO',viewport:{width:1920,height:1400}});
   const page=await context.newPage(); page.setDefaultTimeout(15000);
-  await page.goto(SOURCE,{waitUntil:'domcontentloaded',timeout:90000}); await page.waitForTimeout(10000);
+  await page.goto(cfg.url,{waitUntil:'domcontentloaded',timeout:90000}); await page.waitForTimeout(10000);
   return {context,page};
 }
 
 async function findOverview(page,cfg){
   for(let round=0;round<35;round++){
-    for(const f of page.frames().filter(f=>f.url().includes('app.powerbi.com'))){
+    for(const f of page.frames()){
       const t=await f.locator('body').innerText({timeout:4000}).catch(()=>'');
-      if(t.includes(cfg.heading)&&t.includes(cfg.list)) return f;
+      if(t.includes(cfg.list)||(t.includes(cfg.heading)&&t.toLowerCase().includes('liste'))) return f;
     }
     await page.waitForTimeout(1000);
   }
@@ -48,7 +48,7 @@ async function clickList(page,frame,cfg){
           if(mode==='click') await el.click({timeout:10000,force:true});
           if(mode==='enter') await el.press('Enter');
           if(mode==='space') await el.press('Space');
-          await page.waitForTimeout(2500);
+          await page.waitForTimeout(3000);
           return true;
         }catch{}
       }
@@ -70,7 +70,7 @@ async function clickList(page,frame,cfg){
 async function detailFrame(page){
   for(let round=0;round<40;round++){
     let fallback=null;
-    for(const f of page.frames().filter(f=>f.url().includes('app.powerbi.com'))){
+    for(const f of page.frames()){
       const grids=f.locator('[role="grid"],[role="table"],[role="treegrid"]');
       const n=await grids.count().catch(()=>0);
       for(let i=0;i<n;i++){
@@ -126,17 +126,21 @@ function parse(rows,status){
 async function extract(cfg){
   let lastError=null;
   for(let attempt=1;attempt<=4;attempt++){
-    const {context,page}=await fresh();
+    const {context,page}=await fresh(cfg);
     try{
       console.log(`${cfg.heading}: forsøk ${attempt}/4`);
-      const ov=await findOverview(page,cfg); if(!ov)throw new Error('oversikts-frame ikke funnet');
-      if(!await clickList(page,ov,cfg))throw new Error('klikk feilet'); await page.waitForTimeout(3500);
-      const df=await detailFrame(page); if(!df)throw new Error('detalj-frame ikke funnet');
+      // Some reports can open directly in the detail page. Try that first.
+      let df=await detailFrame(page);
+      if(!df){
+        const ov=await findOverview(page,cfg); if(!ov)throw new Error('oversikts-frame ikke funnet');
+        if(!await clickList(page,ov,cfg))throw new Error('klikk feilet'); await page.waitForTimeout(3500);
+        df=await detailFrame(page); if(!df)throw new Error('detalj-frame ikke funnet');
+      }
       const grids=df.locator('[role="grid"],[role="table"],[role="treegrid"]'),gc=await grids.count(); if(!gc)throw new Error('ingen grid funnet i detaljvisning');
       const candidates=[],diag=[];
       for(let i=0;i<gc;i++){const rows=await collect(grids.nth(i),page);const parsed=parse(rows,cfg.status);diag.push({grid:i,rows:rows.length,parsed:parsed.length,sample:rows.slice(0,4)});candidates.push(parsed)}
       candidates.sort((a,b)=>b.length-a.length); const data=candidates[0]||[],mw=data.reduce((s,r)=>s+r.mw,0);
-      await fs.writeFile(path.join(RAW,`${cfg.key}-${day}-prod-diagnostic.json`),JSON.stringify({updated_at:now,attempt,grid_count:gc,cases:data.length,mw,diag},null,2));
+      await fs.writeFile(path.join(RAW,`${cfg.key}-${day}-prod-diagnostic.json`),JSON.stringify({updated_at:now,url:cfg.url,attempt,grid_count:gc,cases:data.length,mw,diag},null,2));
       if(data.length<cfg.minCases||mw<cfg.minMw)throw new Error(`ufullstendig uttrekk (${data.length} saker / ${mw} MW)`);
       console.log(`${cfg.heading}: ${data.length} saker, ${mw} MW`); await context.close(); return {ok:true,data,error:null};
     }catch(e){
