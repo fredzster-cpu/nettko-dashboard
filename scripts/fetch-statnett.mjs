@@ -6,156 +6,371 @@ const ROOT = process.cwd();
 const OUT = path.join(ROOT, 'data', 'raw');
 await fs.mkdir(OUT, { recursive: true });
 
-const SOURCES = [
-  {
-    key: 'queue',
-    page: 'https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8',
-    label: 'Kapasitetskø'
-  },
-  {
-    key: 'reservations',
-    page: 'https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#reservasjoner',
-    label: 'Reservasjoner'
-  }
-];
+const STATNETT =
+  'https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#kapasitetsk%C3%B8';
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({
+  headless: true
+});
 
 const context = await browser.newContext({
   locale: 'nb-NO',
-  viewport: { width: 1600, height: 1200 }
+  viewport: {
+    width: 1920,
+    height: 1400
+  }
 });
 
-async function collect(source) {
-  const page = await context.newPage();
+const page = await context.newPage();
 
-  const now = new Date().toISOString();
-  const day = now.slice(0, 10);
+const now = new Date().toISOString();
+const day = now.slice(0, 10);
 
-  console.log(`Åpner ${source.label}...`);
+console.log('Åpner Statnett...');
 
-  await page.goto(source.page, {
-    waitUntil: 'domcontentloaded',
-    timeout: 90000
-  });
+await page.goto(STATNETT, {
+  waitUntil: 'domcontentloaded',
+  timeout: 90000
+});
 
-  await page.waitForTimeout(10000);
+await page.waitForTimeout(10000);
 
-  const frames = page
-    .frames()
-    .filter(frame => frame.url().includes('app.powerbi.com'));
+// ----------------------------------------------------
+// 1. Finn riktig Power BI-frame
+// ----------------------------------------------------
 
-  console.log(
-    `${source.label}: fant ${frames.length} Power BI-frame(s)`
+console.log('Leter etter Kapasitetskø-rapporten...');
+
+const powerBIFrames = page
+  .frames()
+  .filter(frame => frame.url().includes('app.powerbi.com'));
+
+console.log(
+  `Fant ${powerBIFrames.length} Power BI-frame(s)`
+);
+
+let queueFrame = null;
+
+for (const frame of powerBIFrames) {
+
+  const text = await frame
+    .locator('body')
+    .innerText({ timeout: 15000 })
+    .catch(() => '');
+
+  if (
+    text.includes('Kapasitetskø') &&
+    text.includes('Se liste over saker i kapasitetskø')
+  ) {
+    queueFrame = frame;
+    console.log('Fant Kapasitetskø-frame!');
+    break;
+  }
+}
+
+if (!queueFrame) {
+  throw new Error(
+    'Fant ikke Power BI-framen for Kapasitetskø.'
   );
+}
 
-  if (!frames.length) {
-    await page.screenshot({
-      path: path.join(OUT, `${source.key}-${day}-no-frame.png`),
-      fullPage: true
-    });
+// ----------------------------------------------------
+// 2. Lagre BEFORE-diagnostikk
+// ----------------------------------------------------
 
-    throw new Error(
-      `Fant ingen Power BI-frame for ${source.label}`
+const beforeText = await queueFrame
+  .locator('body')
+  .innerText()
+  .catch(() => '');
+
+await fs.writeFile(
+  path.join(OUT, `queue-${day}-before-click.txt`),
+  beforeText,
+  'utf-8'
+);
+
+await page.screenshot({
+  path: path.join(OUT, `queue-${day}-before-click.png`),
+  fullPage: true
+});
+
+// ----------------------------------------------------
+// 3. Finn "Se liste over saker i kapasitetskø"
+// ----------------------------------------------------
+
+console.log(
+  'Forsøker å åpne listen over saker i kapasitetskø...'
+);
+
+let clicked = false;
+
+// Først forsøker vi semantiske Playwright-lokatorer.
+
+const candidates = [
+  queueFrame.getByText(
+    'Se liste over saker i kapasitetskø',
+    { exact: false }
+  ),
+
+  queueFrame.getByRole('button', {
+    name: /Se liste over saker i kapasitetskø/i
+  }),
+
+  queueFrame.getByRole('link', {
+    name: /Se liste over saker i kapasitetskø/i
+  })
+];
+
+for (const locator of candidates) {
+
+  try {
+
+    const count = await locator.count();
+
+    console.log(
+      `Klikk-kandidat har ${count} treff`
+    );
+
+    if (count > 0) {
+
+      await locator.first().scrollIntoViewIfNeeded();
+
+      await locator.first().click({
+        timeout: 15000,
+        force: true
+      });
+
+      clicked = true;
+
+      console.log('Klikket på listevisningen.');
+
+      break;
+    }
+
+  } catch (error) {
+
+    console.log(
+      `Klikkforsøk feilet: ${String(error)}`
     );
   }
+}
 
-  const captures = [];
+// ----------------------------------------------------
+// 4. Hvis vanlig klikk ikke fungerer:
+//    forsøk å finne tekst-elementet direkte
+// ----------------------------------------------------
 
-  for (let i = 0; i < frames.length; i++) {
-    const frame = frames[i];
+if (!clicked) {
 
-    try {
-      await frame
-        .waitForLoadState('domcontentloaded', { timeout: 30000 })
-        .catch(() => {});
+  console.log(
+    'Vanlig klikk fungerte ikke. Forsøker DOM-klikk...'
+  );
 
-      await page.waitForTimeout(5000);
+  clicked = await queueFrame.evaluate(() => {
 
-      const text = await frame
-        .locator('body')
-        .innerText({ timeout: 15000 })
-        .catch(() => '');
+    const targetText =
+      'Se liste over saker i kapasitetskø';
 
-      const html = await frame
-        .locator('body')
-        .innerHTML({ timeout: 15000 })
-        .catch(() => '');
+    const elements = Array.from(
+      document.querySelectorAll('*')
+    );
 
-      captures.push({
-        frameIndex: i,
-        url: frame.url(),
-        textLength: text.length,
-        htmlLength: html.length,
-        text
-      });
+    const target = elements.find(el => {
 
-      await fs.writeFile(
-        path.join(
-          OUT,
-          `${source.key}-${day}-frame-${i}.txt`
-        ),
-        text,
-        'utf-8'
-      );
+      const text =
+        (el.textContent || '').trim();
 
-    } catch (error) {
-      captures.push({
-        frameIndex: i,
-        url: frame.url(),
-        error: String(error)
-      });
+      return text === targetText;
+    });
+
+    if (!target) {
+      return false;
     }
-  }
 
-  await page.screenshot({
-    path: path.join(
-      OUT,
-      `${source.key}-${day}.png`
-    ),
-    fullPage: true
+    target.dispatchEvent(
+      new MouseEvent('click', {
+        bubbles: true,
+        cancelable: true,
+        view: window
+      })
+    );
+
+    return true;
+  }).catch(() => false);
+}
+
+console.log(`Klikk registrert: ${clicked}`);
+
+// ----------------------------------------------------
+// 5. Vent på at Power BI navigerer
+// ----------------------------------------------------
+
+await page.waitForTimeout(10000);
+
+// Power BI kan navigere i samme frame eller opprette/endret frame.
+// Derfor søker vi gjennom alle frames på nytt.
+
+const framesAfterClick = page
+  .frames()
+  .filter(frame => frame.url().includes('app.powerbi.com'));
+
+const afterFrames = [];
+
+for (let i = 0; i < framesAfterClick.length; i++) {
+
+  const frame = framesAfterClick[i];
+
+  const text = await frame
+    .locator('body')
+    .innerText({ timeout: 15000 })
+    .catch(() => '');
+
+  afterFrames.push({
+    frameIndex: i,
+    url: frame.url(),
+    textLength: text.length,
+    text
   });
-
-  const result = {
-    fetched_at: now,
-    source: source.label,
-    page_url: source.page,
-    frames: captures
-  };
 
   await fs.writeFile(
     path.join(
       OUT,
-      `${source.key}-${day}.json`
+      `queue-${day}-after-click-frame-${i}.txt`
     ),
-    JSON.stringify(result, null, 2),
+    text,
     'utf-8'
   );
-
-  await page.close();
-
-  return result;
 }
 
-let success = true;
+// ----------------------------------------------------
+// 6. Lagre skjermbilde etter klikk
+// ----------------------------------------------------
 
-for (const source of SOURCES) {
-  try {
-    await collect(source);
-  } catch (error) {
-    success = false;
-    console.error(error);
+await page.screenshot({
+  path: path.join(
+    OUT,
+    `queue-${day}-after-click.png`
+  ),
+  fullPage: true
+});
+
+// ----------------------------------------------------
+// 7. Finn mest sannsynlige detalj-frame
+// ----------------------------------------------------
+
+let detailCandidate = null;
+
+for (const frame of afterFrames) {
+
+  const t = frame.text || '';
+
+  // Vi gir poeng for begreper vi forventer i detaljlisten.
+
+  let score = 0;
+
+  const keywords = [
+    'Prisområde',
+    'Næringstype',
+    'Forbruk',
+    'Produksjon',
+    'MW',
+    'Områdeplan',
+    'Tilknytning'
+  ];
+
+  for (const keyword of keywords) {
+    if (t.includes(keyword)) {
+      score++;
+    }
+  }
+
+  // En detaljtabell bør normalt inneholde
+  // vesentlig mer tekst enn oversiktssiden.
+
+  if (t.length > 1500) {
+    score += 3;
+  }
+
+  frame.score = score;
+
+  if (
+    !detailCandidate ||
+    score > detailCandidate.score
+  ) {
+    detailCandidate = frame;
   }
 }
 
-await browser.close();
+// ----------------------------------------------------
+// 8. Lagre samlet resultat
+// ----------------------------------------------------
 
-if (!success) {
-  console.error(
-    'En eller flere Statnett-kilder feilet. Diagnostikk er lagret i data/raw.'
+const result = {
+  fetched_at: now,
+  source: 'Statnett Kapasitetskø',
+  clicked_list_view: clicked,
+
+  frames_found_before_click:
+    powerBIFrames.length,
+
+  frames_found_after_click:
+    framesAfterClick.length,
+
+  detail_candidate:
+    detailCandidate
+      ? {
+          frameIndex:
+            detailCandidate.frameIndex,
+
+          url:
+            detailCandidate.url,
+
+          textLength:
+            detailCandidate.textLength,
+
+          score:
+            detailCandidate.score
+        }
+      : null,
+
+  frames: afterFrames.map(frame => ({
+    frameIndex: frame.frameIndex,
+    url: frame.url(),
+    textLength: frame.textLength,
+    score: frame.score
+  }))
+};
+
+await fs.writeFile(
+  path.join(
+    OUT,
+    `queue-${day}-detail-result.json`
+  ),
+  JSON.stringify(result, null, 2),
+  'utf-8'
+);
+
+// Hvis vi har en kandidat, lagrer vi også teksten
+// separat slik at den er enkel å åpne i GitHub.
+
+if (detailCandidate) {
+
+  await fs.writeFile(
+    path.join(
+      OUT,
+      `queue-${day}-DETAIL.txt`
+    ),
+    detailCandidate.text,
+    'utf-8'
   );
 
-  process.exitCode = 2;
-} else {
-  console.log('Statnett-fangst fullført.');
+  console.log(
+    `Detaljkandidat: frame ${detailCandidate.frameIndex}, ` +
+    `${detailCandidate.textLength} tegn, ` +
+    `score ${detailCandidate.score}`
+  );
 }
+
+console.log('Ferdig.');
+
+await browser.close();
