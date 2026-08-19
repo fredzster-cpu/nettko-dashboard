@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   fetch:
-    if: github.actor != 'nettko-bot'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
