@@ -60,6 +60,7 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs connected 2>&1 | tee -a data/last-run.log
 
+      # Always run the hardened connected extractor before final validation.
       - name: Korriger og valider prisområde for tilknyttet
         shell: bash
         run: |
