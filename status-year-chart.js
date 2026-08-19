@@ -47,24 +47,55 @@
     const totalEl=document.getElementById('statusYearTotal'),titleEl=document.getElementById('statusYearTitle'),hintEl=document.getElementById('statusYearHint');
     if(totalEl) totalEl.textContent=Math.round(total).toLocaleString('nb-NO');
     if(titleEl) titleEl.textContent=activeLabel()+' – forbruk (MW)';
-    if(hintEl) hintEl.textContent=rows.length+' saker i aktivt utvalg · hver søyle viser MW som kom til i det året.';
+    if(hintEl) hintEl.textContent=rows.length+' saker i aktivt utvalg · waterfall: hver søyle starter der forrige år sluttet.';
 
     if(yearlyChart){yearlyChart.destroy();yearlyChart=null;}
     const canvas=document.getElementById('statusYearChart');if(!canvas)return;
     if(!years.length){const c=canvas.getContext('2d');c.clearRect(0,0,canvas.width,canvas.height);if(hintEl)hintEl.textContent='Ingen daterte saker i aktivt utvalg.';return;}
 
     let running=0;
-    const floating=increments.map(v=>{const start=running;running+=v;return [start,running];});
+    const bases=increments.map(v=>{const b=running;running+=v;return b;});
+    const tops=bases.map((b,i)=>b+increments[i]);
+
+    const connectorPlugin={
+      id:'waterfallConnectors',
+      afterDatasetsDraw(chart){
+        const meta=chart.getDatasetMeta(1);if(!meta?.data?.length)return;
+        const {ctx}=chart;ctx.save();ctx.strokeStyle='rgba(11,75,58,.45)';ctx.lineWidth=1;
+        for(let i=0;i<meta.data.length-1;i++){
+          const a=meta.data[i],b=meta.data[i+1];
+          const y=chart.scales.y.getPixelForValue(tops[i]);
+          ctx.beginPath();ctx.moveTo(a.x+a.width/2,y);ctx.lineTo(b.x-b.width/2,y);ctx.stroke();
+        }
+        ctx.restore();
+      }
+    };
+    const labelPlugin={
+      id:'waterfallLabels',
+      afterDatasetsDraw(chart){
+        const meta=chart.getDatasetMeta(1),{ctx}=chart;ctx.save();ctx.fillStyle='#17382e';ctx.textAlign='center';ctx.textBaseline='bottom';ctx.font='12px Inter, system-ui, sans-serif';
+        meta.data.forEach((bar,i)=>{const y=chart.scales.y.getPixelForValue(tops[i]);ctx.fillText(increments[i].toLocaleString('nb-NO'),bar.x,y-7);});ctx.restore();
+      }
+    };
 
     yearlyChart=new Chart(canvas,{
       type:'bar',
-      data:{labels:years,datasets:[{data:floating,backgroundColor:'#0b4b3a',borderColor:'#0b4b3a',borderWidth:0,borderSkipped:false,borderRadius:0,maxBarThickness:86}]},
+      data:{labels:years,datasets:[
+        {label:'Startnivå',data:bases,backgroundColor:'rgba(0,0,0,0)',borderWidth:0,stack:'waterfall',barPercentage:.72,categoryPercentage:.82},
+        {label:'Årlig endring',data:increments,backgroundColor:'#0b4b3a',borderColor:'#0b4b3a',borderWidth:0,borderRadius:0,stack:'waterfall',maxBarThickness:86,barPercentage:.72,categoryPercentage:.82}
+      ]},
       options:{
         responsive:true,maintainAspectRatio:false,animation:false,layout:{padding:{top:26,right:8,bottom:0,left:0}},
-        plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>increments[c.dataIndex].toLocaleString('nb-NO')+' MW'}}},
-        scales:{x:{grid:{display:false},border:{display:false},ticks:{color:'#18362c'}},y:{beginAtZero:true,border:{display:false},grid:{color:'rgba(70,95,85,.18)',borderDash:[2,5]},ticks:{color:'#18362c',callback:v=>Number(v).toLocaleString('nb-NO')}}}
+        plugins:{
+          legend:{display:false},
+          tooltip:{filter:item=>item.datasetIndex===1,callbacks:{label:c=>increments[c.dataIndex].toLocaleString('nb-NO')+' MW'}}
+        },
+        scales:{
+          x:{stacked:true,grid:{display:false},border:{display:false},ticks:{color:'#18362c'}},
+          y:{stacked:true,beginAtZero:true,border:{display:false},grid:{color:'rgba(70,95,85,.18)',borderDash:[2,5]},ticks:{color:'#18362c',callback:v=>Number(v).toLocaleString('nb-NO')}}
+        }
       },
-      plugins:[{id:'waterfallLabels',afterDatasetsDraw(chart){const {ctx}=chart;ctx.save();ctx.fillStyle='#17382e';ctx.textAlign='center';ctx.textBaseline='bottom';ctx.font='12px Inter, system-ui, sans-serif';chart.getDatasetMeta(0).data.forEach((bar,i)=>ctx.fillText(increments[i].toLocaleString('nb-NO'),bar.x,bar.y-7));ctx.restore();}}]
+      plugins:[connectorPlugin,labelPlugin]
     });
   }
 
