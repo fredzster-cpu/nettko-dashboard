@@ -6,7 +6,7 @@ on:
     - cron: "20 5 * * *"
   push:
     paths:
-      - "scripts/fetch-statnett-v2.mjs"
+      - "scripts/fetch-statnett-v3.mjs"
       - ".github/workflows/daily-update.yml"
 
 permissions:
@@ -36,7 +36,7 @@ jobs:
         run: |
           set +e
           mkdir -p data
-          node scripts/fetch-statnett-v2.mjs 2>&1 | tee data/last-run.log
+          node scripts/fetch-statnett-v3.mjs 2>&1 | tee data/last-run.log
           code=${PIPESTATUS[0]}
           echo "$code" > data/last-run-exit-code.txt
           exit 0
