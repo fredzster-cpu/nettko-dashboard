@@ -1,21 +1,21 @@
 Henter kapasitetskø...
 Kapasitetskø: forsøk 1/4
-Kapasitetskø: 73 saker, 4161 MW
+Kapasitetskø: 25 saker, 1698 MW
 Henter reservasjoner...
 Reservasjoner: forsøk 1/4
-Reservasjoner: forsøk 1 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 1 feilet: detaljvisning åpnet ikke
 Reservasjoner: forsøk 2/4
-Reservasjoner: forsøk 2 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 2 feilet: detaljvisning åpnet ikke
 Reservasjoner: forsøk 3/4
-Reservasjoner: forsøk 3 feilet: detalj-frame ikke funnet
+Reservasjoner: forsøk 3 feilet: detaljvisning åpnet ikke
 Reservasjoner: forsøk 4/4
-Reservasjoner: forsøk 4 feilet: detalj-frame ikke funnet
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:157
-      if(!detail)throw new Error('detalj-frame ikke funnet');
-                       ^
+Reservasjoner: forsøk 4 feilet: detaljvisning åpnet ikke
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v4.mjs:201
+      if(!await clickAndVerify(page,overview,config.listText))throw new Error('detaljvisning åpnet ikke');
+                                                                    ^
 
-Error: detalj-frame ikke funnet
-    at extract (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:157:24)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v3.mjs:200:20
+Error: detaljvisning åpnet ikke
+    at extract (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v4.mjs:201:69)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-statnett-v4.mjs:240:20
 
 Node.js v24.18.0
