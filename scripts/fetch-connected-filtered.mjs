@@ -7,6 +7,8 @@ await fs.mkdir(RAW,{recursive:true});
 const SOURCE='https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9';
 const now=new Date().toISOString(), day=now.slice(0,10);
 const productionTypes=new Set(['Vannkraft','Solkraft','Vindkraft','Kraftproduksjon','Havvind']);
+const no1Plans=new Set(['Oslo, Akershus og Østfold','Innlandet','Hallingdal og Ringerike']);
+const no5Plans=new Set(['Bergen og Haugalandet','Sogn og Sunnmøre']);
 const outsidePlans=new Set(['Helgeland og Salten','Midt','Sør Rogaland og Agder','Sør-Rogaland og Agder','Nord','Finnmark','Troms','Trøndelag','Telemark og Vestfold']);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const clean=s=>String(s||'').replace(/\u00a0/g,' ').replace(/\s+/g,' ').trim();
@@ -26,15 +28,28 @@ for(const [s,v] of votes){
   else if(v.NO5&&!v.NO1) stationArea.set(s,'NO5');
   else if(v.NO1!==v.NO5) stationArea.set(s,v.NO1>v.NO5?'NO1':'NO5');
 }
+// Verified boundary case: Statnett's NO1-filtered connected view contains Flesaker
+// cases even when their area plan is Telemark og Vestfold.
 stationArea.set('Flesaker TRA','NO1');
 
 function inferArea(plan='',station=''){
-  const s=clean(station); if(stationArea.has(s)) return stationArea.get(s);
-  const p=clean(plan);
-  if(['Oslo, Akershus og Østfold','Innlandet','Hallingdal og Ringerike'].includes(p)) return 'NO1';
-  if(['Bergen og Haugalandet','Sogn og Sunnmøre'].includes(p)) return 'NO5';
+  const s=clean(station), p=clean(plan);
+  if(s==='Flesaker TRA') return 'NO1';
+  // The area plan is normally more reliable than a station vote. Some stations occur
+  // in cases from multiple price areas; station-first classification leaked non-NO5
+  // rows into NO5. Use station mapping only when the plan is not decisive.
+  if(no1Plans.has(p)) return 'NO1';
+  if(no5Plans.has(p)) return 'NO5';
   if(outsidePlans.has(p)) return 'OUT';
+  if(stationArea.has(s)) return stationArea.get(s);
   return null;
+}
+function areaMethod(plan='',station=''){
+  const s=clean(station),p=clean(plan);
+  if(s==='Flesaker TRA') return 'station_override';
+  if(no1Plans.has(p)||no5Plans.has(p)||outsidePlans.has(p)) return 'area_plan';
+  if(stationArea.has(s)) return 'station_map';
+  return 'unresolved';
 }
 
 function parseForbruk(body){
@@ -131,9 +146,11 @@ function parseRows(rows){
   for(const r of rows.filter(x=>x!==h)){
     const mw=num(r[iMw]),industry=r[iIndustry]||null; if(mw==null||productionTypes.has(industry)) continue;
     const statnettCase=iCase>=0?r[iCase]||null:null,station=iStation>=0?r[iStation]||null:null,plan=iPlan>=0?r[iPlan]||null:null;
+    // Power BI includes a grand-total row. It must never become a project case.
+    if(clean(statnettCase).toLowerCase()==='totalt') continue;
     if(!statnettCase && !(iEnd>=0?r[iEnd]:null) && !(iCustomer>=0?r[iCustomer]:null)) continue;
     const area=inferArea(plan,station);
-    const row={id:(statnettCase||(iTilko>=0?r[iTilko]:null)||`Tilknyttet-${station}-${iEnd>=0?r[iEnd]:''}-${mw}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:statnettCase,tilko_case:iTilko>=0?r[iTilko]||null:null,station,area_plan:plan,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry,mw,date:iDate>=0?r[iDate]||null:null,status:'Tilknyttet',source:'Statnett',area_method:stationArea.has(clean(station))?'station_map':'area_plan'};
+    const row={id:(statnettCase||(iTilko>=0?r[iTilko]:null)||`Tilknyttet-${station}-${iEnd>=0?r[iEnd]:''}-${mw}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:statnettCase,tilko_case:iTilko>=0?r[iTilko]||null:null,station,area_plan:plan,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry,mw,date:iDate>=0?r[iDate]||null:null,status:'Tilknyttet',source:'Statnett',area_method:areaMethod(plan,station)};
     if(area==='NO1'||area==='NO5') data.push(row); else if(area==='OUT') outside.push(row); else unresolved.push(row);
   }
   return {data,outside,unresolved};
@@ -163,13 +180,13 @@ await browser.close();
 
 const knownNO1=total(parsed.data.filter(r=>r.area==='NO1'));
 const knownNO5=total(parsed.data.filter(r=>r.area==='NO5'));
+await fs.writeFile(path.join(RAW,`connected-${day}-classification-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},candidate:{NO1:knownNO1,NO5:knownNO5},outside:total(parsed.outside),unresolved:parsed.unresolved},null,2));
 if(parsed.unresolved.length){
   if(Math.round(knownNO1.mw)===Math.round(kpiNO1) && Math.round(knownNO5.mw)===Math.round(kpiNO5)){
     console.log(`Tilknyttet: ${parsed.unresolved.length} uavklarte landsrader ekskluderes fra NO1/NO5 fordi klassifiserte rader matcher Statnetts KPI-er nøyaktig`);
     parsed.outside.push(...parsed.unresolved.map(r=>({...r,area:'OUT',area_method:'excluded_by_kpi_balance'})));
     parsed.unresolved.length=0;
   } else {
-    await fs.writeFile(path.join(RAW,`connected-${day}-classification-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},candidate:{NO1:knownNO1,NO5:knownNO5},outside:total(parsed.outside),unresolved:parsed.unresolved},null,2));
     throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW; kjente rader NO1 ${knownNO1.mw}/${kpiNO1}, NO5 ${knownNO5.mw}/${kpiNO5}`);
   }
 }
