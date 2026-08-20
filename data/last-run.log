@@ -13,7 +13,7 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:15:35.590Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:15:35.590Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:15:35.590Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:59:37.212Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:59:37.212Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T03:59:37.212Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
 Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
 Reservasjoner kildehenter: forsøk 2/4
@@ -46,20 +46,13 @@ Error: uavklarte prisområder: 37 saker / 9177.2 MW
     at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
 
 Node.js v24.18.0
-Tilknyttet filtrert NO1: forsøk 1/4
-NO1 filtrerte detaljrader matcher ikke Statnett-KPI: rader 4319.279999999999 MW vs KPI 296 MW
-Tilknyttet filtrert NO1: forsøk 2/4
-NO1 filtrerte detaljrader matcher ikke Statnett-KPI: rader 4319.279999999999 MW vs KPI 296 MW
-Tilknyttet filtrert NO1: forsøk 3/4
-NO1 filtrerte detaljrader matcher ikke Statnett-KPI: rader 4319.279999999999 MW vs KPI 296 MW
-Tilknyttet filtrert NO1: forsøk 4/4
-NO1 filtrerte detaljrader matcher ikke Statnett-KPI: rader 4319.279999999999 MW vs KPI 296 MW
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:138
-      if(Math.round(t.mw)!==Math.round(kpi))throw new Error(`${area} filtrerte detaljrader matcher ikke Statnett-KPI: rader ${t.mw} MW vs KPI ${kpi} MW`);
-                                                  ^
+Tilknyttet Statnett KPI NO1: 296 MW
+Tilknyttet Statnett KPI NO5: 251 MW
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:166
+if(parsed.unresolved.length) throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW`);
+                                   ^
 
-Error: NO1 filtrerte detaljrader matcher ikke Statnett-KPI: rader 4319.279999999999 MW vs KPI 296 MW
-    at extractArea (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:138:51)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:145:10
+Error: Tilknyttet har 12 uavklarte saker / 2473.94 MW
+    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:166:36
 
 Node.js v24.18.0
