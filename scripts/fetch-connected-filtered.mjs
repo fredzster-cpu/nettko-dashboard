@@ -7,7 +7,10 @@ await fs.mkdir(RAW,{recursive:true});
 const SOURCE='https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9';
 const now=new Date().toISOString(), day=now.slice(0,10);
 const productionTypes=new Set(['Vannkraft','Solkraft','Vindkraft','Kraftproduksjon','Havvind']);
-const outsidePlans=new Set(['Helgeland og Salten','Midt','Sør Rogaland og Agder','Sør-Rogaland og Agder','Nord','Finnmark','Troms','Trøndelag']);
+// Plans that are outside the requested NO1/NO5 scope. Telemark og Vestfold is NO2 and
+// must never be treated as unresolved/eligible for NO1 or NO5 just because the detail
+// table does not expose Prisområde.
+const outsidePlans=new Set(['Helgeland og Salten','Midt','Sør Rogaland og Agder','Sør-Rogaland og Agder','Nord','Finnmark','Troms','Trøndelag','Telemark og Vestfold']);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const clean=s=>String(s||'').replace(/\u00a0/g,' ').replace(/\s+/g,' ').trim();
 const num=s=>{const x=Number(String(s??'').replace(/\u00a0/g,'').replace(/\s/g,'').replace(',','.'));return Number.isFinite(x)?x:null};
@@ -163,6 +166,9 @@ const kpiNO5=await readAreaKpi('NO5');
 const parsed=await readAllDetails();
 await browser.close();
 
+// Persist classification evidence even when validation fails, so future runs can fix
+// only the genuinely unknown stations/plans instead of guessing.
+await fs.writeFile(path.join(RAW,`connected-${day}-classification-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},candidate:{NO1:total(parsed.data.filter(r=>r.area==='NO1')),NO5:total(parsed.data.filter(r=>r.area==='NO5'))},outside:total(parsed.outside),unresolved:parsed.unresolved},null,2));
 if(parsed.unresolved.length) throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW`);
 const no1=parsed.data.filter(r=>r.area==='NO1'),no5=parsed.data.filter(r=>r.area==='NO5');
 const t1=total(no1),t5=total(no5);
