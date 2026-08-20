@@ -13,7 +13,7 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T00:00:52.962Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T00:00:52.962Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T00:00:52.962Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T01:58:12.717Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T01:58:12.717Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T01:58:12.717Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
 Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
 Reservasjoner kildehenter: forsøk 2/4
@@ -46,106 +46,20 @@ Error: uavklarte prisområder: 37 saker / 9177.2 MW
     at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
 
 Node.js v24.18.0
-Tilknyttet scope: forsøk 1/4
-Tilknyttet validert: NO1 17/296 MW, NO5 21/622.5400000000002 MW
-TILKNYTTET SCOPE VALIDERT
-{
-  "updated_at": "2026-08-20T00:21:31.250Z",
-  "source": {
-    "NO1": {
-      "queue": 2521,
-      "reservations": 1326,
-      "connected": 296,
-      "withdrawn": 60
-    },
-    "NO5": {
-      "queue": 1339,
-      "reservations": 1104,
-      "connected": 251,
-      "withdrawn": 130
-    }
-  },
-  "checks": [
-    {
-      "key": "queue",
-      "area": "NO1",
-      "statnett_mw": 2521,
-      "row_mw": 2522,
-      "row_displayed_mw": 2522,
-      "cases": 49,
-      "ok": false
-    },
-    {
-      "key": "reservations",
-      "area": "NO1",
-      "statnett_mw": 1326,
-      "row_mw": 1327,
-      "row_displayed_mw": 1327,
-      "cases": 43,
-      "ok": false
-    },
-    {
-      "key": "connected",
-      "area": "NO1",
-      "statnett_mw": 296,
-      "row_mw": 296,
-      "row_displayed_mw": 296,
-      "cases": 17,
-      "ok": true
-    },
-    {
-      "key": "withdrawn",
-      "area": "NO1",
-      "statnett_mw": 60,
-      "row_mw": 60,
-      "row_displayed_mw": 60,
-      "cases": 2,
-      "ok": true
-    },
-    {
-      "key": "queue",
-      "area": "NO5",
-      "statnett_mw": 1339,
-      "row_mw": 1339,
-      "row_displayed_mw": 1339,
-      "cases": 22,
-      "ok": true
-    },
-    {
-      "key": "reservations",
-      "area": "NO5",
-      "statnett_mw": 1104,
-      "row_mw": 1104,
-      "row_displayed_mw": 1104,
-      "cases": 22,
-      "ok": true
-    },
-    {
-      "key": "connected",
-      "area": "NO5",
-      "statnett_mw": 251,
-      "row_mw": 622.5400000000002,
-      "row_displayed_mw": 623,
-      "cases": 21,
-      "ok": false
-    },
-    {
-      "key": "withdrawn",
-      "area": "NO5",
-      "statnett_mw": 130,
-      "row_mw": 130,
-      "row_displayed_mw": 130,
-      "cases": 4,
-      "ok": true
-    }
-  ],
-  "ok": false
-}
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:188
-  throw new Error(`STATNETT AUDIT FEILET: ${bad}`);
-        ^
+Tilknyttet filtrert NO1: forsøk 1/4
+NO1 filter forsvant ved åpning av detaljtabellen
+Tilknyttet filtrert NO1: forsøk 2/4
+NO1 filter forsvant ved åpning av detaljtabellen
+Tilknyttet filtrert NO1: forsøk 3/4
+NO1 filter forsvant ved åpning av detaljtabellen
+Tilknyttet filtrert NO1: forsøk 4/4
+NO1 filter forsvant ved åpning av detaljtabellen
+file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:130
+      if(!await areaSelected(frame,area)) throw new Error(`${area} filter forsvant ved åpning av detaljtabellen`);
+                                                ^
 
-Error: STATNETT AUDIT FEILET: queue NO1: dashboard 2522 vs Statnett 2521; reservations NO1: dashboard 1327 vs Statnett 1326; connected NO5: dashboard 623 vs Statnett 251
-    at file:///__w/nettko-dashboard/nettko-dashboard/scripts/audit-statnett-live.mjs:188:9
+Error: NO1 filter forsvant ved åpning av detaljtabellen
+    at extractArea (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:130:49)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-filtered.mjs:143:10
 
 Node.js v24.18.0
