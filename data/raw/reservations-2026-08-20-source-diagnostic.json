@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T10:14:23.147Z",
+  "updated_at": "2026-08-20T11:10:34.080Z",
   "url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#reservasjoner",
   "attempt": 4,
   "frame_url": "https://app.powerbi.com/view?r=eyJrIjoiZTVkMmNiNDQtM2VhZi00OGQ0LWE0YTAtMjMyOGMxMzhlYmZmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=ccba661604c0f2acf1b4%22",
@@ -14,8 +14,8 @@
     "cases": 45,
     "mw": 1885
   },
-  "unresolved_cases": 124,
-  "unresolved_mw": 12226,
+  "unresolved_cases": 123,
+  "unresolved_mw": 12216,
   "unresolved": [
     {
       "id": "21-00279",
@@ -207,7 +207,7 @@
       "grid_customer": null,
       "end_customer": null,
       "industry": null,
-      "mw": 7715,
+      "mw": 7710,
       "date": null,
       "status": "Reservert",
       "source": "Statnett"
@@ -1413,21 +1413,6 @@
       "source": "Statnett"
     },
     {
-      "id": "26-03459",
-      "statnett_case": "26/03459",
-      "tilko_case": "ELB2203",
-      "station": "Sortland TRA",
-      "area_plan": "Nord",
-      "area": null,
-      "grid_customer": "Vestall AS",
-      "end_customer": "EIDSFJORD SJØFARM AS",
-      "industry": "Oppdrettsnæring",
-      "mw": 5,
-      "date": "30.03.2023",
-      "status": "Reservert",
-      "source": "Statnett"
-    },
-    {
       "id": "26-03733",
       "statnett_case": "26/03733",
       "tilko_case": "ELB2220",
@@ -1882,10 +1867,10 @@
   "diag": [
     {
       "grid": 0,
-      "rows": 213,
+      "rows": 212,
       "parsed": 88,
-      "unresolved": 124,
-      "unresolved_mw": 12226,
+      "unresolved": 123,
+      "unresolved_mw": 12216,
       "unresolved_sample": [
         {
           "id": "21-00279",

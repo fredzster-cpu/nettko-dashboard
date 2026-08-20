@@ -13,20 +13,20 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T10:05:30.099Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T10:05:30.099Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T10:05:30.099Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T11:01:43.000Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T11:01:43.000Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T11:01:43.000Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
-Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 Reservasjoner kildehenter: forsøk 2/4
-Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 Reservasjoner kildehenter: forsøk 3/4
-Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 Reservasjoner kildehenter: forsøk 4/4
-Reservasjoner: uavklarte prisområder: 124 saker / 12226 MW
+Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155
     if(unresolved.length) throw new Error(`uavklarte prisområder: ${unresolved.length} saker / ${unresolved.reduce((s,x)=>s+x.mw,0)} MW`);
                                 ^
 
-Error: uavklarte prisområder: 124 saker / 12226 MW
+Error: uavklarte prisområder: 123 saker / 12216 MW
     at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
 
 Node.js v24.18.0
@@ -46,15 +46,16 @@ Error: uavklarte prisområder: 37 saker / 9177.2 MW
     at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
 
 Node.js v24.18.0
-Tilknyttet NO1: forsøk 1/3
-Tilknyttet NO1: forsøk 2/3
-Tilknyttet NO1: forsøk 3/3
-file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-by-area.mjs:134
-      if(!await chooseArea(frame,page,area)) throw new Error(`klarte ikke sette Prisområde=${area}`);
-                                                   ^
+Tilknyttet NO1: forsøk 1/4
+Tilknyttet NO1: forsøk 2/4
+Tilknyttet NO1: forsøk 3/4
+Tilknyttet NO1: forsøk 4/4
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
 
 Error: klarte ikke sette Prisområde=NO1
-    at extractArea (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-by-area.mjs:134:52)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-by-area.mjs:152:10
+    at extractArea (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v2.mjs:204:52)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v2.mjs:233:12
 
 Node.js v24.18.0

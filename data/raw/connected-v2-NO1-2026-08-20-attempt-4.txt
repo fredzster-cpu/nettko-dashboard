@@ -1,0 +1,3 @@
+Error: klarte ikke sette Prisområde=NO1
+    at extractArea (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v2.mjs:204:52)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v2.mjs:233:12
