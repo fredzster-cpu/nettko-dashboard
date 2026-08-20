@@ -8,7 +8,7 @@ on:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
       - "scripts/fetch-status-source.mjs"
-      - "scripts/fetch-connected-v3.mjs"
+      - "scripts/fetch-connected-v4.mjs"
       - "scripts/audit-statnett-live.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
@@ -54,11 +54,11 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs withdrawn 2>&1 | tee -a data/last-run.log
 
-      - name: Hent tilknyttet med samme prisområdefilter som live-auditen
+      - name: Hent tilknyttet med prisområdefilter også i detaljvisningen
         shell: bash
         run: |
           set -o pipefail
-          node scripts/fetch-connected-v3.mjs 2>&1 | tee -a data/last-run.log
+          node scripts/fetch-connected-v4.mjs 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
