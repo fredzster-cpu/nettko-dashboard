@@ -4,7 +4,7 @@
     "NO1": 296,
     "NO5": 251
   },
-  "candidate": {
+  "rows": {
     "NO1": {
       "cases": 18,
       "mw": 301
@@ -18,5 +18,6 @@
     "cases": 68,
     "mw": 1241.1
   },
+  "station_map_size": 38,
   "unresolved": []
 }
