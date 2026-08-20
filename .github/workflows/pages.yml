@@ -54,9 +54,10 @@ jobs:
           if 'table-enhancements.js' not in s:
             s=s.replace('</body>','<script src="./table-enhancements.js?v=1"></script>\n</body>')
           if 'status-card-filter.js' not in s:
-            s=s.replace('</body>','<script src="./status-card-filter.js?v=2"></script>\n</body>')
+            s=s.replace('</body>','<script src="./status-card-filter.js?v=3"></script>\n</body>')
           else:
-            s=s.replace('status-card-filter.js?v=1','status-card-filter.js?v=2')
+            for v in ['1','2']:
+              s=s.replace(f'status-card-filter.js?v={v}','status-card-filter.js?v=3')
           if 'status-year-chart.js' not in s:
             s=s.replace('</body>','<script src="./status-year-chart.js?v=5"></script>\n</body>')
           else:
