@@ -57,26 +57,7 @@ jobs:
       - name: Stram inn tilknyttet scope mot Statnett-KPI
         shell: bash
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('scripts/fetch-connected-filtered.mjs')
-          s=p.read_text(encoding='utf-8')
-          old="if(parsed.unresolved.length) throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW`);"
-          new="""if(parsed.unresolved.length){
-  const knownNO1=total(parsed.data.filter(r=>r.area==='NO1'));
-  const knownNO5=total(parsed.data.filter(r=>r.area==='NO5'));
-  if(Math.round(knownNO1.mw)===Math.round(kpiNO1) && Math.round(knownNO5.mw)===Math.round(kpiNO5)){
-    console.log(`Tilknyttet: ${parsed.unresolved.length} uavklarte landsrader ekskluderes fra NO1/NO5 fordi allerede klassifiserte rader matcher Statnetts KPI-er nøyaktig`);
-    parsed.outside.push(...parsed.unresolved.map(r=>({...r,area:'OUT',area_method:'excluded_by_kpi_balance'})));
-    parsed.unresolved.length=0;
-  } else {
-    throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW; kjente rader NO1 ${knownNO1.mw}/${kpiNO1}, NO5 ${knownNO5.mw}/${kpiNO5}`);
-  }
-}"""
-          if old not in s:
-            raise SystemExit('Forventet valideringslinje ikke funnet i fetch-connected-filtered.mjs')
-          p.write_text(s.replace(old,new),encoding='utf-8')
-          PY
+          python -c "from pathlib import Path; p=Path('scripts/fetch-connected-filtered.mjs'); s=p.read_text(encoding='utf-8'); old=\"if(parsed.unresolved.length) throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW`);\"; new=\"if(parsed.unresolved.length){\\n  const knownNO1=total(parsed.data.filter(r=>r.area==='NO1'));\\n  const knownNO5=total(parsed.data.filter(r=>r.area==='NO5'));\\n  if(Math.round(knownNO1.mw)===Math.round(kpiNO1) && Math.round(knownNO5.mw)===Math.round(kpiNO5)){\\n    console.log(`Tilknyttet: ${parsed.unresolved.length} uavklarte landsrader ekskluderes fra NO1/NO5 fordi allerede klassifiserte rader matcher Statnetts KPI-er nøyaktig`);\\n    parsed.outside.push(...parsed.unresolved.map(r=>({...r,area:'OUT',area_method:'excluded_by_kpi_balance'})));\\n    parsed.unresolved.length=0;\\n  } else {\\n    throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW; kjente rader NO1 ${knownNO1.mw}/${kpiNO1}, NO5 ${knownNO5.mw}/${kpiNO5}`);\\n  }\\n}\"; assert old in s, 'Forventet valideringslinje ikke funnet'; p.write_text(s.replace(old,new),encoding='utf-8')"
 
       - name: Hent tilknyttet eksplisitt per prisområde
         shell: bash
