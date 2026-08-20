@@ -26,7 +26,19 @@ function parseForbruk(body){
   throw new Error('Forbruk-KPI ikke funnet');
 }
 
+async function areaSelected(frame,area){
+  const body=await frame.locator('body').innerText({timeout:2500}).catch(()=>'');
+  const lines=body.split(/\r?\n/).map(clean).filter(Boolean);
+  for(let i=0;i<lines.length;i++){
+    if(lines[i]!=='Prisområde') continue;
+    const nearby=lines.slice(i+1,i+6);
+    if(nearby.includes(area)) return true;
+  }
+  return false;
+}
+
 async function chooseArea(frame,page,area){
+  if(await areaSelected(frame,area)) return true;
   const labels=frame.getByText('Prisområde',{exact:true});
   for(let i=0;i<await labels.count().catch(()=>0);i++){
     let p=labels.nth(i);
@@ -37,22 +49,40 @@ async function chooseArea(frame,page,area){
           for(const curLabel of ['Alle','NO1','NO2','NO3','NO4','NO5']){
             const cur=p.getByText(curLabel,{exact:true});
             if(!(await cur.count())) continue;
-            if(curLabel===area){
-              const body=clean(await frame.locator('body').innerText({timeout:1500}).catch(()=>''));
-              if(body.includes(`Prisområde ${area}`)||body.split(/\r?\n/).map(clean).some((x,ix,a)=>x==='Prisområde'&&a.slice(ix+1,ix+4).includes(area))) return true;
-            }
-            await cur.first().click({force:true}); await page.waitForTimeout(700);
+            await cur.first().click({force:true}); await page.waitForTimeout(800);
             const opts=frame.getByText(area,{exact:true});
             if(await opts.count()){
-              await opts.last().click({force:true}); await page.waitForTimeout(3000);
+              await opts.last().click({force:true}); await page.waitForTimeout(3200);
               const body=await frame.locator('body').innerText();
               await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-overview.txt`),body);
-              if(clean(body).includes('Prisområde')) return true;
+              if(await areaSelected(frame,area)) return true;
             }
           }
         }
       }catch{}
       p=p.locator('xpath=..');
+    }
+  }
+  // Global fallback, but only accept after explicit verification that the slicer displays the requested area.
+  for(const curLabel of ['Alle','NO1','NO2','NO3','NO4','NO5']){
+    const vals=frame.getByText(curLabel,{exact:true});
+    for(let i=0;i<await vals.count().catch(()=>0);i++){
+      const node=vals.nth(i);
+      try{
+        let p=node,hit=false;
+        for(let up=0;up<7;up++){
+          p=p.locator('xpath=..');
+          const txt=clean(await p.innerText({timeout:700}));
+          if(txt.includes('Prisområde')){hit=true;break}
+        }
+        if(!hit) continue;
+        await node.click({force:true}); await page.waitForTimeout(800);
+        const opt=frame.getByText(area,{exact:true});
+        if(await opt.count()){
+          await opt.last().click({force:true}); await page.waitForTimeout(3200);
+          if(await areaSelected(frame,area)) return true;
+        }
+      }catch{}
     }
   }
   return false;
@@ -75,7 +105,6 @@ function parseRows(rows,area){
     const mw=num(r[iMw]),industry=r[iIndustry]||null;
     if(mw==null||productionTypes.has(industry)) continue;
     const statnettCase=iCase>=0?r[iCase]||null:null;
-    // Ignore Power BI total/summary rows.
     if(!statnettCase && !r[iEnd] && !r[iCustomer]) continue;
     out.push({id:(statnettCase||r[iTilko]||`Tilknyttet-${area}-${r[iEnd]||r[iCustomer]}-${r[iMw]}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:statnettCase,tilko_case:iTilko>=0?r[iTilko]||null:null,station:iStation>=0?r[iStation]||null:null,area_plan:iPlan>=0?r[iPlan]||null:null,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry,mw,date:iDate>=0?r[iDate]||null:null,status:'Tilknyttet',source:'Statnett',area_method:'powerbi_overview_filter'});
   }
@@ -92,17 +121,19 @@ async function extractArea(area){
       await page.goto(SOURCE,{waitUntil:'domcontentloaded',timeout:90000});await page.waitForTimeout(9000);
       let frame=null;for(let r=0;r<35&&!frame;r++){for(const f of page.frames()){const t=await f.locator('body').innerText({timeout:2500}).catch(()=>'');if(t.includes('Tilknyttet kapasitet')&&t.includes('Prisområde')){frame=f;break}}if(!frame)await page.waitForTimeout(700)}
       if(!frame)throw new Error('rapport-frame ikke funnet');
-      if(!await chooseArea(frame,page,area))throw new Error(`klarte ikke velge ${area}`);
+      if(!await chooseArea(frame,page,area))throw new Error(`klarte ikke velge og verifisere Prisområde=${area}`);
       const overview=await frame.locator('body').innerText();const kpi=parseForbruk(overview);
       await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-overview.txt`),overview);
       const link=frame.getByText('Se liste over saker med tilknyttet kapasitet',{exact:false});if(!(await link.count()))throw new Error('detaljlenke ikke funnet');
       await link.first().click({force:true});await page.waitForTimeout(3500);
+      // Verify that the selected price area survived navigation to the detail view.
+      if(!await areaSelected(frame,area)) throw new Error(`${area} filter forsvant ved åpning av detaljtabellen`);
       let grid=null;for(let r=0;r<35&&!grid;r++){const gs=frame.locator('[role="grid"],[role="table"],[role="treegrid"]');for(let i=0;i<await gs.count();i++){const t=await gs.nth(i).innerText({timeout:1500}).catch(()=>'');if(t.includes('Næringstype')&&t.includes('Tilknyttet kapasitet totalt')){grid=gs.nth(i);break}}if(!grid)await page.waitForTimeout(700)}
       if(!grid)throw new Error('detaljtabell ikke funnet');
       const raw=await collectGrid(grid,page);const rows=parseRows(raw,area);const t=total(rows);
-      await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-diagnostic.json`),JSON.stringify({updated_at:now,area,kpi,rows_total:t,rows},null,2));
+      await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-diagnostic.json`),JSON.stringify({updated_at:now,area,kpi,filter_verified:true,rows_total:t,rows},null,2));
       if(!rows.length)throw new Error('ingen forbruksrader');
-      if(Math.round(t.mw)!==Math.round(kpi))throw new Error(`${area} filter fulgte ikke til detaljtabellen: rader ${t.mw} MW vs KPI ${kpi} MW`);
+      if(Math.round(t.mw)!==Math.round(kpi))throw new Error(`${area} filtrerte detaljrader matcher ikke Statnett-KPI: rader ${t.mw} MW vs KPI ${kpi} MW`);
       await context.close();return {rows,kpi};
     }catch(e){lastErr=e;console.error(e.message);await page.screenshot({path:path.join(RAW,`connected-filter-${area}-${day}-attempt-${attempt}.png`),fullPage:true}).catch(()=>{});await context.close().catch(()=>{});if(attempt<4)await sleep(1800*attempt)}
   }
