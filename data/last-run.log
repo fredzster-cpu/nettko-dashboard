@@ -13,7 +13,7 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T14:21:27.256Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T14:21:27.256Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T14:21:27.256Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-20T13:11:41.391Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":17,"mw":296},"NO5":{"cases":7,"mw":251}}}}
 Reservasjoner kildehenter: forsøk 1/4
 Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 Reservasjoner kildehenter: forsøk 2/4
@@ -52,7 +52,7 @@ Tilknyttet v4 NO5: forsøk 1/4
 Tilknyttet Statnett KPI NO5: 251 MW
 TILKNYTTET V4 VALIDERT {"NO1":{"cases":17,"mw":296},"NO5":{"cases":7,"mw":251},"kpi":{"NO1":296,"NO5":251}}
 {
-  "updated_at": "2026-08-20T13:12:44.460Z",
+  "updated_at": "2026-08-20T14:41:43.490Z",
   "source": {
     "NO1": {
       "queue": 2521,

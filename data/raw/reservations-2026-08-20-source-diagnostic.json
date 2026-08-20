@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T13:00:51.466Z",
+  "updated_at": "2026-08-20T14:30:06.681Z",
   "url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/#reservasjoner",
   "attempt": 4,
   "frame_url": "https://app.powerbi.com/view?r=eyJrIjoiZTVkMmNiNDQtM2VhZi00OGQ0LWE0YTAtMjMyOGMxMzhlYmZmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9&pageName=ccba661604c0f2acf1b4%22",
@@ -1863,7 +1863,7 @@
       "source": "Statnett"
     }
   ],
-  "station_area_map_size": 44,
+  "station_area_map_size": 38,
   "diag": [
     {
       "grid": 0,

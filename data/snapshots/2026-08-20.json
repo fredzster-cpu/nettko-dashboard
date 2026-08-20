@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T12:51:54.166Z",
+  "updated_at": "2026-08-20T14:21:27.256Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
   "scope": "Forbruk, NO1 og NO5",
@@ -2153,7 +2153,8 @@
       "mw": 15,
       "date": "01.10.2020",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00194",
@@ -2168,7 +2169,8 @@
       "mw": 6,
       "date": "30.06.2021",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00086",
@@ -2183,7 +2185,8 @@
       "mw": 14,
       "date": "01.09.2021",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00160",
@@ -2198,7 +2201,8 @@
       "mw": 12,
       "date": "01.10.2021",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00313",
@@ -2213,52 +2217,24 @@
       "mw": 18,
       "date": "01.10.2021",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
-      "id": "21-00275",
-      "statnett_case": "21/00275",
+      "id": "21-00079",
+      "statnett_case": "21/00079",
       "tilko_case": null,
-      "station": "Fana Transformatorstasjon TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": null,
-      "end_customer": null,
+      "station": "Flesaker TRA",
+      "area_plan": "Telemark og Vestfold",
+      "area": "NO1",
+      "grid_customer": "Glitre Nett AS",
+      "end_customer": "VEAS",
       "industry": "Industri",
-      "mw": 60,
-      "date": "19.12.2021",
+      "mw": 10,
+      "date": "31.12.2021",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00022",
-      "statnett_case": "21/00022",
-      "tilko_case": null,
-      "station": "Ørskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Boreal - maritim transport",
-      "industry": "Transport",
-      "mw": 8.5,
-      "date": "30.12.2021",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00223",
-      "statnett_case": "21/00223",
-      "tilko_case": null,
-      "station": "Høyanger TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Hydro Aluminium AS",
-      "industry": "Industri",
-      "mw": 8,
-      "date": "17.05.2022",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00293",
@@ -2273,7 +2249,8 @@
       "mw": 17,
       "date": "14.08.2022",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00238",
@@ -2288,37 +2265,8 @@
       "mw": 7,
       "date": "21.08.2022",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00049",
-      "statnett_case": "21/00049",
-      "tilko_case": null,
-      "station": "Ørskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Copra",
-      "industry": "Oppdrettsnæring",
-      "mw": 4,
-      "date": "30.08.2022",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-01229",
-      "statnett_case": "23/01229",
-      "tilko_case": "ELB2338",
-      "station": "Ørskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": null,
-      "end_customer": "Plug AS",
-      "industry": "Transport",
-      "mw": 20,
-      "date": "19.09.2022",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00161",
@@ -2333,82 +2281,8 @@
       "mw": 13,
       "date": "30.09.2022",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00878",
-      "statnett_case": "23/00878",
-      "tilko_case": null,
-      "station": "Litle Sotra TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "BKK AS",
-      "end_customer": "Norgesnett",
-      "industry": "Annet forbruk",
-      "mw": 5,
-      "date": "31.12.2022",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00867",
-      "statnett_case": "23/00867",
-      "tilko_case": "ELB2027",
-      "station": "Ålfoten TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Svelgen Property AS",
-      "industry": "Datasenter",
-      "mw": 1.6,
-      "date": "13.03.2023",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00221",
-      "statnett_case": "21/00221",
-      "tilko_case": null,
-      "station": "Husnes TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "Hydro Energi As",
-      "end_customer": "Hydro",
-      "industry": "Industri",
-      "mw": 151,
-      "date": "20.04.2023",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00207",
-      "statnett_case": "21/00207",
-      "tilko_case": "ELB1541",
-      "station": "Kollsnes KRA/TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "Equinor Asa",
-      "end_customer": "Equinor Asa",
-      "industry": "Petroleum",
-      "mw": 116,
-      "date": "29.08.2023",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00441",
-      "statnett_case": "21/00441",
-      "tilko_case": "ELB2031",
-      "station": "Moskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Bulandet Miljøfisk",
-      "industry": "Oppdrettsnæring",
-      "mw": 1,
-      "date": "30.08.2023",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "23-00916",
@@ -2423,67 +2297,24 @@
       "mw": 9,
       "date": "16.11.2023",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
-      "id": "22-00740",
-      "statnett_case": "22/00740",
+      "id": "21-00400",
+      "statnett_case": "21/00400",
       "tilko_case": null,
-      "station": "Fana Transformatorstasjon TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "BKK AS",
-      "end_customer": "PLUG landstrøm",
-      "industry": "Transport",
-      "mw": 5,
-      "date": "23.11.2023",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00880",
-      "statnett_case": "23/00880",
-      "tilko_case": null,
-      "station": "Borgund KRA/TRA",
-      "area_plan": "Hallingdal og Ringerike",
+      "station": "Flesaker TRA",
+      "area_plan": "Telemark og Vestfold",
       "area": "NO1",
-      "grid_customer": "Sygnir AS",
-      "end_customer": "Ionity",
-      "industry": "Transport",
-      "mw": 5,
-      "date": "30.01.2024",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00266",
-      "statnett_case": "21/00266",
-      "tilko_case": null,
-      "station": "Åsen",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "Fagne AS",
-      "end_customer": "Boliden Odda AS",
+      "grid_customer": "Glitre Nett AS",
+      "end_customer": "Drammen fjernvarme",
       "industry": "Industri",
-      "mw": 100,
-      "date": "25.06.2024",
+      "mw": 5,
+      "date": "30.12.2023",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00864",
-      "statnett_case": "23/00864",
-      "tilko_case": null,
-      "station": "Moskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "MOWI ASA",
-      "industry": "Oppdrettsnæring",
-      "mw": 5.54,
-      "date": "31.10.2024",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00172",
@@ -2498,7 +2329,8 @@
       "mw": 7,
       "date": "01.12.2024",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00082",
@@ -2513,22 +2345,8 @@
       "mw": 110,
       "date": "12.12.2024",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00440",
-      "statnett_case": "21/00440",
-      "tilko_case": null,
-      "station": "Moskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Nordic Mining",
-      "industry": "Industri",
-      "mw": 15,
-      "date": "16.12.2024",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00226",
@@ -2543,22 +2361,8 @@
       "mw": 25,
       "date": "19.02.2025",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00875",
-      "statnett_case": "23/00875",
-      "tilko_case": null,
-      "station": "Arna Transformatorstasjon TRA",
-      "area_plan": "Bergen og Haugalandet",
-      "area": "NO5",
-      "grid_customer": "BKK AS",
-      "end_customer": "Northern Lights",
-      "industry": "Industri",
-      "mw": 10,
-      "date": "30.05.2025",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "23-00871",
@@ -2573,67 +2377,8 @@
       "mw": 6,
       "date": "29.06.2025",
       "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00298",
-      "statnett_case": "21/00298",
-      "tilko_case": null,
-      "station": "Ålfoten TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Lefdal Mine datacenter",
-      "industry": "Datasenter",
-      "mw": 16.2,
-      "date": "06.10.2025",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "23-00868",
-      "statnett_case": "23/00868",
-      "tilko_case": "ELB1995",
-      "station": "Moskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "EWOS AS",
-      "industry": "Oppdrettsnæring",
-      "mw": 6,
-      "date": "06.10.2025",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "21-00007",
-      "statnett_case": "21/00007",
-      "tilko_case": null,
-      "station": "Ørskog TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Plug AS, Hurtigruta, Fylkeskommunen, div industri",
-      "industry": "Transport",
-      "mw": 31.7,
-      "date": "07.10.2025",
-      "status": "Tilknyttet",
-      "source": "Statnett"
-    },
-    {
-      "id": "25-02047",
-      "statnett_case": "25/02047",
-      "tilko_case": null,
-      "station": "Ålfoten TRA",
-      "area_plan": "Sogn og Sunnmøre",
-      "area": "NO5",
-      "grid_customer": "Linja AS",
-      "end_customer": "Smart Salmon Foods AS",
-      "industry": "Oppdrettsnæring",
-      "mw": 3,
-      "date": "13.10.2025",
-      "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00187",
@@ -2648,7 +2393,8 @@
       "mw": 15,
       "date": "19.11.2025",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "23-00927",
@@ -2663,7 +2409,104 @@
       "mw": 7,
       "date": "13.02.2026",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "21-00275",
+      "statnett_case": "21/00275",
+      "tilko_case": null,
+      "station": "Fana Transformatorstasjon TRA",
+      "area_plan": "Bergen og Haugalandet",
+      "area": "NO5",
+      "grid_customer": null,
+      "end_customer": null,
+      "industry": "Industri",
+      "mw": 60,
+      "date": "19.12.2021",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "23-00878",
+      "statnett_case": "23/00878",
+      "tilko_case": null,
+      "station": "Litle Sotra TRA",
+      "area_plan": "Bergen og Haugalandet",
+      "area": "NO5",
+      "grid_customer": "BKK AS",
+      "end_customer": "Norgesnett",
+      "industry": "Annet forbruk",
+      "mw": 5,
+      "date": "31.12.2022",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "21-00207",
+      "statnett_case": "21/00207",
+      "tilko_case": "ELB1541",
+      "station": "Kollsnes KRA/TRA",
+      "area_plan": "Bergen og Haugalandet",
+      "area": "NO5",
+      "grid_customer": "Equinor Asa",
+      "end_customer": "Equinor Asa",
+      "industry": "Petroleum",
+      "mw": 116,
+      "date": "29.08.2023",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "22-00740",
+      "statnett_case": "22/00740",
+      "tilko_case": null,
+      "station": "Fana Transformatorstasjon TRA",
+      "area_plan": "Bergen og Haugalandet",
+      "area": "NO5",
+      "grid_customer": "BKK AS",
+      "end_customer": "PLUG landstrøm",
+      "industry": "Transport",
+      "mw": 5,
+      "date": "23.11.2023",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "23-00880",
+      "statnett_case": "23/00880",
+      "tilko_case": null,
+      "station": "Borgund KRA/TRA",
+      "area_plan": "Hallingdal og Ringerike",
+      "area": "NO5",
+      "grid_customer": "Sygnir AS",
+      "end_customer": "Ionity",
+      "industry": "Transport",
+      "mw": 5,
+      "date": "30.01.2024",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
+    },
+    {
+      "id": "23-00875",
+      "statnett_case": "23/00875",
+      "tilko_case": null,
+      "station": "Arna Transformatorstasjon TRA",
+      "area_plan": "Bergen og Haugalandet",
+      "area": "NO5",
+      "grid_customer": "BKK AS",
+      "end_customer": "Northern Lights",
+      "industry": "Industri",
+      "mw": 10,
+      "date": "30.05.2025",
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     },
     {
       "id": "21-00100",
@@ -2678,35 +2521,36 @@
       "mw": 50,
       "date": "16.04.2026",
       "status": "Tilknyttet",
-      "source": "Statnett"
+      "source": "Statnett",
+      "area_method": "powerbi_detail_filter"
     }
   ],
   "status_meta": {
     "queue": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "reservations": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "withdrawn": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "connected": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-19T17:18:26.813Z",
+      "updated_at": "2026-08-20T13:11:41.391Z",
       "error": "ufullstendig uttrekk (0 saker / 0 MW)",
       "preserved_previous": true
     }
@@ -2744,12 +2588,12 @@
     },
     "connected": {
       "NO1": {
-        "cases": 16,
-        "mw": 286
+        "cases": 17,
+        "mw": 296
       },
       "NO5": {
-        "cases": 20,
-        "mw": 617.5400000000001
+        "cases": 7,
+        "mw": 251
       }
     }
   }

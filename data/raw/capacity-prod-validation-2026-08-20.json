@@ -1,32 +1,32 @@
 {
   "ok": true,
-  "updated_at": "2026-08-20T12:51:54.166Z",
+  "updated_at": "2026-08-20T14:21:27.256Z",
   "status_meta": {
     "queue": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "reservations": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "withdrawn": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T12:51:54.166Z",
+      "updated_at": "2026-08-20T14:21:27.256Z",
       "error": null,
       "preserved_previous": false
     },
     "connected": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-19T17:18:26.813Z",
+      "updated_at": "2026-08-20T13:11:41.391Z",
       "error": "ufullstendig uttrekk (0 saker / 0 MW)",
       "preserved_previous": true
     }
@@ -64,12 +64,12 @@
     },
     "connected": {
       "NO1": {
-        "cases": 16,
-        "mw": 286
+        "cases": 17,
+        "mw": 296
       },
       "NO5": {
-        "cases": 20,
-        "mw": 617.5400000000001
+        "cases": 7,
+        "mw": 251
       }
     }
   }
