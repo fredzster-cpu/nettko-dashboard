@@ -1,0 +1,3 @@
+Error: NO1: detaljradtotal 2159.64 MW matcher ikke Statnett KPI 296 MW
+    at extract (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v3.mjs:156:41)
+    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v3.mjs:164:12
