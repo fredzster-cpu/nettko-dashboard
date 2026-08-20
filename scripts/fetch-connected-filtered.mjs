@@ -7,9 +7,6 @@ await fs.mkdir(RAW,{recursive:true});
 const SOURCE='https://app.powerbi.com/view?pageName=4e3c7301c82c9e197db5&r=eyJrIjoiNmE3ZDVhMzEtNjgwNi00MDQ2LTkyMDEtNzFmYjU3MDkzNDIyIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9';
 const now=new Date().toISOString(), day=now.slice(0,10);
 const productionTypes=new Set(['Vannkraft','Solkraft','Vindkraft','Kraftproduksjon','Havvind']);
-// Plans that are outside the requested NO1/NO5 scope. Telemark og Vestfold is NO2 and
-// must never be treated as unresolved/eligible for NO1 or NO5 just because the detail
-// table does not expose Prisområde.
 const outsidePlans=new Set(['Helgeland og Salten','Midt','Sør Rogaland og Agder','Sør-Rogaland og Agder','Nord','Finnmark','Troms','Trøndelag','Telemark og Vestfold']);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const clean=s=>String(s||'').replace(/\u00a0/g,' ').replace(/\s+/g,' ').trim();
@@ -18,7 +15,6 @@ const total=rows=>({cases:rows.length,mw:rows.reduce((s,r)=>s+(Number(r.mw)||0),
 
 let current=JSON.parse(await fs.readFile(path.join(DATA,'current.json'),'utf8'));
 
-// Build a trusted station -> price-area map from datasets where Statnett exposes Prisområde explicitly.
 const votes=new Map();
 for(const k of ['queue','reservations','withdrawn']) for(const r of current[k]||[]){
   if(!r.station||!['NO1','NO5'].includes(r.area)) continue;
@@ -30,7 +26,6 @@ for(const [s,v] of votes){
   else if(v.NO5&&!v.NO1) stationArea.set(s,'NO5');
   else if(v.NO1!==v.NO5) stationArea.set(s,v.NO1>v.NO5?'NO1':'NO5');
 }
-// Known boundary-plan station verified against Statnett NO1 view.
 stationArea.set('Flesaker TRA','NO1');
 
 function inferArea(plan='',station=''){
@@ -136,7 +131,7 @@ function parseRows(rows){
   for(const r of rows.filter(x=>x!==h)){
     const mw=num(r[iMw]),industry=r[iIndustry]||null; if(mw==null||productionTypes.has(industry)) continue;
     const statnettCase=iCase>=0?r[iCase]||null:null,station=iStation>=0?r[iStation]||null:null,plan=iPlan>=0?r[iPlan]||null:null;
-    if(!statnettCase && !(iEnd>=0?r[iEnd]:null) && !(iCustomer>=0?r[iCustomer]:null)) continue; // drop total rows
+    if(!statnettCase && !(iEnd>=0?r[iEnd]:null) && !(iCustomer>=0?r[iCustomer]:null)) continue;
     const area=inferArea(plan,station);
     const row={id:(statnettCase||(iTilko>=0?r[iTilko]:null)||`Tilknyttet-${station}-${iEnd>=0?r[iEnd]:''}-${mw}`).replace(/[^A-Za-z0-9_-]/g,'-'),statnett_case:statnettCase,tilko_case:iTilko>=0?r[iTilko]||null:null,station,area_plan:plan,area,grid_customer:iCustomer>=0?r[iCustomer]||null:null,end_customer:iEnd>=0?r[iEnd]||null:null,industry,mw,date:iDate>=0?r[iDate]||null:null,status:'Tilknyttet',source:'Statnett',area_method:stationArea.has(clean(station))?'station_map':'area_plan'};
     if(area==='NO1'||area==='NO5') data.push(row); else if(area==='OUT') outside.push(row); else unresolved.push(row);
@@ -166,10 +161,19 @@ const kpiNO5=await readAreaKpi('NO5');
 const parsed=await readAllDetails();
 await browser.close();
 
-// Persist classification evidence even when validation fails, so future runs can fix
-// only the genuinely unknown stations/plans instead of guessing.
-await fs.writeFile(path.join(RAW,`connected-${day}-classification-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},candidate:{NO1:total(parsed.data.filter(r=>r.area==='NO1')),NO5:total(parsed.data.filter(r=>r.area==='NO5'))},outside:total(parsed.outside),unresolved:parsed.unresolved},null,2));
-if(parsed.unresolved.length) throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW`);
+const knownNO1=total(parsed.data.filter(r=>r.area==='NO1'));
+const knownNO5=total(parsed.data.filter(r=>r.area==='NO5'));
+if(parsed.unresolved.length){
+  if(Math.round(knownNO1.mw)===Math.round(kpiNO1) && Math.round(knownNO5.mw)===Math.round(kpiNO5)){
+    console.log(`Tilknyttet: ${parsed.unresolved.length} uavklarte landsrader ekskluderes fra NO1/NO5 fordi klassifiserte rader matcher Statnetts KPI-er nøyaktig`);
+    parsed.outside.push(...parsed.unresolved.map(r=>({...r,area:'OUT',area_method:'excluded_by_kpi_balance'})));
+    parsed.unresolved.length=0;
+  } else {
+    await fs.writeFile(path.join(RAW,`connected-${day}-classification-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},candidate:{NO1:knownNO1,NO5:knownNO5},outside:total(parsed.outside),unresolved:parsed.unresolved},null,2));
+    throw new Error(`Tilknyttet har ${parsed.unresolved.length} uavklarte saker / ${total(parsed.unresolved).mw} MW; kjente rader NO1 ${knownNO1.mw}/${kpiNO1}, NO5 ${knownNO5.mw}/${kpiNO5}`);
+  }
+}
+
 const no1=parsed.data.filter(r=>r.area==='NO1'),no5=parsed.data.filter(r=>r.area==='NO5');
 const t1=total(no1),t5=total(no5);
 await fs.writeFile(path.join(RAW,`connected-${day}-validated-diagnostic.json`),JSON.stringify({updated_at:now,kpi:{NO1:kpiNO1,NO5:kpiNO5},rows:{NO1:t1,NO5:t5},outside:total(parsed.outside),station_map_size:stationArea.size,unresolved:parsed.unresolved},null,2));
@@ -178,7 +182,13 @@ if(Math.round(t5.mw)!==Math.round(kpiNO5)) throw new Error(`Tilknyttet NO5 radto
 
 const rows=[...no1,...no5];
 const ids=new Set();for(const r of rows){const k=`${r.area}|${r.id}`;if(ids.has(k))throw new Error(`duplikat ${k}`);ids.add(k)}
-current.connected=rows;current.status_meta ||= {};current.status_meta.connected={ok:true,fresh:true,updated_at:now,error:null,preserved_previous:false,area_resolution:{station_or_plan:rows.length},validated_against_statnett_kpi:true};
-current.totals ||= {};current.totals.connected={NO1:t1,NO5:t5};current.statnett_display_totals ||= {};current.statnett_display_totals.connected={NO1:kpiNO1,NO5:kpiNO5};current.updated_at=now;
+current.connected=rows;
+current.status_meta ||= {};
+current.status_meta.connected={ok:true,fresh:true,updated_at:now,error:null,preserved_previous:false,area_resolution:{station_or_plan:rows.length},validated_against_statnett_kpi:true};
+current.totals ||= {};
+current.totals.connected={NO1:t1,NO5:t5};
+current.statnett_display_totals ||= {};
+current.statnett_display_totals.connected={NO1:kpiNO1,NO5:kpiNO5};
+current.updated_at=now;
 await fs.writeFile(path.join(DATA,'current.json'),JSON.stringify(current,null,2)+'\n');
 console.log('TILKNYTTET VALIDERT MOT STATNETT KPI',JSON.stringify({NO1:t1,NO5:t5,kpi:{NO1:kpiNO1,NO5:kpiNO5}}));
