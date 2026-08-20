@@ -8,7 +8,7 @@ on:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
       - "scripts/fetch-status-source.mjs"
-      - "scripts/fetch-connected-by-area.mjs"
+      - "scripts/fetch-connected-v2.mjs"
       - "scripts/audit-statnett-live.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
@@ -54,11 +54,11 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs withdrawn 2>&1 | tee -a data/last-run.log
 
-      - name: Hent tilknyttet direkte fra Statnetts NO1- og NO5-filtre
+      - name: Hent tilknyttet direkte fra Statnetts verifiserte NO1- og NO5-filtre
         shell: bash
         run: |
           set -o pipefail
-          node scripts/fetch-connected-by-area.mjs 2>&1 | tee -a data/last-run.log
+          node scripts/fetch-connected-v2.mjs 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
