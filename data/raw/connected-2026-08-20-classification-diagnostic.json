@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-08-20T08:32:28.335Z",
+  "kpi": {
+    "NO1": 296,
+    "NO5": 251
+  },
+  "candidate": {
+    "NO1": {
+      "cases": 17,
+      "mw": 296
+    },
+    "NO5": {
+      "cases": 21,
+      "mw": 622.5400000000002
+    }
+  },
+  "outside": {
+    "cases": 68,
+    "mw": 1241.1
+  },
+  "unresolved": [
+    {
+      "id": "Totalt",
+      "statnett_case": "Totalt",
+      "tilko_case": null,
+      "station": null,
+      "area_plan": null,
+      "area": null,
+      "grid_customer": null,
+      "end_customer": null,
+      "industry": null,
+      "mw": 2159.64,
+      "date": null,
+      "status": "Tilknyttet",
+      "source": "Statnett",
+      "area_method": "area_plan"
+    }
+  ]
+}
