@@ -8,9 +8,7 @@ on:
     paths:
       - "scripts/fetch-capacity-prod.mjs"
       - "scripts/fetch-status-source.mjs"
-      - "scripts/fetch-connected-source-v2.mjs"
-      - "scripts/fetch-connected-by-area.mjs"
-      - "scripts/fetch-connected-scope.mjs"
+      - "scripts/fetch-connected-filtered.mjs"
       - "scripts/audit-statnett-live.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
@@ -56,11 +54,11 @@ jobs:
           set -o pipefail
           node scripts/fetch-status-source.mjs withdrawn 2>&1 | tee -a data/last-run.log
 
-      - name: Hent og valider tilknyttet kapasitet
+      - name: Hent tilknyttet eksplisitt per prisområde
         shell: bash
         run: |
           set -o pipefail
-          node scripts/fetch-connected-scope.mjs 2>&1 | tee -a data/last-run.log
+          node scripts/fetch-connected-filtered.mjs 2>&1 | tee -a data/last-run.log
 
       - name: Koordinatfest transmisjonsnettstasjoner
         continue-on-error: true
@@ -126,10 +124,8 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
           git config user.email "nettko-bot@users.noreply.github.com"
-          # Never publish candidate production files from a failed run.
           git restore --source=HEAD -- data/current.json data/history.json data/stations.json 2>/dev/null || true
           rm -f data/statnett-audit.json
-          # Preserve only diagnostics/logs so the next repair can see the exact failure.
           git add data/last-run.log data/raw/ 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Statnett-validering feilet – lagre diagnostikk"
