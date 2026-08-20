@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:21:27.256Z",
+  "updated_at": "2026-08-20T19:50:44.025Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
   "scope": "Forbruk, NO1 og NO5",
@@ -2529,28 +2529,28 @@
     "queue": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "reservations": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "withdrawn": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "connected": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-20T13:11:41.391Z",
+      "updated_at": "2026-08-20T14:40:40.121Z",
       "error": "ufullstendig uttrekk (0 saker / 0 MW)",
       "preserved_previous": true
     }

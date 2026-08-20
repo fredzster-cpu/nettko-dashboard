@@ -11,7 +11,7 @@ Dato - Forespurt kapasitet
 Forbruk (MW)
 2 521
 Produksjon (MW)
-3 440
+3 534
 Dato - Bestilt kapasitet
 Forbruk (MW)
 0
@@ -38,7 +38,7 @@ Produksjon (MW)
 645
 856
 1 824
-115
+209
 Dato - Ønsket tilknytning
 Næringstype
 Alle

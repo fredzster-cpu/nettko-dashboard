@@ -1,32 +1,32 @@
 {
   "ok": true,
-  "updated_at": "2026-08-20T14:21:27.256Z",
+  "updated_at": "2026-08-20T19:50:44.025Z",
   "status_meta": {
     "queue": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "reservations": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "withdrawn": {
       "ok": true,
       "fresh": true,
-      "updated_at": "2026-08-20T14:21:27.256Z",
+      "updated_at": "2026-08-20T19:50:44.025Z",
       "error": null,
       "preserved_previous": false
     },
     "connected": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-20T13:11:41.391Z",
+      "updated_at": "2026-08-20T14:40:40.121Z",
       "error": "ufullstendig uttrekk (0 saker / 0 MW)",
       "preserved_previous": true
     }
