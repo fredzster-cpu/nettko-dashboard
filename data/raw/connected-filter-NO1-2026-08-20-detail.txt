@@ -1,0 +1,342 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+Tilbake
+
+Liste over saker med tilknyttet kapasitet - Forbruk (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+22/00602
+ELB1426
+Rød TRA
+Telemark og Vestfold
+WS Computing AS
+WSC
+Datasenter
+12.04.2026
+120,00
+120,00
+Velg rad
+21/00100
+ELB1539
+Samnanger TRA
+Bergen og Haugalandet
+Aker BP ASA
+Aker BP
+Petroleum
+16.04.2026
+50,00
+14,00
+Velg rad
+26/03265
+ELB1614
+Kvandal TRA
+Nord
+Noranett AS
+AN SITE 4 AS
+Datasenter
+12.05.2026
+5,00
+5,00
+Velg rad
+25/02590
+ELB879
+Nye Stokmarknes transformatorstasjon TRA
+Nord
+Noranett AS
+NORDLAKS EIENDOM AS
+Oppdrettsnæring
+29.06.2026
+5,60
+5,60
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 159,64
+1 748,64
+Dato kapasiteten ble tilknyttet
+Næringstype
+Alle
+Prisområde
+Alle
+Områdeplan
+Alle
+
+Liste over saker med tilknyttet kapasitet - Produksjon (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00285
+ 
+Sortland TRA
+Nord
+Vestall AS
+ 
+Vindkraft
+16.12.2018
+50,40
+50,40
+Velg rad
+21/00256
+ 
+Hasle TRA
+Oslo, Akershus og Østfold
+ 
+Marker Vindpark AS
+Vindkraft
+01.01.2019
+54,00
+54,00
+Velg rad
+21/00252
+ 
+Vemorktoppen
+Telemark og Vestfold
+Hydro Energi As
+Hydro
+Vannkraft
+31.12.2019
+6,00
+6,00
+Velg rad
+21/00254
+ 
+Vang TRA
+Innlandet
+ 
+Austri Vind
+Vindkraft
+01.12.2020
+60,00
+60,00
+Velg rad
+21/00288
+ 
+Mestervik
+Nord
+Arva AS
+ 
+Vindkraft
+19.12.2020
+270,00
+270,00
+Velg rad
+21/00027
+ 
+Kolsvik KRA/TRA
+Helgeland og Salten
+Tensio AS
+Sarepta Energi AS
+Vindkraft
+20.12.2020
+55,00
+55,00
+Velg rad
+21/00043
+ 
+Snilldal Transformatorstasjon TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+20.12.2020
+60,00
+60,00
+Velg rad
+21/00274
+ 
+Salten transformatorstasjon TRA
+Helgeland og Salten
+Arva AS
+ 
+Vannkraft
+20.12.2020
+44,00
+44,00
+Velg rad
+21/00278
+ 
+Skaidi TRA
+Nord
+Lucerna AS
+ 
+Vindkraft
+20.12.2020
+14,10
+14,10
+Velg rad
+21/00284
+ 
+Ballangen
+Nord
+Noranett AS
+Fortum
+Vindkraft
+20.12.2020
+100,00
+100,00
+Velg rad
+21/00286
+ 
+Bjerkreim TRA
+Sør Rogaland og Agder
+ 
+ 
+Vindkraft
+20.12.2020
+140,00
+140,00
+Velg rad
+21/00294
+ 
+Sima KRA/TRA
+Bergen og Haugalandet
+ 
+Statkraft Energi As
+Vannkraft
+20.12.2020
+10,00
+10,00
+Velg rad
+21/00292
+ 
+Vågåmo TRA
+Innlandet
+ 
+Fjellnett As
+Vannkraft
+30.12.2020
+160,00
+160,00
+Velg rad
+21/00253
+ 
+Ertsmyra TS TRA
+Sør Rogaland og Agder
+Glitre Nett AS
+ 
+Vindkraft
+31.12.2020
+342,30
+342,30
+Velg rad
+21/00255
+ 
+Songkjølen KRA/TRA
+Innlandet
+ 
+Odal Vindkraftverk As
+Vindkraft
+28.09.2021
+110,40
+110,40
+Velg rad
+21/00297
+ 
+Marka TRA
+Helgeland og Salten
+Eolus Vind
+Eolus Vind
+Vindkraft
+05.12.2021
+400,00
+400,00
+Velg rad
+21/00044
+ 
+Nea KRA/TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+19.12.2021
+90,00
+90,00
+Velg rad
+21/00052
+ 
+Åfjord TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+19.12.2021
+15,00
+15,00
+Velg rad
+21/00198
+ 
+Borgund KRA/TRA
+Hallingdal og Ringerike
+Sygnir AS
+ 
+Vannkraft
+19.12.2021
+26,00
+26,00
+Velg rad
+21/00259
+ 
+Høyanger TRA
+Sogn og Sunnmøre
+BKK AS
+ 
+Vannkraft
+19.12.2021
+10,00
+10,00
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 403,38
+3 403,38
+Statnetts kunde
+Alle
+-
++
+150 %
+Microsoft Power BI
+Sider
+Rapport zoomet til 150 %
