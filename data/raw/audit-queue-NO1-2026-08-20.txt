@@ -1,0 +1,59 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+
+Kapasitetskø
+
+Se liste over saker i kapasitetskø
+Informasjon om kapasitetskø
+Dato - Forespurt kapasitet
+Forbruk (MW)
+2 521
+Produksjon (MW)
+3 440
+Dato - Bestilt kapasitet
+Forbruk (MW)
+0
+5 000
+10 000
+15 000
+2023
+2024
+2025
+2026
+125
+1 027
+654
+716
+Produksjon (MW)
+0
+5 000
+10 000
+15 000
+2023
+2024
+2025
+2026
+645
+856
+1 824
+115
+Dato - Ønsket tilknytning
+Næringstype
+Alle
+Prisområde
+NO1
+Områdeplan
+Alle
+Se relevante begreper
+-
++
+150 %
+Microsoft Power BI
+NO1
+NO2
+NO3
+NO4
+NO5
+Rapport zoomet til 150 %

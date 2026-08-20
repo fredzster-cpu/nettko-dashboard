@@ -1,0 +1,92 @@
+{
+  "updated_at": "2026-08-20T00:21:31.250Z",
+  "source": {
+    "NO1": {
+      "queue": 2521,
+      "reservations": 1326,
+      "connected": 296,
+      "withdrawn": 60
+    },
+    "NO5": {
+      "queue": 1339,
+      "reservations": 1104,
+      "connected": 251,
+      "withdrawn": 130
+    }
+  },
+  "checks": [
+    {
+      "key": "queue",
+      "area": "NO1",
+      "statnett_mw": 2521,
+      "row_mw": 2522,
+      "row_displayed_mw": 2522,
+      "cases": 49,
+      "ok": false
+    },
+    {
+      "key": "reservations",
+      "area": "NO1",
+      "statnett_mw": 1326,
+      "row_mw": 1327,
+      "row_displayed_mw": 1327,
+      "cases": 43,
+      "ok": false
+    },
+    {
+      "key": "connected",
+      "area": "NO1",
+      "statnett_mw": 296,
+      "row_mw": 296,
+      "row_displayed_mw": 296,
+      "cases": 17,
+      "ok": true
+    },
+    {
+      "key": "withdrawn",
+      "area": "NO1",
+      "statnett_mw": 60,
+      "row_mw": 60,
+      "row_displayed_mw": 60,
+      "cases": 2,
+      "ok": true
+    },
+    {
+      "key": "queue",
+      "area": "NO5",
+      "statnett_mw": 1339,
+      "row_mw": 1339,
+      "row_displayed_mw": 1339,
+      "cases": 22,
+      "ok": true
+    },
+    {
+      "key": "reservations",
+      "area": "NO5",
+      "statnett_mw": 1104,
+      "row_mw": 1104,
+      "row_displayed_mw": 1104,
+      "cases": 22,
+      "ok": true
+    },
+    {
+      "key": "connected",
+      "area": "NO5",
+      "statnett_mw": 251,
+      "row_mw": 622.5400000000002,
+      "row_displayed_mw": 623,
+      "cases": 21,
+      "ok": false
+    },
+    {
+      "key": "withdrawn",
+      "area": "NO5",
+      "statnett_mw": 130,
+      "row_mw": 130,
+      "row_displayed_mw": 130,
+      "cases": 4,
+      "ok": true
+    }
+  ],
+  "ok": false
+}
