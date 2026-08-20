@@ -1,0 +1,518 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+Tilbake
+
+Liste over saker med tilknyttet kapasitet - Forbruk (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00273
+ 
+Salten transformatorstasjon TRA
+Helgeland og Salten
+Arva AS
+Elkem Asa
+Industri
+29.11.2018
+35,00
+35,00
+Velg rad
+23/01178
+ 
+Fræna TRA
+Midt
+Elinett AS
+Troll Housing AS
+Datasenter
+14.11.2019
+6,00
+6,00
+Velg rad
+23/00861
+ 
+Kristiansand TRA
+Sør Rogaland og Agder
+Glitre Nett AS
+Bulk
+Datasenter
+31.12.2019
+19,00
+19,00
+Velg rad
+21/00239
+ 
+Frogner TRA
+Oslo, Akershus og Østfold
+ 
+Digiplex og Bane Nor
+Datasenter
+01.10.2020
+15,00
+15,00
+Velg rad
+23/01179
+ 
+Fræna TRA
+Midt
+Elinett AS
+Fjord1 AS
+Transport
+11.11.2020
+5,00
+5,00
+Velg rad
+21/00270
+ 
+Rana KRA/TRA
+Helgeland og Salten
+Svabo Industrinett AS (tidl MIP Industrinett)
+Arctic Circle Data Center? Bitfury?
+Datasenter
+20.12.2020
+40,00
+40,00
+Velg rad
+21/00324
+ 
+Aura KRA/TRA
+Midt
+Hydro Aluminium As
+Hydro
+Industri
+30.12.2020
+43,00
+ 
+Velg rad
+23/01157
+ 
+Fræna TRA
+Midt
+Elinett AS
+Troll Housing AS
+Datasenter
+31.12.2020
+20,60
+20,60
+Velg rad
+22/00534
+ 
+Bardufoss Transformatorstasjon TRA
+Nord
+Arva AS
+ 
+Annet forbruk
+09.06.2021
+8,00
+8,00
+Velg rad
+21/00194
+ 
+Ringerike TRA
+Hallingdal og Ringerike
+ 
+Aquila
+Datasenter
+30.06.2021
+6,00
+6,00
+Velg rad
+21/00086
+ 
+Halden TRA
+Oslo, Akershus og Østfold
+Elvia As
+Nexans
+Industri
+01.09.2021
+14,00
+14,00
+Velg rad
+21/00160
+ 
+Røykås TRA
+Oslo, Akershus og Østfold
+Elvia As
+Basefarm
+Datasenter
+01.10.2021
+12,00
+12,00
+Velg rad
+21/00313
+ 
+Tegneby TRA
+Oslo, Akershus og Østfold
+Elvia As
+As Rockwool
+Industri
+01.10.2021
+18,00
+18,00
+Velg rad
+21/00013
+ 
+Snilldal Transformatorstasjon TRA
+Midt
+Tensio AS
+Lerøy Midt
+Industri
+19.12.2021
+8,80
+8,80
+Velg rad
+21/00245
+ 
+Tveiten TRA
+Telemark og Vestfold
+Lede AS
+ 
+Transport
+19.12.2021
+4,30
+4,30
+Velg rad
+21/00275
+ 
+Fana Transformatorstasjon TRA
+Bergen og Haugalandet
+ 
+ 
+Industri
+19.12.2021
+60,00
+60,00
+Velg rad
+21/00010
+ 
+Klæbu TRA
+Midt
+Tensio AS
+Gråkallbanen, Ski VM 2025, Bane NOR
+Transport
+30.12.2021
+3,75
+3,75
+Velg rad
+21/00022
+ 
+Ørskog TRA
+Sogn og Sunnmøre
+Linja AS
+Boreal - maritim transport
+Transport
+30.12.2021
+8,50
+8,50
+Velg rad
+21/00079
+ 
+Flesaker TRA
+Telemark og Vestfold
+Glitre Nett AS
+VEAS
+Industri
+31.12.2021
+10,00
+10,00
+Velg rad
+21/00009
+ 
+Orkdal TRA
+Midt
+Tensio AS
+Orkanger havn og Orkanger travbane
+Industri
+11.03.2022
+5,80
+5,80
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 159,64
+1 748,64
+Dato kapasiteten ble tilknyttet
+Næringstype
+Alle
+Prisområde
+Alle
+Områdeplan
+Alle
+
+Liste over saker med tilknyttet kapasitet - Produksjon (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00285
+ 
+Sortland TRA
+Nord
+Vestall AS
+ 
+Vindkraft
+16.12.2018
+50,40
+50,40
+Velg rad
+21/00256
+ 
+Hasle TRA
+Oslo, Akershus og Østfold
+ 
+Marker Vindpark AS
+Vindkraft
+01.01.2019
+54,00
+54,00
+Velg rad
+21/00252
+ 
+Vemorktoppen
+Telemark og Vestfold
+Hydro Energi As
+Hydro
+Vannkraft
+31.12.2019
+6,00
+6,00
+Velg rad
+21/00254
+ 
+Vang TRA
+Innlandet
+ 
+Austri Vind
+Vindkraft
+01.12.2020
+60,00
+60,00
+Velg rad
+21/00288
+ 
+Mestervik
+Nord
+Arva AS
+ 
+Vindkraft
+19.12.2020
+270,00
+270,00
+Velg rad
+21/00027
+ 
+Kolsvik KRA/TRA
+Helgeland og Salten
+Tensio AS
+Sarepta Energi AS
+Vindkraft
+20.12.2020
+55,00
+55,00
+Velg rad
+21/00043
+ 
+Snilldal Transformatorstasjon TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+20.12.2020
+60,00
+60,00
+Velg rad
+21/00274
+ 
+Salten transformatorstasjon TRA
+Helgeland og Salten
+Arva AS
+ 
+Vannkraft
+20.12.2020
+44,00
+44,00
+Velg rad
+21/00278
+ 
+Skaidi TRA
+Nord
+Lucerna AS
+ 
+Vindkraft
+20.12.2020
+14,10
+14,10
+Velg rad
+21/00284
+ 
+Ballangen
+Nord
+Noranett AS
+Fortum
+Vindkraft
+20.12.2020
+100,00
+100,00
+Velg rad
+21/00286
+ 
+Bjerkreim TRA
+Sør Rogaland og Agder
+ 
+ 
+Vindkraft
+20.12.2020
+140,00
+140,00
+Velg rad
+21/00294
+ 
+Sima KRA/TRA
+Bergen og Haugalandet
+ 
+Statkraft Energi As
+Vannkraft
+20.12.2020
+10,00
+10,00
+Velg rad
+21/00292
+ 
+Vågåmo TRA
+Innlandet
+ 
+Fjellnett As
+Vannkraft
+30.12.2020
+160,00
+160,00
+Velg rad
+21/00253
+ 
+Ertsmyra TS TRA
+Sør Rogaland og Agder
+Glitre Nett AS
+ 
+Vindkraft
+31.12.2020
+342,30
+342,30
+Velg rad
+21/00255
+ 
+Songkjølen KRA/TRA
+Innlandet
+ 
+Odal Vindkraftverk As
+Vindkraft
+28.09.2021
+110,40
+110,40
+Velg rad
+21/00297
+ 
+Marka TRA
+Helgeland og Salten
+Eolus Vind
+Eolus Vind
+Vindkraft
+05.12.2021
+400,00
+400,00
+Velg rad
+21/00044
+ 
+Nea KRA/TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+19.12.2021
+90,00
+90,00
+Velg rad
+21/00052
+ 
+Åfjord TRA
+Midt
+Tensio AS
+Trønderenergi
+Vindkraft
+19.12.2021
+15,00
+15,00
+Velg rad
+21/00198
+ 
+Borgund KRA/TRA
+Hallingdal og Ringerike
+Sygnir AS
+ 
+Vannkraft
+19.12.2021
+26,00
+26,00
+Velg rad
+21/00259
+ 
+Høyanger TRA
+Sogn og Sunnmøre
+BKK AS
+ 
+Vannkraft
+19.12.2021
+10,00
+10,00
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 403,38
+3 403,38
+Statnetts kunde
+Alle
+-
++
+150 %
+Microsoft Power BI
+Sider
+Rapport zoomet til 150 %

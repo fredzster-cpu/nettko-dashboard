@@ -1,0 +1,391 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+Tilbake
+
+Liste over saker med tilknyttet kapasitet - Forbruk (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00239
+ 
+Frogner TRA
+Oslo, Akershus og Østfold
+ 
+Digiplex og Bane Nor
+Datasenter
+01.10.2020
+15,00
+15,00
+Velg rad
+21/00194
+ 
+Ringerike TRA
+Hallingdal og Ringerike
+ 
+Aquila
+Datasenter
+30.06.2021
+6,00
+6,00
+Velg rad
+21/00086
+ 
+Halden TRA
+Oslo, Akershus og Østfold
+Elvia As
+Nexans
+Industri
+01.09.2021
+14,00
+14,00
+Velg rad
+21/00160
+ 
+Røykås TRA
+Oslo, Akershus og Østfold
+Elvia As
+Basefarm
+Datasenter
+01.10.2021
+12,00
+12,00
+Velg rad
+21/00313
+ 
+Tegneby TRA
+Oslo, Akershus og Østfold
+Elvia As
+As Rockwool
+Industri
+01.10.2021
+18,00
+18,00
+Velg rad
+21/00079
+ 
+Flesaker TRA
+Telemark og Vestfold
+Glitre Nett AS
+VEAS
+Industri
+31.12.2021
+10,00
+10,00
+Velg rad
+21/00293
+ 
+Tegneby TRA
+Oslo, Akershus og Østfold
+Elvia As
+Stack
+Datasenter
+14.08.2022
+17,00
+17,00
+Velg rad
+21/00238
+ 
+Follo TRA
+Oslo, Akershus og Østfold
+Elvia As
+Green Mountain
+Datasenter
+21.08.2022
+7,00
+7,00
+Velg rad
+21/00161
+ 
+Follo TRA
+Oslo, Akershus og Østfold
+Elvia As
+Green Mountain
+Datasenter
+30.09.2022
+13,00
+13,00
+Velg rad
+23/00916
+ 
+Tegneby TRA
+Oslo, Akershus og Østfold
+Elvia As
+Bastøfergen
+Transport
+16.11.2023
+9,00
+9,00
+Velg rad
+21/00400
+ 
+Flesaker TRA
+Telemark og Vestfold
+Glitre Nett AS
+Drammen fjernvarme
+Industri
+30.12.2023
+5,00
+5,00
+Velg rad
+21/00172
+ELB125
+Tegneby TRA
+Oslo, Akershus og Østfold
+Elvia As
+SI OSL 04 AS
+Datasenter
+01.12.2024
+7,00
+7,00
+Velg rad
+21/00082
+ 
+Vang TRA
+Innlandet
+Elvia As
+Green Mountain Innlandet AS
+Datasenter
+12.12.2024
+110,00
+40,00
+Velg rad
+21/00226
+ 
+Hasle TRA
+Oslo, Akershus og Østfold
+Elvia As
+Gyproc AS
+Industri
+19.02.2025
+25,00
+25,00
+Velg rad
+23/00871
+ 
+Ringerike TRA
+Hallingdal og Ringerike
+Glitre Nett AS
+Aquila
+Datasenter
+29.06.2025
+6,00
+6,00
+Velg rad
+21/00187
+ 
+Ulven TRA
+Oslo, Akershus og Østfold
+Elvia As
+Green Mountain AS
+Datasenter
+19.11.2025
+15,00
+15,00
+Velg rad
+23/00927
+ELB109
+Vardal TRA
+Innlandet
+Elvia As
+Nammo Raufoss AS
+Industri
+13.02.2026
+7,00
+7,00
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+296,00
+226,00
+Dato kapasiteten ble tilknyttet
+Næringstype
+Alle
+Prisområde
+NO1
+Områdeplan
+Alle
+
+Liste over saker med tilknyttet kapasitet - Produksjon (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00256
+ 
+Hasle TRA
+Oslo, Akershus og Østfold
+ 
+Marker Vindpark AS
+Vindkraft
+01.01.2019
+54,00
+54,00
+Velg rad
+21/00254
+ 
+Vang TRA
+Innlandet
+ 
+Austri Vind
+Vindkraft
+01.12.2020
+60,00
+60,00
+Velg rad
+21/00255
+ 
+Songkjølen KRA/TRA
+Innlandet
+ 
+Odal Vindkraftverk As
+Vindkraft
+28.09.2021
+110,40
+110,40
+Velg rad
+22/00691
+ 
+Rendalen transformatorstasjon TRA
+Innlandet
+Elvia As
+Solgrid Furuseth
+Solkraft
+30.11.2023
+7,00
+7,00
+Velg rad
+23/01054
+ 
+Nedre Vinstra KRA/TRA
+Innlandet
+Opplandskraft DA
+Opplandskraft DA
+Vannkraft
+29.04.2025
+20,00
+20,00
+Velg rad
+23/00917
+ 
+Minne TRA
+Innlandet
+Elvia As
+Odal Vind Engerfjellet
+Vindkraft
+23.05.2025
+1,10
+1,10
+Velg rad
+23/00919
+ 
+Minne TRA
+Innlandet
+Elvia As
+Odal Vind Sognkjølen
+Vindkraft
+23.05.2025
+2,30
+2,30
+Velg rad
+21/00251
+ 
+Vardal TRA
+Innlandet
+Elvia As
+Flere mindre
+Vannkraft
+07.07.2025
+13,00
+13,00
+Velg rad
+24/01664
+ 
+Flesaker TRA
+Telemark og Vestfold
+Glitre Nett AS
+Vestre Viken HF
+Annen produksjon
+07.07.2025
+10,60
+10,60
+Velg rad
+23/01039
+ELB500
+Rendalen transformatorstasjon TRA
+Innlandet
+Elvia As
+Innlandet Fornybar Måna AS
+Solkraft
+30.10.2025
+4,50
+4,50
+Velg rad
+24/01484
+ELB499
+Rendalen transformatorstasjon TRA
+Innlandet
+Elvia As
+Njord Vannkraft AS
+Vannkraft
+25.03.2026
+2,30
+2,30
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+285,20
+285,20
+Statnetts kunde
+Alle
+-
++
+150 %
+Microsoft Power BI
+Sider
+Rapport zoomet til 150 %
+NO1
+NO2
+NO3
+NO4
+NO5

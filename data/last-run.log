@@ -13,7 +13,7 @@ Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 Tilknyttet kapasitet: forsøk 4/4
 Tilknyttet kapasitet: ufullstendig uttrekk (0 saker / 0 MW)
 SAMLET DATAKJØRING FERDIG
-{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:08:34.218Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:08:34.218Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:08:34.218Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
+{"status_meta":{"queue":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"reservations":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"withdrawn":{"ok":true,"fresh":true,"updated_at":"2026-08-20T12:51:54.166Z","error":null,"preserved_previous":false},"connected":{"ok":false,"fresh":false,"updated_at":"2026-08-19T17:18:26.813Z","error":"ufullstendig uttrekk (0 saker / 0 MW)","preserved_previous":true}},"totals":{"queue":{"NO1":{"cases":49,"mw":2522},"NO5":{"cases":22,"mw":1339}},"reservations":{"NO1":{"cases":43,"mw":1327},"NO5":{"cases":22,"mw":1104}},"withdrawn":{"NO1":{"cases":2,"mw":60},"NO5":{"cases":4,"mw":130}},"connected":{"NO1":{"cases":16,"mw":286},"NO5":{"cases":20,"mw":617.5400000000001}}}}
 Reservasjoner kildehenter: forsøk 1/4
 Reservasjoner: uavklarte prisområder: 123 saker / 12216 MW
 Reservasjoner kildehenter: forsøk 2/4
@@ -46,20 +46,117 @@ Error: uavklarte prisområder: 37 saker / 9177.2 MW
     at file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-status-source.mjs:155:33
 
 Node.js v24.18.0
-Tilknyttet NO1: forsøk 1/4
+Tilknyttet v4 NO1: forsøk 1/4
 Tilknyttet Statnett KPI NO1: 296 MW
-Tilknyttet NO1: forsøk 2/4
-Tilknyttet Statnett KPI NO1: 296 MW
-Tilknyttet NO1: forsøk 3/4
-Tilknyttet Statnett KPI NO1: 296 MW
-Tilknyttet NO1: forsøk 4/4
-Tilknyttet Statnett KPI NO1: 296 MW
-node:internal/modules/run_main:107
-    triggerUncaughtException(
-    ^
-
-Error: NO1: detaljradtotal 2159.64 MW matcher ikke Statnett KPI 296 MW
-    at extract (file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v3.mjs:156:41)
-    at async file:///__w/nettko-dashboard/nettko-dashboard/scripts/fetch-connected-v3.mjs:164:12
-
-Node.js v24.18.0
+Tilknyttet v4 NO5: forsøk 1/4
+Tilknyttet Statnett KPI NO5: 251 MW
+TILKNYTTET V4 VALIDERT {"NO1":{"cases":17,"mw":296},"NO5":{"cases":7,"mw":251},"kpi":{"NO1":296,"NO5":251}}
+{
+  "updated_at": "2026-08-20T13:12:44.460Z",
+  "source": {
+    "NO1": {
+      "queue": 2521,
+      "reservations": 1326,
+      "connected": 296,
+      "withdrawn": 60
+    },
+    "NO5": {
+      "queue": 1339,
+      "reservations": 1104,
+      "connected": 251,
+      "withdrawn": 130
+    }
+  },
+  "checks": [
+    {
+      "key": "queue",
+      "area": "NO1",
+      "statnett_mw": 2521,
+      "row_mw": 2522,
+      "row_displayed_mw": 2522,
+      "cases": 49,
+      "delta_mw": 1,
+      "rounding_only": true,
+      "ok": true
+    },
+    {
+      "key": "reservations",
+      "area": "NO1",
+      "statnett_mw": 1326,
+      "row_mw": 1327,
+      "row_displayed_mw": 1327,
+      "cases": 43,
+      "delta_mw": 1,
+      "rounding_only": true,
+      "ok": true
+    },
+    {
+      "key": "connected",
+      "area": "NO1",
+      "statnett_mw": 296,
+      "row_mw": 296,
+      "row_displayed_mw": 296,
+      "cases": 17,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    },
+    {
+      "key": "withdrawn",
+      "area": "NO1",
+      "statnett_mw": 60,
+      "row_mw": 60,
+      "row_displayed_mw": 60,
+      "cases": 2,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    },
+    {
+      "key": "queue",
+      "area": "NO5",
+      "statnett_mw": 1339,
+      "row_mw": 1339,
+      "row_displayed_mw": 1339,
+      "cases": 22,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    },
+    {
+      "key": "reservations",
+      "area": "NO5",
+      "statnett_mw": 1104,
+      "row_mw": 1104,
+      "row_displayed_mw": 1104,
+      "cases": 22,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    },
+    {
+      "key": "connected",
+      "area": "NO5",
+      "statnett_mw": 251,
+      "row_mw": 251,
+      "row_displayed_mw": 251,
+      "cases": 7,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    },
+    {
+      "key": "withdrawn",
+      "area": "NO5",
+      "statnett_mw": 130,
+      "row_mw": 130,
+      "row_displayed_mw": 130,
+      "cases": 4,
+      "delta_mw": 0,
+      "rounding_only": false,
+      "ok": true
+    }
+  ],
+  "ok": true
+}
+STATNETT LIVE AUDIT OK – alle KPI-er samsvarer med Statnett innen dokumentert Power BI-visningsavrunding

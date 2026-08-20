@@ -10,7 +10,7 @@ Reservasjoner
 Forbruk (MW)
 1 326
 Produksjon (MW)
-1 498
+1 486
 Dato - Reservert kapasitet
 Dato - Planlagt tilknytning
 Forbruk (MW)
@@ -43,7 +43,7 @@ Produksjon (MW)
 2024
 2025
 2026
-41
+30
 86
 996
 375
