@@ -63,7 +63,6 @@ async function chooseArea(frame,page,area){
       p=p.locator('xpath=..');
     }
   }
-  // Global fallback, but only accept after explicit verification that the slicer displays the requested area.
   for(const curLabel of ['Alle','NO1','NO2','NO3','NO4','NO5']){
     const vals=frame.getByText(curLabel,{exact:true});
     for(let i=0;i<await vals.count().catch(()=>0);i++){
@@ -126,12 +125,15 @@ async function extractArea(area){
       await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-overview.txt`),overview);
       const link=frame.getByText('Se liste over saker med tilknyttet kapasitet',{exact:false});if(!(await link.count()))throw new Error('detaljlenke ikke funnet');
       await link.first().click({force:true});await page.waitForTimeout(3500);
-      // Verify that the selected price area survived navigation to the detail view.
-      if(!await areaSelected(frame,area)) throw new Error(`${area} filter forsvant ved åpning av detaljtabellen`);
+      // The detail page can hide the Prisområde slicer even when the filter context is preserved.
+      // Do not infer filter loss from slicer visibility. Instead, prove filter persistence by requiring
+      // the complete detail-row MW sum to match the already verified area-specific Statnett KPI.
       let grid=null;for(let r=0;r<35&&!grid;r++){const gs=frame.locator('[role="grid"],[role="table"],[role="treegrid"]');for(let i=0;i<await gs.count();i++){const t=await gs.nth(i).innerText({timeout:1500}).catch(()=>'');if(t.includes('Næringstype')&&t.includes('Tilknyttet kapasitet totalt')){grid=gs.nth(i);break}}if(!grid)await page.waitForTimeout(700)}
       if(!grid)throw new Error('detaljtabell ikke funnet');
       const raw=await collectGrid(grid,page);const rows=parseRows(raw,area);const t=total(rows);
-      await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-diagnostic.json`),JSON.stringify({updated_at:now,area,kpi,filter_verified:true,rows_total:t,rows},null,2));
+      const detailBody=await frame.locator('body').innerText({timeout:2500}).catch(()=>'');
+      await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-detail.txt`),detailBody);
+      await fs.writeFile(path.join(RAW,`connected-filter-${area}-${day}-diagnostic.json`),JSON.stringify({updated_at:now,area,kpi,overview_filter_verified:true,detail_filter_verified_by_kpi_match:Math.round(t.mw)===Math.round(kpi),rows_total:t,rows},null,2));
       if(!rows.length)throw new Error('ingen forbruksrader');
       if(Math.round(t.mw)!==Math.round(kpi))throw new Error(`${area} filtrerte detaljrader matcher ikke Statnett-KPI: rader ${t.mw} MW vs KPI ${kpi} MW`);
       await context.close();return {rows,kpi};
