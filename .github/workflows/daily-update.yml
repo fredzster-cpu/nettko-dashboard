@@ -6,9 +6,8 @@ on:
     - cron: "20 */6 * * *"
   push:
     paths:
-      - "scripts/fetch-capacity-all-areas.mjs"
-      - "scripts/fetch-connected-all-areas.mjs"
-      - "scripts/audit-statnett-all-areas.mjs"
+      - "scripts/fetch-statnett-scope.mjs"
+      - "scripts/merge-validated-scopes.mjs"
       - "scripts/geocode-stations.mjs"
       - ".github/workflows/daily-update.yml"
 
@@ -20,11 +19,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch:
+  scope:
+    name: "${{ matrix.status }} · ${{ matrix.area }}"
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 28
     container:
       image: mcr.microsoft.com/playwright:v1.62.0-noble
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        status: [queue, reservations, connected, withdrawn]
+        area: [NO1, NO2, NO3, NO4, NO5]
     steps:
       - name: Hent repository
         uses: actions/checkout@v4
@@ -32,85 +38,103 @@ jobs:
       - name: Installer Playwright-pakken
         run: npm install playwright@1.62.0
 
-      - name: Hent kø, reservasjoner og tilbaketrukket for NO1–NO5
-        shell: bash
-        run: |
-          set -o pipefail
-          mkdir -p data
-          node scripts/fetch-capacity-all-areas.mjs 2>&1 | tee data/last-run.log
-
-      - name: Hent tilknyttet for NO1–NO5 med eksplisitt prisområdefilter
-        shell: bash
-        run: |
-          set -o pipefail
-          node scripts/fetch-connected-all-areas.mjs 2>&1 | tee -a data/last-run.log
-
-      - name: Koordinatfest transmisjonsnettstasjoner
+      - name: Hent og valider ett kontrollpunkt
+        id: fetchscope
         continue-on-error: true
         shell: bash
         run: |
-          node scripts/geocode-stations.mjs
+          set -o pipefail
+          mkdir -p data/staging data/raw
+          node scripts/fetch-statnett-scope.mjs "${{ matrix.status }}" "${{ matrix.area }}" 2>&1 | tee "data/scope-${{ matrix.status }}-${{ matrix.area }}.log"
 
-      - name: Verifiser komplett produksjonsgrunnlag
+      - name: Oppsummer kontrollpunkt
+        if: always()
+        shell: bash
+        run: |
+          echo "### ${{ matrix.status }} · ${{ matrix.area }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "data/staging/${{ matrix.status }}-${{ matrix.area }}.json" ]; then
+            node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs=require('fs');
+          const status=process.env.STATUS,area=process.env.AREA;
+          const x=JSON.parse(fs.readFileSync(`data/staging/${status}-${area}.json`,'utf8'));
+          console.log(`✅ Validert: **${x.cases} saker / ${x.row_mw} MW** mot Statnett KPI **${x.kpi_mw} MW**`);
+          NODE
+          else
+            echo "⚠️ Ikke validert i denne kjøringen. Siste gode produksjonsdata beholdes ved sammenslåing." >> "$GITHUB_STEP_SUMMARY"
+          fi
+        env:
+          STATUS: ${{ matrix.status }}
+          AREA: ${{ matrix.area }}
+
+      - name: Last opp resultat for kontrollpunkt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scope-${{ matrix.status }}-${{ matrix.area }}
+          path: |
+            data/staging/
+            data/raw/
+            data/scope-${{ matrix.status }}-${{ matrix.area }}.log
+          if-no-files-found: warn
+          retention-days: 7
+
+  merge:
+    name: Slå sammen validerte kontrollpunkter
+    needs: scope
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hent repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Last ned alle kontrollpunkter
+        uses: actions/download-artifact@v4
+        with:
+          pattern: scope-*
+          path: .
+          merge-multiple: true
+
+      - name: Slå sammen kun validerte områder
+        run: node scripts/merge-validated-scopes.mjs
+
+      - name: Koordinatfest transmisjonsnettstasjoner
+        continue-on-error: true
+        run: node scripts/geocode-stations.mjs
+
+      - name: Kontroller sammenslått produksjonsgrunnlag
         shell: bash
         run: |
           node - <<'NODE'
           const fs=require('fs');
           const d=JSON.parse(fs.readFileSync('data/current.json','utf8'));
           const areas=['NO1','NO2','NO3','NO4','NO5'];
-          const requirements={queue:{cases:100,mw:5000},reservations:{cases:30,mw:500},withdrawn:{cases:3,mw:20},connected:{cases:10,mw:100}};
-          for(const [k,min] of Object.entries(requirements)) {
+          for(const k of ['queue','reservations','connected','withdrawn']){
             const rows=d[k]||[];
-            const mw=rows.reduce((s,x)=>s+(Number(x.mw)||0),0);
-            const meta=d.status_meta?.[k];
-            if(!meta?.ok || !meta?.fresh) throw new Error(`${k} er ikke ferskt og validert: ${meta?.error||'mangler status'}`);
-            if(rows.length<min.cases || mw<min.mw) throw new Error(`${k} ufullstendig: ${rows.length} saker / ${mw} MW`);
-            const badArea=rows.filter(x=>!areas.includes(x.area));
-            if(badArea.length) throw new Error(`${k} har ${badArea.length} rader uten gyldig NO1–NO5`);
-            const badMw=rows.filter(x=>!Number.isFinite(Number(x.mw)) || Number(x.mw)<=0);
-            if(badMw.length) throw new Error(`${k} har ${badMw.length} rader med ugyldig MW`);
-            const keys=rows.map(x=>`${x.statnett_case||''}|${x.tilko_case||''}|${x.station||''}|${x.end_customer||''}|${x.mw||''}|${x.date||''}|${x.area||''}`);
-            const duplicates=keys.filter((x,i)=>keys.indexOf(x)!==i);
-            if(duplicates.length) throw new Error(`${k} har ${duplicates.length} duplikatrader`);
+            const bad=rows.filter(x=>!areas.includes(x.area)||!Number.isFinite(Number(x.mw))||Number(x.mw)<=0);
+            if(bad.length)throw new Error(`${k}: ${bad.length} ugyldige rader`);
             for(const a of areas){
-              const ar=rows.filter(x=>x.area===a),calcMw=ar.reduce((s,x)=>s+(Number(x.mw)||0),0),calcCases=ar.length,t=d.totals?.[k]?.[a];
-              if(!t || Math.abs((Number(t.mw)||0)-calcMw)>0.01 || Number(t.cases)!==calcCases) throw new Error(`${k} ${a} totals samsvarer ikke med radene`);
+              const ar=rows.filter(x=>x.area===a),mw=ar.reduce((s,x)=>s+Number(x.mw),0),t=d.totals?.[k]?.[a];
+              if(!t||Number(t.cases)!==ar.length||Math.abs(Number(t.mw)-mw)>0.01)throw new Error(`${k} ${a}: totals samsvarer ikke med rader`);
             }
-            console.log(`${k.toUpperCase()} INTERNKONTROLL OK: ${rows.length} saker / ${mw} MW`);
           }
-          if(Date.now()-Date.parse(d.updated_at)>8*60*60*1000) throw new Error('current.json er ikke fersk');
-          console.log('KOMPLETT PRODUKSJONSGRUNNLAG NO1–NO5 INTERNKONTROLL OK');
+          const report=JSON.parse(fs.readFileSync('data/scope-validation-report.json','utf8'));
+          console.log(`Validerte kontrollpunkter: ${report.published.length}/20`);
+          console.log(`Beholdt siste gode: ${report.preserved.length}/20`);
+          console.log(`Uten validert historikk: ${report.missing.length}/20`);
+          if(report.missing.some(x=>x.endsWith(':NO1')||x.endsWith(':NO5')))throw new Error('NO1/NO5 mangler et tidligere validert kontrollpunkt');
           NODE
 
-      - name: Kryssjekk alle KPI-tall for NO1–NO5 direkte mot Statnett
-        shell: bash
-        run: |
-          set -o pipefail
-          node scripts/audit-statnett-all-areas.mjs 2>&1 | tee -a data/last-run.log
+      - name: Fjern midlertidige artefakter
+        run: rm -rf data/staging data/scope-*.log
 
-      - name: Lagre kun data som er kryssjekket mot Statnett
-        if: success()
+      - name: Publiser kun sammenslåtte og validerte data
         run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "nettko-bot"
           git config user.email "nettko-bot@users.noreply.github.com"
           git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "Statnett-oppdatering NO1–NO5 – live audit OK"
-            git push
-          fi
-
-      - name: Bevar feildiagnostikk uten å publisere ikke-validerte data
-        if: failure()
-        shell: bash
-        run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config user.name "nettko-bot"
-          git config user.email "nettko-bot@users.noreply.github.com"
-          git restore --source=HEAD -- data/current.json data/history.json data/stations.json 2>/dev/null || true
-          rm -f data/statnett-audit.json
-          git add data/last-run.log data/raw/ 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Statnett-validering NO1–NO5 feilet – lagre diagnostikk"
+            git commit -m "Statnett-oppdatering – områdevis validering"
             git push
           fi
