@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-08-21T10:35:00+02:00",
+  "method": "Manuelt verifiserte offentlige kilder. Prosjektpunkt vises bare der lokasjon kan dokumenteres med tilstrekkelig sikkerhet; øvrige saker beholdes uten prosjektpunkt.",
+  "projects": [
+    {
+      "statnett_case": "24/01801",
+      "customer": "WS Computing AS",
+      "mw": 480,
+      "station": "Tegneby TRA",
+      "location_name": "Gromstul, Skien",
+      "address": "Gromstulvegen 82, 3721 Skien",
+      "lat": 59.27461,
+      "lon": 9.52470,
+      "confidence": "confirmed",
+      "confidence_label": "Bekreftet",
+      "note": "WS Computing bygger datasenter på Gromstul i Skien. Punktet er lagt ved Gromstul-anleggsområdet.",
+      "sources": [
+        {"label": "NVE / konsesjon og prosjektområde", "url": "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=25885&type=A-1"},
+        {"label": "Skanska / datasenter på Gromstul", "url": "https://kommunikasjon.ntb.no/pressemelding/18324184/skanska-oppforer-rabygget-til-datasenter?lang=no&publisherId=89647"}
+      ]
+    },
+    {
+      "statnett_case": "26/03896",
+      "customer": "Fiskumparken C4 AS",
+      "mw": 350,
+      "station": "Flesaker TRA",
+      "location_name": "Fiskumparken, Øvre Eiker",
+      "address": "Fiskumparken ved E134, Darbu / Øvre Eiker",
+      "lat": 59.710554,
+      "lon": 9.772807,
+      "confidence": "high",
+      "confidence_label": "Høy sannsynlighet",
+      "note": "Selskapsnavnet peker direkte på C4-prosjektet i Fiskumparken. Punktet viser næringsparken, ikke endelig bygningsfotavtrykk.",
+      "sources": [
+        {"label": "Fiskumparken", "url": "https://www.fiskumparken.no/"}
+      ]
+    },
+    {
+      "statnett_case": "24/01806",
+      "customer": "Green Mountain AS",
+      "mw": 145,
+      "station": "Ringerike TRA",
+      "location_name": "Kaldbekkveien, Hønefoss",
+      "address": "Kaldbekkveien, 3516 Hønefoss",
+      "lat": 60.201426,
+      "lon": 10.240988,
+      "confidence": "high",
+      "confidence_label": "Høy sannsynlighet",
+      "note": "Offentlig byggesak viser Green Mountain som byggherre for datasenter i Kaldbekkveien. Punktet viser veien/prosjektområdet.",
+      "sources": [
+        {"label": "BuildPilot / byggesak", "url": "https://www.buildpilot.com/no/project/riftsbygning-for-tekniske-infrastruktur-datasenter-868901400/q?keyword=kvikkleirelomme"}
+      ]
+    },
+    {
+      "statnett_case": "25/01983",
+      "customer": "Bulk Infrastructure Group AS",
+      "mw": 88,
+      "station": "Frogner TRA",
+      "location_name": "Ausenfjellet II, Lillestrøm",
+      "address": "Ausenfjellet industriområde, Frogner / Lillestrøm",
+      "lat": 60.00556,
+      "lon": 11.13923,
+      "confidence": "confirmed",
+      "confidence_label": "Bekreftet",
+      "note": "Lillestrøm kommunes planbeskrivelse oppgir at Bulk har søkt 100 MW på Ausenfjellet; 12 MW er reservert og nøyaktig 88 MW står i kapasitetskø.",
+      "sources": [
+        {"label": "Lillestrøm kommune / planbeskrivelse", "url": "https://www.lillestrom.kommune.no/contentassets/9e12800244c245069680705777f15ef4/planbeskrivelse.pdf"}
+      ]
+    },
+    {
+      "statnett_case": "25/01938",
+      "customer": "Bulk Data Centers OS-IX AS",
+      "mw": 19,
+      "station": "Furuset TRA",
+      "location_name": "Bulk OS-IX, Oslo",
+      "address": "Hans Møller Gasmanns vei 9, 0598 Oslo",
+      "lat": 59.938433,
+      "lon": 10.834971,
+      "confidence": "confirmed",
+      "confidence_label": "Bekreftet",
+      "note": "Eksisterende Bulk OS-IX datasenter.",
+      "sources": [
+        {"label": "OS-IX lokasjon", "url": "https://pq.hosting/en/dc/5518-bulk-oslo-internet-exchange-os-ix"}
+      ]
+    },
+    {
+      "statnett_case": "26/04117",
+      "customer": "Blix Data Center AS",
+      "mw": 10,
+      "station": "Furuset TRA",
+      "location_name": "Blix BDC Oslo",
+      "address": "Lindeberg næringsvei 26, 1067 Oslo",
+      "lat": 59.935366,
+      "lon": 10.885255,
+      "confidence": "confirmed",
+      "confidence_label": "Bekreftet anlegg",
+      "note": "Punktet viser Blix sitt BDC-anlegg. Det bør fortsatt kontrolleres om Statnett-saken gjelder dette anlegget eller en utvidelse på samme lokasjon.",
+      "sources": [
+        {"label": "Blix BDC lokasjon", "url": "https://pq.hosting/en/dc/10351-blix-bdc-oslo"}
+      ]
+    },
+    {
+      "statnett_case": "24/01726",
+      "customer": "SI OSL 01 AS",
+      "mw": 8,
+      "station": "Ulven TRA",
+      "location_name": "OSL01 / Ulven, Oslo",
+      "address": "Selma Ellefsens vei 1, 0581 Oslo",
+      "lat": 59.924964,
+      "lon": 10.808178,
+      "confidence": "confirmed",
+      "confidence_label": "Bekreftet anlegg",
+      "note": "Eksisterende datasenterlokasjon i Selma Ellefsens vei 1.",
+      "sources": [
+        {"label": "Dokumentert datasenterlokasjon", "url": "https://commons.wikimedia.org/wiki/File:Stack_Infra_datasenter,_Selma_Ellefsens_vei_1,_Oslo.jpg"}
+      ]
+    }
+  ]
+}
