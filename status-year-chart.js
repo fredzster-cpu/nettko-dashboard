@@ -57,60 +57,17 @@
     const bases=increments.map(v=>{const b=running;running+=v;return b;});
     const tops=bases.map((b,i)=>b+increments[i]);
 
-    const connectorPlugin={
-      id:'waterfallConnectors',
-      afterDatasetsDraw(chart){
-        const meta=chart.getDatasetMeta(1);if(!meta?.data?.length)return;
-        const {ctx}=chart;ctx.save();ctx.strokeStyle='rgba(11,75,58,.45)';ctx.lineWidth=1;
-        for(let i=0;i<meta.data.length-1;i++){
-          const a=meta.data[i],b=meta.data[i+1];
-          const y=chart.scales.y.getPixelForValue(tops[i]);
-          ctx.beginPath();ctx.moveTo(a.x+a.width/2,y);ctx.lineTo(b.x-b.width/2,y);ctx.stroke();
-        }
-        ctx.restore();
-      }
-    };
-    const labelPlugin={
-      id:'waterfallLabels',
-      afterDatasetsDraw(chart){
-        const meta=chart.getDatasetMeta(1),{ctx}=chart;ctx.save();ctx.fillStyle='#17382e';ctx.textAlign='center';ctx.textBaseline='bottom';ctx.font='12px Inter, system-ui, sans-serif';
-        meta.data.forEach((bar,i)=>{const y=chart.scales.y.getPixelForValue(tops[i]);ctx.fillText(increments[i].toLocaleString('nb-NO'),bar.x,y-7);});ctx.restore();
-      }
-    };
+    const connectorPlugin={id:'waterfallConnectors',afterDatasetsDraw(chart){const meta=chart.getDatasetMeta(1);if(!meta?.data?.length)return;const {ctx}=chart;ctx.save();ctx.strokeStyle='rgba(11,75,58,.45)';ctx.lineWidth=1;for(let i=0;i<meta.data.length-1;i++){const a=meta.data[i],b=meta.data[i+1],y=chart.scales.y.getPixelForValue(tops[i]);ctx.beginPath();ctx.moveTo(a.x+a.width/2,y);ctx.lineTo(b.x-b.width/2,y);ctx.stroke();}ctx.restore();}};
+    const labelPlugin={id:'waterfallLabels',afterDatasetsDraw(chart){const meta=chart.getDatasetMeta(1),{ctx}=chart;ctx.save();ctx.fillStyle='#17382e';ctx.textAlign='center';ctx.textBaseline='bottom';ctx.font='12px Inter, system-ui, sans-serif';meta.data.forEach((bar,i)=>{const y=chart.scales.y.getPixelForValue(tops[i]);ctx.fillText(increments[i].toLocaleString('nb-NO'),bar.x,y-7);});ctx.restore();}};
 
-    yearlyChart=new Chart(canvas,{
-      type:'bar',
-      data:{labels:years,datasets:[
-        {label:'Startnivå',data:bases,backgroundColor:'rgba(0,0,0,0)',borderWidth:0,stack:'waterfall',barPercentage:.72,categoryPercentage:.82},
-        {label:'Årlig endring',data:increments,backgroundColor:'#0b4b3a',borderColor:'#0b4b3a',borderWidth:0,borderRadius:0,stack:'waterfall',maxBarThickness:86,barPercentage:.72,categoryPercentage:.82}
-      ]},
-      options:{
-        responsive:true,maintainAspectRatio:false,animation:false,layout:{padding:{top:26,right:8,bottom:0,left:0}},
-        plugins:{
-          legend:{display:false},
-          tooltip:{filter:item=>item.datasetIndex===1,callbacks:{label:c=>increments[c.dataIndex].toLocaleString('nb-NO')+' MW'}}
-        },
-        scales:{
-          x:{stacked:true,grid:{display:false},border:{display:false},ticks:{color:'#18362c'}},
-          y:{stacked:true,beginAtZero:true,border:{display:false},grid:{color:'rgba(70,95,85,.18)',borderDash:[2,5]},ticks:{color:'#18362c',callback:v=>Number(v).toLocaleString('nb-NO')}}
-        }
-      },
-      plugins:[connectorPlugin,labelPlugin]
-    });
+    yearlyChart=new Chart(canvas,{type:'bar',data:{labels:years,datasets:[{label:'Startnivå',data:bases,backgroundColor:'rgba(0,0,0,0)',borderWidth:0,stack:'waterfall',barPercentage:.72,categoryPercentage:.82},{label:'Årlig endring',data:increments,backgroundColor:'#0b4b3a',borderColor:'#0b4b3a',borderWidth:0,borderRadius:0,stack:'waterfall',maxBarThickness:68,barPercentage:.72,categoryPercentage:.82}]},options:{responsive:true,maintainAspectRatio:false,animation:false,layout:{padding:{top:26,right:4,bottom:0,left:0}},plugins:{legend:{display:false},tooltip:{filter:item=>item.datasetIndex===1,callbacks:{label:c=>increments[c.dataIndex].toLocaleString('nb-NO')+' MW'}}},scales:{x:{stacked:true,grid:{display:false},border:{display:false},ticks:{color:'#18362c'}},y:{stacked:true,beginAtZero:true,border:{display:false},grid:{color:'rgba(70,95,85,.18)',borderDash:[2,5]},ticks:{color:'#18362c',callback:v=>Number(v).toLocaleString('nb-NO')}}}},plugins:[connectorPlugin,labelPlugin]});
   }
 
-  async function refreshData(){
-    try{const r=await fetch('./data/current.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);data=await r.json();render();}
-    catch(e){console.error('status-year-chart data load',e);const t=document.getElementById('statusYearTotal'),h=document.getElementById('statusYearHint');if(t)t.textContent='–';if(h)h.textContent='Kunne ikke laste data for grafen.';}
-  }
+  async function refreshData(){try{const r=await fetch('./data/current.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);data=await r.json();render();}catch(e){console.error('status-year-chart data load',e);const t=document.getElementById('statusYearTotal'),h=document.getElementById('statusYearHint');if(t)t.textContent='–';if(h)h.textContent='Kunne ikke laste data for grafen.';}}
 
   const style=document.createElement('style');
-  style.textContent=`.map-status-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px;align-items:stretch}.map-status-layout .mapcard{margin-top:0;min-width:0}.map-status-layout .mapwrap{height:520px}.status-year-card{min-width:0;display:flex;flex-direction:column}.status-year-total-label{text-align:center;font-size:18px;margin-top:5px;color:#17211c}.status-year-total{text-align:center;font-size:36px;line-height:1.1;color:#06392d;margin:7px 0 26px}.status-year-title{font-size:20px;color:#0c4034;margin-bottom:5px}.status-year-hint{font-size:11px;color:var(--muted);line-height:1.4;min-height:31px}.status-year-canvas{height:390px;margin-top:8px}@media(max-width:1050px){.map-status-layout{grid-template-columns:1fr}.map-status-layout .mapwrap{height:460px}.status-year-canvas{height:330px}}`;
+  style.textContent=`.map-status-layout{display:grid;grid-template-columns:minmax(300px,.7fr) minmax(0,1.3fr);gap:14px;margin-top:14px;align-items:stretch}.map-status-layout .mapcard{margin-top:0;min-width:0}.map-status-layout .mapwrap{height:560px}.status-year-card{min-width:0;display:flex;flex-direction:column}.status-year-total-label{text-align:center;font-size:16px;margin-top:3px;color:#17211c}.status-year-total{text-align:center;font-size:31px;line-height:1.1;color:#06392d;margin:5px 0 18px}.status-year-title{font-size:17px;color:#0c4034;margin-bottom:4px}.status-year-hint{font-size:10px;color:var(--muted);line-height:1.35;min-height:28px}.status-year-canvas{height:430px;margin-top:6px}@media(max-width:1050px){.map-status-layout{grid-template-columns:1fr}.map-status-layout .mapwrap{height:500px}.status-year-canvas{height:320px}}`;
   document.head.appendChild(style);
 
-  [statusSelect,industry].filter(Boolean).forEach(el=>el.addEventListener('change',()=>setTimeout(render,0)));
-  search?.addEventListener('input',()=>setTimeout(render,0));
-  document.querySelectorAll('[data-area]').forEach(b=>b.addEventListener('click',()=>setTimeout(render,0)));
-  document.querySelector('section.grid')?.addEventListener('click',e=>{if(e.target.closest('[data-status-card]'))setTimeout(render,20);});
-  refreshData();setInterval(refreshData,5*60*1000);
+  [statusSelect,industry].filter(Boolean).forEach(el=>el.addEventListener('change',()=>setTimeout(render,0)));search?.addEventListener('input',()=>setTimeout(render,0));document.querySelectorAll('[data-area]').forEach(b=>b.addEventListener('click',()=>setTimeout(render,0)));document.querySelector('section.grid')?.addEventListener('click',e=>{if(e.target.closest('[data-status-card]'))setTimeout(render,20);});refreshData();setInterval(refreshData,5*60*1000);
 })();
