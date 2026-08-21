@@ -1,0 +1,38 @@
+name: Oppdater datasenternyheter
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+  push:
+    paths:
+      - "scripts/fetch-datacenter-news.mjs"
+      - ".github/workflows/datacenter-news.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datacenter-news-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Hent nyeste artikler
+        run: node scripts/fetch-datacenter-news.mjs
+      - name: Lagre nyhetsdata
+        run: |
+          git config user.name "nettko-bot"
+          git config user.email "nettko-bot@users.noreply.github.com"
+          git add data/datacenter-news.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Oppdater datasenternyheter"
+            git push
+          fi
