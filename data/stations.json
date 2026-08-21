@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-21T07:47:47.673Z",
-  "source": "NVE Nettanlegg4 / Transformatorstasjoner",
+  "updated_at": "2026-08-21T08:10:43.175Z",
+  "source": "NVE Nettanlegg4",
   "stations": {
     "Arna Transformatorstasjon TRA": {
       "station": "Arna Transformatorstasjon TRA",
@@ -9,12 +9,16 @@
       "lon": 5.455730413474385,
       "display_name": "Arna",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 998,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:36.986Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:29.074Z"
     },
     "Aurland 2 KRA/TRA": {
       "station": "Aurland 2 KRA/TRA",
@@ -23,12 +27,16 @@
       "lon": 7.3643273081241665,
       "display_name": "Aurland 2",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1015,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:37.275Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:29.491Z"
     },
     "Aurland 3 KRA/TRA": {
       "station": "Aurland 3 KRA/TRA",
@@ -37,12 +45,16 @@
       "lon": 7.566487449094708,
       "display_name": "Aurland 3",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1014,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:37.565Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:29.864Z"
     },
     "Borgund KRA/TRA": {
       "station": "Borgund KRA/TRA",
@@ -51,12 +63,16 @@
       "lon": 7.818385965506772,
       "display_name": "Borgund",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 866,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:37.849Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:30.243Z"
     },
     "Dale TRA": {
       "station": "Dale TRA",
@@ -65,12 +81,16 @@
       "lon": 5.811792625446461,
       "display_name": "Dale",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 997,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:38.135Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:30.617Z"
     },
     "Fana Transformatorstasjon TRA": {
       "station": "Fana Transformatorstasjon TRA",
@@ -79,12 +99,16 @@
       "lon": 5.343622122093163,
       "display_name": "Fana",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 999,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:38.421Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:31.004Z"
     },
     "Flesaker TRA": {
       "station": "Flesaker TRA",
@@ -93,12 +117,16 @@
       "lon": 9.844336072308698,
       "display_name": "Flesaker",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 911,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:38.705Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:31.379Z"
     },
     "Follo TRA": {
       "station": "Follo TRA",
@@ -107,12 +135,16 @@
       "lon": 10.782531362357613,
       "display_name": "Follo",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 946,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:38.989Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:31.746Z"
     },
     "Fortun KRA/TRA": {
       "station": "Fortun KRA/TRA",
@@ -121,12 +153,16 @@
       "lon": 7.701380412658039,
       "display_name": "Fortun",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 868,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:39.274Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:32.135Z"
     },
     "Frogner TRA": {
       "station": "Frogner TRA",
@@ -135,12 +171,17 @@
       "lon": 11.134150019259742,
       "display_name": "Frogner",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 945,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:39.558Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:32.504Z"
     },
     "Furuset TRA": {
       "station": "Furuset TRA",
@@ -149,12 +190,16 @@
       "lon": 10.883705916763457,
       "display_name": "Furuset",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 907,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:39.842Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:32.884Z"
     },
     "Fåberg TRA": {
       "station": "Fåberg TRA",
@@ -163,12 +208,16 @@
       "lon": 10.421884530874195,
       "display_name": "Fåberg",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 860,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:40.136Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:33.250Z"
     },
     "Halden TRA": {
       "station": "Halden TRA",
@@ -177,12 +226,16 @@
       "lon": 11.414132555861778,
       "display_name": "Halden",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 941,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:40.432Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:33.620Z"
     },
     "Hamang TRA": {
       "station": "Hamang TRA",
@@ -191,12 +244,16 @@
       "lon": 10.498511001477967,
       "display_name": "Hamang",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 909,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:40.716Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:33.989Z"
     },
     "Hasle TRA": {
       "station": "Hasle TRA",
@@ -205,12 +262,17 @@
       "lon": 11.15500236191075,
       "display_name": "Hasle",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 942,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:41.007Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:34.356Z"
     },
     "Haugsvær transformatorstasjon TRA": {
       "station": "Haugsvær transformatorstasjon TRA",
@@ -219,12 +281,16 @@
       "lon": 5.527142526559735,
       "display_name": "Haugsvær",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1040,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:41.290Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:34.725Z"
     },
     "Hove KRA/TRA": {
       "station": "Hove KRA/TRA",
@@ -233,12 +299,16 @@
       "lon": 6.595460159781799,
       "display_name": "Hove",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 870,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:41.579Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:35.095Z"
     },
     "Kollsnes KRA/TRA": {
       "station": "Kollsnes KRA/TRA",
@@ -247,12 +317,16 @@
       "lon": 4.844413605586241,
       "display_name": "Kollsnes",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1026,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:41.863Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:35.466Z"
     },
     "Leirdøla (LEX) TRA": {
       "station": "Leirdøla (LEX) TRA",
@@ -261,12 +335,16 @@
       "lon": 7.245854291850852,
       "display_name": "Leirdøla",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1091,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:42.147Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:35.833Z"
     },
     "Lindås transformatorstasjon TRA": {
       "station": "Lindås transformatorstasjon TRA",
@@ -275,12 +353,16 @@
       "lon": 5.0422061591116165,
       "display_name": "Lindås",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1042,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:42.429Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:36.244Z"
     },
     "Litle Sotra TRA": {
       "station": "Litle Sotra TRA",
@@ -289,12 +371,16 @@
       "lon": 5.132444646511292,
       "display_name": "Litle Sotra",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1025,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:42.714Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:36.615Z"
     },
     "Minne TRA": {
       "station": "Minne TRA",
@@ -303,12 +389,17 @@
       "lon": 11.23225786640332,
       "display_name": "Minne",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300,
+        132
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 947,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:42.996Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:36.983Z"
     },
     "Nedre Vinstra KRA/TRA": {
       "station": "Nedre Vinstra KRA/TRA",
@@ -317,12 +408,16 @@
       "lon": 9.804926814889036,
       "display_name": "Nedre Vinstra",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 865,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:43.280Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:37.363Z"
     },
     "Nes Bk TRA": {
       "station": "Nes Bk TRA",
@@ -331,12 +426,16 @@
       "lon": 6.815356554053551,
       "display_name": "Nesflaten",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 877,
       "confidence": "high",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:43.561Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:37.856Z"
     },
     "Rendalen transformatorstasjon TRA": {
       "station": "Rendalen transformatorstasjon TRA",
@@ -345,12 +444,16 @@
       "lon": 11.122453035407371,
       "display_name": "Rendalen",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 862,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:43.845Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:38.224Z"
     },
     "Ringerike TRA": {
       "station": "Ringerike TRA",
@@ -359,12 +462,16 @@
       "lon": 10.204696998422605,
       "display_name": "Ringerike",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 915,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:44.128Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:38.597Z"
     },
     "Røykås TRA": {
       "station": "Røykås TRA",
@@ -373,12 +480,17 @@
       "lon": 10.933815002161605,
       "display_name": "Røykås",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 944,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:44.412Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:38.967Z"
     },
     "Samnanger TRA": {
       "station": "Samnanger TRA",
@@ -387,12 +499,17 @@
       "lon": 5.840817222424526,
       "display_name": "Samnanger",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 887,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:44.693Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:39.335Z"
     },
     "Sima KRA/TRA": {
       "station": "Sima KRA/TRA",
@@ -401,12 +518,16 @@
       "lon": 7.145319050086963,
       "display_name": "Sima",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 872,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:44.978Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:39.705Z"
     },
     "Smestad TRA": {
       "station": "Smestad TRA",
@@ -415,12 +536,16 @@
       "lon": 10.66767113400373,
       "display_name": "Smestad",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 906,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:45.260Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:40.075Z"
     },
     "Sogn TRA": {
       "station": "Sogn TRA",
@@ -429,12 +554,16 @@
       "lon": 10.720672602563095,
       "display_name": "Sogn",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 905,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:45.543Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:40.470Z"
     },
     "Sogndal TRA": {
       "station": "Sogndal TRA",
@@ -443,12 +572,18 @@
       "lon": 7.021815549218685,
       "display_name": "Sogndal",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300,
+        132
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 926,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:45.825Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:40.842Z"
     },
     "Sylling TRA": {
       "station": "Sylling TRA",
@@ -457,12 +592,17 @@
       "lon": 10.214758094412566,
       "display_name": "Sylling",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 910,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:46.110Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:41.222Z"
     },
     "Tegneby TRA": {
       "station": "Tegneby TRA",
@@ -471,12 +611,17 @@
       "lon": 10.739130093358563,
       "display_name": "Tegneby",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 943,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:46.392Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:41.592Z"
     },
     "Ulven TRA": {
       "station": "Ulven TRA",
@@ -485,12 +630,16 @@
       "lon": 10.811170471506728,
       "display_name": "Ulven",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 904,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:46.676Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:41.961Z"
     },
     "Usta KRA/TRA": {
       "station": "Usta KRA/TRA",
@@ -499,12 +648,17 @@
       "lon": 8.411500330900935,
       "display_name": "Usta",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 420,
+      "voltage_levels_kv": [
+        420,
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 1017,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:46.956Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:42.338Z"
     },
     "Vang TRA": {
       "station": "Vang TRA",
@@ -513,12 +667,16 @@
       "lon": 11.267279292120397,
       "display_name": "Vang",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 863,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:47.242Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:42.706Z"
     },
     "Vardal TRA": {
       "station": "Vardal TRA",
@@ -527,15 +685,21 @@
       "lon": 10.564888176309436,
       "display_name": "Vardal",
       "owner": "STATNETT SF",
-      "voltage_kv": null,
+      "voltage_kv": 300,
+      "voltage_levels_kv": [
+        300,
+        132
+      ],
+      "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
       "nve_object_id": 864,
       "confidence": "verified",
-      "source": "NVE Nettanlegg4 / Transformatorstasjoner",
-      "checked_at": "2026-08-21T07:47:47.522Z"
+      "source": "NVE Nettanlegg4",
+      "checked_at": "2026-08-21T08:10:43.074Z"
     }
   },
   "station_count": 38,
   "resolved_count": 38,
+  "voltage_resolved_count": 38,
   "unresolved_count": 0
 }
