@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T03:54:07.733Z",
+  "updated_at": "2026-08-21T03:34:03.902Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
   "scope": "Forbruk, NO1 og NO5",
@@ -2548,15 +2548,11 @@
       "preserved_previous": false
     },
     "connected": {
-      "ok": true,
-      "fresh": true,
-      "updated_at": "2026-08-21T03:54:07.733Z",
-      "error": null,
-      "preserved_previous": false,
-      "area_resolution": {
-        "powerbi_detail_filter": 24
-      },
-      "validated_against_statnett_kpi": true
+      "ok": false,
+      "fresh": false,
+      "updated_at": "2026-08-20T20:10:33.211Z",
+      "error": "ufullstendig uttrekk (0 saker / 0 MW)",
+      "preserved_previous": true
     }
   },
   "totals": {
@@ -2599,24 +2595,6 @@
         "cases": 7,
         "mw": 251
       }
-    }
-  },
-  "statnett_display_totals": {
-    "connected": {
-      "NO1": 296,
-      "NO5": 251
-    },
-    "queue": {
-      "NO1": 2521,
-      "NO5": 1339
-    },
-    "reservations": {
-      "NO1": 1326,
-      "NO5": 1104
-    },
-    "withdrawn": {
-      "NO1": 60,
-      "NO5": 130
     }
   }
 }

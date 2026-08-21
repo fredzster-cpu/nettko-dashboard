@@ -24,5 +24,17 @@
     "withdrawn_NO5": 130,
     "connected_NO1": 296,
     "connected_NO5": 251
+  },
+  {
+    "date": "2026-08-21",
+    "updated_at": "2026-08-21T03:54:07.733Z",
+    "queue_NO1": 2522,
+    "queue_NO5": 1339,
+    "reservations_NO1": 1327,
+    "reservations_NO5": 1104,
+    "withdrawn_NO1": 60,
+    "withdrawn_NO5": 130,
+    "connected_NO1": 296,
+    "connected_NO5": 251
   }
 ]

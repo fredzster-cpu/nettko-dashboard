@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-08-21T03:34:03.902Z",
+  "url": "https://app.powerbi.com/view?pageName=ccba661604c0f2acf1b4&r=eyJrIjoiZTVkMmNiNDQtM2VhZi00OGQ0LWE0YTAtMjMyOGMxMzhlYmZmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
+  "attempt": 1,
+  "grid_count": 2,
+  "cases": 65,
+  "mw": 2431,
+  "diag": [
+    {
+      "grid": 0,
+      "rows": 212,
+      "parsed": 65,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Reservert kapasitet (MW)",
+          "Dato for når Statnett reserverte kapasitet til kunden"
+        ],
+        [
+          "Velg rad",
+          "21/00279",
+          "ELB1496",
+          "Hyggevatn TRA",
+          "Nord",
+          "NO4",
+          "Equinor Asa",
+          "EQUINOR ASA",
+          "Petroleum",
+          "350",
+          "03.04.2019"
+        ],
+        [
+          "Velg rad",
+          "21/00289",
+          "ELB1571",
+          "Kristiansand TRA",
+          "Sør Rogaland og Agder",
+          "NO2",
+          "N01 Utilities AS",
+          "N01 Utilities AS",
+          "Datasenter",
+          "300",
+          "22.01.2023"
+        ],
+        [
+          "Velg rad",
+          "22/00667",
+          "ELB2025",
+          "Ålfoten TRA",
+          "Sogn og Sunnmøre",
+          "NO3",
+          "Linja AS",
+          "Fortescue",
+          "Hydrogen/ammoniakk",
+          "300",
+          "11.10.2023"
+        ]
+      ]
+    },
+    {
+      "grid": 1,
+      "rows": 159,
+      "parsed": 2,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Reservert kapasitet (MW)",
+          "Dato for når Statnett reserverte kapasitet til kunden"
+        ],
+        [
+          "Velg rad",
+          "23/01091",
+          "ELB1575",
+          "Kvinesdal TRA",
+          "Sør Rogaland og Agder",
+          "NO2",
+          "VENTYR SNII AS",
+          "Ventyr",
+          "Offshore vind",
+          "1 400",
+          "07.10.2024"
+        ],
+        [
+          "Velg rad",
+          "23/01037",
+          "ELB1585",
+          "Aurland 1 KRA/TRA",
+          "Hallingdal og Ringerike",
+          "NO5",
+          "Hafslund Kraft As",
+          "Hafslund Eco Vannkraft AS",
+          "Vannkraft",
+          "620",
+          "06.03.2025"
+        ],
+        [
+          "Velg rad",
+          "24/01591",
+          "ELB1416",
+          "Aura KRA/TRA",
+          "Midt",
+          "NO3",
+          "Statkraft Energi As",
+          "STATKRAFT ENERGI AS",
+          "Vannkraft",
+          "520",
+          "18.12.2024"
+        ]
+      ]
+    }
+  ]
+}

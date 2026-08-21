@@ -1,0 +1,248 @@
+Vis hurtigtaster
+Vis tips for skjermleser
+Gå til hovedinnhold
+Power BI-rapport
+Tilbake
+
+Liste over saker med tilknyttet kapasitet - Forbruk (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00275
+ 
+Fana Transformatorstasjon TRA
+Bergen og Haugalandet
+ 
+ 
+Industri
+19.12.2021
+60,00
+60,00
+Velg rad
+23/00878
+ 
+Litle Sotra TRA
+Bergen og Haugalandet
+BKK AS
+Norgesnett
+Annet forbruk
+31.12.2022
+5,00
+5,00
+Velg rad
+21/00207
+ELB1541
+Kollsnes KRA/TRA
+Bergen og Haugalandet
+Equinor Asa
+Equinor Asa
+Petroleum
+29.08.2023
+116,00
+ 
+Velg rad
+22/00740
+ 
+Fana Transformatorstasjon TRA
+Bergen og Haugalandet
+BKK AS
+PLUG landstrøm
+Transport
+23.11.2023
+5,00
+5,00
+Velg rad
+23/00880
+ 
+Borgund KRA/TRA
+Hallingdal og Ringerike
+Sygnir AS
+Ionity
+Transport
+30.01.2024
+5,00
+5,00
+Velg rad
+23/00875
+ 
+Arna Transformatorstasjon TRA
+Bergen og Haugalandet
+BKK AS
+Northern Lights
+Industri
+30.05.2025
+10,00
+10,00
+Velg rad
+21/00100
+ELB1539
+Samnanger TRA
+Bergen og Haugalandet
+Aker BP ASA
+Aker BP
+Petroleum
+16.04.2026
+50,00
+14,00
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+251,00
+99,00
+Dato kapasiteten ble tilknyttet
+Næringstype
+Alle
+Prisområde
+NO5
+Områdeplan
+Alle
+
+Liste over saker med tilknyttet kapasitet - Produksjon (MW)
+
+Rull opp
+Rull ned
+Bla til venstre
+Bla til høyre
+Radvalg
+Statnett saksnr.
+Tilko saksnr.
+Stasjon for tilknytning i transmisjonsnettet
+Områdeplan
+Statnetts kunde
+Sluttkunde
+Næringstype
+Dato - tilknyttet kapasitet
+ 
+Tilknyttet kapasitet totalt (MW)
+Tilknyttet kapasitet med ordinære vilkår (MW)
+Velg rad
+21/00294
+ 
+Sima KRA/TRA
+Bergen og Haugalandet
+ 
+Statkraft Energi As
+Vannkraft
+20.12.2020
+10,00
+10,00
+Velg rad
+21/00198
+ 
+Borgund KRA/TRA
+Hallingdal og Ringerike
+Sygnir AS
+ 
+Vannkraft
+19.12.2021
+26,00
+26,00
+Velg rad
+22/00751
+ELB2901
+Fortun KRA/TRA
+Sogn og Sunnmøre
+Linja AS
+Småkraft under Breheim Nett
+Vannkraft
+30.12.2022
+14,55
+14,55
+Velg rad
+21/00261
+ 
+Fortun KRA/TRA
+Sogn og Sunnmøre
+Breheim Nett AS
+ 
+Vannkraft
+07.02.2024
+55,00
+55,00
+Velg rad
+22/00752
+ 
+Leirdøla (LEX) TRA
+Sogn og Sunnmøre
+Sygnir AS
+ 
+Vannkraft
+29.02.2024
+40,43
+40,43
+Velg rad
+22/00619
+ 
+Borgund KRA/TRA
+Hallingdal og Ringerike
+Sygnir AS
+ 
+Vannkraft
+22.10.2024
+7,60
+7,60
+Velg rad
+21/00340
+ 
+Dagali TRA
+Hallingdal og Ringerike
+Godfarfoss Kraft AS
+Godfarfoss Kraft AS
+Vannkraft
+30.06.2025
+9,50
+9,50
+Velg rad
+22/00510
+ 
+Sogndal TRA
+Sogn og Sunnmøre
+Sygnir AS
+Sognekraft AS
+Vannkraft
+14.10.2025
+20,00
+20,00
+Totalt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+183,08
+183,08
+Statnetts kunde
+Alle
+-
++
+150 %
+Microsoft Power BI
+Sider
+Rapport zoomet til 150 %
+NO1
+NO2
+NO3
+NO4
+NO5

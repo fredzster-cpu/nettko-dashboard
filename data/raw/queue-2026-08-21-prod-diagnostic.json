@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-08-21T03:34:03.902Z",
+  "url": "https://app.powerbi.com/view?pageName=e919fd623fe16c1f1b5b&r=eyJrIjoiYTM4N2MzZGMtMGMwYi00MjMwLThjNWYtYTBhMmNkYTVkNmFmIiwidCI6ImE4ZDYxNDYyLWYyNTItNDRiMi1iZjZhLWQ3MjMxOTYwYzA0MSIsImMiOjh9",
+  "attempt": 1,
+  "grid_count": 2,
+  "cases": 71,
+  "mw": 3861,
+  "diag": [
+    {
+      "grid": 0,
+      "rows": 236,
+      "parsed": 71,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Kapasitet i kø (MW)",
+          "Dato - moden bestilling fra sluttkunde"
+        ],
+        [
+          "Velg rad",
+          "21/00283",
+          "ELB1543",
+          "Kårstø TRA",
+          "Bergen og Haugalandet",
+          "NO2",
+          "Gassco AS",
+          "Gassco AS",
+          "Petroleum",
+          "20",
+          "15.05.2019"
+        ],
+        [
+          "Velg rad",
+          "24/01748",
+          "ELB813",
+          "Litle Sotra TRA",
+          "Bergen og Haugalandet",
+          "NO5",
+          "BKK AS",
+          "Tresmarka AS",
+          "Transport",
+          "20",
+          "22.12.2020"
+        ],
+        [
+          "Velg rad",
+          "22/00602",
+          "ELB1426",
+          "Rød TRA",
+          "Telemark og Vestfold",
+          "NO2",
+          "WS Computing AS",
+          "WSC",
+          "Datasenter",
+          "480",
+          "29.03.2022"
+        ]
+      ]
+    },
+    {
+      "grid": 1,
+      "rows": 147,
+      "parsed": 10,
+      "sample": [
+        [
+          "Radvalg",
+          "Statnett saksnr.",
+          "Tilko saksnr.",
+          "Stasjon for tilknytning i transmisjonsnettet",
+          "Områdeplan",
+          "Prisområde",
+          "Statnetts kunde",
+          "Sluttkunde",
+          "Næringstype",
+          "Kapasitet i kø (MW)",
+          "Dato - moden bestilling fra sluttkunde"
+        ],
+        [
+          "Velg rad",
+          "24/01677",
+          "ELB141",
+          "Minne TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Løvhaugsåa Kraftverk AS",
+          "Vannkraft",
+          "2",
+          "24.10.2024"
+        ],
+        [
+          "Velg rad",
+          "25/02402",
+          "",
+          "Fortun KRA/TRA",
+          "Sogn og Sunnmøre",
+          "NO5",
+          "Linja AS",
+          "Offerdal Kraftverk AS",
+          "Vannkraft",
+          "2",
+          "29.05.2024"
+        ],
+        [
+          "Velg rad",
+          "23/01385",
+          "ELB183",
+          "Minne TRA",
+          "Innlandet",
+          "NO1",
+          "Elvia As",
+          "Endra AS",
+          "Solkraft",
+          "3",
+          "08.11.2023"
+        ]
+      ]
+    }
+  ]
+}

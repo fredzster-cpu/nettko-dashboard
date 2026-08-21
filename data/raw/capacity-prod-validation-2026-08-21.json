@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "updated_at": "2026-08-21T03:34:03.902Z",
+  "status_meta": {
+    "queue": {
+      "ok": true,
+      "fresh": true,
+      "updated_at": "2026-08-21T03:34:03.902Z",
+      "error": null,
+      "preserved_previous": false
+    },
+    "reservations": {
+      "ok": true,
+      "fresh": true,
+      "updated_at": "2026-08-21T03:34:03.902Z",
+      "error": null,
+      "preserved_previous": false
+    },
+    "withdrawn": {
+      "ok": true,
+      "fresh": true,
+      "updated_at": "2026-08-21T03:34:03.902Z",
+      "error": null,
+      "preserved_previous": false
+    },
+    "connected": {
+      "ok": false,
+      "fresh": false,
+      "updated_at": "2026-08-20T20:10:33.211Z",
+      "error": "ufullstendig uttrekk (0 saker / 0 MW)",
+      "preserved_previous": true
+    }
+  },
+  "totals": {
+    "queue": {
+      "NO1": {
+        "cases": 49,
+        "mw": 2522
+      },
+      "NO5": {
+        "cases": 22,
+        "mw": 1339
+      }
+    },
+    "reservations": {
+      "NO1": {
+        "cases": 43,
+        "mw": 1327
+      },
+      "NO5": {
+        "cases": 22,
+        "mw": 1104
+      }
+    },
+    "withdrawn": {
+      "NO1": {
+        "cases": 2,
+        "mw": 60
+      },
+      "NO5": {
+        "cases": 4,
+        "mw": 130
+      }
+    },
+    "connected": {
+      "NO1": {
+        "cases": 17,
+        "mw": 296
+      },
+      "NO5": {
+        "cases": 7,
+        "mw": 251
+      }
+    }
+  }
+}
