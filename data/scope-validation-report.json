@@ -1,0 +1,160 @@
+{
+  "updated_at": "2026-08-21T12:43:10.103Z",
+  "areas": {
+    "NO1": {
+      "queue": {
+        "state": "preserved",
+        "cases": 49,
+        "mw": 2522,
+        "error": null
+      },
+      "reservations": {
+        "state": "preserved",
+        "cases": 43,
+        "mw": 1327,
+        "error": null
+      },
+      "connected": {
+        "state": "preserved",
+        "cases": 17,
+        "mw": 296,
+        "error": null
+      },
+      "withdrawn": {
+        "state": "preserved",
+        "cases": 2,
+        "mw": 60,
+        "error": null
+      }
+    },
+    "NO2": {
+      "queue": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "reservations": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "connected": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "withdrawn": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      }
+    },
+    "NO3": {
+      "queue": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "reservations": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "connected": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "withdrawn": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      }
+    },
+    "NO4": {
+      "queue": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "reservations": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "connected": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      },
+      "withdrawn": {
+        "state": "missing",
+        "cases": 0,
+        "mw": 0,
+        "error": null
+      }
+    },
+    "NO5": {
+      "queue": {
+        "state": "preserved",
+        "cases": 22,
+        "mw": 1339,
+        "error": null
+      },
+      "reservations": {
+        "state": "preserved",
+        "cases": 22,
+        "mw": 1104,
+        "error": null
+      },
+      "connected": {
+        "state": "preserved",
+        "cases": 7,
+        "mw": 251,
+        "error": null
+      },
+      "withdrawn": {
+        "state": "preserved",
+        "cases": 4,
+        "mw": 130,
+        "error": null
+      }
+    }
+  },
+  "published": [],
+  "preserved": [
+    "queue:NO1",
+    "queue:NO5",
+    "reservations:NO1",
+    "reservations:NO5",
+    "connected:NO1",
+    "connected:NO5",
+    "withdrawn:NO1",
+    "withdrawn:NO5"
+  ],
+  "missing": [
+    "queue:NO2",
+    "queue:NO3",
+    "queue:NO4",
+    "reservations:NO2",
+    "reservations:NO3",
+    "reservations:NO4",
+    "connected:NO2",
+    "connected:NO3",
+    "connected:NO4",
+    "withdrawn:NO2",
+    "withdrawn:NO3",
+    "withdrawn:NO4"
+  ]
+}
