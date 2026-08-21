@@ -6,6 +6,8 @@ on:
     paths:
       - "index.html"
       - "map-fix.js"
+      - "map-all-areas.js"
+      - "area-expansion.js"
       - "table-enhancements.js"
       - "status-card-filter.js"
       - "status-year-chart.js"
@@ -45,32 +47,22 @@ jobs:
             '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">'
           )
           s=s.replace(
-            '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>',
+            '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9coqIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>',
             '<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>'
           )
           s=s.replace('<style>', '<style>\n.leaflet-container img{max-width:none!important}.leaflet-container .leaflet-tile{max-width:none!important}.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}')
           s=s.replace('initMap();initialized=true', 'initMap();setTimeout(()=>{if(map)map.invalidateSize(true)},250);initialized=true')
-          if 'map-fix.js' not in s:
-            s=s.replace('</body>','<script src="./map-fix.js?v=4"></script>\n</body>')
-          else:
-            for v in ['1','2','3']:
-              s=s.replace(f'map-fix.js?v={v}','map-fix.js?v=4')
-          if 'table-enhancements.js' not in s:
-            s=s.replace('</body>','<script src="./table-enhancements.js?v=1"></script>\n</body>')
-          if 'status-card-filter.js' not in s:
-            s=s.replace('</body>','<script src="./status-card-filter.js?v=3"></script>\n</body>')
-          else:
-            for v in ['1','2']:
-              s=s.replace(f'status-card-filter.js?v={v}','status-card-filter.js?v=3')
-          if 'status-year-chart.js' not in s:
-            s=s.replace('</body>','<script src="./status-year-chart.js?v=6"></script>\n</body>')
-          else:
-            for v in ['1','2','3','4','5']:
-              s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=6')
-          if 'datacenter-news.js' not in s:
-            s=s.replace('</body>','<script src="./datacenter-news.js?v=2"></script>\n</body>')
-          else:
-            s=s.replace('datacenter-news.js?v=1','datacenter-news.js?v=2')
+          scripts=[
+            ('map-fix.js','5'),('area-expansion.js','1'),('map-all-areas.js','1'),('table-enhancements.js','2'),
+            ('status-card-filter.js','3'),('status-year-chart.js','6'),('datacenter-news.js','2')
+          ]
+          import re
+          for name,ver in scripts:
+            pattern=rf'<script src="\./{re.escape(name)}\?v=\d+"></script>'
+            if re.search(pattern,s):
+              s=re.sub(pattern,f'<script src="./{name}?v={ver}"></script>',s)
+            elif name not in s:
+              s=s.replace('</body>',f'<script src="./{name}?v={ver}"></script>\n</body>')
           p.write_text(s,encoding='utf-8')
           PY
 
