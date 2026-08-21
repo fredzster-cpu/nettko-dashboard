@@ -1,119 +1,64 @@
 {
-  "updated_at": "2026-08-21T10:35:00+02:00",
-  "method": "Manuelt verifiserte offentlige kilder. Prosjektpunkt vises bare der lokasjon kan dokumenteres med tilstrekkelig sikkerhet; øvrige saker beholdes uten prosjektpunkt.",
+  "updated_at": "2026-08-21T12:55:00+02:00",
+  "method": "Lokasjonssøk på datasentersaker i kapasitetskø, reservert og tilknyttet. Bekreftet = konkret offentlig kilde/anleggsadresse. Høy = sterk kobling til prosjektområde. Område = kommunen/området er identifisert, men ikke endelig tomt. Ukjente saker vises ikke som eksakt prosjektpunkt.",
   "projects": [
-    {
-      "statnett_case": "24/01801",
-      "customer": "WS Computing AS",
-      "mw": 480,
-      "station": "Tegneby TRA",
-      "location_name": "Gromstul, Skien",
-      "address": "Gromstulvegen 82, 3721 Skien",
-      "lat": 59.27461,
-      "lon": 9.52470,
-      "confidence": "confirmed",
-      "confidence_label": "Bekreftet",
-      "note": "WS Computing bygger datasenter på Gromstul i Skien. Punktet er lagt ved Gromstul-anleggsområdet.",
-      "sources": [
-        {"label": "NVE / konsesjon og prosjektområde", "url": "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=25885&type=A-1"},
-        {"label": "Skanska / datasenter på Gromstul", "url": "https://kommunikasjon.ntb.no/pressemelding/18324184/skanska-oppforer-rabygget-til-datasenter?lang=no&publisherId=89647"}
-      ]
-    },
-    {
-      "statnett_case": "26/03896",
-      "customer": "Fiskumparken C4 AS",
-      "mw": 350,
-      "station": "Flesaker TRA",
-      "location_name": "Fiskumparken, Øvre Eiker",
-      "address": "Fiskumparken ved E134, Darbu / Øvre Eiker",
-      "lat": 59.710554,
-      "lon": 9.772807,
-      "confidence": "high",
-      "confidence_label": "Høy sannsynlighet",
-      "note": "Selskapsnavnet peker direkte på C4-prosjektet i Fiskumparken. Punktet viser næringsparken, ikke endelig bygningsfotavtrykk.",
-      "sources": [
-        {"label": "Fiskumparken", "url": "https://www.fiskumparken.no/"}
-      ]
-    },
-    {
-      "statnett_case": "24/01806",
-      "customer": "Green Mountain AS",
-      "mw": 145,
-      "station": "Ringerike TRA",
-      "location_name": "Kaldbekkveien, Hønefoss",
-      "address": "Kaldbekkveien, 3516 Hønefoss",
-      "lat": 60.201426,
-      "lon": 10.240988,
-      "confidence": "high",
-      "confidence_label": "Høy sannsynlighet",
-      "note": "Offentlig byggesak viser Green Mountain som byggherre for datasenter i Kaldbekkveien. Punktet viser veien/prosjektområdet.",
-      "sources": [
-        {"label": "BuildPilot / byggesak", "url": "https://www.buildpilot.com/no/project/riftsbygning-for-tekniske-infrastruktur-datasenter-868901400/q?keyword=kvikkleirelomme"}
-      ]
-    },
-    {
-      "statnett_case": "25/01983",
-      "customer": "Bulk Infrastructure Group AS",
-      "mw": 88,
-      "station": "Frogner TRA",
-      "location_name": "Ausenfjellet II, Lillestrøm",
-      "address": "Ausenfjellet industriområde, Frogner / Lillestrøm",
-      "lat": 60.00556,
-      "lon": 11.13923,
-      "confidence": "confirmed",
-      "confidence_label": "Bekreftet",
-      "note": "Lillestrøm kommunes planbeskrivelse oppgir at Bulk har søkt 100 MW på Ausenfjellet; 12 MW er reservert og nøyaktig 88 MW står i kapasitetskø.",
-      "sources": [
-        {"label": "Lillestrøm kommune / planbeskrivelse", "url": "https://www.lillestrom.kommune.no/contentassets/9e12800244c245069680705777f15ef4/planbeskrivelse.pdf"}
-      ]
-    },
-    {
-      "statnett_case": "25/01938",
-      "customer": "Bulk Data Centers OS-IX AS",
-      "mw": 19,
-      "station": "Furuset TRA",
-      "location_name": "Bulk OS-IX, Oslo",
-      "address": "Hans Møller Gasmanns vei 9, 0598 Oslo",
-      "lat": 59.938433,
-      "lon": 10.834971,
-      "confidence": "confirmed",
-      "confidence_label": "Bekreftet",
-      "note": "Eksisterende Bulk OS-IX datasenter.",
-      "sources": [
-        {"label": "OS-IX lokasjon", "url": "https://pq.hosting/en/dc/5518-bulk-oslo-internet-exchange-os-ix"}
-      ]
-    },
-    {
-      "statnett_case": "26/04117",
-      "customer": "Blix Data Center AS",
-      "mw": 10,
-      "station": "Furuset TRA",
-      "location_name": "Blix BDC Oslo",
-      "address": "Lindeberg næringsvei 26, 1067 Oslo",
-      "lat": 59.935366,
-      "lon": 10.885255,
-      "confidence": "confirmed",
-      "confidence_label": "Bekreftet anlegg",
-      "note": "Punktet viser Blix sitt BDC-anlegg. Det bør fortsatt kontrolleres om Statnett-saken gjelder dette anlegget eller en utvidelse på samme lokasjon.",
-      "sources": [
-        {"label": "Blix BDC lokasjon", "url": "https://pq.hosting/en/dc/10351-blix-bdc-oslo"}
-      ]
-    },
-    {
-      "statnett_case": "24/01726",
-      "customer": "SI OSL 01 AS",
-      "mw": 8,
-      "station": "Ulven TRA",
-      "location_name": "OSL01 / Ulven, Oslo",
-      "address": "Selma Ellefsens vei 1, 0581 Oslo",
-      "lat": 59.924964,
-      "lon": 10.808178,
-      "confidence": "confirmed",
-      "confidence_label": "Bekreftet anlegg",
-      "note": "Eksisterende datasenterlokasjon i Selma Ellefsens vei 1.",
-      "sources": [
-        {"label": "Dokumentert datasenterlokasjon", "url": "https://commons.wikimedia.org/wiki/File:Stack_Infra_datasenter,_Selma_Ellefsens_vei_1,_Oslo.jpg"}
-      ]
-    }
+    {"statnett_case":"24/01801","customer":"WS Computing AS","mw":480,"station":"Tegneby TRA","location_name":"Prosjekt i Sørøst-Norge – konkret Statnett-sak ikke sikkert koblet til Gromstul","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"WS Computing har dokumenterte prosjekter på Gromstul i Skien og i Østfold. Tegneby-tilknytningen gjør at saken ikke lenger kartfestes til Gromstul uten direkte dokumentasjon.","sources":[{"label":"NVE / WS Computing Gromstul","url":"https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=25885&type=A-1"}]},
+    {"statnett_case":"26/03896","customer":"Fiskumparken C4 AS","mw":350,"station":"Flesaker TRA","location_name":"Fiskumparken, Darbu / Øvre Eiker","address":"Fiskumparken ved E134, Darbu","lat":59.710554,"lon":9.772807,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Prosjektnavnet peker direkte på C4 i Fiskumparken.","sources":[{"label":"Fiskumparken","url":"https://www.fiskumparken.no/"}]},
+    {"statnett_case":"25/02663","customer":"Tynset Energipark AS","mw":150,"station":"Rendalen transformatorstasjon TRA","location_name":"Tynset / Tynset energipark","address":"Tynset kommune","lat":62.275,"lon":10.777,"confidence":"area","confidence_label":"Område","note":"Prosjektkommune identifisert; endelig tomt er ikke verifisert i offentlig kilde ennå.","sources":[]},
+    {"statnett_case":"24/01806","customer":"Green Mountain AS","mw":145,"station":"Ringerike TRA","location_name":"Kaldbekkveien, Hønefoss","address":"Kaldbekkveien, 3516 Hønefoss","lat":60.201426,"lon":10.240988,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Offentlig byggesak viser Green Mountain som byggherre for datasenter i Kaldbekkveien.","sources":[{"label":"Ringerike / Green Mountain-prosjekt","url":"https://www.ringerike.kommune.no/globalassets/bilder-blokker-og-filarkiv/bilder-og-dokumenter/presentasjoner-fra-politiske-moter/2025/ringerikskraft-as.pdf"}]},
+    {"statnett_case":"26/03693","customer":"Bulk Data Centers AS","mw":135,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Ringerike-tilknytning og offentlig omtale av Bulk-kapasitet i regionen; konkret tomt ikke verifisert.","sources":[{"label":"Ringerike kommune / datasenterkapasitet","url":"https://www.ringerike.kommune.no/globalassets/bilder-blokker-og-filarkiv/bilder-og-dokumenter/presentasjoner-fra-politiske-moter/2025/ringerikskraft-as.pdf"}]},
+    {"statnett_case":"24/01901","customer":"Microsoft Datacenter Norway AS","mw":119,"station":"Tegneby TRA","location_name":"Østfold – Tegneby forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Microsoft har datasenteraktivitet i Norge, men denne Statnett-saken er ikke sikkert koblet til en offentlig kjent tomt.","sources":[]},
+    {"statnett_case":"24/01769","customer":"Industrigata 22 AS","mw":99,"station":"Vang TRA","location_name":"Hamar / Vang forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Selskapets registrerte Oslo-adresse er ikke brukt som prosjektlokasjon.","sources":[]},
+    {"statnett_case":"25/01983","customer":"Bulk Infrastructure Group AS","mw":88,"station":"Frogner TRA","location_name":"Ausenfjellet II, Frogner / Lillestrøm","address":"Ausenfjellet industriområde, Frogner","lat":60.00556,"lon":11.13923,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Kommunal planbeskrivelse oppgir 100 MW søkt, 12 MW reservert og nøyaktig 88 MW i kø.","sources":[{"label":"Lillestrøm kommune / planbeskrivelse","url":"https://www.lillestrom.kommune.no/contentassets/9e12800244c245069680705777f15ef4/planbeskrivelse.pdf"}]},
+    {"statnett_case":"25/02231","customer":"Bulk Data Centers AS","mw":80,"station":"Tegneby TRA","location_name":"Østfold – Tegneby forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Ingen offentlig kilde funnet som sikkert kobler saken til konkret Bulk-tomt.","sources":[]},
+    {"statnett_case":"25/01920","customer":"Arcem SK-DC1 AS","mw":75,"station":"Minne TRA","location_name":"Eidsvoll / Minne forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Registrert selskapsadresse i Oslo er ikke prosjektadressen.","sources":[]},
+    {"statnett_case":"25/02032","customer":"Acrem DC 10 AS","mw":60,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Tilknytningsområdet er sikkert, konkret tomt er ikke dokumentert.","sources":[]},
+    {"statnett_case":"25/02698","customer":"Bonum Prosjekt 36 AS","mw":50,"station":"Minne TRA","location_name":"Eidsvoll / Minne forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Bonum er prosjektutvikler; konkret tomt for denne saken er ikke offentlig verifisert.","sources":[]},
+    {"statnett_case":"25/03034","customer":"NE Investment AS","mw":24,"station":"Hasle TRA","location_name":"Oslo / Østfold – ikke verifisert tomt","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Ingen tilstrekkelig offentlig dokumentasjon på konkret datasentertomt funnet.","sources":[]},
+    {"statnett_case":"25/01938","customer":"Bulk Data Centers OS-IX AS","mw":19,"station":"Furuset TRA","location_name":"Bulk OS-IX, Oslo","address":"Hans Møller Gasmanns vei 9, 0598 Oslo","lat":59.938433,"lon":10.834971,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Eksisterende Bulk OS-IX datasenter.","sources":[]},
+    {"statnett_case":"26/04117","customer":"Blix Data Center AS","mw":10,"station":"Furuset TRA","location_name":"Blix BDC Oslo","address":"Lindeberg næringsvei 26, 1067 Oslo","lat":59.935366,"lon":10.885255,"confidence":"confirmed","confidence_label":"Bekreftet anlegg","note":"Eksisterende Blix-lokasjon; saken kan være utvidelse på samme område.","sources":[]},
+    {"statnett_case":"24/01726","customer":"SI OSL 01 AS","mw":8,"station":"Ulven TRA","location_name":"OSL01 / Ulven, Oslo","address":"Selma Ellefsens vei 1, 0581 Oslo","lat":59.924964,"lon":10.808178,"confidence":"confirmed","confidence_label":"Bekreftet anlegg","note":"Eksisterende datasenterlokasjon.","sources":[]},
+    {"statnett_case":"25/01992","customer":"Eidsiva Bredbånd Gjøvik","mw":4,"station":"Vardal TRA","location_name":"Gjøvik","address":"Gjøvik kommune","lat":60.795,"lon":10.691,"confidence":"area","confidence_label":"Område","note":"Gjøvik-lokasjon identifisert; eksakt bygg er ikke verifisert i denne gjennomgangen.","sources":[]},
+    {"statnett_case":"25/02070","customer":"NGB - Datasenter fase 2","mw":4,"station":"Minne TRA","location_name":"Eidsvoll / Minne forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Prosjektnavnet er ikke tilstrekkelig til sikker kartfesting.","sources":[]},
+    {"statnett_case":"25/02765","customer":"Storespeed AS","mw":5,"station":"Halden TRA","location_name":"Storespeed Halden","address":"Halden kommune","lat":59.122,"lon":11.387,"confidence":"area","confidence_label":"Område","note":"Storespeed har datasenter i Halden; punktet viser byområde, ikke eksakt tomt.","sources":[]},
+
+    {"statnett_case":"25/02232","customer":"Regn / Kitebrook","mw":100,"station":"Samnanger TRA","location_name":"Samnanger datasenterprosjekt","address":"Samnanger kommune","lat":60.402,"lon":5.745,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Kitebrook oppgir Samnanger som et av sine norske utviklingsprosjekter; Statnett/NVE omtaler 100 MW datasenter under Samnanger stasjon.","sources":[{"label":"Kitebrook – prosjekter i Samnanger","url":"https://www.kitebrook.com/no/kitebrook-infra-styrker-ledergruppen-i-norge/"}]},
+    {"statnett_case":"25/02560","customer":"KB IFS MATRE AS","mw":70,"station":"Haugsvær transformatorstasjon TRA","location_name":"Matre, Masfjorden","address":"Matre, Masfjorden kommune","lat":60.875,"lon":5.586,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"NVE har gitt konsesjon til datasenter ved Matre i Masfjorden.","sources":[{"label":"NVE – Datasenter i Matre","url":"https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak/?id=8685&type=A-1"}]},
+    {"statnett_case":"25/03004","customer":"SKIPAVIKA NÆRINGSPARK AS","mw":45,"station":"Lindås transformatorstasjon TRA","location_name":"Skipavika Næringspark, Gulen","address":"Sandevegen 631, 5977 Ånneland","lat":60.965,"lon":5.115,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"Offentlig konsesjonsdokumentasjon omtaler planlagt datasenter på Skipavika Næringspark.","sources":[{"label":"Brønnøysund / Skipavika","url":"https://virksomhet.brreg.no/nb/oppslag/enheter/998282322"}]},
+    {"statnett_case":"25/03021","customer":"BW VELORA SKIPAVIKA DIGITAL SIKKERHET AS","mw":50,"station":"Lindås transformatorstasjon TRA","location_name":"Skipavika / Gulen","address":"Skipavika-området, Gulen","lat":60.965,"lon":5.115,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Selskapsnavnet og prosjektkontekst peker direkte på Skipavika; eksakt tomt innen området ikke verifisert.","sources":[]},
+    {"statnett_case":"25/02609","customer":"VANGSNES UTVIKLING AS","mw":120,"station":"Hove KRA/TRA","location_name":"Vangsnes / Vik i Sogn","address":"Vik kommune","lat":61.169,"lon":6.645,"confidence":"area","confidence_label":"Område","note":"Selskapet er registrert i Vik og prosjektnavnet peker på Vangsnes; konkret datasentertomt er ikke endelig verifisert.","sources":[]},
+    {"statnett_case":"26/04019","customer":"VANGSNES UTVIKLING AS","mw":90,"station":"Sogndal TRA","location_name":"Vangsnes / Vik i Sogn","address":"Vik kommune","lat":61.169,"lon":6.645,"confidence":"area","confidence_label":"Område","note":"Samme utviklingsmiljø; konkret delprosjekt ikke endelig kartfestet.","sources":[]},
+    {"statnett_case":"26/04495","customer":"HÅBAKKEN NÆRINGSPARK AS","mw":30,"station":"Borgund KRA/TRA","location_name":"Håbakken Næringspark, Lærdal","address":"Håbakken, Lærdal","lat":61.061,"lon":7.515,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Prosjektnavnet identifiserer næringsparken; eksakt datasentertomt innen området ikke verifisert.","sources":[]},
+    {"statnett_case":"26/04604","customer":"HÅBAKKEN NÆRINGSPARK AS","mw":4,"station":"Borgund KRA/TRA","location_name":"Håbakken Næringspark, Lærdal","address":"Håbakken, Lærdal","lat":61.061,"lon":7.515,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Samme næringspark som 30 MW-saken.","sources":[]},
+    {"statnett_case":"26/03066","customer":"ASP Eiendom AS","mw":10,"station":"Dale TRA","location_name":"Dale / Vaksdal","address":"Dale, Vaksdal kommune","lat":60.586,"lon":5.817,"confidence":"area","confidence_label":"Område","note":"Dale er identifisert fra tilknytning og lokal prosjektkontekst; konkret eiendom ikke verifisert.","sources":[]},
+
+    {"statnett_case":"24/01807","customer":"Odin Green DC AS","mw":150,"station":"Ringerike TRA","location_name":"Nedre Kilemoen, Hønefoss","address":"Nedre Kilemoen, Ringerike","lat":60.188,"lon":10.207,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Ringerike kommune har utbyggingsavtale med Odin Green DC for datasenter på eiendom 51/46.","sources":[{"label":"Ringerike kommune – Nedre Kilemoen","url":"https://www.ringerike.kommune.no/innhold/pagaende-planprosesser/arkiv-planprosesser-2025/arkiv-utbyggingsavtaler-2025/utbyggingsavtale-for-nedre-kilemoen-nord2/"}]},
+    {"statnett_case":"23/01304","customer":"Odin Green DC AS","mw":15,"station":"Ringerike TRA","location_name":"Nedre Kilemoen, Hønefoss","address":"Nedre Kilemoen, Ringerike","lat":60.188,"lon":10.207,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Samme Odin Green DC-utvikling på Nedre Kilemoen.","sources":[{"label":"Ringerike kommune – Nedre Kilemoen","url":"https://www.ringerike.kommune.no/innhold/pagaende-planprosesser/arkiv-planprosesser-2025/arkiv-utbyggingsavtaler-2025/utbyggingsavtale-for-nedre-kilemoen-nord2/"}]},
+    {"statnett_case":"24/01774","customer":"Stack AS","mw":100,"station":"Ringerike TRA","location_name":"Årbogen datasenter, Ringerike","address":"Årbogen, Ringerike kommune","lat":60.173,"lon":10.242,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Kommunale plandokumenter omtaler Stack sin etablering på Årbogen datasenter.","sources":[{"label":"Ringerike kommune – Årbogen datasenter","url":"https://www.ringerike.kommune.no/globalassets/bilder-blokker-og-filarkiv/bilder-og-dokumenter/samfunn/areal-og-byplan/pagaende-planprosesser/518-arbogen-datasenter_innspill-ved-varsel-om-oppstart.pdf"}]},
+    {"statnett_case":"21/00212","customer":"Green Mountain Enebakk AS","mw":75,"station":"Tegneby TRA","location_name":"OSL-Enebakk","address":"Enebakk kommune","lat":59.761,"lon":11.145,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"Green Mountain sitt OSL-Enebakk-anlegg er dokumentert i Enebakk kommune.","sources":[{"label":"Green Mountain / Enebakk","url":"https://greenmountain.no/wp-content/uploads/MENON-Rapport-Ringvirkninger-av-Green-Mountain-sitt-datasenter-i-Enebakk_Mars_2025.pdf"}]},
+    {"statnett_case":"25/02112","customer":"Green Mountain Innlandet AS","mw":70,"station":"Vang TRA","location_name":"OSL-Hamar / Heggvin","address":"Stabekkvegen 130, 2334 Hamar","lat":60.856,"lon":11.207,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Offentlig søknad oppgir anleggets besøksadresse og gnr/bnr i Hamar.","sources":[{"label":"Statsforvalteren – Green Mountain Innlandet","url":"https://www.statsforvalteren.no/siteassets/sf-innlandet/06-miljo-og-klima/forurensning/horinger/green-mountain-as/soknad-etter-forurensningsloven---green-mountain-innlandet-as.pdf"}]},
+    {"statnett_case":"21/00082","customer":"Green Mountain Innlandet AS","mw":110,"station":"Vang TRA","location_name":"OSL-Hamar / Heggvin","address":"Stabekkvegen 130, 2334 Hamar","lat":60.856,"lon":11.207,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Tilknyttet kapasitet ved samme OSL-Hamar-anlegg.","sources":[{"label":"Green Mountain – OSL-Hamar","url":"https://info.greenmountain.no/wp-content/uploads/2025/08/Rapport-Ringvirkninger-av-OSL-Hamar-i-byggefasen.pdf"}]},
+    {"statnett_case":"24/01770","customer":"Larkollveien 4 AS","mw":50,"station":"Tegneby TRA","location_name":"Bredsand datasenter, Dilling / Moss","address":"Larkollveien 4-området, Dilling","lat":59.430,"lon":10.693,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"Moss kommune har varslet detaljregulering for datasenter på Larkollveien 4 / Bredsand.","sources":[{"label":"Moss kommune – Bredsand datasenter","url":"https://www.moss.kommune.no/horinger-og-kunngjoringer/kunngjoring-oppstart-av-plan-501-detaljregulering-for-bredsand-datasenter.22062.aspx"}]},
+    {"statnett_case":"23/01063","customer":"SI OSL 04 AS","mw":44,"station":"Tegneby TRA","location_name":"STACK OSL04, Tomter","address":"Holtskogen 31, 1825 Tomter","lat":59.658,"lon":11.005,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Brønnøysund oppgir Holtskogen 31 som beliggenhetsadresse.","sources":[{"label":"Brønnøysund – SI OSL 04","url":"https://virksomhet.brreg.no/nb/oppslag/enheter/922735573"}]},
+    {"statnett_case":"21/00172","customer":"SI OSL 04 AS","mw":16,"station":"Tegneby TRA","location_name":"STACK OSL04, Tomter","address":"Holtskogen 31, 1825 Tomter","lat":59.658,"lon":11.005,"confidence":"confirmed","confidence_label":"Bekreftet","note":"Samme OSL04-anlegg.","sources":[{"label":"Brønnøysund – SI OSL 04","url":"https://virksomhet.brreg.no/nb/oppslag/enheter/922735573"}]},
+    {"statnett_case":"23/01372","customer":"SI OSL 03.2 AS","mw":32,"station":"Frogner TRA","location_name":"STACK OSL03 / Fetsund","address":"Fetsund / Lillestrøm","lat":59.925,"lon":11.166,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"STACK OSL03 er offentlig omtalt som campus på Fetsund; eksakt delbygg 03.2 er ikke separat kartfestet.","sources":[]},
+    {"statnett_case":"23/01062","customer":"SI OSL 03.2 AS","mw":25,"station":"Frogner TRA","location_name":"STACK OSL03 / Fetsund","address":"Fetsund / Lillestrøm","lat":59.925,"lon":11.166,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Samme OSL03-campus.","sources":[]},
+    {"statnett_case":"21/00169","customer":"SI OSL 03.2 AS","mw":22,"station":"Frogner TRA","location_name":"STACK OSL03 / Fetsund","address":"Fetsund / Lillestrøm","lat":59.925,"lon":11.166,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Samme OSL03-campus.","sources":[]},
+    {"statnett_case":"23/01042","customer":"Skygard 1 AS","mw":24,"station":"Ulven TRA","location_name":"Skygard / Hovinbyen, Oslo","address":"Hovinbyen, Oslo","lat":59.930,"lon":10.802,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"NVE-konsesjon gjelder datasenter i Oslo gbnr. 112/404; nasjonal datasenterstrategi omtaler Skygard i Hovinbyen.","sources":[{"label":"NVE – Skygard 1","url":"https://webfileservice.nve.no/API/PublishedFiles/Download/669ebc95-54c6-4f9b-b7f9-c798d6325104/202510309/3445537"}]},
+    {"statnett_case":"23/01400","customer":"atNorth AS","mw":50,"station":"Frogner TRA","location_name":"Frogner / Lillestrøm forsyningsområde","address":"Lillestrøm-regionen","lat":60.006,"lon":11.139,"confidence":"area","confidence_label":"Område","note":"Ingen offentlig kilde funnet som sikkert identifiserer tomten; vises kun på områdenivå.","sources":[]},
+    {"statnett_case":"24/01805","customer":"atNorth AS","mw":146,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Ringerike-saken er offentlig bekreftet som atNorth-kapasitet, men konkret tomt er ikke verifisert.","sources":[]},
+    {"statnett_case":"24/01894","customer":"atNorth AS","mw":30,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Samme Ringerike-portefølje; konkret tomt ikke verifisert.","sources":[]},
+    {"statnett_case":"25/02031","customer":"Bulk AS","mw":15,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Konkret Bulk-tomt i Ringerike er ikke offentlig verifisert i gjennomgangen.","sources":[]},
+    {"statnett_case":"21/00163","customer":"Microsoft Datacenter Norway AS","mw":13,"station":"Tegneby TRA","location_name":"Østfold – Tegneby forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Samme utfordring som den nyere 119 MW-saken: offentlig kjent Microsoft-aktivitet, men ingen sikker kobling til konkret tomt.","sources":[]},
+    {"statnett_case":"24/01619","customer":"Eidsiva Bredbånd AS","mw":10,"station":"Vang TRA","location_name":"Hamar-regionen","address":"Hamar / Innlandet","lat":60.795,"lon":11.068,"confidence":"area","confidence_label":"Område","note":"Regional datasenteraktivitet identifisert; konkret anlegg for Statnett-saken ikke verifisert.","sources":[]},
+
+    {"statnett_case":"21/00239","customer":"Digiplex og Bane Nor","mw":15,"station":"Frogner TRA","location_name":"Fetsund / Lillestrøm datasentercampus","address":"Fetsund, Lillestrøm","lat":59.925,"lon":11.166,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"DigiPlex/STACK har datasentercampus i Fetsund; saken er knyttet til Frogner TRA.","sources":[]},
+    {"statnett_case":"21/00160","customer":"Basefarm","mw":12,"station":"Røykås TRA","location_name":"Orange Business / Lørenskog","address":"Lørenskog","lat":59.932,"lon":10.953,"confidence":"high","confidence_label":"Høy sannsynlighet","note":"Basefarm er del av Orange Business; offentlig datasenterstrategi omtaler Orange Business sitt datasenter i Lørenskog.","sources":[]},
+    {"statnett_case":"21/00293","customer":"Stack","mw":17,"station":"Tegneby TRA","location_name":"STACK OSL04 / Tomter-området","address":"Tomter / Indre Østfold","lat":59.658,"lon":11.005,"confidence":"area","confidence_label":"Område","note":"Tegneby-tilknytning og STACKs Tomter-anlegg gir sterk områdematch; saken er eldre enn dagens selskapsstruktur.","sources":[]},
+    {"statnett_case":"21/00238","customer":"Green Mountain","mw":7,"station":"Follo TRA","location_name":"OSL-Enebakk","address":"Enebakk kommune","lat":59.761,"lon":11.145,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"Follo-tilknytningen matcher Green Mountain OSL-Enebakk.","sources":[{"label":"Green Mountain / Enebakk","url":"https://greenmountain.no/wp-content/uploads/MENON-Rapport-Ringvirkninger-av-Green-Mountain-sitt-datasenter-i-Enebakk_Mars_2025.pdf"}]},
+    {"statnett_case":"21/00161","customer":"Green Mountain","mw":13,"station":"Follo TRA","location_name":"OSL-Enebakk","address":"Enebakk kommune","lat":59.761,"lon":11.145,"confidence":"confirmed","confidence_label":"Bekreftet område","note":"Follo-tilknytningen matcher Green Mountain OSL-Enebakk.","sources":[{"label":"Green Mountain / Enebakk","url":"https://greenmountain.no/wp-content/uploads/MENON-Rapport-Ringvirkninger-av-Green-Mountain-sitt-datasenter-i-Enebakk_Mars_2025.pdf"}]},
+    {"statnett_case":"21/00194","customer":"Aquila","mw":6,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Konkret tomt ikke offentlig identifisert; kun forsyningsområde vises.","sources":[]},
+    {"statnett_case":"23/00871","customer":"Aquila","mw":6,"station":"Ringerike TRA","location_name":"Hønefoss / Ringerike","address":"Ringerike kommune","lat":60.180,"lon":10.250,"confidence":"area","confidence_label":"Område","note":"Konkret tomt ikke offentlig identifisert; kun forsyningsområde vises.","sources":[]},
+    {"statnett_case":"21/00187","customer":"Green Mountain AS","mw":15,"station":"Ulven TRA","location_name":"Oslo – Ulven forsyningsområde","address":null,"lat":null,"lon":null,"confidence":"unresolved","confidence_label":"Ikke sikkert identifisert","note":"Ikke koblet til Enebakk uten direkte dokumentasjon, siden Statnett oppgir Ulven TRA.","sources":[]}
   ]
 }
