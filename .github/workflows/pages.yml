@@ -68,7 +68,9 @@ jobs:
             for v in ['1','2','3','4']:
               s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=5')
           if 'datacenter-news.js' not in s:
-            s=s.replace('</body>','<script src="./datacenter-news.js?v=1"></script>\n</body>')
+            s=s.replace('</body>','<script src="./datacenter-news.js?v=2"></script>\n</body>')
+          else:
+            s=s.replace('datacenter-news.js?v=1','datacenter-news.js?v=2')
           p.write_text(s,encoding='utf-8')
           PY
 
