@@ -20,9 +20,11 @@
     return '<div class="station-pin'+cls+'"><span class="station-dot"></span><span class="station-label">'+escapeHtml(name)+'</span><span class="station-mw">'+Math.round(mw).toLocaleString('nb-NO')+' MW</span></div>';
   }
   function voltageText(loc){
+    const levels=Array.isArray(loc?.voltage_levels_kv)?loc.voltage_levels_kv.filter(valid).map(Number):[];
+    if(levels.length) return [...new Set(levels)].sort((a,b)=>b-a).join(' / ')+' kV';
     const raw=loc?.voltage_kv;
     if(raw===null||raw===undefined||raw==='') return 'Spenningsnivå ikke tilgjengelig';
-    if(Array.isArray(raw)) return raw.filter(v=>v!==null&&v!=='').join(' / ')+' kV';
+    if(Array.isArray(raw)) return raw.filter(valid).map(Number).sort((a,b)=>b-a).join(' / ')+' kV';
     const s=String(raw).trim();
     return s ? s.replace(/\s*kV$/i,'')+' kV' : 'Spenningsnivå ikke tilgjengelig';
   }
@@ -43,10 +45,12 @@
         html:markerHtml(station,mw,loc.confidence),
         iconSize:[1,1],iconAnchor:[0,0]
       });
+      const vtext=voltageText(loc);
       const popup='<div class="popup-title">'+escapeHtml(station)+'</div>'+
         '<div><span class="popup-kpi">'+fmt(mw)+'</span> · '+rows.length+' saker</div>'+
-        '<div class="station-meta"><b>Spenningsnivå:</b> '+escapeHtml(voltageText(loc))+'</div>'+
+        '<div class="station-meta"><b>Spenningsnivå:</b> '+escapeHtml(vtext)+'</div>'+
         (loc.owner?'<div class="station-meta"><b>Eier:</b> '+escapeHtml(loc.owner)+'</div>':'')+
+        (loc.voltage_source?'<div class="hint">Spenningskilde: '+escapeHtml(loc.voltage_source)+'</div>':'')+
         '<div class="hint">'+escapeHtml(area0)+' · posisjon '+escapeHtml(loc.confidence||'ukjent')+' · kilde NVE</div>'+
         '<ul class="popup-list">'+[...rows].sort((a,b)=>(b.mw||0)-(a.mw||0)).slice(0,12).map(p=>'<li><b>'+escapeHtml(p.end_customer||p.grid_customer||'–')+'</b> · '+fmt(p.mw)+' · '+escapeHtml(p.status||'')+'</li>').join('')+'</ul>'+
         (rows.length>12?'<div class="hint">+'+(rows.length-12)+' flere saker</div>':'');
