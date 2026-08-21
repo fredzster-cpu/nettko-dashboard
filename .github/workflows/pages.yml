@@ -51,10 +51,10 @@ jobs:
           s=s.replace('<style>', '<style>\n.leaflet-container img{max-width:none!important}.leaflet-container .leaflet-tile{max-width:none!important}.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}')
           s=s.replace('initMap();initialized=true', 'initMap();setTimeout(()=>{if(map)map.invalidateSize(true)},250);initialized=true')
           if 'map-fix.js' not in s:
-            s=s.replace('</body>','<script src="./map-fix.js?v=3"></script>\n</body>')
+            s=s.replace('</body>','<script src="./map-fix.js?v=4"></script>\n</body>')
           else:
-            for v in ['1','2']:
-              s=s.replace(f'map-fix.js?v={v}','map-fix.js?v=3')
+            for v in ['1','2','3']:
+              s=s.replace(f'map-fix.js?v={v}','map-fix.js?v=4')
           if 'table-enhancements.js' not in s:
             s=s.replace('</body>','<script src="./table-enhancements.js?v=1"></script>\n</body>')
           if 'status-card-filter.js' not in s:
