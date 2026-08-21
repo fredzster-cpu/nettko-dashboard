@@ -9,6 +9,7 @@ on:
       - "table-enhancements.js"
       - "status-card-filter.js"
       - "status-year-chart.js"
+      - "datacenter-news.js"
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -66,6 +67,8 @@ jobs:
           else:
             for v in ['1','2','3','4']:
               s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=5')
+          if 'datacenter-news.js' not in s:
+            s=s.replace('</body>','<script src="./datacenter-news.js?v=1"></script>\n</body>')
           p.write_text(s,encoding='utf-8')
           PY
 
