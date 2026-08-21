@@ -8,10 +8,11 @@
     "reservations_NO5": 1104,
     "withdrawn_NO1": 60,
     "withdrawn_NO5": 130,
-    "connected_NO1": 286,
-    "connected_NO5": 617.5400000000001,
+    "connected_NO1": null,
+    "connected_NO5": null,
     "reserved_NO1": 1327,
-    "reserved_NO5": 1104
+    "reserved_NO5": 1104,
+    "connected_validated": false
   },
   {
     "date": "2026-08-20",
@@ -23,7 +24,8 @@
     "withdrawn_NO1": 60,
     "withdrawn_NO5": 130,
     "connected_NO1": 296,
-    "connected_NO5": 251
+    "connected_NO5": 251,
+    "connected_validated": true
   },
   {
     "date": "2026-08-21",
@@ -35,6 +37,7 @@
     "withdrawn_NO1": 60,
     "withdrawn_NO5": 130,
     "connected_NO1": 296,
-    "connected_NO5": 251
+    "connected_NO5": 251,
+    "connected_validated": true
   }
 ]
