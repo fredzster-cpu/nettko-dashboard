@@ -63,10 +63,10 @@ jobs:
             for v in ['1','2']:
               s=s.replace(f'status-card-filter.js?v={v}','status-card-filter.js?v=3')
           if 'status-year-chart.js' not in s:
-            s=s.replace('</body>','<script src="./status-year-chart.js?v=5"></script>\n</body>')
+            s=s.replace('</body>','<script src="./status-year-chart.js?v=6"></script>\n</body>')
           else:
-            for v in ['1','2','3','4']:
-              s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=5')
+            for v in ['1','2','3','4','5']:
+              s=s.replace(f'status-year-chart.js?v={v}','status-year-chart.js?v=6')
           if 'datacenter-news.js' not in s:
             s=s.replace('</body>','<script src="./datacenter-news.js?v=2"></script>\n</body>')
           else:
