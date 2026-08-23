@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T13:48:48.592Z",
+  "updated_at": "2026-08-23T15:56:16.327Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -66,13 +66,6 @@
       "summary": "Sikret milliardkontrakt – skal bygge gigadatasenter &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnhkMEVoNjhPUHFWSG4tdlZkdzdyczZxeU5EVW9rdG9EcW5RbGdYcWptam1PaU9PNDdTa3RXWlRUcjZTSlBCXzVVenJvNlB2MXhWMjdlWU5fSDhDRXctMXBpOFZqblY2aERVSTFLMHRZMWphMVJGYW9iUU13bUZ4c2VwN0RlZXZjbDZmVDZqbmhDdks5X0trNW9ZYWROQ3pw?oc=5",
-      "source": "Teknisk Ukeblad",
-      "published_at": "2026-08-03T07:00:00.000Z",
-      "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; Teknisk Ukeblad"
-    },
-    {
       "title": "Gigantisk kontrakt for AI-datasenter i Trøndelag",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV21XMm1OZU1scFFHREdfM051WDlZbndrNU5jODR5WWZTRUVJSEVsTFFJbWRmSTNveVNrTExLRWZjbkFtUE1hLTNyand6WjRSU3dKMVV2OGZYdV9PazlyM0ZyTFc2TERQNVhjblpHSkViUm1XNXZqcFNkeHEwX0h0dkxPUnJYYnMycTRTUllNNXFRZw?oc=5",
       "source": "E24",
@@ -85,6 +78,13 @@
       "source": "NRK",
       "published_at": "2026-08-16T06:17:16.000Z",
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+    },
+    {
+      "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHlXM292ZHc3T29kNVF5ekdCb2pZTzNFRjJvQXRGVUdsS0RCYTAzZWgzZmRCZmVld2NzR2xNSjcwaUJHYVRyN3llUmNJUDlrdVVhMkRFa2hZeFpoMzJzWDh3ZGVlWU52dkdJd2pKSmt2YVBJZnVMT3Etd0Q5MWNCOHFqaV8yTG1wTkhlcGdHbFRDNmZEVkd2S181aENRYW4tNldQemY2dGtWbTRLLXlhSUFsMGJwdw?oc=5",
+      "source": "E24",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; E24"
     }
   ]
 }
