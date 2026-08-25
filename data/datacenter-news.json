@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T22:02:24.733Z",
+  "updated_at": "2026-08-25T03:27:37.839Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -31,13 +31,6 @@
       "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
     },
     {
-      "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
-      "source": "Finansavisen",
-      "published_at": "2026-08-19T19:00:02.000Z",
-      "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
-    },
-    {
       "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
       "source": "Digi.no",
@@ -45,11 +38,11 @@
       "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUk5uVENnTjFIYlFGdmliQnQ2anFOUFAxbFVYYjYybU1lYXE2bHZFcEszZUQxeWtYajRUVF8xTTcxYnAxcGtELVZHTGVxcXRoME03LWZzUS1XYUlValRCV0N6Ui1pZlN5eWJvcy1UMFhwQ0NyZzRkZkNfdnhsVi1hakNpMW90a05oU3hRTzl0T3dTekkzMDlYWjhVR3Y4Y1lXV0FuTDNHR0Y4ZV9vMld1NDhnWlVLQQ?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner &nbsp;&nbsp; Aftenposten"
+      "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
+      "source": "Finansavisen",
+      "published_at": "2026-08-19T19:00:02.000Z",
+      "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
     },
     {
       "title": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk",
@@ -57,6 +50,13 @@
       "source": "Teknisk Ukeblad",
       "published_at": "2026-08-03T07:00:00.000Z",
       "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; Teknisk Ukeblad"
+    },
+    {
+      "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUk5uVENnTjFIYlFGdmliQnQ2anFOUFAxbFVYYjYybU1lYXE2bHZFcEszZUQxeWtYajRUVF8xTTcxYnAxcGtELVZHTGVxcXRoME03LWZzUS1XYUlValRCV0N6Ui1pZlN5eWJvcy1UMFhwQ0NyZzRkZkNfdnhsVi1hakNpMW90a05oU3hRTzl0T3dTekkzMDlYWjhVR3Y4Y1lXV0FuTDNHR0Y4ZV9vMld1NDhnWlVLQQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "Sikret milliardkontrakt – skal bygge gigadatasenter",
@@ -80,11 +80,11 @@
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHlXM292ZHc3T29kNVF5ekdCb2pZTzNFRjJvQXRGVUdsS0RCYTAzZWgzZmRCZmVld2NzR2xNSjcwaUJHYVRyN3llUmNJUDlrdVVhMkRFa2hZeFpoMzJzWDh3ZGVlWU52dkdJd2pKSmt2YVBJZnVMT3Etd0Q5MWNCOHFqaV8yTG1wTkhlcGdHbFRDNmZEVkd2S181aENRYW4tNldQemY2dGtWbTRLLXlhSUFsMGJwdw?oc=5",
-      "source": "E24",
-      "published_at": "2026-08-06T07:00:00.000Z",
-      "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; E24"
+      "title": "Milliardkappløpet om norsk jord: Microsoft, Google og Aker Nscale kjøper opp datasentertomter",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc21NaTZiWnZ5YmRpM0VzVFpGODBfdk9VVzFJd0JSSzhwclFPVFJaMkhsZE5WcjFPQUZJSUF6YWdkNG9scGRVdDBmaFgwbFI2X0NmcFMyczF6ZGQtcklBOHhxeDNMM2Q1aFZ1MG5FZnYtYlQtREV6VXBDRGZpbVZQQ1o1MUhVTnMzSDdLWFFrd0VfMXVEdFpHTkVqNjRpU1NvQnFHT2V0X0E3bGhTSlpBSHg5NjRWY3BQYUh6WlZWQzIxNXBmUmRWM2lNUXF0UGEyY1EwWEFwTVJ2MFg0TUFqcmFhbnAxWlZ5R3c?oc=5",
+      "source": "Finansavisen",
+      "published_at": "2026-07-18T07:00:00.000Z",
+      "summary": "Milliardkappløpet om norsk jord: Microsoft, Google og Aker Nscale kjøper opp datasentertomter &nbsp;&nbsp; Finansavisen"
     }
   ]
 }
