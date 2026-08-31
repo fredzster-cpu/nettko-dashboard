@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T06:30:59.746Z",
+  "updated_at": "2026-08-31T12:31:02.744Z",
   "source": "Statnett – offentlig Power BI",
   "source_url": "https://www.statnett.no/for-aktorer-i-kraftbransjen/nettkapasitet-til-produksjon-og-forbruk/foresporsler-og-reservasjon-i-nettet/",
   "scope": "Forbruk, NO1–NO5 – områdevis validering",
@@ -2529,7 +2529,7 @@
     "queue": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-31T06:30:59.746Z",
+      "updated_at": "2026-08-31T12:31:02.744Z",
       "error": "NO1: ny validering mangler; NO2: ingen validert historikk; NO3: ingen validert historikk; NO4: ingen validert historikk; NO5: ny validering mangler",
       "preserved_previous": false,
       "areas": {
@@ -2578,7 +2578,7 @@
     "reservations": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-31T06:30:59.746Z",
+      "updated_at": "2026-08-31T12:31:02.744Z",
       "error": "NO1: ny validering mangler; NO2: ingen validert historikk; NO3: ingen validert historikk; NO4: ingen validert historikk; NO5: ny validering mangler",
       "preserved_previous": false,
       "areas": {
@@ -2627,7 +2627,7 @@
     "withdrawn": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-31T06:30:59.746Z",
+      "updated_at": "2026-08-31T12:31:02.744Z",
       "error": "NO1: ny validering mangler; NO2: ingen validert historikk; NO3: ingen validert historikk; NO4: ingen validert historikk; NO5: ny validering mangler",
       "preserved_previous": false,
       "areas": {
@@ -2676,7 +2676,7 @@
     "connected": {
       "ok": false,
       "fresh": false,
-      "updated_at": "2026-08-31T06:30:59.746Z",
+      "updated_at": "2026-08-31T12:31:02.744Z",
       "error": "NO1: ny validering mangler; NO2: ingen validert historikk; NO3: ingen validert historikk; NO4: ingen validert historikk; NO5: ny validering mangler",
       "preserved_previous": false,
       "area_resolution": {
