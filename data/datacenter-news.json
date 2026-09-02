@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-02T06:36:51.429Z",
+  "updated_at": "2026-09-02T09:28:03.480Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Datasenterboomen: – Det er en monster-tsunami",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTUQyOGV3amhjMl9FRUo2czdDOHZ2cjg2eVdSTC1GaVRwSW0zaDJqZXFNSzRGQ1RvXy1mNVVCWVFjSTYzTUMzSzdJcGs3eUpncEN3REZTdFRIZUNRWXI4MUoyWDRsYWNSZ2NIV2VIZVhaaHBUOHVqM3dLU3dyRkNYQWtRODM?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-09-02T09:00:22.000Z",
+      "summary": "Datasenterboomen: – Det er en monster-tsunami &nbsp;&nbsp; Digi.no"
+    },
     {
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
@@ -45,13 +52,6 @@
       "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
     },
     {
-      "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
-      "source": "Digi.no",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
-    },
-    {
       "title": "Tydal Data Center med kjempegave til NTNU",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkNzclgtNEZHUUZYTGNrcE93YWxFWDlGLTFfUS1MMk85a042ZG9LdWlMRlhtbThqb0xMdWJCanFiVHRkS1NGQ0hZSFN1SWFBOGhtZWNUbWpidzNhaEFDTE1EZzVpWnFCZDBXc0hESGNlZnl2RDl2SmlhcUhlSzktVEdrUVY1Mk1fOGdkczZ3?oc=5",
       "source": "mn24.no",
@@ -73,18 +73,18 @@
       "summary": "Varaordførerens familie har tjent 1,2 millioner på datasenter – deltok på møter &nbsp;&nbsp; NRK"
     },
     {
+      "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
+    },
+    {
       "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
       "source": "Nettavisen",
       "published_at": "2026-08-22T07:00:00.000Z",
       "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
-    },
-    {
-      "title": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUhfaWUzRDdCY21UVGt3ellySDR4S3lITGFaU3BrTnBzTnZQc3hjMUZzNEJNS01tLUZwRVlNUkYzTEhZX25zNlN5MmVCdHAtdWozc1c1cE1fbkJTTDVYOXRPYlhnaHRZZlZlb0lsS3lNc3ltTmpFOXZUcGNKUjRjMWt0UnpaN3UwZUtNODQ0ajhPVXNaLUg0YW1EbEROZEctYkpxTm9fQ2ZUYzZtSUdlZWFlZkJxRkE?oc=5",
-      "source": "Finansavisen",
-      "published_at": "2026-08-08T07:00:00.000Z",
-      "summary": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med &nbsp;&nbsp; Finansavisen"
     }
   ]
 }
