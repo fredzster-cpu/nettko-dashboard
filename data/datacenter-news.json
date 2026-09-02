@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-09-02T12:34:07.051Z",
+  "updated_at": "2026-09-02T15:32:09.740Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Datasenterboomen: – Det er en monster-tsunami",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTUQyOGV3amhjMl9FRUo2czdDOHZ2cjg2eVdSTC1GaVRwSW0zaDJqZXFNSzRGQ1RvXy1mNVVCWVFjSTYzTUMzSzdJcGs3eUpncEN3REZTdFRIZUNRWXI4MUoyWDRsYWNSZ2NIV2VIZVhaaHBUOHVqM3dLU3dyRkNYQWtRODM?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-02T09:00:22.000Z",
-      "summary": "Datasenterboomen: – Det er en monster-tsunami &nbsp;&nbsp; digi.no"
-    },
     {
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
@@ -33,9 +26,9 @@
     {
       "title": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHlOVWxXR1ZpZm8xbk1FTlBlQWFFOE9tdDlmaExJdElpejhzakpzRnBLSjBxVW5uM1pYQmxTeUFqcjlEdUxqbHVyTURfX2tmUUludHhsMFNSVUlUbG5VSlg3b05ha3FkQUdaTDZkTENRQTlNcjc4bUZBZ2tjOTFxX2x2em1xd3Y0MzFJWkxuR3ZKWXJSZVU0RTZIZTVCbWNPWVhsRl96dnZXeWhCdXBpUzR1MnVFZ0UyZnM2VFF4MA?oc=5",
-      "source": "Nationen",
+      "source": "nationen.no",
       "published_at": "2026-08-26T19:13:50.000Z",
-      "summary": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge &nbsp;&nbsp; Nationen"
+      "summary": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge &nbsp;&nbsp; nationen.no"
     },
     {
       "title": "Datasenter vil bidra med 5,9 milliarder i verdiskaping",
@@ -59,6 +52,13 @@
       "summary": "Tydal Data Center med kjempegave til NTNU &nbsp;&nbsp; mn24.no"
     },
     {
+      "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
+    },
+    {
       "title": "Datasenter i Kautokeino: – Datasentre på norsk jord er viktig",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlQkh5dlRWeTB5SnhDUXlxdjBvSnhUYU0xb1RQRU9xd0E4M1I4Wkp6VWFpeFljSnR6Y3VTQ2hIR1U0NEdyOUd4Zk1vNEV5NTRBWjMwTy13YUw5NWVRMGQ1bFdGQkZxWUhoRVUwWUhwVkM2dw?oc=5",
       "source": "Ságat",
@@ -80,11 +80,11 @@
       "summary": "Varaordførerens familie har tjent 1,2 millioner på datasenter – deltok på møter &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; digi.no"
+      "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
     }
   ]
 }
