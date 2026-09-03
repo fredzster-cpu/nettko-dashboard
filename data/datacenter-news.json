@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-09-02T21:26:06.622Z",
+  "updated_at": "2026-09-03T00:37:24.397Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "(+) Rødt refser regjeringens datasenter­politikk: – Håpløst naivt og skummelt",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd250b3JZQkdaQU5CMmNpWFRQU3BxemYxZkxZMURKNlh5WUljaXpXQlNtQTdUTHVleDU4UmFRc3NES3YyNFkyVjNrZzV3dHBhMEV4UHJ5bTJMRHJvR29qWGViU3V2Zm04bjFkOVVySUxSam5vM0d1VC1QQlRnU2VmMGRpenZrYUdXdHhKejVvTUUxSGdjZG00TENIWWw5U1RVWGZRRmdTU3Vsd2M?oc=5",
-      "source": "VG",
-      "published_at": "2026-08-22T07:00:00.000Z",
-      "summary": "(+) Rødt refser regjeringens datasenter­politikk: – Håpløst naivt og skummelt &nbsp;&nbsp; VG"
-    },
     {
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
@@ -31,20 +24,6 @@
       "summary": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge &nbsp;&nbsp; Nationen"
     },
     {
-      "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
-      "source": "Finansavisen",
-      "published_at": "2026-08-20T07:00:00.000Z",
-      "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
-    },
-    {
-      "title": "Tydal Data Center med kjempegave til NTNU",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkNzclgtNEZHUUZYTGNrcE93YWxFWDlGLTFfUS1MMk85a042ZG9LdWlMRlhtbThqb0xMdWJCanFiVHRkS1NGQ0hZSFN1SWFBOGhtZWNUbWpidzNhaEFDTE1EZzVpWnFCZDBXc0hESGNlZnl2RDl2SmlhcUhlSzktVEdrUVY1Mk1fOGdkczZ3?oc=5",
-      "source": "mn24.no",
-      "published_at": "2026-08-12T07:00:00.000Z",
-      "summary": "Tydal Data Center med kjempegave til NTNU &nbsp;&nbsp; mn24.no"
-    },
-    {
       "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUk5uVENnTjFIYlFGdmliQnQ2anFOUFAxbFVYYjYybU1lYXE2bHZFcEszZUQxeWtYajRUVF8xTTcxYnAxcGtELVZHTGVxcXRoME03LWZzUS1XYUlValRCV0N6Ui1pZlN5eWJvcy1UMFhwQ0NyZzRkZkNfdnhsVi1hakNpMW90a05oU3hRTzl0T3dTekkzMDlYWjhVR3Y4Y1lXV0FuTDNHR0Y4ZV9vMld1NDhnWlVLQQ?oc=5",
       "source": "Aftenposten",
@@ -54,9 +33,9 @@
     {
       "title": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnhkMEVoNjhPUHFWSG4tdlZkdzdyczZxeU5EVW9rdG9EcW5RbGdYcWptam1PaU9PNDdTa3RXWlRUcjZTSlBCXzVVenJvNlB2MXhWMjdlWU5fSDhDRXctMXBpOFZqblY2aERVSTFLMHRZMWphMVJGYW9iUU13bUZ4c2VwN0RlZXZjbDZmVDZqbmhDdks5X0trNW9ZYWROQ3pw?oc=5",
-      "source": "Teknisk Ukeblad",
+      "source": "tu.no",
       "published_at": "2026-08-03T07:00:00.000Z",
-      "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; Teknisk Ukeblad"
+      "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; tu.no"
     },
     {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
@@ -73,18 +52,25 @@
       "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "ABB bygger ut i Norge for å møte datasenter-drevet etterspørsel",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcE9WaU9VaVRIUnlzNlVaZ0lyblA4djhNQnZPLUg2NUxCT194c2xYMWVlVjQzLWlIdFRzcTdEM2NVQlBDZmpxM1pjN1UzLU14bVFsWmdWZXBKeUtWVEc1bWEzWUZpQ0l1YmxoVUhWRGpzZFplODJvT0lheHRzUFpmTi05U2NIYUxfaEZHeE5obi1Rb1psWFFuYks1azAyemlYdEE?oc=5",
-      "source": "Teknisk Ukeblad",
-      "published_at": "2026-07-22T07:00:00.000Z",
-      "summary": "ABB bygger ut i Norge for å møte datasenter-drevet etterspørsel &nbsp;&nbsp; Teknisk Ukeblad"
+      "title": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUhfaWUzRDdCY21UVGt3ellySDR4S3lITGFaU3BrTnBzTnZQc3hjMUZzNEJNS01tLUZwRVlNUkYzTEhZX25zNlN5MmVCdHAtdWozc1c1cE1fbkJTTDVYOXRPYlhnaHRZZlZlb0lsS3lNc3ltTmpFOXZUcGNKUjRjMWt0UnpaN3UwZUtNODQ0ajhPVXNaLUg0YW1EbEROZEctYkpxTm9fQ2ZUYzZtSUdlZWFlZkJxRkE?oc=5",
+      "source": "finansavisen.no",
+      "published_at": "2026-08-08T07:00:00.000Z",
+      "summary": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med &nbsp;&nbsp; finansavisen.no"
     },
     {
-      "title": "Datasenter i Kautokeino: – Datasentre på norsk jord er viktig",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlQkh5dlRWeTB5SnhDUXlxdjBvSnhUYU0xb1RQRU9xd0E4M1I4Wkp6VWFpeFljSnR6Y3VTQ2hIR1U0NEdyOUd4Zk1vNEV5NTRBWjMwTy13YUw5NWVRMGQ1bFdGQkZxWUhoRVUwWUhwVkM2dw?oc=5",
-      "source": "Ságat",
-      "published_at": "2026-08-10T07:00:00.000Z",
-      "summary": "Datasenter i Kautokeino: – Datasentre på norsk jord er viktig &nbsp;&nbsp; Ságat"
+      "title": "Tydal Data Center med kjempegave til NTNU",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTJ6RXl0U2VNaXVtV0tjeU1SZmZBSi1KdWcxMnpnOUstSXZCeUJKNjRKRFlTUkItMEl5SFRoUWFJTGQxRjhRYmVzaTFYazhab3NBUjU5M1BWSUp1a24zYlo1VEUwT3JoMUVNWFdVSGpkOXhrOS1qSVhENUVMQWs4SE1kQXZ0MUxleUdGc1J5WQ?oc=5",
+      "source": "s-n.no",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "summary": "Tydal Data Center med kjempegave til NTNU &nbsp;&nbsp; s-n.no"
+    },
+    {
+      "title": "Ny britisk regjering arver datasenter-utfordringer",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2OVNJekZkS0g3Q2F3RmprLThzZWpwZUhfQmxtdTcxelJVblpSakxkOXQyb0RRU0JaY09wVTMwNFRlbmxDOHNXa3gwRXlkd0pvZ195SkgxTGF4QmVW?oc=5",
+      "source": "TechWatch",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "summary": "Ny britisk regjering arver datasenter-utfordringer &nbsp;&nbsp; TechWatch"
     }
   ]
 }
