@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-09-03T21:26:06.199Z",
+  "updated_at": "2026-09-04T00:34:26.691Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
+      "title": "Analytiker: Ett datasenter vil påvirke kraftprisene i hele Norden (+)",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NjUFQxSGJrN0NERWpHRld4WmN2UzVHdllSY0RvckV6aVB0OGh6azlyejBBUFdqMWQza1FONXhYYTFqZjZzZVpSU1pMQnc0OFZoaTJXYTlBR2Q4dDVzYkllVGlnLWZpZHZjUTBrZ1RVcTFMSjA3ZTVua3owX1p0ZXBFVTZkUjZhNHlhNFR4NnVua3pFNnRrR2ktTjJRaVY4VlB4WTdfZ3V0V0xF?oc=5",
+      "source": "europower.no",
+      "published_at": "2026-09-02T16:30:12.000Z",
+      "summary": "Analytiker: Ett datasenter vil påvirke kraftprisene i hele Norden (+) &nbsp;&nbsp; europower.no"
+    },
+    {
       "title": "(+) Rødt refser regjeringens datasenter­politikk: – Håpløst naivt og skummelt",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd250b3JZQkdaQU5CMmNpWFRQU3BxemYxZkxZMURKNlh5WUljaXpXQlNtQTdUTHVleDU4UmFRc3NES3YyNFkyVjNrZzV3dHBhMEV4UHJ5bTJMRHJvR29qWGViU3V2Zm04bjFkOVVySUxSam5vM0d1VC1QQlRnU2VmMGRpenZrYUdXdHhKejVvTUUxSGdjZG00TENIWWw5U1RVWGZRRmdTU3Vsd2M?oc=5",
-      "source": "VG",
+      "source": "vg.no",
       "published_at": "2026-08-22T07:00:00.000Z",
-      "summary": "(+) Rødt refser regjeringens datasenter­politikk: – Håpløst naivt og skummelt &nbsp;&nbsp; VG"
+      "summary": "(+) Rødt refser regjeringens datasenter­politikk: – Håpløst naivt og skummelt &nbsp;&nbsp; vg.no"
     },
     {
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
@@ -31,32 +38,11 @@
       "summary": "Datasenter vil bidra med 5,9 milliarder i verdiskaping &nbsp;&nbsp; EnergiAktuelt AS"
     },
     {
-      "title": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHlOVWxXR1ZpZm8xbk1FTlBlQWFFOE9tdDlmaExJdElpejhzakpzRnBLSjBxVW5uM1pYQmxTeUFqcjlEdUxqbHVyTURfX2tmUUludHhsMFNSVUlUbG5VSlg3b05ha3FkQUdaTDZkTENRQTlNcjc4bUZBZ2tjOTFxX2x2em1xd3Y0MzFJWkxuR3ZKWXJSZVU0RTZIZTVCbWNPWVhsRl96dnZXeWhCdXBpUzR1MnVFZ0UyZnM2VFF4MA?oc=5",
-      "source": "Nationen",
-      "published_at": "2026-08-26T19:13:50.000Z",
-      "summary": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge &nbsp;&nbsp; Nationen"
-    },
-    {
-      "title": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnhkMEVoNjhPUHFWSG4tdlZkdzdyczZxeU5EVW9rdG9EcW5RbGdYcWptam1PaU9PNDdTa3RXWlRUcjZTSlBCXzVVenJvNlB2MXhWMjdlWU5fSDhDRXctMXBpOFZqblY2aERVSTFLMHRZMWphMVJGYW9iUU13bUZ4c2VwN0RlZXZjbDZmVDZqbmhDdks5X0trNW9ZYWROQ3pw?oc=5",
-      "source": "Teknisk Ukeblad",
-      "published_at": "2026-08-03T07:00:00.000Z",
-      "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; Teknisk Ukeblad"
-    },
-    {
-      "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUk5uVENnTjFIYlFGdmliQnQ2anFOUFAxbFVYYjYybU1lYXE2bHZFcEszZUQxeWtYajRUVF8xTTcxYnAxcGtELVZHTGVxcXRoME03LWZzUS1XYUlValRCV0N6Ui1pZlN5eWJvcy1UMFhwQ0NyZzRkZkNfdnhsVi1hakNpMW90a05oU3hRTzl0T3dTekkzMDlYWjhVR3Y4Y1lXV0FuTDNHR0Y4ZV9vMld1NDhnWlVLQQ?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner &nbsp;&nbsp; Aftenposten"
-    },
-    {
       "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
+      "source": "nrk.no",
       "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; nrk.no"
     },
     {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
@@ -66,6 +52,13 @@
       "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
     },
     {
+      "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
+      "source": "Finansavisen",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
+    },
+    {
       "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHlXM292ZHc3T29kNVF5ekdCb2pZTzNFRjJvQXRGVUdsS0RCYTAzZWgzZmRCZmVld2NzR2xNSjcwaUJHYVRyN3llUmNJUDlrdVVhMkRFa2hZeFpoMzJzWDh3ZGVlWU52dkdJd2pKSmt2YVBJZnVMT3Etd0Q5MWNCOHFqaV8yTG1wTkhlcGdHbFRDNmZEVkd2S181aENRYW4tNldQemY2dGtWbTRLLXlhSUFsMGJwdw?oc=5",
       "source": "E24",
@@ -73,18 +66,25 @@
       "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; E24"
     },
     {
-      "title": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUhfaWUzRDdCY21UVGt3ellySDR4S3lITGFaU3BrTnBzTnZQc3hjMUZzNEJNS01tLUZwRVlNUkYzTEhZX25zNlN5MmVCdHAtdWozc1c1cE1fbkJTTDVYOXRPYlhnaHRZZlZlb0lsS3lNc3ltTmpFOXZUcGNKUjRjMWt0UnpaN3UwZUtNODQ0ajhPVXNaLUg0YW1EbEROZEctYkpxTm9fQ2ZUYzZtSUdlZWFlZkJxRkE?oc=5",
-      "source": "Finansavisen",
-      "published_at": "2026-08-08T07:00:00.000Z",
-      "summary": "Statnett om Datasenter-kraftkøen: – Vi har lite å sammenligne med &nbsp;&nbsp; Finansavisen"
+      "title": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnhkMEVoNjhPUHFWSG4tdlZkdzdyczZxeU5EVW9rdG9EcW5RbGdYcWptam1PaU9PNDdTa3RXWlRUcjZTSlBCXzVVenJvNlB2MXhWMjdlWU5fSDhDRXctMXBpOFZqblY2aERVSTFLMHRZMWphMVJGYW9iUU13bUZ4c2VwN0RlZXZjbDZmVDZqbmhDdks5X0trNW9ZYWROQ3pw?oc=5",
+      "source": "Teknisk Ukeblad",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "summary": "Regjeringen Heiagjeng må komme med kraftigere datasenter-politikk &nbsp;&nbsp; Teknisk Ukeblad"
     },
     {
-      "title": "Vil avkrefta «mytar» om datasenter: – Milliardar i verdiskaping på Undheim",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYkoxdWxUZGJ1a19QRWZUWkhVR2pvQUZ0dzVoaG9vQWd5a2FZcFpfbVdBN01MMGVZZ1d6a2RLU1p1eUFsZDdCV25sYUhBTTJGcWtEemhhN2xWeWxYWlJ6QlBvMzRud1NZX2d1eTh1cWdCRXMxRUl2ckVRemY1Sk0ya2dzYzhOaFVIMVBrakFlMjZNaGY1R3VQYlB4MV9UMDB6MWRGaA?oc=5",
-      "source": "Jærbladet",
-      "published_at": "2026-08-19T07:00:00.000Z",
-      "summary": "Vil avkrefta «mytar» om datasenter: – Milliardar i verdiskaping på Undheim &nbsp;&nbsp; Jærbladet"
+      "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
+    },
+    {
+      "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXRyTk9ieVdhSUVpeW9lT0xqWTJIWGEwZE5lZ1hZWVZmS1g1dGZ0cVV5UzNFUEpGSXZVSlIxekVTV2tKcXBvQ0FjSzNUYm9wcE9lUW91M2FHUWFFcm5ndERiMGlYVGVFRjFCWG9hZzNjV052ZkEwazZyaUlXdzhJdHV2OEhuVGlKeHNSUGNUdWZtTDdxOEFQb0xGVHlKQmxNSXUzRVhOSEc1UWlpOVE?oc=5",
+      "source": "bygg.no",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner &nbsp;&nbsp; bygg.no"
     }
   ]
 }
