@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T09:28:13.705Z",
+  "updated_at": "2026-09-04T12:33:39.535Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -20,7 +20,7 @@
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
       "source": "E24",
-      "published_at": "2026-08-26T18:04:14.000Z",
+      "published_at": "2026-08-26T07:00:00.000Z",
       "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; E24"
     },
     {
@@ -31,11 +31,18 @@
       "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Gigantisk kontrakt for AI-datasenter i Trøndelag",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV21XMm1OZU1scFFHREdfM051WDlZbndrNU5jODR5WWZTRUVJSEVsTFFJbWRmSTNveVNrTExLRWZjbkFtUE1hLTNyand6WjRSU3dKMVV2OGZYdV9PazlyM0ZyTFc2TERQNVhjblpHSkViUm1XNXZqcFNkeHEwX0h0dkxPUnJYYnMycTRTUllNNXFRZw?oc=5",
-      "source": "E24",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantisk kontrakt for AI-datasenter i Trøndelag &nbsp;&nbsp; E24"
+      "title": "Cloudflare Åpner Datasenter Nr. 75 i Oslo [2026]",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtVjQyLWJ2WFR0ZjA4LTVILUFzXzRaMDBkV0RIZDA4STNPNTdVbUNlTUhGcDFOZDBUdG1WVDBJTnV2aTNiejFMWFJWOGYzN3BOVnRwejFZUHUyaDFmbU1ERXJCdlVuMXM?oc=5",
+      "source": "shattered.io",
+      "published_at": "2026-08-27T22:41:50.000Z",
+      "summary": "Cloudflare Åpner Datasenter Nr. 75 i Oslo [2026] &nbsp;&nbsp; shattered.io"
+    },
+    {
+      "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
+      "source": "finansavisen.no",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; finansavisen.no"
     },
     {
       "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
@@ -45,6 +52,20 @@
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
     },
     {
+      "title": "Kontrollutvalg skal undersøke datasenter-avtale",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhWSHRCYUVqaHJHYXh6QUhUYU5ib1FVTXFTZ0lMSTNaMFl1ZktBcWc4a0dnODF5eFN2c29hVFU3N1E2T3ZHYmdIWnRYYVNZQWZCQTlyZHJFeXNPUDNyWHFqeHFqUXVzNmRhSjVrdnl0Qzc0U1ZneHhMTTFDekZWM1lXSnhRUHQtaDNpT21FeXBfQQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Gigantisk kontrakt for AI-datasenter i Trøndelag",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV21XMm1OZU1scFFHREdfM051WDlZbndrNU5jODR5WWZTRUVJSEVsTFFJbWRmSTNveVNrTExLRWZjbkFtUE1hLTNyand6WjRSU3dKMVV2OGZYdV9PazlyM0ZyTFc2TERQNVhjblpHSkViUm1XNXZqcFNkeHEwX0h0dkxPUnJYYnMycTRTUllNNXFRZw?oc=5",
+      "source": "E24",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantisk kontrakt for AI-datasenter i Trøndelag &nbsp;&nbsp; E24"
+    },
+    {
       "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHlXM292ZHc3T29kNVF5ekdCb2pZTzNFRjJvQXRGVUdsS0RCYTAzZWgzZmRCZmVld2NzR2xNSjcwaUJHYVRyN3llUmNJUDlrdVVhMkRFa2hZeFpoMzJzWDh3ZGVlWU52dkdJd2pKSmt2YVBJZnVMT3Etd0Q5MWNCOHFqaV8yTG1wTkhlcGdHbFRDNmZEVkd2S181aENRYW4tNldQemY2dGtWbTRLLXlhSUFsMGJwdw?oc=5",
       "source": "E24",
@@ -52,18 +73,18 @@
       "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; E24"
     },
     {
-      "title": "ABB bygger ut i Norge for å møte datasenter-drevet etterspørsel",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcE9WaU9VaVRIUnlzNlVaZ0lyblA4djhNQnZPLUg2NUxCT194c2xYMWVlVjQzLWlIdFRzcTdEM2NVQlBDZmpxM1pjN1UzLU14bVFsWmdWZXBKeUtWVEc1bWEzWUZpQ0l1YmxoVUhWRGpzZFplODJvT0lheHRzUFpmTi05U2NIYUxfaEZHeE5obi1Rb1psWFFuYks1azAyemlYdEE?oc=5",
-      "source": "Teknisk Ukeblad",
-      "published_at": "2026-07-22T07:00:00.000Z",
-      "summary": "ABB bygger ut i Norge for å møte datasenter-drevet etterspørsel &nbsp;&nbsp; Teknisk Ukeblad"
+      "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
+      "source": "nettavisen.no",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; nettavisen.no"
     },
     {
-      "title": "Hvorfor trenger vi datasenter i Norge?",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdG1lNXE1RTRPTkFLMHdMbXNFRlR2YWZpektkTXo4NVhSYnFqWkJYbld1WWRwN3dyZy1VcjQ1WXZ0aWhFNk15dkRGOTJJZFk0RkNISUhTbWxHdXFWa1Izc0UyU1FoSGFJYUwxWFRqeU51RE56NVU1OEJPTGQ0ek1pR0Vn?oc=5",
-      "source": "Nye Troms",
-      "published_at": "2026-07-27T07:00:00.000Z",
-      "summary": "Hvorfor trenger vi datasenter i Norge? &nbsp;&nbsp; Nye Troms"
+      "title": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXRyTk9ieVdhSUVpeW9lT0xqWTJIWGEwZE5lZ1hZWVZmS1g1dGZ0cVV5UzNFUEpGSXZVSlIxekVTV2tKcXBvQ0FjSzNUYm9wcE9lUW91M2FHUWFFcm5ndERiMGlYVGVFRjFCWG9hZzNjV052ZkEwazZyaUlXdzhJdHV2OEhuVGlKeHNSUGNUdWZtTDdxOEFQb0xGVHlKQmxNSXUzRVhOSEc1UWlpOVE?oc=5",
+      "source": "Bygg.no",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Gigantkontrakt for KI-datasenter i Tydal – verdi på 45 milliarder kroner &nbsp;&nbsp; Bygg.no"
     }
   ]
 }
