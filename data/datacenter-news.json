@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-04T15:28:16.798Z",
+  "updated_at": "2026-09-04T18:28:02.415Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Datasenter: Ja til oppstart av planarbeidet",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YN3l5NjEweGZNZkpvZGdXUEZ3b1BXbmlrblYyZjVURnNBSEx2LWwwcmplbEFhVXZ2OHFuOHZOZzVJaElWeDU5elR0X1E5bk8zOE42bEc5MFBUUUFsaFplZE54VXNLbmtYc3VwWUFWaEFUaWFwZlpUN1ZvVXNNaGs?oc=5",
+      "source": "Tidens Krav",
+      "published_at": "2026-09-04T16:59:55.000Z",
+      "summary": "Datasenter: Ja til oppstart av planarbeidet &nbsp;&nbsp; Tidens Krav"
+    },
     {
       "title": "Analytiker: Ett datasenter vil påvirke kraftprisene i hele Norden (+)",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NjUFQxSGJrN0NERWpHRld4WmN2UzVHdllSY0RvckV6aVB0OGh6azlyejBBUFdqMWQza1FONXhYYTFqZjZzZVpSU1pMQnc0OFZoaTJXYTlBR2Q4dDVzYkllVGlnLWZpZHZjUTBrZ1RVcTFMSjA3ZTVua3owX1p0ZXBFVTZkUjZhNHlhNFR4NnVua3pFNnRrR2ktTjJRaVY4VlB4WTdfZ3V0V0xF?oc=5",
@@ -19,9 +26,9 @@
     {
       "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-08-26T07:00:00.000Z",
-      "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; E24"
+      "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; e24.no"
     },
     {
       "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
@@ -31,32 +38,11 @@
       "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Datasenter vil bidra med 5,9 milliarder i verdiskaping",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXBsUjRXMFpYZmVLdzhhQWpjSjk0MEs0ZHlsY0o4UTZpSGE2RDRJVmxrd0dNTDZlWXVYT1JGZ2pVUFYyM1E5U0pIcmd5Z3l2eF9oZzhNeVRqQnZCb1Y5QW5Fb2dWX3JoV1Z1eFZmcklGNHdQbFFHNVV5bzNPY1N2aTJmRmJnWFRQWkNyWUNrTVZpV09zTTZYanozVFpBY1QxV0NZcw?oc=5",
-      "source": "EnergiAktuelt AS",
-      "published_at": "2026-08-21T06:59:41.000Z",
-      "summary": "Datasenter vil bidra med 5,9 milliarder i verdiskaping &nbsp;&nbsp; EnergiAktuelt AS"
-    },
-    {
-      "title": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHlOVWxXR1ZpZm8xbk1FTlBlQWFFOE9tdDlmaExJdElpejhzakpzRnBLSjBxVW5uM1pYQmxTeUFqcjlEdUxqbHVyTURfX2tmUUludHhsMFNSVUlUbG5VSlg3b05ha3FkQUdaTDZkTENRQTlNcjc4bUZBZ2tjOTFxX2x2em1xd3Y0MzFJWkxuR3ZKWXJSZVU0RTZIZTVCbWNPWVhsRl96dnZXeWhCdXBpUzR1MnVFZ0UyZnM2VFF4MA?oc=5",
-      "source": "Nationen",
-      "published_at": "2026-08-26T19:13:50.000Z",
-      "summary": "Datasenter, Politikk | Danmark, Nederland, Irland og Finland stiller strengere krav til datasentre enn Norge &nbsp;&nbsp; Nationen"
-    },
-    {
       "title": "Cloudflare Åpner Datasenter Nr. 75 i Oslo [2026]",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtVjQyLWJ2WFR0ZjA4LTVILUFzXzRaMDBkV0RIZDA4STNPNTdVbUNlTUhGcDFOZDBUdG1WVDBJTnV2aTNiejFMWFJWOGYzN3BOVnRwejFZUHUyaDFmbU1ERXJCdlVuMXM?oc=5",
       "source": "shattered.io",
       "published_at": "2026-08-27T22:41:50.000Z",
       "summary": "Cloudflare Åpner Datasenter Nr. 75 i Oslo [2026] &nbsp;&nbsp; shattered.io"
-    },
-    {
-      "title": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWxDTnd3VjhwMm84bjEyd254c3Jvc280Um9VVE9MV0g0b0o1ZUZpcFE4emphRUhTM1hRcWQxSTE0Q0R5bFQtOVBsTWdvS3JCUGl3RkRiOWoxUEgxUmV0ZG9ad0FvbHdBWk90cDFPTXd2R2lhZHNFdkI5Y2Yxdk9hZzNuX3E1cXZVWDFMTEoxOHhzZ29tblNGbXBkdWNHX05rUHlN?oc=5",
-      "source": "aftenbladet.no",
-      "published_at": "2026-08-20T07:00:00.000Z",
-      "summary": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda &nbsp;&nbsp; aftenbladet.no"
     },
     {
       "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
@@ -75,16 +61,30 @@
     {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhWSHRCYUVqaHJHYXh6QUhUYU5ib1FVTXFTZ0lMSTNaMFl1ZktBcWc4a0dnODF5eFN2c29hVFU3N1E2T3ZHYmdIWnRYYVNZQWZCQTlyZHJFeXNPUDNyWHFqeHFqUXVzNmRhSjVrdnl0Qzc0U1ZneHhMTTFDekZWM1lXSnhRUHQtaDNpT21FeXBfQQ?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-08-20T07:00:00.000Z",
-      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
+      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; e24.no"
     },
     {
       "title": "Gigantisk kontrakt for AI-datasenter i Trøndelag",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV21XMm1OZU1scFFHREdfM051WDlZbndrNU5jODR5WWZTRUVJSEVsTFFJbWRmSTNveVNrTExLRWZjbkFtUE1hLTNyand6WjRSU3dKMVV2OGZYdV9PazlyM0ZyTFc2TERQNVhjblpHSkViUm1XNXZqcFNkeHEwX0h0dkxPUnJYYnMycTRTUllNNXFRZw?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantisk kontrakt for AI-datasenter i Trøndelag &nbsp;&nbsp; E24"
+      "summary": "Gigantisk kontrakt for AI-datasenter i Trøndelag &nbsp;&nbsp; e24.no"
+    },
+    {
+      "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHlXM292ZHc3T29kNVF5ekdCb2pZTzNFRjJvQXRGVUdsS0RCYTAzZWgzZmRCZmVld2NzR2xNSjcwaUJHYVRyN3llUmNJUDlrdVVhMkRFa2hZeFpoMzJzWDh3ZGVlWU52dkdJd2pKSmt2YVBJZnVMT3Etd0Q5MWNCOHFqaV8yTG1wTkhlcGdHbFRDNmZEVkd2S181aENRYW4tNldQemY2dGtWbTRLLXlhSUFsMGJwdw?oc=5",
+      "source": "e24.no",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; e24.no"
+    },
+    {
+      "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
     }
   ]
 }
