@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-05T15:25:35.426Z",
+  "updated_at": "2026-09-05T18:27:55.642Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
-      "source": "NTB Kommunikasjon",
+      "source": "kommunikasjon.ntb.no",
       "published_at": "2026-09-05T09:35:21.000Z",
-      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
+      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; kommunikasjon.ntb.no"
     },
     {
       "title": "Datasenter: Ja til oppstart av planarbeidet",
@@ -59,13 +59,6 @@
       "summary": "Cloudflare Åpner Datasenter Nr. 75 i Oslo [2026] &nbsp;&nbsp; shattered.io"
     },
     {
-      "title": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWxDTnd3VjhwMm84bjEyd254c3Jvc280Um9VVE9MV0g0b0o1ZUZpcFE4emphRUhTM1hRcWQxSTE0Q0R5bFQtOVBsTWdvS3JCUGl3RkRiOWoxUEgxUmV0ZG9ad0FvbHdBWk90cDFPTXd2R2lhZHNFdkI5Y2Yxdk9hZzNuX3E1cXZVWDFMTEoxOHhzZ29tblNGbXBkdWNHX05rUHlN?oc=5",
-      "source": "Stavanger Aftenblad",
-      "published_at": "2026-08-20T07:00:00.000Z",
-      "summary": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda &nbsp;&nbsp; Stavanger Aftenblad"
-    },
-    {
       "title": "Datasenter kan redde Arendal etter Morrow-fiasko",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODZKR2Nzdm4yckhBa2VCVXhqUDlWQlA0MzBHZng3SEtJTmY3elpwMkJLNEtDQVRFZmZyR3dzTzQ3dmdLdy1XTTZQbzh6MTBnVGM3MkxpbjAtN010M0NxMFFuZGx0WkFJUGE4SU0xMXhKWHBqaTBQTHZGeTBjRGZPSC1zV29HQlpGWllTMjl3LUFpUHZiTmxHLUxZcTZzS24yUnVjV3lpdw?oc=5",
       "source": "Finansavisen",
@@ -73,18 +66,25 @@
       "summary": "Datasenter kan redde Arendal etter Morrow-fiasko &nbsp;&nbsp; Finansavisen"
     },
     {
+      "title": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWxDTnd3VjhwMm84bjEyd254c3Jvc280Um9VVE9MV0g0b0o1ZUZpcFE4emphRUhTM1hRcWQxSTE0Q0R5bFQtOVBsTWdvS3JCUGl3RkRiOWoxUEgxUmV0ZG9ad0FvbHdBWk90cDFPTXd2R2lhZHNFdkI5Y2Yxdk9hZzNuX3E1cXZVWDFMTEoxOHhzZ29tblNGbXBkdWNHX05rUHlN?oc=5",
+      "source": "Stavanger Aftenblad",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "summary": "Datasenteraktør vil dyrke søtpoteter og brokkoli i Sauda &nbsp;&nbsp; Stavanger Aftenblad"
+    },
+    {
       "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYk9vMmRYUkZNdGdjdnZvbjBuX3pTS0tZLUtNaVZHOXZNd2E3U0RKTXRPZ0lsR3dQWGdFTnVTdkI2M2NKUGRBejEyRW1BSFpsVzRIajRObmdfZ0l1dFhlY1BqQ3JGMHNNMlFVc0FSa3hyekp6QTBEZHNDSEJic3Y0RDZMNWtzZ1Q1bDZEV0E4eVZrcFRaWVN1dkhaSEtrU3c?oc=5",
-      "source": "Digi.no",
+      "source": "digi.no",
       "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
+      "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUgxenhFME00MFp1eUUwaUhqUnQ2NktOOHBOUUx3bGo5bGkzRGdWZjA3V1B0RUFEd2hweFQtMm8xdUxyaGZ4Mkx6YmQ0Q1ZmbkkyM01yamU4VDFPc1Fma3BsSjR2OW56ZEpCbGNnUHI0el83elRoc2JGX1JmeWRWYk1KVWVHekxoVHdka0p3cUlBc2FmTWJpcjNQYmczS3JfNFNuNlE1MklLWThUWlhLR1djWWpaaFQ2cXc?oc=5",
-      "source": "nettavisen.no",
+      "source": "Nettavisen",
       "published_at": "2026-08-22T07:00:00.000Z",
-      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; nettavisen.no"
+      "summary": "Datasenter, Inhabilitet | Varaordfører deltok på møter med utbygger – familien tjente 1,2 millioner &nbsp;&nbsp; Nettavisen"
     }
   ]
 }
