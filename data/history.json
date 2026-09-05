@@ -363,5 +363,29 @@
     "withdrawn_NO3": null,
     "withdrawn_NO4": null,
     "withdrawn_NO5": null
+  },
+  {
+    "date": "2026-09-05",
+    "updated_at": "2026-09-05T00:45:30.391Z",
+    "queue_NO1": null,
+    "queue_NO2": null,
+    "queue_NO3": null,
+    "queue_NO4": null,
+    "queue_NO5": null,
+    "reservations_NO1": null,
+    "reservations_NO2": null,
+    "reservations_NO3": null,
+    "reservations_NO4": null,
+    "reservations_NO5": null,
+    "connected_NO1": null,
+    "connected_NO2": null,
+    "connected_NO3": null,
+    "connected_NO4": null,
+    "connected_NO5": null,
+    "withdrawn_NO1": null,
+    "withdrawn_NO2": null,
+    "withdrawn_NO3": null,
+    "withdrawn_NO4": null,
+    "withdrawn_NO5": null
   }
 ]
