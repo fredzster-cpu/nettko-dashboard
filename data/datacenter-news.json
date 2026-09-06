@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T00:39:11.713Z",
+  "updated_at": "2026-09-06T03:27:09.516Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -12,9 +12,9 @@
     {
       "title": "Datasenter: Ja til oppstart av planarbeidet",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YN3l5NjEweGZNZkpvZGdXUEZ3b1BXbmlrblYyZjVURnNBSEx2LWwwcmplbEFhVXZ2OHFuOHZOZzVJaElWeDU5elR0X1E5bk8zOE42bEc5MFBUUUFsaFplZE54VXNLbmtYc3VwWUFWaEFUaWFwZlpUN1ZvVXNNaGs?oc=5",
-      "source": "Tidens Krav",
+      "source": "tk.no",
       "published_at": "2026-09-04T16:59:55.000Z",
-      "summary": "Datasenter: Ja til oppstart av planarbeidet &nbsp;&nbsp; Tidens Krav"
+      "summary": "Datasenter: Ja til oppstart av planarbeidet &nbsp;&nbsp; tk.no"
     },
     {
       "title": "Analytiker: Ett datasenter vil påvirke kraftprisene i hele Norden (+)",
@@ -59,13 +59,6 @@
       "summary": "Sikret milliardkontrakt – skal bygge gigadatasenter &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Kristiansund kan få datasenter: – Bør ligge minst 500 meter fra boligbebyggelse",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTHdnZ00ycHRRdlhXVEJUdXMxenNWNWc3aHBhWFUyOTNybGxPRVFpa3QtcTZkaEh4WTNzbUtFaF9MWDY4ZzJ1VDRxX2lIOUUwSHJ3TUtUdENOWEZJR3BteURkd1ItX3FtcnNQQVRuMHNmQ3ZBMWxQempOT1FzcE1wSVdPZlpWX3E5MFVlV2ZxRThvU0NRdGJ3cVI3S3BtUkpXZ0hLTjBMdzJ1dG8?oc=5",
-      "source": "Tidens Krav",
-      "published_at": "2026-08-26T07:00:00.000Z",
-      "summary": "Kristiansund kan få datasenter: – Bør ligge minst 500 meter fra boligbebyggelse &nbsp;&nbsp; Tidens Krav"
-    },
-    {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhWSHRCYUVqaHJHYXh6QUhUYU5ib1FVTXFTZ0lMSTNaMFl1ZktBcWc4a0dnODF5eFN2c29hVFU3N1E2T3ZHYmdIWnRYYVNZQWZCQTlyZHJFeXNPUDNyWHFqeHFqUXVzNmRhSjVrdnl0Qzc0U1ZneHhMTTFDekZWM1lXSnhRUHQtaDNpT21FeXBfQQ?oc=5",
       "source": "E24",
@@ -85,6 +78,13 @@
       "source": "Digi.no",
       "published_at": "2026-07-29T07:00:00.000Z",
       "summary": "Datasenter-boomen: Vi gir bort kraften, men IT-jobbene havner i utlandet &nbsp;&nbsp; Digi.no"
+    },
+    {
+      "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
+      "source": "NRK",
+      "published_at": "2026-08-16T07:00:00.000Z",
+      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
     }
   ]
 }
