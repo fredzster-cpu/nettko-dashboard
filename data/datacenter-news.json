@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T15:28:00.659Z",
+  "updated_at": "2026-09-07T18:30:46.964Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -12,9 +12,9 @@
     {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
-      "source": "kommunikasjon.ntb.no",
+      "source": "NTB Kommunikasjon",
       "published_at": "2026-09-05T15:35:21.000Z",
-      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; kommunikasjon.ntb.no"
+      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
       "title": "Datasenter: Ja til oppstart av planarbeidet",
@@ -66,13 +66,6 @@
       "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; E24"
     },
     {
-      "title": "Datasenter-boomen: Vi gir bort kraften, men IT-jobbene havner i utlandet",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaHRjR3BONF9jSzc2dFBpZFVrNDNFRU1ob3ZPZUVDSnRDT290eDBDWjk4Yk9QcEV4ako0TEZGek0tVW9oa2lMbHR4TkNvQmpYeFhnUlUzbEpkWXhlQWNmNDBIczRZOGNmVnBHZEc1MGpwbEpEMUhEV2VHZ0p4Yzk3c2t0bDNKZHN6T1RuTE9QemFjY0l0MDJSeWNSTDhZV3ROWkVlei1aNllYbl80ZHplOVR4RQ?oc=5",
-      "source": "Digi.no",
-      "published_at": "2026-07-29T07:00:00.000Z",
-      "summary": "Datasenter-boomen: Vi gir bort kraften, men IT-jobbene havner i utlandet &nbsp;&nbsp; Digi.no"
-    },
-    {
       "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
       "source": "NRK",
@@ -85,6 +78,13 @@
       "source": "E24",
       "published_at": "2026-08-04T07:00:00.000Z",
       "summary": "Gigantisk kontrakt for AI-datasenter i Trøndelag &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Datasenter-boomen: Vi gir bort kraften, men IT-jobbene havner i utlandet",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaHRjR3BONF9jSzc2dFBpZFVrNDNFRU1ob3ZPZUVDSnRDT290eDBDWjk4Yk9QcEV4ako0TEZGek0tVW9oa2lMbHR4TkNvQmpYeFhnUlUzbEpkWXhlQWNmNDBIczRZOGNmVnBHZEc1MGpwbEpEMUhEV2VHZ0p4Yzk3c2t0bDNKZHN6T1RuTE9QemFjY0l0MDJSeWNSTDhZV3ROWkVlei1aNllYbl80ZHplOVR4RQ?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "summary": "Datasenter-boomen: Vi gir bort kraften, men IT-jobbene havner i utlandet &nbsp;&nbsp; Digi.no"
     }
   ]
 }
