@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T12:33:45.660Z",
+  "updated_at": "2026-09-11T15:27:55.463Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -8,6 +8,13 @@
       "source": "E24",
       "published_at": "2026-09-06T17:58:56.000Z",
       "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEkxLWp3QlFzSGVQTjBqdFdpdFdkVk1kUWlfeDU3YWsxejBiWF9EZktYdk5qUzlNel9NUjRMNUgxYk92LWJIazR4WDNkZWhQMnhNd2hvdzJJRFZTeTQ5Tl8ydGZERmswOEpWeFF4Wm9HamlxajFoZUZKYkVlVXdKYnZuYUxBRWdwS0hjWTBlZV9XLWdTNC1fTlRONTJVMy1mZlZ5aHBYSk5Ob2pHS2p5b1dOd0xCb0ZnZG94aVZnbGxSbnhpU2c?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-10T16:54:00.000Z",
+      "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
@@ -26,9 +33,9 @@
     {
       "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
+      "source": "nrk.no",
       "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; nrk.no"
     },
     {
       "title": "Analytiker: Ett datasenter vil påvirke kraftprisene i hele Norden (+)",
@@ -78,13 +85,6 @@
       "source": "E24",
       "published_at": "2026-08-20T07:00:00.000Z",
       "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Sikret milliardkontrakt – skal bygge gigadatasenter",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUVwVlRxRmpQNlZlVGhFeHBha0FEVXRTenRlU2ZXYzVNbW1tdjVfUUtBa1otV3Z1MW1kSmstNzJYdzdybU8xYWxPRExpRjc3cUltZ3dfWnd5MVVKU2MteEpFOExfN2NpQ0t0c0h3cE9TNFFpODN2aFJhZHVYSzZCM0U3OUs1TWljVjEtLWJPT0Nac05NZU9QY1BYSQ?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Sikret milliardkontrakt – skal bygge gigadatasenter &nbsp;&nbsp; NRK"
     }
   ]
 }
