@@ -1,20 +1,13 @@
 {
-  "updated_at": "2026-09-11T18:30:50.964Z",
+  "updated_at": "2026-09-11T21:25:09.631Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Canadas «oljefond» bygger datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-09-06T17:58:56.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
-      "source": "kommunikasjon.ntb.no",
-      "published_at": "2026-09-05T15:35:21.000Z",
-      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; kommunikasjon.ntb.no"
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; e24.no"
     },
     {
       "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
@@ -22,6 +15,13 @@
       "source": "Dagens Næringsliv",
       "published_at": "2026-09-10T16:54:00.000Z",
       "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
+      "source": "NTB Kommunikasjon",
+      "published_at": "2026-09-05T15:35:21.000Z",
+      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
       "title": "Nå kommer smartbrille- og datasenter-debatten tilbake",
@@ -82,9 +82,9 @@
     {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhWSHRCYUVqaHJHYXh6QUhUYU5ib1FVTXFTZ0lMSTNaMFl1ZktBcWc4a0dnODF5eFN2c29hVFU3N1E2T3ZHYmdIWnRYYVNZQWZCQTlyZHJFeXNPUDNyWHFqeHFqUXVzNmRhSjVrdnl0Qzc0U1ZneHhMTTFDekZWM1lXSnhRUHQtaDNpT21FeXBfQQ?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-08-20T07:00:00.000Z",
-      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
+      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; e24.no"
     }
   ]
 }
