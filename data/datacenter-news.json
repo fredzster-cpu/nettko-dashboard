@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-09-17T19:02:35.718Z",
+  "updated_at": "2026-09-17T23:33:41.530Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEZFpPVzRTTEVYMnh5dW9FMWFQN0dTWkhCdEdfdGU0aUQwc2pYZ3ZBcS1udEJMQlhEcTFac2ZoRk5UNjRDaVBHSHkwZ2V6V29DRHFhbUhONVkxM2xKLVFWRU0xWWU3ZnB1b0EzQg?oc=5",
-      "source": "Energiwatch.no",
+      "source": "energiwatch.no",
       "published_at": "2026-09-17T12:30:21.000Z",
-      "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
+      "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; energiwatch.no"
+    },
+    {
+      "title": "Kommune kan få en halv milliard for datasentertomt",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
+      "source": "E24",
+      "published_at": "2026-09-16T10:46:16.000Z",
+      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     },
     {
       "title": "Datasenter-gründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
@@ -19,9 +26,9 @@
     {
       "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51cE9QZ2hOZWVrWmJsLWkwUEE3TWVGS3pYc3JGMElNdWFUZzNqMWRhRmlXbTRTRTNuNndfazVmWlluOTR0VWlsa0xRRnQ1M1dtY2x5QzNrWTZhZVhHRXltNEZpNTN0UFBtY29yWlpUZVFoOXlYOVJzQjgxY1c?oc=5",
-      "source": "tk.no",
+      "source": "Tidens Krav",
       "published_at": "2026-09-16T05:42:10.000Z",
-      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; tk.no"
+      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; Tidens Krav"
     },
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
@@ -38,11 +45,11 @@
       "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
-      "title": "Kommune kan få en halv milliard for datasentertomt",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
+      "title": "Canadas «oljefond» bygger datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
       "source": "E24",
-      "published_at": "2026-09-16T10:46:16.000Z",
-      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
     },
     {
       "title": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner",
@@ -52,13 +59,6 @@
       "summary": "Gigantkontrakt for KI-datasenter – verdi på 45 milliarder kroner &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Signerte kontrakt for utvidelse av datasenteret i Narvik",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ0Q1ek9IdWlSUTVQTUw2cHVyeFMxeGtQRmVlMzN4dXpwT1dyMEZpcG43SXNLMUJlLWJvdHhSR19JenREMlBpMFp6SzllZ25kenVQT2M0ZjRXUXBNdmI5SzhFZHFJLUNtN2NCSWtXemR2RjJSSDN0SG9rcEJENTVrbHpJcHpXTzQxdEJFVV9RYm5sYkFOUVNn?oc=5",
       "source": "Digi.no",
@@ -66,18 +66,18 @@
       "summary": "Signerte kontrakt for utvidelse av datasenteret i Narvik &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Sikret milliardkontrakt – skal bygge gigadatasenter",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUVwVlRxRmpQNlZlVGhFeHBha0FEVXRTenRlU2ZXYzVNbW1tdjVfUUtBa1otV3Z1MW1kSmstNzJYdzdybU8xYWxPRExpRjc3cUltZ3dfWnd5MVVKU2MteEpFOExfN2NpQ0t0c0h3cE9TNFFpODN2aFJhZHVYSzZCM0U3OUs1TWljVjEtLWJPT0Nac05NZU9QY1BYSQ?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "summary": "Sikret milliardkontrakt – skal bygge gigadatasenter &nbsp;&nbsp; NRK"
-    },
-    {
       "title": "Sendt 357 brev: Ber kommunene om datasenter-tomt",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGpSb3dYNW5sOXBxRG1IbDNmNGwtdjVNVV9UYjhwM0Q4a1QwV0tyTXIxNDE3VjNaU1ljTjkyangwVnBMTk1rc2NrUXZYeGt0SHhJanZvajBlcWFOVkVxajRiejNfdm5nQ1JDazZ4TjVUODl4dWJPVS1naVNFTk54eXZjd2FhLW93S3Fn?oc=5",
       "source": "E24",
       "published_at": "2026-09-13T11:24:25.000Z",
       "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Sikret milliardkontrakt – skal bygge gigadatasenter",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUVwVlRxRmpQNlZlVGhFeHBha0FEVXRTenRlU2ZXYzVNbW1tdjVfUUtBa1otV3Z1MW1kSmstNzJYdzdybU8xYWxPRExpRjc3cUltZ3dfWnd5MVVKU2MteEpFOExfN2NpQ0t0c0h3cE9TNFFpODN2aFJhZHVYSzZCM0U3OUs1TWljVjEtLWJPT0Nac05NZU9QY1BYSQ?oc=5",
+      "source": "NRK",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "summary": "Sikret milliardkontrakt – skal bygge gigadatasenter &nbsp;&nbsp; NRK"
     },
     {
       "title": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel",
