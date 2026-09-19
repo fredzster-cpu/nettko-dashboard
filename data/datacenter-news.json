@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:01:52.312Z",
+  "updated_at": "2026-09-19T15:53:54.805Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -33,9 +33,9 @@
     {
       "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51cE9QZ2hOZWVrWmJsLWkwUEE3TWVGS3pYc3JGMElNdWFUZzNqMWRhRmlXbTRTRTNuNndfazVmWlluOTR0VWlsa0xRRnQ1M1dtY2x5QzNrWTZhZVhHRXltNEZpNTN0UFBtY29yWlpUZVFoOXlYOVJzQjgxY1c?oc=5",
-      "source": "tk.no",
+      "source": "Tidens Krav",
       "published_at": "2026-09-16T05:42:10.000Z",
-      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; tk.no"
+      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; Tidens Krav"
     },
     {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
@@ -48,7 +48,7 @@
       "title": "Kommune kan få en halv milliard for datasentertomt",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
       "source": "E24",
-      "published_at": "2026-09-16T10:46:16.000Z",
+      "published_at": "2026-09-16T13:31:54.000Z",
       "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     },
     {
@@ -57,6 +57,13 @@
       "source": "E24",
       "published_at": "2026-09-06T07:00:00.000Z",
       "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Signerte kontrakt for utvidelse av datasenteret i Narvik",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ0Q1ek9IdWlSUTVQTUw2cHVyeFMxeGtQRmVlMzN4dXpwT1dyMEZpcG43SXNLMUJlLWJvdHhSR19JenREMlBpMFp6SzllZ25kenVQT2M0ZjRXUXBNdmI5SzhFZHFJLUNtN2NCSWtXemR2RjJSSDN0SG9rcEJENTVrbHpJcHpXTzQxdEJFVV9RYm5sYkFOUVNn?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-09-02T06:38:26.000Z",
+      "summary": "Signerte kontrakt for utvidelse av datasenteret i Narvik &nbsp;&nbsp; Digi.no"
     },
     {
       "title": "Sendt 357 brev: Ber kommunene om datasenter-tomt",
@@ -78,13 +85,6 @@
       "source": "E24",
       "published_at": "2026-08-06T07:00:00.000Z",
       "summary": "Datasenter-gigant brukte 400 mill. på tomteselskaper – kommunen fikk en fjerdedel &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
     }
   ]
 }
