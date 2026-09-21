@@ -1,27 +1,13 @@
 {
-  "updated_at": "2026-09-21T12:51:23.113Z",
+  "updated_at": "2026-09-21T19:59:48.042Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
-      "title": "Kommune kan få en halv milliard for datasentertomt",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-16T13:31:54.000Z",
-      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Google sikrer seg 480 MW til datasenter",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
-      "source": "tu.no",
+      "source": "Teknisk Ukeblad",
       "published_at": "2026-09-18T12:39:12.000Z",
-      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; tu.no"
-    },
-    {
-      "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElEX3drSlJCYW82STg1Q0Q3N2tTRE5IUkU3ZnBxakV3X1o4eGU0RDgzdXRydGI5Rk0tVlBIaGt5REZSZmJvMVpTT21WbVJBeEdTVldNbVlXZURZU3JaMkhhdTNzTzNaUVFyWHRXUUhjdzFNN1ZuWWJUVVNmSzFQbkx5dkVZeGpIRWMzME56Tlhpd040bG5lbHpwbG93NW5mZnlfbk9Md2dsM1dwUmZadFpfbzFnQkZjTlE?oc=5",
-      "source": "dn.no",
-      "published_at": "2026-09-14T23:59:00.000Z",
-      "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; dn.no"
+      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
     },
     {
       "title": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS",
@@ -29,6 +15,13 @@
       "source": "Energiwatch.no",
       "published_at": "2026-09-17T12:30:21.000Z",
       "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
+    },
+    {
+      "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElEX3drSlJCYW82STg1Q0Q3N2tTRE5IUkU3ZnBxakV3X1o4eGU0RDgzdXRydGI5Rk0tVlBIaGt5REZSZmJvMVpTT21WbVJBeEdTVldNbVlXZURZU3JaMkhhdTNzTzNaUVFyWHRXUUhjdzFNN1ZuWWJUVVNmSzFQbkx5dkVZeGpIRWMzME56Tlhpd040bG5lbHpwbG93NW5mZnlfbk9Md2dsM1dwUmZadFpfbzFnQkZjTlE?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-14T23:59:00.000Z",
+      "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
@@ -40,9 +33,16 @@
     {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
-      "source": "kommunikasjon.ntb.no",
+      "source": "NTB Kommunikasjon",
       "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; kommunikasjon.ntb.no"
+      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
+    },
+    {
+      "title": "Kommune kan få en halv milliard for datasentertomt",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
+      "source": "E24",
+      "published_at": "2026-09-16T13:31:54.000Z",
+      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     },
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
