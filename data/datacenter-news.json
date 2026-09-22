@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-09-22T04:59:02.040Z",
+  "updated_at": "2026-09-22T11:41:15.244Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Slakter datasenter-planer: – Det blir robotstyring!",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcmJFamxvSi0weXZOM0N5RGFjMTlEQk5XSDA1ODFYQVk4S3RQZ0xoa2FMWGt3VHlEMmU4aU5HSjVYNTFwejdDUVU0T2JFa2hueVZPV25aMTEyZVBTWjhaUjZTUEppTnNlZjhJQlh6MGt2amJxNVpVbWFfQ0NrWmJTWUFkY0hKWG02Z044?oc=5",
-      "source": "opp.no",
-      "published_at": "2026-09-22T03:00:00.000Z",
-      "summary": "Slakter datasenter-planer: – Det blir robotstyring! &nbsp;&nbsp; opp.no"
-    },
     {
       "title": "Google sikrer seg 480 MW til datasenter",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
@@ -31,13 +24,6 @@
       "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
-      "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51cE9QZ2hOZWVrWmJsLWkwUEE3TWVGS3pYc3JGMElNdWFUZzNqMWRhRmlXbTRTRTNuNndfazVmWlluOTR0VWlsa0xRRnQ1M1dtY2x5QzNrWTZhZVhHRXltNEZpNTN0UFBtY29yWlpUZVFoOXlYOVJzQjgxY1c?oc=5",
-      "source": "Tidens Krav",
-      "published_at": "2026-09-16T05:42:10.000Z",
-      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; Tidens Krav"
-    },
-    {
       "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
       "source": "NTB Kommunikasjon",
@@ -47,9 +33,16 @@
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmdydUhIZFI0bk1ZcXpQeENITG1LTGN6RzUxM0JLY2d2SkQyUU5leW1wUEdaN1dsa3pDNGNFdU5rdGE5TUVkY01aUWF6Z21CN0Q2QTdjN1FjcmVONzVsYkZFaFlvYWIzbjZ2aDQ5WWpveDhicGdyOEJmQVVRcDdaV3J4Ymo4RThnaXJTVGZUWWZuNVBxUUdrZ2RBQWNWS0VuWTR4Nnh4MlBqWHA0LVB4c0xn?oc=5",
-      "source": "Bygg.no",
+      "source": "bygg.no",
       "published_at": "2026-09-14T13:19:40.000Z",
-      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; Bygg.no"
+      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; bygg.no"
+    },
+    {
+      "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51cE9QZ2hOZWVrWmJsLWkwUEE3TWVGS3pYc3JGMElNdWFUZzNqMWRhRmlXbTRTRTNuNndfazVmWlluOTR0VWlsa0xRRnQ1M1dtY2x5QzNrWTZhZVhHRXltNEZpNTN0UFBtY29yWlpUZVFoOXlYOVJzQjgxY1c?oc=5",
+      "source": "tk.no",
+      "published_at": "2026-09-16T05:42:10.000Z",
+      "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; tk.no"
     },
     {
       "title": "Kommune kan få en halv milliard for datasentertomt",
@@ -85,6 +78,13 @@
       "source": "NRK",
       "published_at": "2026-08-16T07:00:00.000Z",
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+    },
+    {
+      "title": "Kontrollutvalg skal undersøke datasenter-avtale",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhWSHRCYUVqaHJHYXh6QUhUYU5ib1FVTXFTZ0lMSTNaMFl1ZktBcWc4a0dnODF5eFN2c29hVFU3N1E2T3ZHYmdIWnRYYVNZQWZCQTlyZHJFeXNPUDNyWHFqeHFqUXVzNmRhSjVrdnl0Qzc0U1ZneHhMTTFDekZWM1lXSnhRUHQtaDNpT21FeXBfQQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "summary": "Kontrollutvalg skal undersøke datasenter-avtale &nbsp;&nbsp; E24"
     }
   ]
 }
