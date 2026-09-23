@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-23T04:47:04.159Z",
+  "updated_at": "2026-09-23T11:39:56.668Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Google sikrer seg 480 MW til datasenter",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
-      "source": "Teknisk Ukeblad",
+      "source": "tu.no",
       "published_at": "2026-09-18T12:39:12.000Z",
-      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
+      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; tu.no"
     },
     {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
@@ -22,13 +22,6 @@
       "source": "Energiwatch.no",
       "published_at": "2026-09-17T12:30:21.000Z",
       "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
-    },
-    {
-      "title": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcllfS18xeS1RQmFaeEdPbkg3ckRVQnNMVnFyXy1rMHZGYzFzdERjVUI4QnlRblBwTFZDUVVCV0pUX0hNbDlYelJpYXlTUHYzVUlyb2I2Y2NzZXFoMmxOYWFSZUEyR2ZUa1puYXFaNHl4NFN3WUdnRzB5WjdtWU1ydzZXcFM2emlDeFE4M095U0JvV2hOd3F3RlhEcWk5QURscVRMMm1yUUc4VmdCY1B2cE5IVkp4TEUxODNxQzdpRXZ0Rm0yR2JtUFdKbXFieWtPWUJ5MzRadlh6OTJUQW5yTUlqeWZOSkdzaFFKNzFIRUhGdmwyRW5TZg?oc=5",
-      "source": "NTB Kommunikasjon",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "atNorth bekrefter langsiktig satsingen i Norge og går inn i Norsk datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
@@ -78,6 +71,13 @@
       "source": "NRK",
       "published_at": "2026-08-16T07:00:00.000Z",
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+    },
+    {
+      "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEkxLWp3QlFzSGVQTjBqdFdpdFdkVk1kUWlfeDU3YWsxejBiWF9EZktYdk5qUzlNel9NUjRMNUgxYk92LWJIazR4WDNkZWhQMnhNd2hvdzJJRFZTeTQ5Tl8ydGZERmswOEpWeFF4Wm9HamlxajFoZUZKYkVlVXdKYnZuYUxBRWdwS0hjWTBlZV9XLWdTNC1fTlRONTJVMy1mZlZ5aHBYSk5Ob2pHS2p5b1dOd0xCb0ZnZG94aVZnbGxSbnhpU2c?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Kontrollutvalg skal undersøke datasenter-avtale",
