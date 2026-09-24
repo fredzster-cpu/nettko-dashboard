@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-24T04:54:01.349Z",
+  "updated_at": "2026-09-24T11:48:25.615Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
-      "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
-      "source": "ITavisen",
-      "published_at": "2026-09-23T13:04:30.000Z",
-      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
+      "title": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOG1FTVlYbzNQNDgzZHlQMmF4WVNYR1g2TTExR2V4SnRON0tGZVlOektTa1hNRTVrVzJTRFFfTkhNRVRuU0dEQnZYazJvUlp6amJ2UmE3b2ZJQ0l5OGgtWld0N0Z5T0YwUnNqQ3hyV2hjbFBja2xhQklvaV94Z1lyMzNzblB1bDRLZXRNSVFFNmw4X2lZSWRaT1JPMVpSZw?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-09-24T06:50:32.000Z",
+      "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; Digi.no"
     },
     {
       "title": "Google sikrer seg 480 MW til datasenter",
@@ -17,11 +17,18 @@
       "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
     },
     {
+      "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
+      "source": "ITavisen",
+      "published_at": "2026-09-23T13:04:30.000Z",
+      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
+    },
+    {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElEX3drSlJCYW82STg1Q0Q3N2tTRE5IUkU3ZnBxakV3X1o4eGU0RDgzdXRydGI5Rk0tVlBIaGt5REZSZmJvMVpTT21WbVJBeEdTVldNbVlXZURZU3JaMkhhdTNzTzNaUVFyWHRXUUhjdzFNN1ZuWWJUVVNmSzFQbkx5dkVZeGpIRWMzME56Tlhpd040bG5lbHpwbG93NW5mZnlfbk9Md2dsM1dwUmZadFpfbzFnQkZjTlE?oc=5",
-      "source": "dn.no",
+      "source": "Dagens Næringsliv",
       "published_at": "2026-09-15T07:00:00.000Z",
-      "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; dn.no"
+      "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
@@ -78,13 +85,6 @@
       "source": "NRK",
       "published_at": "2026-08-16T07:00:00.000Z",
       "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
-    },
-    {
-      "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEkxLWp3QlFzSGVQTjBqdFdpdFdkVk1kUWlfeDU3YWsxejBiWF9EZktYdk5qUzlNel9NUjRMNUgxYk92LWJIazR4WDNkZWhQMnhNd2hvdzJJRFZTeTQ5Tl8ydGZERmswOEpWeFF4Wm9HamlxajFoZUZKYkVlVXdKYnZuYUxBRWdwS0hjWTBlZV9XLWdTNC1fTlRONTJVMy1mZlZ5aHBYSk5Ob2pHS2p5b1dOd0xCb0ZnZG94aVZnbGxSbnhpU2c?oc=5",
-      "source": "dn.no",
-      "published_at": "2026-09-10T07:00:00.000Z",
-      "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; dn.no"
     }
   ]
 }
