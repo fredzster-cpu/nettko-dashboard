@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:13:04.087Z",
+  "updated_at": "2026-09-24T21:32:17.006Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -10,6 +10,13 @@
       "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; Digi.no"
     },
     {
+      "title": "Google sikrer seg 480 MW til datasenter",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
+      "source": "tu.no",
+      "published_at": "2026-09-18T12:39:12.000Z",
+      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; tu.no"
+    },
+    {
       "title": "Datasenter skal øke sysselsettingen i Fyresdal med 50 prosent",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRHlYdC1lRXNtMUEwR0F2Q2xFZUc4d3IyWWVkNWZPTHNRUEw4OWtyV2lkOHc4eGo3dG5BUElYTTNCeVltMEs5UVJrN2NkS1pBd282a2F1UmtpV3lRNi16NU9nNWlXZmdTUm1NSjZzZlRGR0EwNDgyLWYzcDFObThpUFlMNk5kREFtb3lzeHNqR3EteGF1X1pza2JpMXlsQQ?oc=5",
       "source": "Digi.no",
@@ -17,18 +24,11 @@
       "summary": "Datasenter skal øke sysselsettingen i Fyresdal med 50 prosent &nbsp;&nbsp; Digi.no"
     },
     {
-      "title": "Google sikrer seg 480 MW til datasenter",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
-      "source": "Teknisk Ukeblad",
-      "published_at": "2026-09-18T12:39:12.000Z",
-      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
-    },
-    {
       "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
-      "source": "itavisen.no",
+      "source": "ITavisen",
       "published_at": "2026-09-23T13:04:30.000Z",
-      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; itavisen.no"
+      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
     },
     {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
@@ -82,9 +82,9 @@
     {
       "title": "Nå kommer smartbrille- og datasenter-debatten tilbake",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNXzg1TnVGWFI0dnpBeFVEbVNQbUhPU21DbWlieHp5RGRkVXNyUkVwbjFZRFd3NXJmZF9SR0tYbVAtZXBzOTlyV2dwYWxEYkZmY1VhQ1pmYXBsa2hFaGZLaktnX0lPRm03Q1dXRlB2Z1lqRjJOTGlCRFdpcW1WUS1RUkRjZHktTlhHUGxzd3RLdGlWd2cz?oc=5",
-      "source": "kode24.no",
+      "source": "Kode24.no",
       "published_at": "2026-09-10T07:00:00.000Z",
-      "summary": "Nå kommer smartbrille- og datasenter-debatten tilbake &nbsp;&nbsp; kode24.no"
+      "summary": "Nå kommer smartbrille- og datasenter-debatten tilbake &nbsp;&nbsp; Kode24.no"
     }
   ]
 }
