@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-09-24T11:48:25.615Z",
+  "updated_at": "2026-09-24T17:13:04.087Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOG1FTVlYbzNQNDgzZHlQMmF4WVNYR1g2TTExR2V4SnRON0tGZVlOektTa1hNRTVrVzJTRFFfTkhNRVRuU0dEQnZYazJvUlp6amJ2UmE3b2ZJQ0l5OGgtWld0N0Z5T0YwUnNqQ3hyV2hjbFBja2xhQklvaV94Z1lyMzNzblB1bDRLZXRNSVFFNmw4X2lZSWRaT1JPMVpSZw?oc=5",
       "source": "Digi.no",
-      "published_at": "2026-09-24T06:50:32.000Z",
+      "published_at": "2026-09-24T13:54:52.000Z",
       "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; Digi.no"
+    },
+    {
+      "title": "Datasenter skal øke sysselsettingen i Fyresdal med 50 prosent",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRHlYdC1lRXNtMUEwR0F2Q2xFZUc4d3IyWWVkNWZPTHNRUEw4OWtyV2lkOHc4eGo3dG5BUElYTTNCeVltMEs5UVJrN2NkS1pBd282a2F1UmtpV3lRNi16NU9nNWlXZmdTUm1NSjZzZlRGR0EwNDgyLWYzcDFObThpUFlMNk5kREFtb3lzeHNqR3EteGF1X1pza2JpMXlsQQ?oc=5",
+      "source": "Digi.no",
+      "published_at": "2026-09-24T03:14:41.000Z",
+      "summary": "Datasenter skal øke sysselsettingen i Fyresdal med 50 prosent &nbsp;&nbsp; Digi.no"
     },
     {
       "title": "Google sikrer seg 480 MW til datasenter",
@@ -19,9 +26,9 @@
     {
       "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
-      "source": "ITavisen",
+      "source": "itavisen.no",
       "published_at": "2026-09-23T13:04:30.000Z",
-      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
+      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; itavisen.no"
     },
     {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
@@ -45,18 +52,18 @@
       "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
     },
     {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til?",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51cE9QZ2hOZWVrWmJsLWkwUEE3TWVGS3pYc3JGMElNdWFUZzNqMWRhRmlXbTRTRTNuNndfazVmWlluOTR0VWlsa0xRRnQ1M1dtY2x5QzNrWTZhZVhHRXltNEZpNTN0UFBtY29yWlpUZVFoOXlYOVJzQjgxY1c?oc=5",
       "source": "Tidens Krav",
       "published_at": "2026-09-16T05:42:10.000Z",
       "summary": "Kraftproduksjon, Datasenter | Hva skal vi bruke den norske kraften til? &nbsp;&nbsp; Tidens Krav"
+    },
+    {
+      "title": "Canadas «oljefond» bygger datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
+      "source": "E24",
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
     },
     {
       "title": "Kommune kan få en halv milliard for datasentertomt",
@@ -66,25 +73,18 @@
       "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     },
     {
-      "title": "Sendt 357 brev: Ber kommunene om datasenter-tomt",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGpSb3dYNW5sOXBxRG1IbDNmNGwtdjVNVV9UYjhwM0Q4a1QwV0tyTXIxNDE3VjNaU1ljTjkyangwVnBMTk1rc2NrUXZYeGt0SHhJanZvajBlcWFOVkVxajRiejNfdm5nQ1JDazZ4TjVUODl4dWJPVS1naVNFTk54eXZjd2FhLW93S3Fn?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-13T07:00:00.000Z",
-      "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; E24"
+      "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEkxLWp3QlFzSGVQTjBqdFdpdFdkVk1kUWlfeDU3YWsxejBiWF9EZktYdk5qUzlNel9NUjRMNUgxYk92LWJIazR4WDNkZWhQMnhNd2hvdzJJRFZTeTQ5Tl8ydGZERmswOEpWeFF4Wm9HamlxajFoZUZKYkVlVXdKYnZuYUxBRWdwS0hjWTBlZV9XLWdTNC1fTlRONTJVMy1mZlZ5aHBYSk5Ob2pHS2p5b1dOd0xCb0ZnZG94aVZnbGxSbnhpU2c?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
-      "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
-      "source": "E24",
-      "published_at": "2026-08-26T07:00:00.000Z",
-      "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
+      "title": "Nå kommer smartbrille- og datasenter-debatten tilbake",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNXzg1TnVGWFI0dnpBeFVEbVNQbUhPU21DbWlieHp5RGRkVXNyUkVwbjFZRFd3NXJmZF9SR0tYbVAtZXBzOTlyV2dwYWxEYkZmY1VhQ1pmYXBsa2hFaGZLaktnX0lPRm03Q1dXRlB2Z1lqRjJOTGlCRFdpcW1WUS1RUkRjZHktTlhHUGxzd3RLdGlWd2cz?oc=5",
+      "source": "kode24.no",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Nå kommer smartbrille- og datasenter-debatten tilbake &nbsp;&nbsp; kode24.no"
     }
   ]
 }
