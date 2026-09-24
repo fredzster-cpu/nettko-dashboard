@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T11:59:18.188Z",
+  "updated_at": "2026-09-24T17:22:50.438Z",
   "source": "NVE Nettanlegg4",
   "stations": {
     "Arna Transformatorstasjon TRA": {
@@ -15,10 +15,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 998,
+      "nve_object_id": 995,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:58:59.927Z"
+      "checked_at": "2026-09-24T17:22:35.755Z"
     },
     "Aurland 2 KRA/TRA": {
       "station": "Aurland 2 KRA/TRA",
@@ -33,10 +33,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1015,
+      "nve_object_id": 1012,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:00.409Z"
+      "checked_at": "2026-09-24T17:22:36.143Z"
     },
     "Aurland 3 KRA/TRA": {
       "station": "Aurland 3 KRA/TRA",
@@ -51,10 +51,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1014,
+      "nve_object_id": 1011,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:00.901Z"
+      "checked_at": "2026-09-24T17:22:36.529Z"
     },
     "Borgund KRA/TRA": {
       "station": "Borgund KRA/TRA",
@@ -69,10 +69,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 866,
+      "nve_object_id": 863,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:01.394Z"
+      "checked_at": "2026-09-24T17:22:36.914Z"
     },
     "Dale TRA": {
       "station": "Dale TRA",
@@ -87,10 +87,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 997,
+      "nve_object_id": 994,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:01.887Z"
+      "checked_at": "2026-09-24T17:22:37.310Z"
     },
     "Fana Transformatorstasjon TRA": {
       "station": "Fana Transformatorstasjon TRA",
@@ -105,10 +105,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 999,
+      "nve_object_id": 996,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:02.367Z"
+      "checked_at": "2026-09-24T17:22:37.729Z"
     },
     "Flesaker TRA": {
       "station": "Flesaker TRA",
@@ -123,10 +123,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 911,
+      "nve_object_id": 908,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:02.866Z"
+      "checked_at": "2026-09-24T17:22:38.132Z"
     },
     "Follo TRA": {
       "station": "Follo TRA",
@@ -141,10 +141,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 946,
+      "nve_object_id": 943,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:03.346Z"
+      "checked_at": "2026-09-24T17:22:38.530Z"
     },
     "Fortun KRA/TRA": {
       "station": "Fortun KRA/TRA",
@@ -159,10 +159,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 868,
+      "nve_object_id": 865,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:03.843Z"
+      "checked_at": "2026-09-24T17:22:38.921Z"
     },
     "Frogner TRA": {
       "station": "Frogner TRA",
@@ -178,10 +178,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 945,
+      "nve_object_id": 942,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:04.343Z"
+      "checked_at": "2026-09-24T17:22:39.323Z"
     },
     "Furuset TRA": {
       "station": "Furuset TRA",
@@ -196,10 +196,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 907,
+      "nve_object_id": 904,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:04.834Z"
+      "checked_at": "2026-09-24T17:22:39.717Z"
     },
     "Fåberg TRA": {
       "station": "Fåberg TRA",
@@ -214,10 +214,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 860,
+      "nve_object_id": 857,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:05.336Z"
+      "checked_at": "2026-09-24T17:22:40.117Z"
     },
     "Halden TRA": {
       "station": "Halden TRA",
@@ -232,10 +232,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 941,
+      "nve_object_id": 938,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:05.817Z"
+      "checked_at": "2026-09-24T17:22:40.520Z"
     },
     "Hamang TRA": {
       "station": "Hamang TRA",
@@ -250,10 +250,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 909,
+      "nve_object_id": 906,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:06.307Z"
+      "checked_at": "2026-09-24T17:22:40.944Z"
     },
     "Hasle TRA": {
       "station": "Hasle TRA",
@@ -269,10 +269,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 942,
+      "nve_object_id": 939,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:06.818Z"
+      "checked_at": "2026-09-24T17:22:41.351Z"
     },
     "Haugsvær transformatorstasjon TRA": {
       "station": "Haugsvær transformatorstasjon TRA",
@@ -287,10 +287,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1040,
+      "nve_object_id": 1037,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:07.300Z"
+      "checked_at": "2026-09-24T17:22:41.751Z"
     },
     "Hove KRA/TRA": {
       "station": "Hove KRA/TRA",
@@ -305,10 +305,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 870,
+      "nve_object_id": 867,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:07.782Z"
+      "checked_at": "2026-09-24T17:22:42.139Z"
     },
     "Kollsnes KRA/TRA": {
       "station": "Kollsnes KRA/TRA",
@@ -323,10 +323,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1026,
+      "nve_object_id": 1023,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:08.266Z"
+      "checked_at": "2026-09-24T17:22:42.531Z"
     },
     "Leirdøla (LEX) TRA": {
       "station": "Leirdøla (LEX) TRA",
@@ -341,10 +341,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1091,
+      "nve_object_id": 1088,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:08.753Z"
+      "checked_at": "2026-09-24T17:22:42.916Z"
     },
     "Lindås transformatorstasjon TRA": {
       "station": "Lindås transformatorstasjon TRA",
@@ -359,10 +359,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1042,
+      "nve_object_id": 1039,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:09.239Z"
+      "checked_at": "2026-09-24T17:22:43.305Z"
     },
     "Litle Sotra TRA": {
       "station": "Litle Sotra TRA",
@@ -377,10 +377,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1025,
+      "nve_object_id": 1022,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:09.750Z"
+      "checked_at": "2026-09-24T17:22:43.707Z"
     },
     "Minne TRA": {
       "station": "Minne TRA",
@@ -396,10 +396,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 947,
+      "nve_object_id": 944,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:10.281Z"
+      "checked_at": "2026-09-24T17:22:44.103Z"
     },
     "Nedre Vinstra KRA/TRA": {
       "station": "Nedre Vinstra KRA/TRA",
@@ -414,10 +414,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 865,
+      "nve_object_id": 862,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:10.769Z"
+      "checked_at": "2026-09-24T17:22:44.488Z"
     },
     "Nes Bk TRA": {
       "station": "Nes Bk TRA",
@@ -432,10 +432,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 877,
+      "nve_object_id": 874,
       "confidence": "high",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:11.254Z"
+      "checked_at": "2026-09-24T17:22:44.877Z"
     },
     "Rendalen transformatorstasjon TRA": {
       "station": "Rendalen transformatorstasjon TRA",
@@ -450,10 +450,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 862,
+      "nve_object_id": 859,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:11.740Z"
+      "checked_at": "2026-09-24T17:22:45.260Z"
     },
     "Ringerike TRA": {
       "station": "Ringerike TRA",
@@ -468,10 +468,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 915,
+      "nve_object_id": 912,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:12.229Z"
+      "checked_at": "2026-09-24T17:22:45.657Z"
     },
     "Røykås TRA": {
       "station": "Røykås TRA",
@@ -487,10 +487,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 944,
+      "nve_object_id": 941,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:12.712Z"
+      "checked_at": "2026-09-24T17:22:46.042Z"
     },
     "Samnanger TRA": {
       "station": "Samnanger TRA",
@@ -506,10 +506,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 887,
+      "nve_object_id": 884,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:13.197Z"
+      "checked_at": "2026-09-24T17:22:46.438Z"
     },
     "Sima KRA/TRA": {
       "station": "Sima KRA/TRA",
@@ -524,10 +524,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 872,
+      "nve_object_id": 869,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:13.677Z"
+      "checked_at": "2026-09-24T17:22:46.822Z"
     },
     "Smestad TRA": {
       "station": "Smestad TRA",
@@ -542,10 +542,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 906,
+      "nve_object_id": 903,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:14.175Z"
+      "checked_at": "2026-09-24T17:22:47.207Z"
     },
     "Sogn TRA": {
       "station": "Sogn TRA",
@@ -560,10 +560,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 905,
+      "nve_object_id": 902,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:14.657Z"
+      "checked_at": "2026-09-24T17:22:47.591Z"
     },
     "Sogndal TRA": {
       "station": "Sogndal TRA",
@@ -580,10 +580,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 926,
+      "nve_object_id": 923,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:15.148Z"
+      "checked_at": "2026-09-24T17:22:47.976Z"
     },
     "Sylling TRA": {
       "station": "Sylling TRA",
@@ -599,10 +599,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 910,
+      "nve_object_id": 907,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:15.636Z"
+      "checked_at": "2026-09-24T17:22:48.367Z"
     },
     "Tegneby TRA": {
       "station": "Tegneby TRA",
@@ -618,10 +618,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 943,
+      "nve_object_id": 940,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:16.125Z"
+      "checked_at": "2026-09-24T17:22:48.766Z"
     },
     "Ulven TRA": {
       "station": "Ulven TRA",
@@ -636,10 +636,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 904,
+      "nve_object_id": 901,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:16.620Z"
+      "checked_at": "2026-09-24T17:22:49.152Z"
     },
     "Usta KRA/TRA": {
       "station": "Usta KRA/TRA",
@@ -655,10 +655,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 1017,
+      "nve_object_id": 1014,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:17.108Z"
+      "checked_at": "2026-09-24T17:22:49.544Z"
     },
     "Vang TRA": {
       "station": "Vang TRA",
@@ -673,10 +673,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 863,
+      "nve_object_id": 860,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:17.600Z"
+      "checked_at": "2026-09-24T17:22:49.942Z"
     },
     "Vardal TRA": {
       "station": "Vardal TRA",
@@ -692,10 +692,10 @@
       ],
       "voltage_source": "NVE transmisjonslinjer ved stasjonen",
       "nve_netbas_id": null,
-      "nve_object_id": 864,
+      "nve_object_id": 861,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-09-24T11:59:18.088Z"
+      "checked_at": "2026-09-24T17:22:50.337Z"
     }
   },
   "station_count": 38,
