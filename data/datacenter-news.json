@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T11:53:16.747Z",
+  "updated_at": "2026-09-25T17:13:47.951Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -33,9 +33,9 @@
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmdydUhIZFI0bk1ZcXpQeENITG1LTGN6RzUxM0JLY2d2SkQyUU5leW1wUEdaN1dsa3pDNGNFdU5rdGE5TUVkY01aUWF6Z21CN0Q2QTdjN1FjcmVONzVsYkZFaFlvYWIzbjZ2aDQ5WWpveDhicGdyOEJmQVVRcDdaV3J4Ymo4RThnaXJTVGZUWWZuNVBxUUdrZ2RBQWNWS0VuWTR4Nnh4MlBqWHA0LVB4c0xn?oc=5",
-      "source": "bygg.no",
+      "source": "Bygg.no",
       "published_at": "2026-09-14T13:19:40.000Z",
-      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; bygg.no"
+      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; Bygg.no"
     },
     {
       "title": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS",
@@ -59,6 +59,13 @@
       "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
+      "title": "Nå kommer smartbrille- og datasenter-debatten tilbake",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNXzg1TnVGWFI0dnpBeFVEbVNQbUhPU21DbWlieHp5RGRkVXNyUkVwbjFZRFd3NXJmZF9SR0tYbVAtZXBzOTlyV2dwYWxEYkZmY1VhQ1pmYXBsa2hFaGZLaktnX0lPRm03Q1dXRlB2Z1lqRjJOTGlCRFdpcW1WUS1RUkRjZHktTlhHUGxzd3RLdGlWd2cz?oc=5",
+      "source": "Kode24.no",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Nå kommer smartbrille- og datasenter-debatten tilbake &nbsp;&nbsp; Kode24.no"
+    },
+    {
       "title": "Kommune kan få en halv milliard for datasentertomt",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
       "source": "E24",
@@ -66,25 +73,18 @@
       "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     },
     {
+      "title": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+)",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbEkxLWp3QlFzSGVQTjBqdFdpdFdkVk1kUWlfeDU3YWsxejBiWF9EZktYdk5qUzlNel9NUjRMNUgxYk92LWJIazR4WDNkZWhQMnhNd2hvdzJJRFZTeTQ5Tl8ydGZERmswOEpWeFF4Wm9HamlxajFoZUZKYkVlVXdKYnZuYUxBRWdwS0hjWTBlZV9XLWdTNC1fTlRONTJVMy1mZlZ5aHBYSk5Ob2pHS2p5b1dOd0xCb0ZnZG94aVZnbGxSbnhpU2c?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Norgespris til næringslivet vil gi flere hundre millioner i støtte til Tiktok-datasenter (+) &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
       "title": "Sendt 357 brev: Ber kommunene om datasenter-tomt",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGpSb3dYNW5sOXBxRG1IbDNmNGwtdjVNVV9UYjhwM0Q4a1QwV0tyTXIxNDE3VjNaU1ljTjkyangwVnBMTk1rc2NrUXZYeGt0SHhJanZvajBlcWFOVkVxajRiejNfdm5nQ1JDazZ4TjVUODl4dWJPVS1naVNFTk54eXZjd2FhLW93S3Fn?oc=5",
       "source": "E24",
       "published_at": "2026-09-13T07:00:00.000Z",
       "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
-    },
-    {
-      "title": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmtPbldsYWQySUsyNGtocFBTOTlYWUZOZ1RDMloybFh2UlVvRGNTVUpCWFVDZHFfNDJLeURxMElBVG1NenQwcjZiVDNBR0lOa1dCQ294aVBTblBleUZsTnlJSUk2UlJndTUyVHQ5ZG80Q0ZGeGxtRC1DSDJaRFFWcUt1cE9MazNzUXkwTVlDM0V1LWdKbHNpa3VoclJPWXVTWGZEM0JnWnU5c0ZfR2FvM3ZVTzFYSTFi?oc=5",
-      "source": "E24",
-      "published_at": "2026-08-26T07:00:00.000Z",
-      "summary": "Akers Nscale har signert kontrakt om AI-datasenter verdt 45 milliarder dollar &nbsp;&nbsp; E24"
     }
   ]
 }
