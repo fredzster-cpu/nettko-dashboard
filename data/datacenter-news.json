@@ -1,20 +1,13 @@
 {
-  "updated_at": "2026-09-25T21:36:15.405Z",
+  "updated_at": "2026-09-26T05:00:20.854Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOG1FTVlYbzNQNDgzZHlQMmF4WVNYR1g2TTExR2V4SnRON0tGZVlOektTa1hNRTVrVzJTRFFfTkhNRVRuU0dEQnZYazJvUlp6amJ2UmE3b2ZJQ0l5OGgtWld0N0Z5T0YwUnNqQ3hyV2hjbFBja2xhQklvaV94Z1lyMzNzblB1bDRLZXRNSVFFNmw4X2lZSWRaT1JPMVpSZw?oc=5",
-      "source": "Digi.no",
+      "source": "digi.no",
       "published_at": "2026-09-24T13:54:52.000Z",
-      "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; Digi.no"
-    },
-    {
-      "title": "Slakter datasenter-planer: – Det blir robotstyring",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRTRyYWVXdElVb2RTcGlGU0pvWUpoSVF1dGxPeFV5RkxkQ1pvUDg1cEI1Um11SExISXRkOUc5VmlNUmZYUWhzU05YWWtLc29WSEJ6TWZaTlZYM3gtQlFsQWl3Z2s3dHFreVFTRUFtdlp0X0l2aHF3OFp1MG1ZYlNYZEVwNE9lU2s?oc=5",
-      "source": "mn24.no",
-      "published_at": "2026-09-22T07:14:07.000Z",
-      "summary": "Slakter datasenter-planer: – Det blir robotstyring &nbsp;&nbsp; mn24.no"
+      "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Canadas «oljefond» bygger datasenter i Norge",
@@ -22,6 +15,13 @@
       "source": "E24",
       "published_at": "2026-09-06T07:00:00.000Z",
       "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Slakter datasenter-planer: – Det blir robotstyring",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRTRyYWVXdElVb2RTcGlGU0pvWUpoSVF1dGxPeFV5RkxkQ1pvUDg1cEI1Um11SExISXRkOUc5VmlNUmZYUWhzU05YWWtLc29WSEJ6TWZaTlZYM3gtQlFsQWl3Z2s3dHFreVFTRUFtdlp0X0l2aHF3OFp1MG1ZYlNYZEVwNE9lU2s?oc=5",
+      "source": "mn24.no",
+      "published_at": "2026-09-22T07:14:07.000Z",
+      "summary": "Slakter datasenter-planer: – Det blir robotstyring &nbsp;&nbsp; mn24.no"
     },
     {
       "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
@@ -40,16 +40,16 @@
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmdydUhIZFI0bk1ZcXpQeENITG1LTGN6RzUxM0JLY2d2SkQyUU5leW1wUEdaN1dsa3pDNGNFdU5rdGE5TUVkY01aUWF6Z21CN0Q2QTdjN1FjcmVONzVsYkZFaFlvYWIzbjZ2aDQ5WWpveDhicGdyOEJmQVVRcDdaV3J4Ymo4RThnaXJTVGZUWWZuNVBxUUdrZ2RBQWNWS0VuWTR4Nnh4MlBqWHA0LVB4c0xn?oc=5",
-      "source": "bygg.no",
-      "published_at": "2026-09-14T13:19:40.000Z",
-      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; bygg.no"
+      "source": "Bygg.no",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "summary": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW &nbsp;&nbsp; Bygg.no"
     },
     {
       "title": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEZFpPVzRTTEVYMnh5dW9FMWFQN0dTWkhCdEdfdGU0aUQwc2pYZ3ZBcS1udEJMQlhEcTFac2ZoRk5UNjRDaVBHSHkwZ2V6V29DRHFhbUhONVkxM2xKLVFWRU0xWWU3ZnB1b0EzQg?oc=5",
-      "source": "energiwatch.no",
+      "source": "Energiwatch.no",
       "published_at": "2026-09-17T12:30:21.000Z",
-      "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; energiwatch.no"
+      "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
     },
     {
       "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
@@ -57,6 +57,13 @@
       "source": "Dagens Næringsliv",
       "published_at": "2026-09-24T15:55:00.000Z",
       "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Nå kommer smartbrille- og datasenter-debatten tilbake",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNXzg1TnVGWFI0dnpBeFVEbVNQbUhPU21DbWlieHp5RGRkVXNyUkVwbjFZRFd3NXJmZF9SR0tYbVAtZXBzOTlyV2dwYWxEYkZmY1VhQ1pmYXBsa2hFaGZLaktnX0lPRm03Q1dXRlB2Z1lqRjJOTGlCRFdpcW1WUS1RUkRjZHktTlhHUGxzd3RLdGlWd2cz?oc=5",
+      "source": "Kode24.no",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "summary": "Nå kommer smartbrille- og datasenter-debatten tilbake &nbsp;&nbsp; Kode24.no"
     },
     {
       "title": "Kommune kan få en halv milliard for datasentertomt",
@@ -78,13 +85,6 @@
       "source": "E24",
       "published_at": "2026-09-13T07:00:00.000Z",
       "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMm1weHVlVUxnNlAzVExxOXQyMkpqd2hsYlhMcV9rdEowZFFYWVRFQl9zSHBMS2lwR0tVemgwQ2g4WnNTZUtMOV85N3BfeXcya183WHR1RlA5M2lnMTA2QjBVR3RTTDZtR1VJektrTFYwQkFPVmNpdVdhSnZQV2RtX1pSNjJvRlkydUFPRGdReFZpY0EwYVc5WTdvdFdRdmVXZmtfRGRvaExlZkRtbGFlalN1dw?oc=5",
-      "source": "NRK",
-      "published_at": "2026-08-16T07:00:00.000Z",
-      "summary": "Veksande motstand mot datasenter i Noreg: 116 søknader ligg til behandling &nbsp;&nbsp; NRK"
     }
   ]
 }
