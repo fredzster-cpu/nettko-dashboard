@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T12:05:15.600Z",
+  "updated_at": "2026-09-27T16:59:19.910Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -33,16 +33,9 @@
     {
       "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
-      "source": "itavisen.no",
+      "source": "ITavisen",
       "published_at": "2026-09-23T13:04:30.000Z",
-      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; itavisen.no"
-    },
-    {
-      "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaERHTlBRYnhUSzdSeGpRWUV2NmdEWVZKbDVpMUd0RXFIam9ya053MGQtcHJsYVpUdjZNX2VLYnFzcHRjM05MZWVQTEdlMzJfMEp5b3R6ZnZ6bE1lb3Q2NjIteWVjUmZ2alZxZjM2RXZQN2F1VE1xN3RlYVIxbkRfWklGeFlxQllNT0FsWjJmZVQ0R0IzUldGNFFYb09WWmxuS2ZHSE9xVXluVDh3VUxKWg?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-24T15:55:00.000Z",
-      "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
+      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
     },
     {
       "title": "Google sikrer seg 480 MW til datasenter",
@@ -50,6 +43,13 @@
       "source": "Teknisk Ukeblad",
       "published_at": "2026-09-18T12:39:12.000Z",
       "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
+    },
+    {
+      "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaERHTlBRYnhUSzdSeGpRWUV2NmdEWVZKbDVpMUd0RXFIam9ya053MGQtcHJsYVpUdjZNX2VLYnFzcHRjM05MZWVQTEdlMzJfMEp5b3R6ZnZ6bE1lb3Q2NjIteWVjUmZ2alZxZjM2RXZQN2F1VE1xN3RlYVIxbkRfWklGeFlxQllNT0FsWjJmZVQ0R0IzUldGNFFYb09WWmxuS2ZHSE9xVXluVDh3VUxKWg?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-24T15:55:00.000Z",
+      "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "(+) Googles datasenter­planer i Østfold: Har fått reservert 480 MW",
