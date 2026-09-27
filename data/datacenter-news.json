@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:20:40.835Z",
+  "updated_at": "2026-09-27T12:05:15.600Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -26,16 +26,23 @@
     {
       "title": "Canadas «oljefond» bygger datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; e24.no"
     },
     {
       "title": "TikTok-eier utnyttet norsk datasenter-smutthull",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1UjlDSFk1bjFtM2NNdW9uQl95c2ZqZVhaeEFteE9ONFVqZkZ5dTJ1MFdnZGIxWmpnTUZhMkNEd1dvTjNqb3N4bUg3NEVBZWV6N0M5YmJLRGRLTW1wTGtxdjdqZGh6ZHNaVDcyNENZYW4xc0lwS1dlcWtiYw?oc=5",
-      "source": "ITavisen",
+      "source": "itavisen.no",
       "published_at": "2026-09-23T13:04:30.000Z",
-      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; ITavisen"
+      "summary": "TikTok-eier utnyttet norsk datasenter-smutthull &nbsp;&nbsp; itavisen.no"
+    },
+    {
+      "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaERHTlBRYnhUSzdSeGpRWUV2NmdEWVZKbDVpMUd0RXFIam9ya053MGQtcHJsYVpUdjZNX2VLYnFzcHRjM05MZWVQTEdlMzJfMEp5b3R6ZnZ6bE1lb3Q2NjIteWVjUmZ2alZxZjM2RXZQN2F1VE1xN3RlYVIxbkRfWklGeFlxQllNT0FsWjJmZVQ0R0IzUldGNFFYb09WWmxuS2ZHSE9xVXluVDh3VUxKWg?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-24T15:55:00.000Z",
+      "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Google sikrer seg 480 MW til datasenter",
@@ -59,18 +66,11 @@
       "summary": "Pareto-direktør foreslår gigawatt datasenter med norsk gasskraft og CCS &nbsp;&nbsp; Energiwatch.no"
     },
     {
-      "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaERHTlBRYnhUSzdSeGpRWUV2NmdEWVZKbDVpMUd0RXFIam9ya053MGQtcHJsYVpUdjZNX2VLYnFzcHRjM05MZWVQTEdlMzJfMEp5b3R6ZnZ6bE1lb3Q2NjIteWVjUmZ2alZxZjM2RXZQN2F1VE1xN3RlYVIxbkRfWklGeFlxQllNT0FsWjJmZVQ0R0IzUldGNFFYb09WWmxuS2ZHSE9xVXluVDh3VUxKWg?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-24T15:55:00.000Z",
-      "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
       "title": "Kommune kan få en halv milliard for datasentertomt",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-09-16T07:00:00.000Z",
-      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
+      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; e24.no"
     },
     {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
@@ -82,9 +82,9 @@
     {
       "title": "Sendt 357 brev: Ber kommunene om datasenter-tomt",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGpSb3dYNW5sOXBxRG1IbDNmNGwtdjVNVV9UYjhwM0Q4a1QwV0tyTXIxNDE3VjNaU1ljTjkyangwVnBMTk1rc2NrUXZYeGt0SHhJanZvajBlcWFOVkVxajRiejNfdm5nQ1JDazZ4TjVUODl4dWJPVS1naVNFTk54eXZjd2FhLW93S3Fn?oc=5",
-      "source": "E24",
+      "source": "e24.no",
       "published_at": "2026-09-13T07:00:00.000Z",
-      "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; E24"
+      "summary": "Sendt 357 brev: Ber kommunene om datasenter-tomt &nbsp;&nbsp; e24.no"
     }
   ]
 }
