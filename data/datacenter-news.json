@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-29T01:01:43.667Z",
+  "updated_at": "2026-09-29T09:51:52.381Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "NVE gir Nscale varsel om tvangsmulkt for bygging av datasenter uten lovpålagt analyse",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRVNpRGRhcE4xZ1JCTjRWUlBwMmxUVVJ1LTJGZjd5TWVHR1RucllwdmFWenJ2NEFRbUZsQ2pLazdFMEx1Qmg5eUF4VV9vRndkd1l1U2FhNGgzWGt0ZnJNNlcxTi1xaXRaXzlfSFpENEg5bzNqV1JFMlN6Q2Y4RmpVQW9xbWRVT3dSWmNYd1VQalNETEJKQjZNZ3FQSWRXZHlIcnkwQmVKelBDWGJxZTVUY0ZIR2huWU5RLWdyM2w5c3VwU0NfeU9N?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-09-29T09:27:53.000Z",
+      "summary": "NVE gir Nscale varsel om tvangsmulkt for bygging av datasenter uten lovpålagt analyse &nbsp;&nbsp; Aftenposten"
+    },
     {
       "title": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOG1FTVlYbzNQNDgzZHlQMmF4WVNYR1g2TTExR2V4SnRON0tGZVlOektTa1hNRTVrVzJTRFFfTkhNRVRuU0dEQnZYazJvUlp6amJ2UmE3b2ZJQ0l5OGgtWld0N0Z5T0YwUnNqQ3hyV2hjbFBja2xhQklvaV94Z1lyMzNzblB1bDRLZXRNSVFFNmw4X2lZSWRaT1JPMVpSZw?oc=5",
@@ -10,25 +17,18 @@
       "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
-      "title": "Skal diskutere eit eventuelt datasenter",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU01OY3k3SGFtSkw5c1BBY1I3bkFIMmpYUmRYbE84aXkzSEZoWVZmdlpPSzlWZGVKNVhYUE03Y2I2VUNZVTR1NDI1c3Z3bnczcElDMkVVaGx1QnVSdEYyTHpSQU1sSFowRDNQT081cnZfNnpYSDN3Wl9aX3R6MVpPMXloOEo3UQ?oc=5",
-      "source": "setesdolen.no",
-      "published_at": "2026-09-28T09:16:13.000Z",
-      "summary": "Skal diskutere eit eventuelt datasenter &nbsp;&nbsp; setesdolen.no"
-    },
-    {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Slakter datasenter-planer: – Det blir robotstyring",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRTRyYWVXdElVb2RTcGlGU0pvWUpoSVF1dGxPeFV5RkxkQ1pvUDg1cEI1Um11SExISXRkOUc5VmlNUmZYUWhzU05YWWtLc29WSEJ6TWZaTlZYM3gtQlFsQWl3Z2s3dHFreVFTRUFtdlp0X0l2aHF3OFp1MG1ZYlNYZEVwNE9lU2s?oc=5",
       "source": "mn24.no",
       "published_at": "2026-09-24T05:11:06.000Z",
       "summary": "Slakter datasenter-planer: – Det blir robotstyring &nbsp;&nbsp; mn24.no"
+    },
+    {
+      "title": "Skal diskutere eit eventuelt datasenter",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU01OY3k3SGFtSkw5c1BBY1I3bkFIMmpYUmRYbE84aXkzSEZoWVZmdlpPSzlWZGVKNVhYUE03Y2I2VUNZVTR1NDI1c3Z3bnczcElDMkVVaGx1QnVSdEYyTHpSQU1sSFowRDNQT081cnZfNnpYSDN3Wl9aX3R6MVpPMXloOEo3UQ?oc=5",
+      "source": "setesdolen.no",
+      "published_at": "2026-09-28T09:16:13.000Z",
+      "summary": "Skal diskutere eit eventuelt datasenter &nbsp;&nbsp; setesdolen.no"
     },
     {
       "title": "Politikk, Næringsliv | Vil stille datasenter-krav. Det kan få konsekvensar her",
@@ -73,18 +73,18 @@
       "summary": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser &nbsp;&nbsp; digi.no"
     },
     {
+      "title": "Canadas «oljefond» bygger datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
+      "source": "E24",
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
       "title": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+)",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElEX3drSlJCYW82STg1Q0Q3N2tTRE5IUkU3ZnBxakV3X1o4eGU0RDgzdXRydGI5Rk0tVlBIaGt5REZSZmJvMVpTT21WbVJBeEdTVldNbVlXZURZU3JaMkhhdTNzTzNaUVFyWHRXUUhjdzFNN1ZuWWJUVVNmSzFQbkx5dkVZeGpIRWMzME56Tlhpd040bG5lbHpwbG93NW5mZnlfbk9Md2dsM1dwUmZadFpfbzFnQkZjTlE?oc=5",
       "source": "Dagens Næringsliv",
       "published_at": "2026-09-15T07:00:00.000Z",
       "summary": "Datasentergründer tjente 1,2 milliarder kroner før han forlot Norge (+) &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
-      "title": "Kommune kan få en halv milliard for datasentertomt",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaThZdlBDS29JR2FYbTRZWE1XU09yQ0RjNXRPcGhVa1RfRHJpMUduY3o5UnUzZF9KaFNmcnpuZmpSUUVDZ09DZWdYczR1TzlscFVSUTQtOTZCekRXcHFCckxFTV9obFpvX3B6Q3V4SW5ZMk0yZlpUdkEtdVhlOVBrYzh4OWZkM1AweGVUYmhpVnU?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-16T07:00:00.000Z",
-      "summary": "Kommune kan få en halv milliard for datasentertomt &nbsp;&nbsp; E24"
     }
   ]
 }
