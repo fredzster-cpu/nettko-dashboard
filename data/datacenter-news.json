@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T18:05:45.759Z",
+  "updated_at": "2026-09-29T22:16:53.179Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -38,13 +38,6 @@
       "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Skal diskutere eit eventuelt datasenter",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU01OY3k3SGFtSkw5c1BBY1I3bkFIMmpYUmRYbE84aXkzSEZoWVZmdlpPSzlWZGVKNVhYUE03Y2I2VUNZVTR1NDI1c3Z3bnczcElDMkVVaGx1QnVSdEYyTHpSQU1sSFowRDNQT081cnZfNnpYSDN3Wl9aX3R6MVpPMXloOEo3UQ?oc=5",
       "source": "setesdolen.no",
@@ -68,9 +61,9 @@
     {
       "title": "Google sikrer seg 480 MW til datasenter",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVzhzVVg5bkdjejFqcU84YWtQYkZ4U0ZDTUtmRDVGcXJRN0JLNUJDQkZleGhyZHRIUU5IV0JsUmMxNVdCQ011QkNYb1hqeHM2UzlkWkx4RDFwRG9oVW1TTU9hXzhKSlpCM21oaTN0cHUydk5Ka3d0OVlUWQ?oc=5",
-      "source": "tu.no",
+      "source": "Teknisk Ukeblad",
       "published_at": "2026-09-18T07:00:00.000Z",
-      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; tu.no"
+      "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
     },
     {
       "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
@@ -85,6 +78,13 @@
       "source": "NRK",
       "published_at": "2026-09-29T17:37:59.000Z",
       "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
+    },
+    {
+      "title": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTTBEMmZuZVdNTDRIWlcxc2EzNnlQSHdxd1pOdHBNVGlwb1VaNkJuVnptLTBjamNuMTNLamM2a1hPQjFhWkpENndqRlIzSHp0NDUxdzNfbGdPNDZfS3pHX3luUWJNYVlKelZld0l4bnJSd3g2cTFMalg5U3hFc2hIeFAzMDVibFJVYlVtV0dCYWl6RU96bVE1cHU2MWhCWGRkMkxLUQ?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T06:50:58.000Z",
+      "summary": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser &nbsp;&nbsp; digi.no"
     }
   ]
 }
