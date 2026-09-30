@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-09-29T22:16:53.179Z",
+  "updated_at": "2026-09-30T05:34:49.049Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
+      "source": "Dagens Næringsliv | DN",
+      "published_at": "2026-09-30T00:09:00.000Z",
+      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv | DN"
+    },
     {
       "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
@@ -12,9 +19,9 @@
     {
       "title": "NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUx2Nl9Qb3ZkNEZPTVFpUkZtSjlSTkdTVGI3R0J5dTRKTWJYTURGRzVpb2NYN3YxOUlrdzlodDk5a1hnTUV5MjZ4Qkp3UnV1VTJSbUloNmNtaWxLQXk5R1lfLVVMRmc1TXQ5TE55S2MySnJNVmYxR3NqaFlkNnl3YTRnZmtIcVFmZHRiVGlwbDNMWU55ZEg5Q1BsZEtETDBYVXlnUk5FaGhDdXB2?oc=5",
-      "source": "Aftenposten",
+      "source": "aftenposten.no",
       "published_at": "2026-09-29T09:27:53.000Z",
-      "summary": "NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI &nbsp;&nbsp; Aftenposten"
+      "summary": "NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI &nbsp;&nbsp; aftenposten.no"
     },
     {
       "title": "Datasenter, Politikk | Nesten all norsk datasenterkapasitet eies av utlendinger: – Utfordrer nasjonal sikkerhet",
@@ -24,13 +31,6 @@
       "summary": "Datasenter, Politikk | Nesten all norsk datasenterkapasitet eies av utlendinger: – Utfordrer nasjonal sikkerhet &nbsp;&nbsp; Arbeidets Rett"
     },
     {
-      "title": "(+) NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFp5OVlSSTYwRTRDTFdpTnFaWThyVUxnNUJpb3NzWUxTVFVuanJzVHNfdW10b2ZHbGUwUDQ3T3B1d29lSDZsZUItMWRINzRVTUJEbEpiMEQtcHBLVURpM0NzeGpvZkhMN1kyOTJRb1FyQmgxUmk1R3RmdS1ZN0hlb01FVzJzbTNBMjhVVEJMeGVzSkhrbHRiQzN1MFFVeC1xYjRNN3Y3UkxGbjVJYkNFbW5qWURHS2VxNFE?oc=5",
-      "source": "Bygg.no",
-      "published_at": "2026-09-29T09:40:14.000Z",
-      "summary": "(+) NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI &nbsp;&nbsp; Bygg.no"
-    },
-    {
       "title": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOG1FTVlYbzNQNDgzZHlQMmF4WVNYR1g2TTExR2V4SnRON0tGZVlOektTa1hNRTVrVzJTRFFfTkhNRVRuU0dEQnZYazJvUlp6amJ2UmE3b2ZJQ0l5OGgtWld0N0Z5T0YwUnNqQ3hyV2hjbFBja2xhQklvaV94Z1lyMzNzblB1bDRLZXRNSVFFNmw4X2lZSWRaT1JPMVpSZw?oc=5",
       "source": "digi.no",
@@ -38,11 +38,11 @@
       "summary": "Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
-      "title": "Skal diskutere eit eventuelt datasenter",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU01OY3k3SGFtSkw5c1BBY1I3bkFIMmpYUmRYbE84aXkzSEZoWVZmdlpPSzlWZGVKNVhYUE03Y2I2VUNZVTR1NDI1c3Z3bnczcElDMkVVaGx1QnVSdEYyTHpSQU1sSFowRDNQT081cnZfNnpYSDN3Wl9aX3R6MVpPMXloOEo3UQ?oc=5",
-      "source": "setesdolen.no",
-      "published_at": "2026-09-28T09:16:13.000Z",
-      "summary": "Skal diskutere eit eventuelt datasenter &nbsp;&nbsp; setesdolen.no"
+      "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
+      "source": "NRK",
+      "published_at": "2026-09-29T17:37:59.000Z",
+      "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
       "title": "Politikk, Næringsliv | Vil stille datasenter-krav. Det kan få konsekvensar her",
@@ -50,6 +50,13 @@
       "source": "Firda",
       "published_at": "2026-09-26T22:15:00.000Z",
       "summary": "Politikk, Næringsliv | Vil stille datasenter-krav. Det kan få konsekvensar her &nbsp;&nbsp; Firda"
+    },
+    {
+      "title": "Skal diskutere eit eventuelt datasenter",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU01OY3k3SGFtSkw5c1BBY1I3bkFIMmpYUmRYbE84aXkzSEZoWVZmdlpPSzlWZGVKNVhYUE03Y2I2VUNZVTR1NDI1c3Z3bnczcElDMkVVaGx1QnVSdEYyTHpSQU1sSFowRDNQT081cnZfNnpYSDN3Wl9aX3R6MVpPMXloOEo3UQ?oc=5",
+      "source": "setesdolen.no",
+      "published_at": "2026-09-28T09:16:13.000Z",
+      "summary": "Skal diskutere eit eventuelt datasenter &nbsp;&nbsp; setesdolen.no"
     },
     {
       "title": "Slakter datasenter-planer: – Det blir robotstyring",
@@ -66,25 +73,18 @@
       "summary": "Google sikrer seg 480 MW til datasenter &nbsp;&nbsp; Teknisk Ukeblad"
     },
     {
-      "title": "Kastet ut norsk datasenterkjempe fra byggeplassen (+)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaERHTlBRYnhUSzdSeGpRWUV2NmdEWVZKbDVpMUd0RXFIam9ya053MGQtcHJsYVpUdjZNX2VLYnFzcHRjM05MZWVQTEdlMzJfMEp5b3R6ZnZ6bE1lb3Q2NjIteWVjUmZ2alZxZjM2RXZQN2F1VE1xN3RlYVIxbkRfWklGeFlxQllNT0FsWjJmZVQ0R0IzUldGNFFYb09WWmxuS2ZHSE9xVXluVDh3VUxKWg?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-24T15:55:00.000Z",
-      "summary": "Kastet ut norsk datasenterkjempe fra byggeplassen (+) &nbsp;&nbsp; Dagens Næringsliv"
+      "title": "(+) NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFp5OVlSSTYwRTRDTFdpTnFaWThyVUxnNUJpb3NzWUxTVFVuanJzVHNfdW10b2ZHbGUwUDQ3T3B1d29lSDZsZUItMWRINzRVTUJEbEpiMEQtcHBLVURpM0NzeGpvZkhMN1kyOTJRb1FyQmgxUmk1R3RmdS1ZN0hlb01FVzJzbTNBMjhVVEJMeGVzSkhrbHRiQzN1MFFVeC1xYjRNN3Y3UkxGbjVJYkNFbW5qWURHS2VxNFE?oc=5",
+      "source": "Bygg.no",
+      "published_at": "2026-09-29T09:40:14.000Z",
+      "summary": "(+) NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI &nbsp;&nbsp; Bygg.no"
     },
     {
-      "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
-      "source": "NRK",
-      "published_at": "2026-09-29T17:37:59.000Z",
-      "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
-    },
-    {
-      "title": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTTBEMmZuZVdNTDRIWlcxc2EzNnlQSHdxd1pOdHBNVGlwb1VaNkJuVnptLTBjamNuMTNLamM2a1hPQjFhWkpENndqRlIzSHp0NDUxdzNfbGdPNDZfS3pHX3luUWJNYVlKelZld0l4bnJSd3g2cTFMalg5U3hFc2hIeFAzMDVibFJVYlVtV0dCYWl6RU96bVE1cHU2MWhCWGRkMkxLUQ?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-23T06:50:58.000Z",
-      "summary": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser &nbsp;&nbsp; digi.no"
+      "title": "Canadas «oljefond» bygger datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
+      "source": "E24",
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
     }
   ]
 }
