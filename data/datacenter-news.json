@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-01T18:26:16.822Z",
+  "updated_at": "2026-10-02T00:48:25.790Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGpNWHc3Y2xDMVdiWFp1Tzhacm44X3AxemFBUHY5empVZFFiLTBEc3ExRzhUWE40NmoxR0hnQ2Q4SEJIazlQYU1YMFhweDZZM3RzOVU3bmNOS2pSbzgwMF9pWFJpSm82R1BzRHQ0Ulk5VUdURGpwWlNRV2lWVWN3ZHB3bDZKb2xUczRYXzBRLXJYWGpwUnBwS05xakFTbzVzYXBz?oc=5",
+      "source": "nyetroms.no",
+      "published_at": "2026-10-01T20:19:50.000Z",
+      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; nyetroms.no"
+    },
     {
       "title": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger?",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZVBiVGJrYXZCeEtDLVdoZ2FGLVVBYUZUZ0FjSXRHd2Z5ZnFka1JGUDlqRk1zSlg4QllKQzQzQ2U2dVlSQjJKT2RfR0FrTGNsNlRzbWNKTU5XLUdDZ0c2YnB5Y084WTdIbE50clRiRGozRTZtSVM0dTh6NkhnR1U?oc=5",
       "source": "Avisa Nordland",
       "published_at": "2026-10-01T06:58:38.000Z",
       "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
-    },
-    {
-      "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGpNWHc3Y2xDMVdiWFp1Tzhacm44X3AxemFBUHY5empVZFFiLTBEc3ExRzhUWE40NmoxR0hnQ2Q4SEJIazlQYU1YMFhweDZZM3RzOVU3bmNOS2pSbzgwMF9pWFJpSm82R1BzRHQ0Ulk5VUdURGpwWlNRV2lWVWN3ZHB3bDZKb2xUczRYXzBRLXJYWGpwUnBwS05xakFTbzVzYXBz?oc=5",
-      "source": "Nye Troms",
-      "published_at": "2026-10-01T15:07:40.000Z",
-      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; Nye Troms"
     },
     {
       "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
@@ -38,6 +38,13 @@
       "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
+      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
+    },
+    {
       "title": "NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUx2Nl9Qb3ZkNEZPTVFpUkZtSjlSTkdTVGI3R0J5dTRKTWJYTURGRzVpb2NYN3YxOUlrdzlodDk5a1hnTUV5MjZ4Qkp3UnV1VTJSbUloNmNtaWxLQXk5R1lfLVVMRmc1TXQ5TE55S2MySnJNVmYxR3NqaFlkNnl3YTRnZmtIcVFmZHRiVGlwbDNMWU55ZEg5Q1BsZEtETDBYVXlnUk5FaGhDdXB2?oc=5",
       "source": "Aftenposten",
@@ -47,9 +54,9 @@
     {
       "title": "Datasenter, Kraft | Vil ha full datasenterstopp: – Trengs rask handling",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZHQzcWVKc3pwdlBrTHdBMUdab3dXN3VHRVdiUVJmVUVYSFI1Qkt5NmVrb0ZmVVFfTG1BNWxNSGxKVmoybVZGekpLRlVsWVNNbjNfT05xQ3diYVdHQWdwYWM1SmtpRHFZUXpVZkR2S2dtdEF1VkNsdF9xMDVpbXJFTHFCZkJvd0g0VDVVR2xEcXZnRC1adk9yREJSNUE3dw?oc=5",
-      "source": "nettavisen.no",
+      "source": "Nettavisen",
       "published_at": "2026-09-30T07:32:07.000Z",
-      "summary": "Datasenter, Kraft | Vil ha full datasenterstopp: – Trengs rask handling &nbsp;&nbsp; nettavisen.no"
+      "summary": "Datasenter, Kraft | Vil ha full datasenterstopp: – Trengs rask handling &nbsp;&nbsp; Nettavisen"
     },
     {
       "title": "(+) NVE varsler mulig tvangsmulkt for bygging av datasenter til OpenAI",
@@ -61,16 +68,9 @@
     {
       "title": "Datasenter, Politikk | Nesten all norsk datasenterkapasitet eies av utlendinger: – Utfordrer nasjonal sikkerhet",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc3NYaUZsR0plNFQwSGFWMkhYUThVcGtacUx6QnZfS21zZzJDSWQ3YjU2ZENxX20tWFY2TndhZldCNjFiZWZTeUlhTDFQdFVKTUFHeVd1SFFuSEZCUExYOVBqQ1VrVmJleTZuRnNUQkhMakFzOUt1RnhPMEMzY2dVSlNNNVpOY1ZzcmpqX2w4d1BQZUJqSTMtUWFGdHBDMDR1aUg3SnBxZmpUc3haYXJsSWNzYmNyckEtQktYWXpB?oc=5",
-      "source": "retten.no",
+      "source": "Arbeidets Rett",
       "published_at": "2026-09-29T12:36:11.000Z",
-      "summary": "Datasenter, Politikk | Nesten all norsk datasenterkapasitet eies av utlendinger: – Utfordrer nasjonal sikkerhet &nbsp;&nbsp; retten.no"
-    },
-    {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+      "summary": "Datasenter, Politikk | Nesten all norsk datasenterkapasitet eies av utlendinger: – Utfordrer nasjonal sikkerhet &nbsp;&nbsp; Arbeidets Rett"
     },
     {
       "title": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter",
