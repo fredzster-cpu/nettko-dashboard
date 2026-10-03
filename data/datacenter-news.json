@@ -1,20 +1,13 @@
 {
-  "updated_at": "2026-10-03T05:20:52.098Z",
+  "updated_at": "2026-10-03T16:19:14.869Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
       "title": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFXNlpqbl9nWi15Tk9TYlFkWVAzTUxKOEdpakN5WkNMekRBU29BMjFWby12TmxEV1p2WFE4VXdqSFVWWE1zWG12ZkxXOFdmeGIxQmJGVGxjeGZ6aXpZb0Y2OTdBV0c3VFpfMEZQcDdTNGhfT2FfRmF3UjBWM0h5T2R2T2hDUnlQSEJYclNrbVJ4NFR0SmlHTFNFdGw4VV9BV3pNaWJ3?oc=5",
       "source": "Dagsavisen",
-      "published_at": "2026-10-02T13:52:40.000Z",
+      "published_at": "2026-10-03T10:00:28.000Z",
       "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
-    },
-    {
-      "title": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRUpEaWwzUkZ5UXFxcVl5OGQwRkZlVmdRaUxIRnhnRjBfVEU0em1Yd0RPOWJfQ2ZvWXJFV0ZTREY4N2NNaUdLalM1dzhvNG95TElwOTh2bG80bWY5dks0VWJNc3pUczEyQTdlc1NKcnAwU1BCekRBSzhNM2RiZ0pEZlRMd0NGVk1lSU5HaGhmcmhVeFBVdFZHN1dKV0UweUJEX0dkd29nNA?oc=5",
-      "source": "Nationen",
-      "published_at": "2026-10-02T14:39:55.000Z",
-      "summary": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran &nbsp;&nbsp; Nationen"
     },
     {
       "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
@@ -40,9 +33,9 @@
     {
       "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGpNWHc3Y2xDMVdiWFp1Tzhacm44X3AxemFBUHY5empVZFFiLTBEc3ExRzhUWE40NmoxR0hnQ2Q4SEJIazlQYU1YMFhweDZZM3RzOVU3bmNOS2pSbzgwMF9pWFJpSm82R1BzRHQ0Ulk5VUdURGpwWlNRV2lWVWN3ZHB3bDZKb2xUczRYXzBRLXJYWGpwUnBwS05xakFTbzVzYXBz?oc=5",
-      "source": "Nye Troms",
+      "source": "nyetroms.no",
       "published_at": "2026-10-02T06:38:09.000Z",
-      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; Nye Troms"
+      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; nyetroms.no"
     },
     {
       "title": "Ny rapport sier at datasenter gir mindre verdiskapning enn tradisjonell industri: – Vi lever i en tid der vi må forholde oss til datasenter",
@@ -50,6 +43,13 @@
       "source": "Rana Blad",
       "published_at": "2026-10-01T05:38:15.000Z",
       "summary": "Ny rapport sier at datasenter gir mindre verdiskapning enn tradisjonell industri: – Vi lever i en tid der vi må forholde oss til datasenter &nbsp;&nbsp; Rana Blad"
+    },
+    {
+      "title": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRUpEaWwzUkZ5UXFxcVl5OGQwRkZlVmdRaUxIRnhnRjBfVEU0em1Yd0RPOWJfQ2ZvWXJFV0ZTREY4N2NNaUdLalM1dzhvNG95TElwOTh2bG80bWY5dks0VWJNc3pUczEyQTdlc1NKcnAwU1BCekRBSzhNM2RiZ0pEZlRMd0NGVk1lSU5HaGhmcmhVeFBVdFZHN1dKV0UweUJEX0dkd29nNA?oc=5",
+      "source": "nationen.no",
+      "published_at": "2026-10-02T14:39:55.000Z",
+      "summary": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran &nbsp;&nbsp; nationen.no"
     },
     {
       "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
