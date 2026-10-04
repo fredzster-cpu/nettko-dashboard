@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T12:24:08.045Z",
+  "updated_at": "2026-10-04T18:38:43.595Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -24,18 +24,18 @@
       "summary": "Ordfører tviler ikke på datasenter-jobber: – Denne karusellen må vi være med på &nbsp;&nbsp; Nationen"
     },
     {
-      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
-      "source": "NTB Kommunikasjon",
-      "published_at": "2026-09-29T13:49:40.000Z",
-      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
-    },
-    {
       "title": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFXNlpqbl9nWi15Tk9TYlFkWVAzTUxKOEdpakN5WkNMekRBU29BMjFWby12TmxEV1p2WFE4VXdqSFVWWE1zWG12ZkxXOFdmeGIxQmJGVGxjeGZ6aXpZb0Y2OTdBV0c3VFpfMEZQcDdTNGhfT2FfRmF3UjBWM0h5T2R2T2hDUnlQSEJYclNrbVJ4NFR0SmlHTFNFdGw4VV9BV3pNaWJ3?oc=5",
       "source": "Dagsavisen",
       "published_at": "2026-10-02T13:52:40.000Z",
       "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
+    },
+    {
+      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
+      "source": "kommunikasjon.ntb.no",
+      "published_at": "2026-09-29T13:49:40.000Z",
+      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; kommunikasjon.ntb.no"
     },
     {
       "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
@@ -82,9 +82,9 @@
     {
       "title": "Ny rapport sier at datasenter gir mindre verdiskapning enn tradisjonell industri: – Vi lever i en tid der vi må forholde oss til datasenter",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNzVpcFRqWWZVdXJVNElId04xTHl3YlQwQmVBVVhGUlo3MzBRRHl2clNxajRRdnhjOWl1MlJjUGtid1lkLWhLczhDNDFIQURyeXJ0ckNYc1NUQVlIellKNEtfdVlGSGM0MGlaNFhKTTM2QXpOMEhLaHJMVlkwQnNWUkVhcTFiSnpVQjloU3ZpZW5YRDBEM1N3M1lHdWV3elRDd3c5OUNyTlY2djQ3REZkeHNhd0pTbk5tOFduYXJFQ25rRHJabjhsMkx0YlFNMDZ2NmJtTjFpMGV0YVhNT3BzWTV6a05ybXRvcHlNYWdJMkxsVmh6THpSSldiUk5QN1BCNnZuUg?oc=5",
-      "source": "Rana Blad",
+      "source": "ranablad.no",
       "published_at": "2026-10-01T05:38:15.000Z",
-      "summary": "Ny rapport sier at datasenter gir mindre verdiskapning enn tradisjonell industri: – Vi lever i en tid der vi må forholde oss til datasenter &nbsp;&nbsp; Rana Blad"
+      "summary": "Ny rapport sier at datasenter gir mindre verdiskapning enn tradisjonell industri: – Vi lever i en tid der vi må forholde oss til datasenter &nbsp;&nbsp; ranablad.no"
     }
   ]
 }
