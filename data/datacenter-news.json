@@ -1,20 +1,34 @@
 {
-  "updated_at": "2026-10-06T15:58:04.164Z",
+  "updated_at": "2026-10-06T22:39:57.900Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Datasenter kan være på vei til Oslo Børs",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-06T18:17:32.000Z",
+      "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Norsk datasenter vurderer børsnotering i Oslo",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1BocllFd2VmVU9FTlpDRDJ3SVN3RC1OZHMydmM0R1lWVTRfN0I5ZkxJS3didGQxMUpwdXNwaThOSk41QXByNjMtVWhDLTRCX3hVM0NOTjBFNTVHQzRiS1RvWlg2SndqWmNqak01V1RTcXVSbGxiTVJsWlBmY1FaWWJUMlRWWmM?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-10-06T09:58:00.000Z",
+      "summary": "Norsk datasenter vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Setter ned foten for datasenter: – Vi vil ha en avklaring",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmV3MFlnNTFZQzI1WkVMN0JXTU1UbU05M2hiUmNfMHpRYVRjUzNMOE9IbWFfWXQ0cEp5LThKLVRuMXdnLWlsUzJqTzc4Yk1zV0lpZURzNDJTOVI4LTFFYWgxZUkyMXZfWDBhSHAzMWZ4RWVZNm5JM0FvbFFmRTVRV2FlLW1MT2Jod3NWc2ZCbjdEYklHRzM2WA?oc=5",
+      "source": "bladet.no",
+      "published_at": "2026-10-06T19:00:00.000Z",
+      "summary": "Setter ned foten for datasenter: – Vi vil ha en avklaring &nbsp;&nbsp; bladet.no"
+    },
     {
       "title": "Mot etablering av datasenter lokalt",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vd0JuTTlzbVJBRmZXMWg0aEl2eG5QODJpS2RvanhBMkozS1h4WEhVekZqaVpPSXFzak9BV2I1RnBhd3ZDRWpDSUpxYUZSOUtTbWJpU28wRjVLOGk3d0w1amFjVlZTRVFWd2VpNW1xYUVYN3NwNFE1Xw?oc=5",
       "source": "innherred.no",
       "published_at": "2026-10-06T11:56:26.000Z",
       "summary": "Mot etablering av datasenter lokalt &nbsp;&nbsp; innherred.no"
-    },
-    {
-      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-30T00:09:00.000Z",
-      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Ordfører tviler ikke på datasenter-jobber: – Denne karusellen må vi være med på",
@@ -38,11 +52,11 @@
       "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
     },
     {
-      "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGpNWHc3Y2xDMVdiWFp1Tzhacm44X3AxemFBUHY5empVZFFiLTBEc3ExRzhUWE40NmoxR0hnQ2Q4SEJIazlQYU1YMFhweDZZM3RzOVU3bmNOS2pSbzgwMF9pWFJpSm82R1BzRHQ0Ulk5VUdURGpwWlNRV2lWVWN3ZHB3bDZKb2xUczRYXzBRLXJYWGpwUnBwS05xakFTbzVzYXBz?oc=5",
-      "source": "Nye Troms",
-      "published_at": "2026-10-02T06:38:09.000Z",
-      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; Nye Troms"
+      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-30T00:09:00.000Z",
+      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
@@ -66,25 +80,11 @@
       "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWVQVGZGU2J1TXZjeUdMRFA4azczWlVIN1AxaGNiZldPVGFRNHczYXZETm52alBuUTVaYzV3dlJvZk5VdG9TTFVDc01sOGtQOFBRRU1hdFhHS1Q2YXJKaVgycGVyYVdOV2xRMExmb0xtTHNCSWtGV2tUWkxOUFYxSEdDbUl3dTVodjMxZlRUTWZ6c0Fqbnc?oc=5",
-      "source": "NRK",
-      "published_at": "2026-09-28T16:08:17.000Z",
-      "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
-    },
-    {
-      "title": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTTBEMmZuZVdNTDRIWlcxc2EzNnlQSHdxd1pOdHBNVGlwb1VaNkJuVnptLTBjamNuMTNLamM2a1hPQjFhWkpENndqRlIzSHp0NDUxdzNfbGdPNDZfS3pHX3luUWJNYVlKelZld0l4bnJSd3g2cTFMalg5U3hFc2hIeFAzMDVibFJVYlVtV0dCYWl6RU96bVE1cHU2MWhCWGRkMkxLUQ?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-23T06:50:58.000Z",
-      "summary": "El og IT-forbundet: Ansatte får munnkurv på datasenter-byggeplasser &nbsp;&nbsp; digi.no"
-    },
-    {
-      "title": "Datasenter, Kunstig intelligens | Arbeiderpartiets KI-baby",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcGs0LTR3RWxsVzlaQTR6U1dRMFhyVk1mX1o2VmhTTTlzSWV6MEJWY0ROMWpDQzBBMWJlNDdCNEdzamE2Mjc3X0l1a2lOb1lWX3QtNl9BcjJORDVHZzM0c01LWkFTQl93TzFCaVJwa29ZV0FRb21KcUdZbHhGdDJWa0RsSDZCeUxm?oc=5",
-      "source": "Nordnorsk debatt",
-      "published_at": "2026-10-01T08:03:36.000Z",
-      "summary": "Datasenter, Kunstig intelligens | Arbeiderpartiets KI-baby &nbsp;&nbsp; Nordnorsk debatt"
+      "title": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGpNWHc3Y2xDMVdiWFp1Tzhacm44X3AxemFBUHY5empVZFFiLTBEc3ExRzhUWE40NmoxR0hnQ2Q4SEJIazlQYU1YMFhweDZZM3RzOVU3bmNOS2pSbzgwMF9pWFJpSm82R1BzRHQ0Ulk5VUdURGpwWlNRV2lWVWN3ZHB3bDZKb2xUczRYXzBRLXJYWGpwUnBwS05xakFTbzVzYXBz?oc=5",
+      "source": "Nye Troms",
+      "published_at": "2026-10-02T06:38:09.000Z",
+      "summary": "Ny rapport om datasenter: – Vi må ha mest mulig kunnskap på bordet &nbsp;&nbsp; Nye Troms"
     }
   ]
 }
