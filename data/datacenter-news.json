@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T13:27:03.739Z",
+  "updated_at": "2026-10-07T20:38:19.483Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": "Norsk datasenter vurderer børsnotering i Oslo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1BocllFd2VmVU9FTlpDRDJ3SVN3RC1OZHMydmM0R1lWVTRfN0I5ZkxJS3didGQxMUpwdXNwaThOSk41QXByNjMtVWhDLTRCX3hVM0NOTjBFNTVHQzRiS1RvWlg2SndqWmNqak01V1RTcXVSbGxiTVJsWlBmY1FaWWJUMlRWWmM?oc=5",
       "source": "Dagens Næringsliv",
       "published_at": "2026-10-06T09:58:00.000Z",
       "summary": "Norsk datasenter vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGYwUlAxRFZQWkNpVkUwcDBra192Ul9PekY2VnpPOWJFVEgwNVBBNVhuV29CcVUzZzJUYU1PcE9pZUl6THNQNmNFWlJ2YllYWkoyU1prSzh1VS1lWU5RMWNFOXF5blpQTXRJbDhadTV2bS1WU05Od24zWU5uSzdDQXFEV1M4d2F0R3JEaG54V2NSS1plVmJtUFl3UEdRSGt5S3JqTmR1eDRNeWg1SnJPMDIwWS1hdw?oc=5",
+      "source": "Bergens Tidende",
+      "published_at": "2026-10-06T04:14:07.000Z",
+      "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Bergens Tidende"
+    },
+    {
+      "title": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFXNlpqbl9nWi15Tk9TYlFkWVAzTUxKOEdpakN5WkNMekRBU29BMjFWby12TmxEV1p2WFE4VXdqSFVWWE1zWG12ZkxXOFdmeGIxQmJGVGxjeGZ6aXpZb0Y2OTdBV0c3VFpfMEZQcDdTNGhfT2FfRmF3UjBWM0h5T2R2T2hDUnlQSEJYclNrbVJ4NFR0SmlHTFNFdGw4VV9BV3pNaWJ3?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-05T20:01:00.000Z",
+      "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
     },
     {
       "title": "Ordfører tviler ikke på datasenter-jobber: – Denne karusellen må vi være med på",
@@ -45,13 +59,6 @@
       "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
     },
     {
-      "title": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFXNlpqbl9nWi15Tk9TYlFkWVAzTUxKOEdpakN5WkNMekRBU29BMjFWby12TmxEV1p2WFE4VXdqSFVWWE1zWG12ZkxXOFdmeGIxQmJGVGxjeGZ6aXpZb0Y2OTdBV0c3VFpfMEZQcDdTNGhfT2FfRmF3UjBWM0h5T2R2T2hDUnlQSEJYclNrbVJ4NFR0SmlHTFNFdGw4VV9BV3pNaWJ3?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-10-02T13:52:40.000Z",
-      "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
-    },
-    {
       "title": "Mot etablering av datasenter lokalt",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vd0JuTTlzbVJBRmZXMWg0aEl2eG5QODJpS2RvanhBMkozS1h4WEhVekZqaVpPSXFzak9BV2I1RnBhd3ZDRWpDSUpxYUZSOUtTbWJpU28wRjVLOGk3d0w1amFjVlZTRVFWd2VpNW1xYUVYN3NwNFE1Xw?oc=5",
       "source": "innherred.no",
@@ -66,13 +73,6 @@
       "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
-      "title": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRUpEaWwzUkZ5UXFxcVl5OGQwRkZlVmdRaUxIRnhnRjBfVEU0em1Yd0RPOWJfQ2ZvWXJFV0ZTREY4N2NNaUdLalM1dzhvNG95TElwOTh2bG80bWY5dks0VWJNc3pUczEyQTdlc1NKcnAwU1BCekRBSzhNM2RiZ0pEZlRMd0NGVk1lSU5HaGhmcmhVeFBVdFZHN1dKV0UweUJEX0dkd29nNA?oc=5",
-      "source": "Nationen",
-      "published_at": "2026-10-02T14:39:55.000Z",
-      "summary": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran &nbsp;&nbsp; Nationen"
-    },
-    {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
       "source": "NRK",
@@ -80,11 +80,11 @@
       "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWVQVGZGU2J1TXZjeUdMRFA4azczWlVIN1AxaGNiZldPVGFRNHczYXZETm52alBuUTVaYzV3dlJvZk5VdG9TTFVDc01sOGtQOFBRRU1hdFhHS1Q2YXJKaVgycGVyYVdOV2xRMExmb0xtTHNCSWtGV2tUWkxOUFYxSEdDbUl3dTVodjMxZlRUTWZ6c0Fqbnc?oc=5",
-      "source": "NRK",
-      "published_at": "2026-09-28T16:08:17.000Z",
-      "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
+      "title": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRUpEaWwzUkZ5UXFxcVl5OGQwRkZlVmdRaUxIRnhnRjBfVEU0em1Yd0RPOWJfQ2ZvWXJFV0ZTREY4N2NNaUdLalM1dzhvNG95TElwOTh2bG80bWY5dks0VWJNc3pUczEyQTdlc1NKcnAwU1BCekRBSzhNM2RiZ0pEZlRMd0NGVk1lSU5HaGhmcmhVeFBVdFZHN1dKV0UweUJEX0dkd29nNA?oc=5",
+      "source": "Nationen",
+      "published_at": "2026-10-02T14:39:55.000Z",
+      "summary": "Datasenter, Politikk | Dansk strømgrep vekker norsk debatt: – Vi blir vitne til et kraftran &nbsp;&nbsp; Nationen"
     }
   ]
 }
