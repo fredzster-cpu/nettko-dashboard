@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-10-08T18:51:46.192Z",
+  "updated_at": "2026-10-09T01:14:08.144Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Hva er egentlig et datasenter?",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-10-08T04:00:00.000Z",
-      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
-    },
     {
       "title": "Datasenter kan være på vei til Oslo Børs",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
@@ -24,11 +17,11 @@
       "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Aftenposten"
     },
     {
-      "title": "Norsk datasenter vurderer børsnotering i Oslo",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1BocllFd2VmVU9FTlpDRDJ3SVN3RC1OZHMydmM0R1lWVTRfN0I5ZkxJS3didGQxMUpwdXNwaThOSk41QXByNjMtVWhDLTRCX3hVM0NOTjBFNTVHQzRiS1RvWlg2SndqWmNqak01V1RTcXVSbGxiTVJsWlBmY1FaWWJUMlRWWmM?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-10-06T09:58:00.000Z",
-      "summary": "Norsk datasenter vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
+      "title": "Hva er egentlig et datasenter?",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-08T04:00:00.000Z",
+      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
     },
     {
       "title": "Mot etablering av datasenter lokalt",
@@ -36,6 +29,13 @@
       "source": "innherred.no",
       "published_at": "2026-10-06T11:56:26.000Z",
       "summary": "Mot etablering av datasenter lokalt &nbsp;&nbsp; innherred.no"
+    },
+    {
+      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-30T07:00:00.000Z",
+      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring",
@@ -59,13 +59,6 @@
       "summary": "Ordfører tviler ikke på datasenter-jobber: – Denne karusellen må vi være med på &nbsp;&nbsp; Nationen"
     },
     {
-      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-30T00:09:00.000Z",
-      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
       "source": "NRK",
@@ -80,11 +73,18 @@
       "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
+      "source": "NTB Kommunikasjon",
+      "published_at": "2026-09-29T13:49:40.000Z",
+      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
+    },
+    {
+      "title": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger?",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZVBiVGJrYXZCeEtDLVdoZ2FGLVVBYUZUZ0FjSXRHd2Z5ZnFka1JGUDlqRk1zSlg4QllKQzQzQ2U2dVlSQjJKT2RfR0FrTGNsNlRzbWNKTU5XLUdDZ0c2YnB5Y084WTdIbE50clRiRGozRTZtSVM0dTh6NkhnR1U?oc=5",
+      "source": "Avisa Nordland",
+      "published_at": "2026-10-01T06:58:38.000Z",
+      "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
     }
   ]
 }
