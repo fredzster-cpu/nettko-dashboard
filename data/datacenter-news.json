@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T09:52:37.942Z",
+  "updated_at": "2026-10-10T17:21:02.967Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -31,18 +31,11 @@
       "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
-      "title": "Mot etablering av datasenter lokalt",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vd0JuTTlzbVJBRmZXMWg0aEl2eG5QODJpS2RvanhBMkozS1h4WEhVekZqaVpPSXFzak9BV2I1RnBhd3ZDRWpDSUpxYUZSOUtTbWJpU28wRjVLOGk3d0w1amFjVlZTRVFWd2VpNW1xYUVYN3NwNFE1Xw?oc=5",
-      "source": "innherred.no",
-      "published_at": "2026-10-06T11:56:26.000Z",
-      "summary": "Mot etablering av datasenter lokalt &nbsp;&nbsp; innherred.no"
-    },
-    {
       "title": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmV3MFlnNTFZQzI1WkVMN0JXTU1UbU05M2hiUmNfMHpRYVRjUzNMOE9IbWFfWXQ0cEp5LThKLVRuMXdnLWlsUzJqTzc4Yk1zV0lpZURzNDJTOVI4LTFFYWgxZUkyMXZfWDBhSHAzMWZ4RWVZNm5JM0FvbFFmRTVRV2FlLW1MT2Jod3NWc2ZCbjdEYklHRzM2WA?oc=5",
-      "source": "bladet.no",
-      "published_at": "2026-10-06T19:00:00.000Z",
-      "summary": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring &nbsp;&nbsp; bladet.no"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObEZoZG9TblN5azhpYXQ4OU4wcnJwdEp1WUhTcnVkMzZfMndUUFJxZWZ5cnYwRllLME9QT29PQV9UM000SlBLUGVyUE5QOGNZaEFCcG1lVmhGX1F2TDlpTXhzR19sckZMdlJRbllaTlJELXpOaWhMOUZUUmZnOG56eFhKRVNRbnNKWFlWOFo4bWVxaGNLU0twbnB3eFc?oc=5",
+      "source": "innherred.no",
+      "published_at": "2026-10-07T09:05:55.000Z",
+      "summary": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring &nbsp;&nbsp; innherred.no"
     },
     {
       "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
@@ -50,6 +43,13 @@
       "source": "digi.no",
       "published_at": "2026-09-23T07:00:00.000Z",
       "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
+    },
+    {
+      "title": "Mot etablering av datasenter lokalt",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vd0JuTTlzbVJBRmZXMWg0aEl2eG5QODJpS2RvanhBMkozS1h4WEhVekZqaVpPSXFzak9BV2I1RnBhd3ZDRWpDSUpxYUZSOUtTbWJpU28wRjVLOGk3d0w1amFjVlZTRVFWd2VpNW1xYUVYN3NwNFE1Xw?oc=5",
+      "source": "innherred.no",
+      "published_at": "2026-10-06T11:56:26.000Z",
+      "summary": "Mot etablering av datasenter lokalt &nbsp;&nbsp; innherred.no"
     },
     {
       "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
@@ -80,11 +80,11 @@
       "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
-      "title": "Varsler tvangsmulkt mot KI-senter i Narvik",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa09CVDBLVl9WM0c0VUthTmVKcy1TLWNLY0NXNHI0bkoyWEFjRzJmZUtQYkhkNnpBNi1RdU9xeTRzTDNRSVRVdG1RQW9xUFNveHg1SkNqYUxfSndOVXh4RC0zNWItTU1USVBxNUs5dFhkMUdaRkhoU2hWSm5uX2cxMTJDZURXWlFa?oc=5",
-      "source": "NRK",
-      "published_at": "2026-09-29T10:14:15.000Z",
-      "summary": "Varsler tvangsmulkt mot KI-senter i Narvik &nbsp;&nbsp; NRK"
+      "title": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger?",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZVBiVGJrYXZCeEtDLVdoZ2FGLVVBYUZUZ0FjSXRHd2Z5ZnFka1JGUDlqRk1zSlg4QllKQzQzQ2U2dVlSQjJKT2RfR0FrTGNsNlRzbWNKTU5XLUdDZ0c2YnB5Y084WTdIbE50clRiRGozRTZtSVM0dTh6NkhnR1U?oc=5",
+      "source": "Avisa Nordland",
+      "published_at": "2026-10-01T07:00:00.000Z",
+      "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
     }
   ]
 }
