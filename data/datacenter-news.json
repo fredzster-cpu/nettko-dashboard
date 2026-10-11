@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:53:01.946Z",
+  "updated_at": "2026-10-11T19:34:13.540Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -8,13 +8,6 @@
       "source": "E24",
       "published_at": "2026-10-06T18:17:32.000Z",
       "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Hardt ut mot datasenter: – Ingen har vurdert nytten",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOU9UYU53cHN5ZkFqMjlBdEx5dkFWbUdCX2FIMGhBcjdqWDhaWnFRNkZHTUxMQ1gwSGxvdzk3VVo5Y0RtZDVBQm1vWTJ1SWJ3TjhMQl9qR1M0RzZQenluZzU3bjJDV0Qwa0FycmFVREJtUnd1Z21Xek5VZGNycFBLN1R0eWxhX3dqVXJNcHA3c1Exc2I5aHdweE5CQQ?oc=5",
-      "source": "bladet.no",
-      "published_at": "2026-10-10T19:00:00.000Z",
-      "summary": "Hardt ut mot datasenter: – Ingen har vurdert nytten &nbsp;&nbsp; bladet.no"
     },
     {
       "title": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp",
@@ -31,6 +24,13 @@
       "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
+      "title": "Hardt ut mot datasenter: – Ingen har vurdert nytten",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOU9UYU53cHN5ZkFqMjlBdEx5dkFWbUdCX2FIMGhBcjdqWDhaWnFRNkZHTUxMQ1gwSGxvdzk3VVo5Y0RtZDVBQm1vWTJ1SWJ3TjhMQl9qR1M0RzZQenluZzU3bjJDV0Qwa0FycmFVREJtUnd1Z21Xek5VZGNycFBLN1R0eWxhX3dqVXJNcHA3c1Exc2I5aHdweE5CQQ?oc=5",
+      "source": "bladet.no",
+      "published_at": "2026-10-10T19:00:00.000Z",
+      "summary": "Hardt ut mot datasenter: – Ingen har vurdert nytten &nbsp;&nbsp; bladet.no"
+    },
+    {
       "title": "Hva er egentlig et datasenter?",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
       "source": "Dagsavisen",
@@ -43,13 +43,6 @@
       "source": "innherred.no",
       "published_at": "2026-10-07T09:05:55.000Z",
       "summary": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring &nbsp;&nbsp; innherred.no"
-    },
-    {
-      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-23T07:00:00.000Z",
-      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
@@ -78,6 +71,13 @@
       "source": "NRK",
       "published_at": "2026-09-28T07:00:00.000Z",
       "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
+    },
+    {
+      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
