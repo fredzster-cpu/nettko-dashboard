@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T19:34:13.540Z",
+  "updated_at": "2026-10-12T00:33:57.782Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -66,6 +66,13 @@
       "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
+      "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-09-25T07:00:00.000Z",
+      "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
+    },
+    {
       "title": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVWVQVGZGU2J1TXZjeUdMRFA4azczWlVIN1AxaGNiZldPVGFRNHczYXZETm52alBuUTVaYzV3dlJvZk5VdG9TTFVDc01sOGtQOFBRRU1hdFhHS1Q2YXJKaVgycGVyYVdOV2xRMExmb0xtTHNCSWtGV2tUWkxOUFYxSEdDbUl3dTVodjMxZlRUTWZ6c0Fqbnc?oc=5",
       "source": "NRK",
@@ -78,13 +85,6 @@
       "source": "digi.no",
       "published_at": "2026-09-23T07:00:00.000Z",
       "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
-    },
-    {
-      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
-      "source": "NTB Kommunikasjon",
-      "published_at": "2026-09-29T13:49:40.000Z",
-      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     }
   ]
 }
