@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T10:38:41.515Z",
+  "updated_at": "2026-10-13T19:18:29.139Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -31,13 +31,6 @@
       "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
     },
     {
-      "title": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObEZoZG9TblN5azhpYXQ4OU4wcnJwdEp1WUhTcnVkMzZfMndUUFJxZWZ5cnYwRllLME9QT29PQV9UM000SlBLUGVyUE5QOGNZaEFCcG1lVmhGX1F2TDlpTXhzR19sckZMdlJRbllaTlJELXpOaWhMOUZUUmZnOG56eFhKRVNRbnNKWFlWOFo4bWVxaGNLU0twbnB3eFc?oc=5",
-      "source": "innherred.no",
-      "published_at": "2026-10-07T09:05:55.000Z",
-      "summary": "Vil sette ned foten for datasenter: – Vi vil ha en avklaring &nbsp;&nbsp; innherred.no"
-    },
-    {
       "title": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGYwUlAxRFZQWkNpVkUwcDBra192Ul9PekY2VnpPOWJFVEgwNVBBNVhuV29CcVUzZzJUYU1PcE9pZUl6THNQNmNFWlJ2YllYWkoyU1prSzh1VS1lWU5RMWNFOXF5blpQTXRJbDhadTV2bS1WU05Od24zWU5uSzdDQXFEV1M4d2F0R3JEaG54V2NSS1plVmJtUFl3UEdRSGt5S3JqTmR1eDRNeWg1SnJPMDIwWS1hdw?oc=5",
       "source": "Bergens Tidende",
@@ -52,11 +45,11 @@
       "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
-      "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
-      "source": "NRK",
-      "published_at": "2026-09-29T07:00:00.000Z",
-      "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
+      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
+      "source": "NTB Kommunikasjon",
+      "published_at": "2026-09-29T13:49:40.000Z",
+      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
       "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
@@ -64,6 +57,13 @@
       "source": "Aftenposten",
       "published_at": "2026-09-25T07:00:00.000Z",
       "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
+    },
+    {
+      "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
+      "source": "NRK",
+      "published_at": "2026-09-29T07:00:00.000Z",
+      "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
       "title": "Canadas «oljefond» bygger datasenter i Norge",
@@ -80,11 +80,11 @@
       "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYXU2UFAzbWsyTUVRc0xHNmlzYXFMd1hTUmltVW9CN2xDS204UExBRUZYSEotS0J4MDZ1MTV3WjZuQ2ZXWUwwVFFCQk00MWpJVXExX09Ec01mdGtHc2FrUm9zTnI5NG1oUmZGb1FMM01GNERVTGJnemFHVlloRjlpR2xfTWY2SjhRc01abUxna3JIUjJyWXVSMmV3eVVaUEE3T0UxMjcwYXZJeC1vaEFTMW81Q3d6Z1gteXZ2M2lnZTU5VWhUeWxJT3pUVmJKbTdD?oc=5",
-      "source": "NTB Kommunikasjon",
-      "published_at": "2026-09-29T13:49:40.000Z",
-      "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
+      "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-10-06T09:58:00.000Z",
+      "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
     }
   ]
 }
