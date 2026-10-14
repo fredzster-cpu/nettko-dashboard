@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-14T19:25:34.701Z",
+  "updated_at": "2026-10-14T23:55:52.865Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "(+) Dette betalte datasenterselskapene i skatt",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEE3Y0ZzUE5tbzBSQTBuNkZBeUFpbmF2Q2lVS21DLXpRRFRnck1hbnh2M1NrR09STTZWVGU1dTNHZkF5amtjcFRPdGp3SFctTUhtb3d2Ml9Ha3JGUmc3anIwNVBPaDhWSGl5V2JwbURvYXZXeU5IeldMSXJRbnQ5TC1VWlIxZzZr?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-10-14T11:48:45.000Z",
+      "summary": "(+) Dette betalte datasenterselskapene i skatt &nbsp;&nbsp; digi.no"
+    },
     {
       "title": "Datasenter kan være på vei til Oslo Børs",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
@@ -31,11 +38,11 @@
       "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Bergens Tidende"
     },
     {
-      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-23T07:00:00.000Z",
-      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
+      "title": "Hva er egentlig et datasenter?",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-08T04:00:00.000Z",
+      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
     },
     {
       "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
@@ -45,13 +52,6 @@
       "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
     },
     {
-      "title": "Hva er egentlig et datasenter?",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-10-08T04:00:00.000Z",
-      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
-    },
-    {
       "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
       "source": "Aftenposten",
@@ -59,11 +59,11 @@
       "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
     },
     {
-      "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-10-06T09:58:00.000Z",
-      "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
+      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
