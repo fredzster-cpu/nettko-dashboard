@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T19:18:29.139Z",
+  "updated_at": "2026-10-14T00:18:43.174Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -59,6 +59,13 @@
       "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
     },
     {
+      "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-10-06T09:58:00.000Z",
+      "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
       "source": "NRK",
@@ -78,13 +85,6 @@
       "source": "NRK",
       "published_at": "2026-09-28T07:00:00.000Z",
       "summary": "Bør det bygges datasenter i Balsfjord? Nei, mener demonstranter &nbsp;&nbsp; NRK"
-    },
-    {
-      "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-10-06T09:58:00.000Z",
-      "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
     }
   ]
 }
