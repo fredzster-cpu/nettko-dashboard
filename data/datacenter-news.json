@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-15T21:24:44.723Z",
+  "updated_at": "2026-10-16T04:34:21.016Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-30T07:00:00.000Z",
-      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
-    },
     {
       "title": "Datasenter kan være på vei til Oslo Børs",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
       "source": "E24",
       "published_at": "2026-10-06T07:00:00.000Z",
       "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-30T07:00:00.000Z",
+      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Hardt ut mot datasenter: – Ingen har vurdert nytten",
@@ -31,11 +31,11 @@
       "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Bergens Tidende"
     },
     {
-      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-09-23T07:00:00.000Z",
-      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
+      "title": "Datasenter vil ikke ha vindkraft i sin nærhet",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmgxVmdKQ00zNFJfWWZ4dXpmaXE0c0o2bHlXTDd2Q1JQV2NhN2xFNFZKUlE5ZzVoWk9DWWVIZFlGd2o3MHNOTUJsYzFVM3RoSENEQmg4ZjZ1YlRMSGRySWFhZEZ0VUJ5ZzhPT2pmakdXa1RDeHZpRTl2WTdISGloZGF6X3Y?oc=5",
+      "source": "inyheter.no",
+      "published_at": "2026-10-11T14:16:59.000Z",
+      "summary": "Datasenter vil ikke ha vindkraft i sin nærhet &nbsp;&nbsp; inyheter.no"
     },
     {
       "title": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri",
@@ -43,6 +43,20 @@
       "source": "NTB Kommunikasjon",
       "published_at": "2026-09-29T13:49:40.000Z",
       "summary": "Teknologirådets ferske notat om datasenter er utdatert | Norsk Datasenterindustri &nbsp;&nbsp; NTB Kommunikasjon"
+    },
+    {
+      "title": "Hva er egentlig et datasenter?",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-08T04:00:00.000Z",
+      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
+    },
+    {
+      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Mot etablering av datasenter lokalt",
@@ -59,20 +73,6 @@
       "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
     },
     {
-      "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-09-25T07:00:00.000Z",
-      "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
-    },
-    {
-      "title": "Norsk datasenterselskap vurderer børsnotering i Oslo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMG84TERjQVo2YXB1U3hQM1k3Y3pHVGxURk0zS3NUdjExdzMyYU9aYVlfRlFMWURUZUZLR05KakI2T0JHT25SQVhMLWJKbFdhY3ZJNUFlWURHbWFkamNzdm8yay1QQVAxcGdMR2tTUnRNR2I0RUtTRHBnektCMDd5ekJ0R3B3cTBTOGtDTHcybzFvT2daX0ZHNDg2LVdsb0U?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-10-06T07:00:00.000Z",
-      "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalprUDFOQXdNdElyR1lXR3FPbk56c0NGUXBpYkZFZ2RHWlB6V0NrRjRNclV5ZGlYWXgzR2ZXdjdxcktSNE83Q19HTU9SaWhrTGhzVVNtVVB1MzUxSTJRamVndHBPR3BsUTFVLVdJZG00VFNTczFMeWlLZW5WTWNUOHg3Z0pfSEN0dTVfajNGNXVVZnctekVr?oc=5",
       "source": "NRK",
@@ -80,11 +80,11 @@
       "summary": "Frykter at varmekrav skal stoppe datasenter på Jæren &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Canadas «oljefond» bygger datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjJ3WWlzS1VqQ0lOMDNSQnM1bHJfN3p6RUVCMEdfVHZ6dmZBckNoNUx6OFlrQUt5SWY4X0ZneFJDR3lFa2dUcVJzTVd3VGt6R1Jjb196WnR5ek1taHNiSlpZc3E3N2tON3Nidm1IQ2tCRlVxOWdIdE5UUUplZ2xuOWF4dWNHX1RQU3c?oc=5",
-      "source": "E24",
-      "published_at": "2026-09-06T07:00:00.000Z",
-      "summary": "Canadas «oljefond» bygger datasenter i Norge &nbsp;&nbsp; E24"
+      "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-09-25T07:00:00.000Z",
+      "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
     }
   ]
 }
