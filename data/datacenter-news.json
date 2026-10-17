@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T10:47:11.296Z",
+  "updated_at": "2026-10-17T15:37:14.821Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -55,8 +55,15 @@
       "title": "Mot etablering av datasenter lokalt",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vd0JuTTlzbVJBRmZXMWg0aEl2eG5QODJpS2RvanhBMkozS1h4WEhVekZqaVpPSXFzak9BV2I1RnBhd3ZDRWpDSUpxYUZSOUtTbWJpU28wRjVLOGk3d0w1amFjVlZTRVFWd2VpNW1xYUVYN3NwNFE1Xw?oc=5",
       "source": "innherred.no",
-      "published_at": "2026-10-06T11:56:26.000Z",
+      "published_at": "2026-10-06T07:00:00.000Z",
       "summary": "Mot etablering av datasenter lokalt &nbsp;&nbsp; innherred.no"
+    },
+    {
+      "title": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger?",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZVBiVGJrYXZCeEtDLVdoZ2FGLVVBYUZUZ0FjSXRHd2Z5ZnFka1JGUDlqRk1zSlg4QllKQzQzQ2U2dVlSQjJKT2RfR0FrTGNsNlRzbWNKTU5XLUdDZ0c2YnB5Y084WTdIbE50clRiRGozRTZtSVM0dTh6NkhnR1U?oc=5",
+      "source": "Avisa Nordland",
+      "published_at": "2026-10-01T07:00:00.000Z",
+      "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
     },
     {
       "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
@@ -71,13 +78,6 @@
       "source": "Dagens Næringsliv",
       "published_at": "2026-10-06T07:00:00.000Z",
       "summary": "Norsk datasenterselskap vurderer børsnotering i Oslo &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
-      "title": "Hardt ut mot datasenter: – Ingen har vurdert nytten",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOU9UYU53cHN5ZkFqMjlBdEx5dkFWbUdCX2FIMGhBcjdqWDhaWnFRNkZHTUxMQ1gwSGxvdzk3VVo5Y0RtZDVBQm1vWTJ1SWJ3TjhMQl9qR1M0RzZQenluZzU3bjJDV0Qwa0FycmFVREJtUnd1Z21Xek5VZGNycFBLN1R0eWxhX3dqVXJNcHA3c1Exc2I5aHdweE5CQQ?oc=5",
-      "source": "bladet.no",
-      "published_at": "2026-10-10T19:00:00.000Z",
-      "summary": "Hardt ut mot datasenter: – Ingen har vurdert nytten &nbsp;&nbsp; bladet.no"
     },
     {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
