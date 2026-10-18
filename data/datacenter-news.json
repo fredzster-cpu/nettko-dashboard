@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-18T04:36:46.960Z",
+  "updated_at": "2026-10-18T11:09:09.732Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Tiktok vurderer nytt datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-18T08:19:06.000Z",
+      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
+    },
     {
       "title": "Utenlandske eiere sluker datasenter-strømmen",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkNsbXdEb2tKRS1YZ1FxT0Yxck9OOXk1V1VlTk9lTk1YSG11bm14TDlzNGhjREVnMFlCYktGTWFtRERnWnpCdnhXdWRqbVcwbG0tWE04MGVsSDFXMld3anp3M29iMURGVXJXWDJkTmh4aG1CYVhVRENUNjF1LUV0cU1XRXhKWUUzM2o4dWhqTDhBSnV0WGZlUGZRTVc2ZGRHUG5jRTJCNA?oc=5",
@@ -15,13 +22,6 @@
       "source": "bladet.no",
       "published_at": "2026-10-17T10:30:00.000Z",
       "summary": "Splittet om datasenter: – Slike lovnader har vi lite tro på &nbsp;&nbsp; bladet.no"
-    },
-    {
-      "title": "Datasenter kan være på vei til Oslo Børs",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
-      "source": "E24",
-      "published_at": "2026-10-06T07:00:00.000Z",
-      "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
     },
     {
       "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
@@ -73,11 +73,11 @@
       "summary": "Ordfører tviler ikke på datasenter-jobber: – Denne karusellen må vi være med på &nbsp;&nbsp; Nationen"
     },
     {
-      "title": "Hva er egentlig et datasenter?",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByUFFCVWZkSzJ5Q3JmSDE5RThQaFNwSEFzamt6ZlRqWmptc3FGcmtiekFwUEsyT1FZX0xZQ3p0U0tTYXctdHNmZ2xDS3Z2TEpPUFNCb1ljclRJOHBWR0ZvNlVlNUxENE41ZUpDbjNHTFYtRHZZc1dmODdQU24?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-10-08T07:00:00.000Z",
-      "summary": "Hva er egentlig et datasenter? &nbsp;&nbsp; Dagsavisen"
+      "title": "Datasenter kan være på vei til Oslo Børs",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-06T07:00:00.000Z",
+      "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
     },
     {
       "title": "Frykter at varmekrav skal stoppe datasenter på Jæren",
