@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-17T23:08:24.373Z",
+  "updated_at": "2026-10-18T04:36:46.960Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Splittet om datasenter: – Slike lovnader har vi lite tro på",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2tEWDNudnZQNTVLWXRaTHd5SGVfUkYxRXJ0V2Y3cjk2MWROOGNMb3pxdkxGTU1lblNXVTJFbWhhR2lxNEVHcFF2NEstU0pHZ3ZFcHFTM0NzaWFGQmMxZDI5UDVWd1VYLTliOHFUOTA5S1RrSE1yOXFDRUc4TTZJc2RQU3VzRFNmeTFfQmJLZFllN1lqaXJFOGM3LUw?oc=5",
-      "source": "bladet.no",
-      "published_at": "2026-10-17T10:30:00.000Z",
-      "summary": "Splittet om datasenter: – Slike lovnader har vi lite tro på &nbsp;&nbsp; bladet.no"
-    },
     {
       "title": "Utenlandske eiere sluker datasenter-strømmen",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdkNsbXdEb2tKRS1YZ1FxT0Yxck9OOXk1V1VlTk9lTk1YSG11bm14TDlzNGhjREVnMFlCYktGTWFtRERnWnpCdnhXdWRqbVcwbG0tWE04MGVsSDFXMld3anp3M29iMURGVXJXWDJkTmh4aG1CYVhVRENUNjF1LUV0cU1XRXhKWUUzM2o4dWhqTDhBSnV0WGZlUGZRTVc2ZGRHUG5jRTJCNA?oc=5",
       "source": "NHH",
       "published_at": "2026-10-16T09:30:59.000Z",
       "summary": "Utenlandske eiere sluker datasenter-strømmen &nbsp;&nbsp; NHH"
+    },
+    {
+      "title": "Splittet om datasenter: – Slike lovnader har vi lite tro på",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2tEWDNudnZQNTVLWXRaTHd5SGVfUkYxRXJ0V2Y3cjk2MWROOGNMb3pxdkxGTU1lblNXVTJFbWhhR2lxNEVHcFF2NEstU0pHZ3ZFcHFTM0NzaWFGQmMxZDI5UDVWd1VYLTliOHFUOTA5S1RrSE1yOXFDRUc4TTZJc2RQU3VzRFNmeTFfQmJLZFllN1lqaXJFOGM3LUw?oc=5",
+      "source": "bladet.no",
+      "published_at": "2026-10-17T10:30:00.000Z",
+      "summary": "Splittet om datasenter: – Slike lovnader har vi lite tro på &nbsp;&nbsp; bladet.no"
     },
     {
       "title": "Datasenter kan være på vei til Oslo Børs",
