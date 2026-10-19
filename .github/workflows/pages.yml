@@ -15,6 +15,12 @@ on:
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Oppdater Nettkapasitet", "Oppdater datasenternyheter"]
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: "40 */6 * * *"
 
 permissions:
   contents: read
@@ -33,6 +39,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
 
       - name: Gjør dashboard robust
