@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-10-21T11:51:56.417Z",
+  "updated_at": "2026-10-21T17:14:12.054Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Vil bygge gigantisk datasenter i Namsskogan",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR211MkVRRGR0cnZCWEtrVXMtbzBlamJqckpSZnhvbV9mNnJxTE00bzM2U2hvbWl2RUZiclBhSUZuV2tRQnJHb1ZmNlFvU3NxODNiRjJiV01neVFXZ1FDS01fSHNvOGJCV0R6RTQ5TnVQUXJCWXlJSUlHeTVVWjRCVnMwcmd2Q19hRFFubVJsUQ?oc=5",
-      "source": "Namdalsavisa",
-      "published_at": "2026-10-21T05:35:10.000Z",
-      "summary": "Vil bygge gigantisk datasenter i Namsskogan &nbsp;&nbsp; Namdalsavisa"
-    },
     {
       "title": "Tiktok vurderer nytt datasenter i Norge",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
@@ -17,11 +10,11 @@
       "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
     },
     {
-      "title": "(+) Går sammen med Bitzero om datasenter i Namskogan",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNang3cktWR2JJaGJ4Z293Nm9RTkhvaFpXT1lhYWswMnZGRkV6NVBVeGg2NXp2ODR0b2UzdDQ4Qk1JcmRPN21KbDFzSFNMNUh4SVdral8xSnl6b2Y1eTRVT1dtN285R1hHb01xVU9uSUFfVGFDaTBZZTlCaTBGaTU1a2JETFQ3NnI2SmlrRzlldExoMkFQcWlJR1E4Zi0?oc=5",
-      "source": "Computerworld",
-      "published_at": "2026-10-21T04:00:00.000Z",
-      "summary": "(+) Går sammen med Bitzero om datasenter i Namskogan &nbsp;&nbsp; Computerworld"
+      "title": "Vil bygge gigantisk datasenter i Namsskogan",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR211MkVRRGR0cnZCWEtrVXMtbzBlamJqckpSZnhvbV9mNnJxTE00bzM2U2hvbWl2RUZiclBhSUZuV2tRQnJHb1ZmNlFvU3NxODNiRjJiV01neVFXZ1FDS01fSHNvOGJCV0R6RTQ5TnVQUXJCWXlJSUlHeTVVWjRCVnMwcmd2Q19hRFFubVJsUQ?oc=5",
+      "source": "Namdalsavisa",
+      "published_at": "2026-10-21T05:35:10.000Z",
+      "summary": "Vil bygge gigantisk datasenter i Namsskogan &nbsp;&nbsp; Namdalsavisa"
     },
     {
       "title": "Skanska skal utvikle datasenter i Namsskogan sammen med Bitzero",
@@ -29,6 +22,13 @@
       "source": "NTB Kommunikasjon",
       "published_at": "2026-10-20T11:08:54.000Z",
       "summary": "Skanska skal utvikle datasenter i Namsskogan sammen med Bitzero &nbsp;&nbsp; NTB Kommunikasjon"
+    },
+    {
+      "title": "(+) Går sammen med Bitzero om datasenter i Namskogan",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNang3cktWR2JJaGJ4Z293Nm9RTkhvaFpXT1lhYWswMnZGRkV6NVBVeGg2NXp2ODR0b2UzdDQ4Qk1JcmRPN21KbDFzSFNMNUh4SVdral8xSnl6b2Y1eTRVT1dtN285R1hHb01xVU9uSUFfVGFDaTBZZTlCaTBGaTU1a2JETFQ3NnI2SmlrRzlldExoMkFQcWlJR1E4Zi0?oc=5",
+      "source": "Computerworld",
+      "published_at": "2026-10-21T04:00:00.000Z",
+      "summary": "(+) Går sammen med Bitzero om datasenter i Namskogan &nbsp;&nbsp; Computerworld"
     },
     {
       "title": "Utenlandske eiere sluker datasenter-strømmen",
@@ -52,13 +52,6 @@
       "summary": "– Norsk kraft til folk og industri, ikkje til datasenter for teknologigigantane &nbsp;&nbsp; Bø Blad"
     },
     {
-      "title": "Milliardærfamilier henter Nscale-topp til nytt nordisk datasenterselskap",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQenB0Q0o2cElpdDF1YlhkQVhVSjFScFhiWVoxeWFGcEpmSU1xV3JGenZnRDByQUcxc1BMWlVBWUJobGpXOE5KSTdsR1F4ZWFyVS1qNi10SjJwdXZtSkRZUU9Mb3VFclNISWU4SVF2ZHhQN1BGMWxxekdlb05ibTRmRTZJSFQ0RnU0ODk3THMtYThqSFBnbEp3WUlCM0dQWl9KcE5DVnRoUmgydld5dkhSS1RDRUxFZklLLWdvQ3BqZExEUjVvcXhtMXFvUGFfZ3plZ3lkbmJpbWZFSldOaEdR?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-10-15T22:22:00.000Z",
-      "summary": "Milliardærfamilier henter Nscale-topp til nytt nordisk datasenterselskap &nbsp;&nbsp; Dagens Næringsliv"
-    },
-    {
       "title": "Splittet om datasenter: – Slike lovnader har vi lite tro på",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2tEWDNudnZQNTVLWXRaTHd5SGVfUkYxRXJ0V2Y3cjk2MWROOGNMb3pxdkxGTU1lblNXVTJFbWhhR2lxNEVHcFF2NEstU0pHZ3ZFcHFTM0NzaWFGQmMxZDI5UDVWd1VYLTliOHFUOTA5S1RrSE1yOXFDRUc4TTZJc2RQU3VzRFNmeTFfQmJLZFllN1lqaXJFOGM3LUw?oc=5",
       "source": "bladet.no",
@@ -66,11 +59,18 @@
       "summary": "Splittet om datasenter: – Slike lovnader har vi lite tro på &nbsp;&nbsp; bladet.no"
     },
     {
-      "title": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger?",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZVBiVGJrYXZCeEtDLVdoZ2FGLVVBYUZUZ0FjSXRHd2Z5ZnFka1JGUDlqRk1zSlg4QllKQzQzQ2U2dVlSQjJKT2RfR0FrTGNsNlRzbWNKTU5XLUdDZ0c2YnB5Y084WTdIbE50clRiRGozRTZtSVM0dTh6NkhnR1U?oc=5",
-      "source": "Avisa Nordland",
-      "published_at": "2026-10-01T07:00:00.000Z",
-      "summary": "Debatt, Datasenter | Datasenterlandet Norge: Vet vi hva vi bygger? &nbsp;&nbsp; Avisa Nordland"
+      "title": "Milliardærfamilier henter Nscale-topp til nytt nordisk datasenterselskap",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQenB0Q0o2cElpdDF1YlhkQVhVSjFScFhiWVoxeWFGcEpmSU1xV3JGenZnRDByQUcxc1BMWlVBWUJobGpXOE5KSTdsR1F4ZWFyVS1qNi10SjJwdXZtSkRZUU9Mb3VFclNISWU4SVF2ZHhQN1BGMWxxekdlb05ibTRmRTZJSFQ0RnU0ODk3THMtYThqSFBnbEp3WUlCM0dQWl9KcE5DVnRoUmgydld5dkhSS1RDRUxFZklLLWdvQ3BqZExEUjVvcXhtMXFvUGFfZ3plZ3lkbmJpbWZFSldOaEdR?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-10-15T22:22:00.000Z",
+      "summary": "Milliardærfamilier henter Nscale-topp til nytt nordisk datasenterselskap &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFXNlpqbl9nWi15Tk9TYlFkWVAzTUxKOEdpakN5WkNMekRBU29BMjFWby12TmxEV1p2WFE4VXdqSFVWWE1zWG12ZkxXOFdmeGIxQmJGVGxjeGZ6aXpZb0Y2OTdBV0c3VFpfMEZQcDdTNGhfT2FfRmF3UjBWM0h5T2R2T2hDUnlQSEJYclNrbVJ4NFR0SmlHTFNFdGw4VV9BV3pNaWJ3?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-02T07:00:00.000Z",
+      "summary": "Reagerer på NRKs datasenter-nyhet: – Ingen hadde lest rapporten &nbsp;&nbsp; Dagsavisen"
     },
     {
       "title": "Datasenter kan være på vei til Oslo Børs",
@@ -80,11 +80,11 @@
       "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
     },
     {
-      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-30T07:00:00.000Z",
-      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
+      "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-09-25T07:00:00.000Z",
+      "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
     }
   ]
 }
