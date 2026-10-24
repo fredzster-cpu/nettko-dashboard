@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T15:58:23.432Z",
+  "updated_at": "2026-10-24T20:52:00.353Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -38,6 +38,13 @@
       "summary": "Utenlandske eiere sluker datasenter-strømmen &nbsp;&nbsp; NHH"
     },
     {
+      "title": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV01mZDloYWFVNTVsN2I3T0p5aXBPMmNIMFVlNGlBMkt1Zk5jTnJGd0djNjJ0SVdRWWVsMk53eXJ2RnhfeGJMZ01KUzJtVXhnV19TUkNSWWR1bEJYUGREak92WENzemFnY0k2ODRXME5oSmNyaHFJOGlaYU9wWGdlNXZzc0t6bkdwOTZ3?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-10-06T07:00:00.000Z",
+      "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Aftenposten"
+    },
+    {
       "title": "Datasenter på opptil 110 MW: Skanska inngår utviklingsavtale i Namsskogan",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHdJRElDajJIWWRtSDFxWXkyay1LSGpFRHI5ZnlxMVVKVmVjQ21fR1pINUhKWW5idWFLLWVwOThyQ255VVVTcVExdTJPU0c4clp4dE41cTRBc2I2MFJWeXVkOHk4SGJBNWFNWktfYzBubEdTc1czVTNBV3l4RURBZTNlYkt2a2JGUWRwUEdhTFF3eUZFczcxcERTWm5icFo5c3NIUGN0SXRWeVFnZDhkRjM3eTQ?oc=5",
       "source": "Tungt",
@@ -52,25 +59,11 @@
       "summary": "(+) Går sammen med Bitzero om datasenter i Namskogan &nbsp;&nbsp; Computerworld"
     },
     {
-      "title": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV01mZDloYWFVNTVsN2I3T0p5aXBPMmNIMFVlNGlBMkt1Zk5jTnJGd0djNjJ0SVdRWWVsMk53eXJ2RnhfeGJMZ01KUzJtVXhnV19TUkNSWWR1bEJYUGREak92WENzemFnY0k2ODRXME5oSmNyaHFJOGlaYU9wWGdlNXZzc0t6bkdwOTZ3?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-10-06T07:00:00.000Z",
-      "summary": "20 datasenter planlagt bare i Vestland: – Vi skriker etter hjelp &nbsp;&nbsp; Aftenposten"
-    },
-    {
-      "title": "– Norsk kraft til folk og industri, ikkje til datasenter for teknologigigantane",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPajBFVGw0MjdEbkI2bDZmMmc4aDRNTUJvRzRmTmE3Q2J5Tnp2RFBEODJBbmJGVnN2Ml9USHNsakdJeU5ONk54SHVYckp1X2plRmtDc0tBRi1fWFVuUVUxNXZwVzN0RUZEaEJrb3NuemxzTld4RXNYdG1KTDd1YWptYTVSeFNvRGg3QWwxWlN2dGhwOTFSZTJRMG11LVY2M3IxQkc0ZkxVVFA1enRBTVJBT2VMaw?oc=5",
-      "source": "Bø Blad",
-      "published_at": "2026-10-19T13:29:00.000Z",
-      "summary": "– Norsk kraft til folk og industri, ikkje til datasenter for teknologigigantane &nbsp;&nbsp; Bø Blad"
-    },
-    {
-      "title": "Først datasenter. Så vindkraft? Hvem er det egentlig som vil tjene på dette?",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdHEtUzNzTmhvTE01Zkl1RFlEY25WUmlhMExzYjhpS29DbmlSTW01N09mODV2TG1jbzVmUkRJTVlISUc4bUFha1hfZk9kaEJFTlpybUNCME1UUDBUd243aGVQbWtPbC1nLWVIZGtrbVhkcEs4Y1VXek9tM0tpTGwtbHpUTGNlR05tN1hkTVFYSmpJajZ0U1pfTEl3bVFjcnFzSmV3V2Z1czVRUFUwbXFJMGZjcENnRmM?oc=5",
-      "source": "Østlendingen",
-      "published_at": "2026-10-18T12:13:25.000Z",
-      "summary": "Først datasenter. Så vindkraft? Hvem er det egentlig som vil tjene på dette? &nbsp;&nbsp; Østlendingen"
+      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-09-30T07:00:00.000Z",
+      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "Tiktok vurderer nytt datasenter i Norge",
@@ -80,11 +73,18 @@
       "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
     },
     {
-      "title": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbGZPRjM1ZGcyN2NfN3JJYTEtOGVtRVpOQTdXdzY0dWhqWDZ1YWwzeXY2MGZ1djlKeU1DZ1pkOV9rV2VtTWFVS090dDdyY3RxODBrendXZkpQaXdxcHRLWW4zUkRERzUwMUVDSmtyU3hLVFkyMWxIN0hUaEM5QmY4RVp6U2FIVzFubGtlQXpvemEzcGcwNFc5SFJwNzZGS0dFNEtRTFh0azFIYWppZThjSnVVRmlaS1hlWmNtN1g0U21IYl9NbnpDenlCbWdnZ2tmbzFmUEw5V3ZfV3dma05TcTc1NnhEbVk?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-09-30T07:00:00.000Z",
-      "summary": "Datasenter-gründer flyttet til USA: – Må sitte på utsiden av Norge. Dessverre (+) &nbsp;&nbsp; Dagens Næringsliv"
+      "title": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnk5blJkZDFwSmxCT2c0U3NWaEt4cmpYMGR0aWVEcGlZM045Q2RMYkpIS05GdkRST1pFS1RwQTFlTURSMVBWc0lTU2pKQjhnWFhGNzBLdnJQZlBad1dORUJGTHZMWnVQb3JqcXdEM2RnVmQwMkUwV0N1dVJzVUpfb01KdVhGRTdUYmNKZy1zNWtPU3lHaG1fb1NWaXVTT1N0N0pKaHZmNGFUQlI0XzlHRWVTZ0hRMmlIS0dVa3ctTQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-09-25T07:00:00.000Z",
+      "summary": "Pågangen av datasenter er ein sjanse Noreg ikkje bør la gå frå seg &nbsp;&nbsp; Aftenposten"
+    },
+    {
+      "title": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXV5UFY0VWpTVlNhazNyNllibXBMeXdPQUlWRTFiM0I4NTJPRTVNU0M2VllCTmJoeDZWWXJLUC1sbGVfMW1Ed01OYWRxbzFadV9BR3VXbmp5MVl3R3Q5WEpkdWlsczhqcDhqLWVXblloRXVZdjBjZUFuOGpHcHhKWjM3Nk1oMTFqVzJZWnlRTG5IdkdwM3J0WU9MOE0?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "summary": "(+) Tiktok-eier utnytter smutthull ved Nscales datasenter i Norge &nbsp;&nbsp; digi.no"
     }
   ]
 }
