@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-10-29T18:28:54.072Z",
+  "updated_at": "2026-10-30T01:01:43.745Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-10-29T14:00:50.000Z",
-      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
-    },
     {
       "title": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXF3RXFtNkM2MldGdkxrSGxSMG8zSktpVVNSQzNmbVpEYmhTcnQ1SFBXS2ZLaFhzNkZWb29pQWlMZEY5TFp0b2JMOHc0ZTVRY3NIV05UanBZZjR5aGJMSC1Vb1A0aVc2WGNXYkxzYkg1cWY0TEdycDRueThwRTJZRnhIZHNxUF9wQjFWUWJNLTZnNWU1TVRBWlJZbkFnOEt3VWZITzAyNzNHMlF5cTRF?oc=5",
@@ -17,11 +10,25 @@
       "summary": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Datasenter i Norge:",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WTNNa0pYTXdVOEstR2NRNlQ5eld1SG9pb09FYnBqazlGMjFmNVlaT0cxT1ZKV1pSWjFFTjNyeThCWFZXVGp1QUFHRUtYU0xBcXR5T2NhRG1ZZGtSSkc5TUxIV0FwOHpPM25JYkdCUHpWVFZ0?oc=5",
-      "source": "Frifagbevegelse",
-      "published_at": "2026-10-29T09:47:05.000Z",
-      "summary": "Datasenter i Norge: &nbsp;&nbsp; Frifagbevegelse"
+      "title": "113 datasenter bygd i Norge: – Det er en utfordring",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Na3Q1MDhzd3poUF81Z0RXblZIN0xRV1M3SHJwUjhBdEhEeFphM0FKTUVPYWdHS29pQW5GcnhwUG1xd0x2UWlvODM2VURLcHA4WWE2NWpUTkdkbTdJRlRzTjdZUkt2eHpn?oc=5",
+      "source": "TV 2",
+      "published_at": "2026-10-29T20:33:08.000Z",
+      "summary": "113 datasenter bygd i Norge: – Det er en utfordring &nbsp;&nbsp; TV 2"
+    },
+    {
+      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-10-29T14:00:50.000Z",
+      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
+    },
+    {
+      "title": "Lakse-Norge vil ha datasenter-stopp",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVNYcy1lS2JESG5sYUp0UFotN2pfelQ4ZHhRaWZnNG1PVkNnTk5NTW1PdGxOTGhzYTNCRjFEbHBlVGZQOElaRERzSVptRHJzOUtWOFJSbU9vYjFOUDB0eUNIZ3dvWjJ4SjJ2VUI4TkF0MkhCaGlrS1cxQWdOWnowcFBCdHBLZw?oc=5",
+      "source": "Klassekampen",
+      "published_at": "2026-10-29T23:09:19.000Z",
+      "summary": "Lakse-Norge vil ha datasenter-stopp &nbsp;&nbsp; Klassekampen"
     },
     {
       "title": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene",
@@ -29,6 +36,13 @@
       "source": "digi.no",
       "published_at": "2026-10-29T16:30:00.000Z",
       "summary": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene &nbsp;&nbsp; digi.no"
+    },
+    {
+      "title": "Datasenter i Norge:",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81WTNNa0pYTXdVOEstR2NRNlQ5eld1SG9pb09FYnBqazlGMjFmNVlaT0cxT1ZKV1pSWjFFTjNyeThCWFZXVGp1QUFHRUtYU0xBcXR5T2NhRG1ZZGtSSkc5TUxIV0FwOHpPM25JYkdCUHpWVFZ0?oc=5",
+      "source": "Frifagbevegelse",
+      "published_at": "2026-10-29T09:47:05.000Z",
+      "summary": "Datasenter i Norge: &nbsp;&nbsp; Frifagbevegelse"
     },
     {
       "title": "Billig-KI truer datasenter-milliardene",
@@ -41,7 +55,7 @@
       "title": "Ny rapport: Datasenter har høy verdiskaping pr. ansatt og sysselsettingen pr. MW er omtrent på nivå med metallindustrien",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQTdzdnd5NnB4aUJycVdtY2l4T25zSE45NDBnUVJSSjd2RmtIUkszNEtZVUdwZ1FJNUo0RnNORWJKaldaWWwxblZMUFlDS0d5ZnhWM1gya2pFckJfOWZiRHcxTTNKbU5nTjQ0aEYyWE9lazlxVlFib0JjQjV4QUhKMm9BREpSMHZHZXM4WHp5NWk3NzVSU1BXTDEwdlFhQW95MkthdGM0NS1LWFJMVm9nYU1MWDlaQ3dJcGt0R1BPUkNIZDIta0NveGpkbVdQUnZTWDJzaTFrVjRyY0FnN2tlV0d5R3B3YXVUeE94dnM4QQ?oc=5",
       "source": "Avisen Agder",
-      "published_at": "2026-10-29T13:47:01.000Z",
+      "published_at": "2026-10-29T14:02:19.000Z",
       "summary": "Ny rapport: Datasenter har høy verdiskaping pr. ansatt og sysselsettingen pr. MW er omtrent på nivå med metallindustrien &nbsp;&nbsp; Avisen Agder"
     },
     {
@@ -59,11 +73,11 @@
       "summary": "Datasenter kan gi høgare straum­prisar &nbsp;&nbsp; sunnhordland.no"
     },
     {
-      "title": "Datasenter, Forbruker | NVE varsler betydelig høyere strømpriser på grunn av datasentre",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXVTTUltaEh2RVU1MnF2VkhDTTRyUHdaZ1NTZ3J5RnhqS0MwNlB2dXpOSjN5T0E1TVhaNTBLVHhiSTBSYm1IbDZIUFVkWUVzTlFzX3NZejVNc2NzZlluSGczaklNYU1mWEhBTEF1Nll4aFBnTkhhZnJveE1CcWNJdmRyVEZEQWtXbEVSSmRVbVg3MGpabmVzZWJ5NW9BdUp0dUZiUm5oSQ?oc=5",
-      "source": "Strandbuen",
-      "published_at": "2026-10-29T08:34:06.000Z",
-      "summary": "Datasenter, Forbruker | NVE varsler betydelig høyere strømpriser på grunn av datasentre &nbsp;&nbsp; Strandbuen"
+      "title": "(+) Sterk vekst i datasenter svekker norsk kraftbalanse",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZU1TZUdjQ0EwN29DZTBULTZ3X3FfX2hvYndITlpBSEUxVnlXenJ0SUJGSGFEc0ZFdkdCU1BvanpKblROSHhUWE5KZHZWWUlfSFFPOWFoMWNvODhnclhLODlDbVNNWHhMbU5IVzlsLUljMHFIQ0hpTGljZVBrbkYtV19sUFlwc0lOSzYtdWZ6cGRvUQ?oc=5",
+      "source": "Grenda",
+      "published_at": "2026-10-29T19:00:00.000Z",
+      "summary": "(+) Sterk vekst i datasenter svekker norsk kraftbalanse &nbsp;&nbsp; Grenda"
     },
     {
       "title": "(+) Fryktar datasenter vil gi kraftig vekst i straumprisane",
@@ -71,20 +85,6 @@
       "source": "Ryfylke",
       "published_at": "2026-10-29T12:20:55.000Z",
       "summary": "(+) Fryktar datasenter vil gi kraftig vekst i straumprisane &nbsp;&nbsp; Ryfylke"
-    },
-    {
-      "title": "Stortingsrepresentant Trond Giske (Ap), AUF | Giske og AUF støtter krav om datasenter-stopp",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3QtSm9zVWJzZEwyWGRsX0pVRjZKcXBLNmxTWGJYbTQ0THNvWG1USGVYNlIyRE91RFNfbzFfMUV2NE1fMnR0d2tKMjNqTEc1SWI1QmVwc1JGaC1HaVBGcERzZHR2RGlxN2dONjhhdWZEUVdjcG5uYkc3TTFfUHU3WFBNX1NDQ2FWZGxyV3FjdzFrSVJpM2pseE1R?oc=5",
-      "source": "Nettavisen",
-      "published_at": "2026-10-29T02:30:16.000Z",
-      "summary": "Stortingsrepresentant Trond Giske (Ap), AUF | Giske og AUF støtter krav om datasenter-stopp &nbsp;&nbsp; Nettavisen"
-    },
-    {
-      "title": "Tiktok vurderer nytt datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
-      "source": "E24",
-      "published_at": "2026-10-18T07:00:00.000Z",
-      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
     }
   ]
 }
