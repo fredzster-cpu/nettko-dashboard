@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-30T01:01:43.745Z",
+  "updated_at": "2026-10-30T10:03:29.801Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXF3RXFtNkM2MldGdkxrSGxSMG8zSktpVVNSQzNmbVpEYmhTcnQ1SFBXS2ZLaFhzNkZWb29pQWlMZEY5TFp0b2JMOHc0ZTVRY3NIV05UanBZZjR5aGJMSC1Vb1A0aVc2WGNXYkxzYkg1cWY0TEdycDRueThwRTJZRnhIZHNxUF9wQjFWUWJNLTZnNWU1TVRBWlJZbkFnOEt3VWZITzAyNzNHMlF5cTRF?oc=5",
-      "source": "NRK",
-      "published_at": "2026-10-29T16:26:39.000Z",
-      "summary": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget &nbsp;&nbsp; NRK"
-    },
     {
       "title": "113 datasenter bygd i Norge: – Det er en utfordring",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Na3Q1MDhzd3poUF81Z0RXblZIN0xRV1M3SHJwUjhBdEhEeFphM0FKTUVPYWdHS29pQW5GcnhwUG1xd0x2UWlvODM2VURLcHA4WWE2NWpUTkdkbTdJRlRzTjdZUkt2eHpn?oc=5",
       "source": "TV 2",
       "published_at": "2026-10-29T20:33:08.000Z",
       "summary": "113 datasenter bygd i Norge: – Det er en utfordring &nbsp;&nbsp; TV 2"
+    },
+    {
+      "title": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXF3RXFtNkM2MldGdkxrSGxSMG8zSktpVVNSQzNmbVpEYmhTcnQ1SFBXS2ZLaFhzNkZWb29pQWlMZEY5TFp0b2JMOHc0ZTVRY3NIV05UanBZZjR5aGJMSC1Vb1A0aVc2WGNXYkxzYkg1cWY0TEdycDRueThwRTJZRnhIZHNxUF9wQjFWUWJNLTZnNWU1TVRBWlJZbkFnOEt3VWZITzAyNzNHMlF5cTRF?oc=5",
+      "source": "NRK",
+      "published_at": "2026-10-29T16:26:39.000Z",
+      "summary": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget &nbsp;&nbsp; NRK"
     },
     {
       "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
@@ -59,18 +59,25 @@
       "summary": "Ny rapport: Datasenter har høy verdiskaping pr. ansatt og sysselsettingen pr. MW er omtrent på nivå med metallindustrien &nbsp;&nbsp; Avisen Agder"
     },
     {
-      "title": "Kraftig advarsel fra næringslivet mot Sps datasenter-u-sving",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmozMDZwbUxDcTBVRnVZVGpXSkx6eXdhNEdoQ0ZmZ2s0T2NMRTJsMmVIRG1jX3huS3p6SEdDVTQwdjlTLTZmblFvSnpiMHU0SWxFZWtXT201T3AwOWd2OEplR2E4czc2bTZXVUFkdjFXdFdZVmlGMmM3cnVEYU5iZ2RRWl82N2EtbWtiZ05SV1ZVTS1uZ2Nfak1ybzZGNGRENlhv?oc=5",
+      "title": "Her kan det komme et nytt datasenter: – Vi er nødt",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdjU2TktLQnVlYWNVY3VTV1A5UWhtbkhwSUl1OWxhRnNQbHJYZHpTS3JyMm1OQ0NNM0hCM3ZFYm5weUd6bENRM0hENGFVQWVwVTdXVFpBZ0RuYUxQYjB4ZTg0NEM4VEpjcEVweXZ6WHh6NlU2QnZMV09CcmtYRHRoNl95VWZORDRQU0JVeXE1Ymk?oc=5",
       "source": "Fagbladet",
-      "published_at": "2026-10-29T08:51:26.000Z",
-      "summary": "Kraftig advarsel fra næringslivet mot Sps datasenter-u-sving &nbsp;&nbsp; Fagbladet"
+      "published_at": "2026-10-28T07:41:46.000Z",
+      "summary": "Her kan det komme et nytt datasenter: – Vi er nødt &nbsp;&nbsp; Fagbladet"
     },
     {
-      "title": "Datasenter kan gi høgare straum­prisar",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd3NrY0JpQ29iTmRRSWVOUUhkcjJmM19MTUttakRfQkJnR2pxS2p1OTVqODcwU2hzUGJqdXoxY3o4aEIyX2JMVEZVdFdaUU4tVFhESzVSU09CeTZFYlR3ZEdrVXNhbW55aG83dTd6ZEI1VERua3ZKZ0F2SEhFNmUtMHhxdHhJUXBIMGJN?oc=5",
-      "source": "sunnhordland.no",
-      "published_at": "2026-10-29T09:03:53.000Z",
-      "summary": "Datasenter kan gi høgare straum­prisar &nbsp;&nbsp; sunnhordland.no"
+      "title": "Tiktok vurderer nytt datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-18T07:00:00.000Z",
+      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Datasenter-boomen: For stort, for dyrt, for sent",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDdXaXRuc0g1R1BtV0FkOUdLWjlCTjdiZllvaHp1LXA3WkJkbmh2MUx4X2Z3ZVpmdmdPZnlrZGUtNnZQRkFSS05oSEQ2VGFrTUlRdWZNdnFPVTlVRFFCaUJ1R2ZGVkdYSGFrSWs4RGpjX0Z2YURabEdGalU5RTZib3RKTHpyUFhvQVdSRF9VU0plRHBZcmtkVFViYjh3RFE?oc=5",
+      "source": "Finansavisen",
+      "published_at": "2026-10-27T15:13:43.000Z",
+      "summary": "Datasenter-boomen: For stort, for dyrt, for sent &nbsp;&nbsp; Finansavisen"
     },
     {
       "title": "(+) Sterk vekst i datasenter svekker norsk kraftbalanse",
@@ -78,13 +85,6 @@
       "source": "Grenda",
       "published_at": "2026-10-29T19:00:00.000Z",
       "summary": "(+) Sterk vekst i datasenter svekker norsk kraftbalanse &nbsp;&nbsp; Grenda"
-    },
-    {
-      "title": "(+) Fryktar datasenter vil gi kraftig vekst i straumprisane",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzlnQlhkQjctaTF3dEtjbkNPMDNzTml0Ti1sTTlXSjZSaEZpR1pwNXl0SVh2emFCUW02T29veVVvM2JyY0J2bElteUd4LXV6VHcyelJJamR4NVVjeEJ0S28yQjZPbWhJMFhvYzdEVnpBbmFCbVNrek9ITmZNc005SkhVYTYzc05iS3R3eXktMTQ5TjRQTFZ0RXpkNA?oc=5",
-      "source": "Ryfylke",
-      "published_at": "2026-10-29T12:20:55.000Z",
-      "summary": "(+) Fryktar datasenter vil gi kraftig vekst i straumprisane &nbsp;&nbsp; Ryfylke"
     }
   ]
 }
