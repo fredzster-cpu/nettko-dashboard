@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T18:01:29.374Z",
+  "updated_at": "2026-10-30T22:22:50.905Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -52,18 +52,18 @@
       "summary": "Billig-KI truer datasenter-milliardene &nbsp;&nbsp; TechWatch"
     },
     {
-      "title": "Tiktok vurderer nytt datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
-      "source": "E24",
-      "published_at": "2026-10-18T07:00:00.000Z",
-      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Her kan det komme et nytt datasenter: – Vi er nødt",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdjU2TktLQnVlYWNVY3VTV1A5UWhtbkhwSUl1OWxhRnNQbHJYZHpTS3JyMm1OQ0NNM0hCM3ZFYm5weUd6bENRM0hENGFVQWVwVTdXVFpBZ0RuYUxQYjB4ZTg0NEM4VEpjcEVweXZ6WHh6NlU2QnZMV09CcmtYRHRoNl95VWZORDRQU0JVeXE1Ymk?oc=5",
       "source": "Fagbladet",
       "published_at": "2026-10-28T07:41:46.000Z",
       "summary": "Her kan det komme et nytt datasenter: – Vi er nødt &nbsp;&nbsp; Fagbladet"
+    },
+    {
+      "title": "Tiktok vurderer nytt datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-18T07:00:00.000Z",
+      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
     },
     {
       "title": "Ny rapport: Datasenter har høy verdiskaping pr. ansatt og sysselsettingen pr. MW er omtrent på nivå med metallindustrien",
