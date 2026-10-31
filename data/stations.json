@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:51:07.593Z",
+  "updated_at": "2026-10-31T09:58:01.426Z",
   "source": "NVE Nettanlegg4",
   "stations": {
     "Arna Transformatorstasjon TRA": {
@@ -18,7 +18,7 @@
       "nve_object_id": 1390,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:56.567Z"
+      "checked_at": "2026-10-31T09:57:50.363Z"
     },
     "Aurland 2 KRA/TRA": {
       "station": "Aurland 2 KRA/TRA",
@@ -36,7 +36,7 @@
       "nve_object_id": 1394,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:56.868Z"
+      "checked_at": "2026-10-31T09:57:50.667Z"
     },
     "Aurland 3 KRA/TRA": {
       "station": "Aurland 3 KRA/TRA",
@@ -54,7 +54,7 @@
       "nve_object_id": 1393,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:57.172Z"
+      "checked_at": "2026-10-31T09:57:50.965Z"
     },
     "Borgund KRA/TRA": {
       "station": "Borgund KRA/TRA",
@@ -72,7 +72,7 @@
       "nve_object_id": 1291,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:57.471Z"
+      "checked_at": "2026-10-31T09:57:51.263Z"
     },
     "Dale TRA": {
       "station": "Dale TRA",
@@ -90,7 +90,7 @@
       "nve_object_id": 1455,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:57.772Z"
+      "checked_at": "2026-10-31T09:57:51.559Z"
     },
     "Fana Transformatorstasjon TRA": {
       "station": "Fana Transformatorstasjon TRA",
@@ -108,7 +108,7 @@
       "nve_object_id": 1460,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:58.074Z"
+      "checked_at": "2026-10-31T09:57:51.856Z"
     },
     "Flesaker TRA": {
       "station": "Flesaker TRA",
@@ -126,7 +126,7 @@
       "nve_object_id": 1308,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:58.375Z"
+      "checked_at": "2026-10-31T09:57:52.154Z"
     },
     "Follo TRA": {
       "station": "Follo TRA",
@@ -144,7 +144,7 @@
       "nve_object_id": 1328,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:58.674Z"
+      "checked_at": "2026-10-31T09:57:52.449Z"
     },
     "Fortun KRA/TRA": {
       "station": "Fortun KRA/TRA",
@@ -162,7 +162,7 @@
       "nve_object_id": 1292,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:58.971Z"
+      "checked_at": "2026-10-31T09:57:52.749Z"
     },
     "Frogner TRA": {
       "station": "Frogner TRA",
@@ -180,7 +180,7 @@
       "nve_object_id": 1327,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:59.264Z"
+      "checked_at": "2026-10-31T09:57:53.044Z"
     },
     "Furuset TRA": {
       "station": "Furuset TRA",
@@ -198,7 +198,7 @@
       "nve_object_id": 1305,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:59.558Z"
+      "checked_at": "2026-10-31T09:57:53.340Z"
     },
     "Fåberg TRA": {
       "station": "Fåberg TRA",
@@ -216,7 +216,7 @@
       "nve_object_id": 1289,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:50:59.851Z"
+      "checked_at": "2026-10-31T09:57:53.635Z"
     },
     "Halden TRA": {
       "station": "Halden TRA",
@@ -234,7 +234,7 @@
       "nve_object_id": 1325,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:00.151Z"
+      "checked_at": "2026-10-31T09:57:53.930Z"
     },
     "Hamang TRA": {
       "station": "Hamang TRA",
@@ -252,7 +252,7 @@
       "nve_object_id": 1307,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:00.443Z"
+      "checked_at": "2026-10-31T09:57:54.224Z"
     },
     "Hasle TRA": {
       "station": "Hasle TRA",
@@ -270,7 +270,7 @@
       "nve_object_id": 1326,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:00.738Z"
+      "checked_at": "2026-10-31T09:57:54.519Z"
     },
     "Haugsvær transformatorstasjon TRA": {
       "station": "Haugsvær transformatorstasjon TRA",
@@ -288,7 +288,7 @@
       "nve_object_id": 1411,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:01.031Z"
+      "checked_at": "2026-10-31T09:57:54.814Z"
     },
     "Hove KRA/TRA": {
       "station": "Hove KRA/TRA",
@@ -306,7 +306,7 @@
       "nve_object_id": 1293,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:01.325Z"
+      "checked_at": "2026-10-31T09:57:55.113Z"
     },
     "Kollsnes KRA/TRA": {
       "station": "Kollsnes KRA/TRA",
@@ -324,7 +324,7 @@
       "nve_object_id": 1472,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:01.619Z"
+      "checked_at": "2026-10-31T09:57:55.412Z"
     },
     "Leirdøla (LEX) TRA": {
       "station": "Leirdøla (LEX) TRA",
@@ -342,7 +342,7 @@
       "nve_object_id": 1370,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:01.913Z"
+      "checked_at": "2026-10-31T09:57:55.707Z"
     },
     "Lindås transformatorstasjon TRA": {
       "station": "Lindås transformatorstasjon TRA",
@@ -360,7 +360,7 @@
       "nve_object_id": 1479,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:02.206Z"
+      "checked_at": "2026-10-31T09:57:56.004Z"
     },
     "Litle Sotra TRA": {
       "station": "Litle Sotra TRA",
@@ -378,7 +378,7 @@
       "nve_object_id": 1400,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:02.499Z"
+      "checked_at": "2026-10-31T09:57:56.299Z"
     },
     "Minne TRA": {
       "station": "Minne TRA",
@@ -396,7 +396,7 @@
       "nve_object_id": 1329,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:02.792Z"
+      "checked_at": "2026-10-31T09:57:56.593Z"
     },
     "Nedre Vinstra KRA/TRA": {
       "station": "Nedre Vinstra KRA/TRA",
@@ -414,7 +414,7 @@
       "nve_object_id": 1290,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:03.086Z"
+      "checked_at": "2026-10-31T09:57:56.888Z"
     },
     "Nes Bk TRA": {
       "station": "Nes Bk TRA",
@@ -432,7 +432,7 @@
       "nve_object_id": 1488,
       "confidence": "high",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:03.379Z"
+      "checked_at": "2026-10-31T09:57:57.183Z"
     },
     "Rendalen transformatorstasjon TRA": {
       "station": "Rendalen transformatorstasjon TRA",
@@ -450,7 +450,7 @@
       "nve_object_id": 1498,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:03.672Z"
+      "checked_at": "2026-10-31T09:57:57.479Z"
     },
     "Ringerike TRA": {
       "station": "Ringerike TRA",
@@ -468,7 +468,7 @@
       "nve_object_id": 1499,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:03.965Z"
+      "checked_at": "2026-10-31T09:57:57.774Z"
     },
     "Røykås TRA": {
       "station": "Røykås TRA",
@@ -486,7 +486,7 @@
       "nve_object_id": 1503,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:04.258Z"
+      "checked_at": "2026-10-31T09:57:58.070Z"
     },
     "Samnanger TRA": {
       "station": "Samnanger TRA",
@@ -504,7 +504,7 @@
       "nve_object_id": 1506,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:04.553Z"
+      "checked_at": "2026-10-31T09:57:58.364Z"
     },
     "Sima KRA/TRA": {
       "station": "Sima KRA/TRA",
@@ -522,7 +522,7 @@
       "nve_object_id": 1509,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:04.847Z"
+      "checked_at": "2026-10-31T09:57:58.660Z"
     },
     "Smestad TRA": {
       "station": "Smestad TRA",
@@ -540,7 +540,7 @@
       "nve_object_id": 1516,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:05.139Z"
+      "checked_at": "2026-10-31T09:57:58.955Z"
     },
     "Sogn TRA": {
       "station": "Sogn TRA",
@@ -558,7 +558,7 @@
       "nve_object_id": 1519,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:05.434Z"
+      "checked_at": "2026-10-31T09:57:59.250Z"
     },
     "Sogndal TRA": {
       "station": "Sogndal TRA",
@@ -576,7 +576,7 @@
       "nve_object_id": 1518,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:05.726Z"
+      "checked_at": "2026-10-31T09:57:59.547Z"
     },
     "Sylling TRA": {
       "station": "Sylling TRA",
@@ -594,7 +594,7 @@
       "nve_object_id": 1533,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:06.022Z"
+      "checked_at": "2026-10-31T09:57:59.844Z"
     },
     "Tegneby TRA": {
       "station": "Tegneby TRA",
@@ -612,7 +612,7 @@
       "nve_object_id": 1535,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:06.315Z"
+      "checked_at": "2026-10-31T09:58:00.141Z"
     },
     "Ulven TRA": {
       "station": "Ulven TRA",
@@ -630,7 +630,7 @@
       "nve_object_id": 1432,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:06.615Z"
+      "checked_at": "2026-10-31T09:58:00.437Z"
     },
     "Usta KRA/TRA": {
       "station": "Usta KRA/TRA",
@@ -648,7 +648,7 @@
       "nve_object_id": 1396,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:06.908Z"
+      "checked_at": "2026-10-31T09:58:00.733Z"
     },
     "Vang TRA": {
       "station": "Vang TRA",
@@ -666,7 +666,7 @@
       "nve_object_id": 1435,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:07.200Z"
+      "checked_at": "2026-10-31T09:58:01.028Z"
     },
     "Vardal TRA": {
       "station": "Vardal TRA",
@@ -684,7 +684,7 @@
       "nve_object_id": 1434,
       "confidence": "verified",
       "source": "NVE Nettanlegg4",
-      "checked_at": "2026-10-31T05:51:07.492Z"
+      "checked_at": "2026-10-31T09:58:01.325Z"
     }
   },
   "station_count": 38,
