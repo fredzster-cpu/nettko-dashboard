@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T00:08:30.055Z",
+  "updated_at": "2026-11-01T06:08:34.966Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -29,6 +29,13 @@
       "source": "Dagsavisen",
       "published_at": "2026-10-30T12:47:47.000Z",
       "summary": "Datasenter-boom i Norge: Agder og Telemark leder an &nbsp;&nbsp; Dagsavisen"
+    },
+    {
+      "title": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGJUTWFteVowMm5ZX2ZpdzU5LVV6blNyelpMZmFCc2Y5XzMwUnNyLU4tQzBYcTZkWXlKZjg0S2NEU01xVXRwaGhQamVXS0NPeUY5U0tHV3liRWV3aHhGOGtQUU9rN0dmcXg2eFFwaW1QNjRPdmY0VHB0djE5NmRlUS1GS1VJYXZXQ0xrd3RIMXpkdHNseFNoaTU3c1R4YUo5NWhObUkwZkp0QQ?oc=5",
+      "source": "digi.no",
+      "published_at": "2026-10-29T16:30:00.000Z",
+      "summary": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Lakse-Norge vil ha datasenter-stopp",
@@ -64,13 +71,6 @@
       "source": "Finansavisen",
       "published_at": "2026-10-27T15:13:43.000Z",
       "summary": "Datasenter-boomen: For stort, for dyrt, for sent &nbsp;&nbsp; Finansavisen"
-    },
-    {
-      "title": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGJUTWFteVowMm5ZX2ZpdzU5LVV6blNyelpMZmFCc2Y5XzMwUnNyLU4tQzBYcTZkWXlKZjg0S2NEU01xVXRwaGhQamVXS0NPeUY5U0tHV3liRWV3aHhGOGtQUU9rN0dmcXg2eFFwaW1QNjRPdmY0VHB0djE5NmRlUS1GS1VJYXZXQ0xrd3RIMXpkdHNseFNoaTU3c1R4YUo5NWhObUkwZkp0QQ?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-10-29T16:30:00.000Z",
-      "summary": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene &nbsp;&nbsp; digi.no"
     },
     {
       "title": "Datasenter kan gi høgare straum­prisar",
