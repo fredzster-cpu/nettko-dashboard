@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-01T19:42:07.621Z",
+  "updated_at": "2026-11-02T00:46:11.331Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Norske Skog bryter med Green Mountain og søker ny datasenterpartner",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1p3bHA0dXY4OU5RckRJYThIZDhraHZrdWRDSDBMLVVrcXdheDMzeGxhUVB0WnRtRUZZb1N0VklqMVExQVgyMHRqdFFmV1JOZ1ctVkxVUFcxMzNka3RFaktYOVJNNVZLSm1ZQnBDV2RCbUUwT2VWeHNfTDNZUkR3d29vVmVpNTUzUEU1X1dQNUZ1amd1QWJiX1FudnJWV3VNZnQ4NDB0eFRxTWJfR3cxaTRmWldlNEpBckJyRmk2bXE?oc=5",
+      "source": "Finansavisen",
+      "published_at": "2026-11-01T19:39:59.000Z",
+      "summary": "Norske Skog bryter med Green Mountain og søker ny datasenterpartner &nbsp;&nbsp; Finansavisen"
+    },
     {
       "title": "Vil at myndighetene skal se på datasenter-skatt: – Må gi mer tilbake til samfunnet (+)",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWthMThFdko3ZDF6QmVKOGxWOG1SZ3doSmJjMUEyc1ZWVkxKdlpTSlJvNzhrU1h3VkVrblNOWnRsV194Z1hXTEg0RnpGZkxUOG9pSUYxdEpxQ3hhV0RUUk9rRUhxT2xYNzFrOEVEbkthWDBxam84dDMzd1Z1cHRncEhza0pQV21LWmxnUVZJYmkzejRXNF82S2QtblVqMkdpRGlYYzRUTU1UZ2RWb0xWSV9NQ1JqUVE?oc=5",
@@ -78,13 +85,6 @@
       "source": "Avisen Agder",
       "published_at": "2026-10-29T14:02:19.000Z",
       "summary": "Ny rapport: Datasenter har høy verdiskaping pr. ansatt og sysselsettingen pr. MW er omtrent på nivå med metallindustrien &nbsp;&nbsp; Avisen Agder"
-    },
-    {
-      "title": "Fremmer hasteforslag om datasenterfrys",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wMGtYUkdVeXVlaDVKaGJWLWlSSUM3eDRQWHpGeWI2SmFMY2Rnbk5VOGlJQUQxekFFaHRxdHVjR0lXTzRkdFk4MF9McmZvV1NsTmpvcEpTV0FOM284TTVvY3BGejF0MUJYdE5XdzZOSEUyeXFpSHhJUXdETGdDdFk?oc=5",
-      "source": "NRK",
-      "published_at": "2026-10-28T16:05:58.000Z",
-      "summary": "Fremmer hasteforslag om datasenterfrys &nbsp;&nbsp; NRK"
     }
   ]
 }
