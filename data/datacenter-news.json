@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-03T06:50:21.050Z",
+  "updated_at": "2026-11-03T23:24:42.658Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Brøt loven 143 ganger under bygging av Googles datasenter",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRThDZkRmWXJGYldaRFJITXZRanUzVGxsNW5XN1RyNjUwdy1BX09xSVhYcGxCOF9nc0dfaUI4NnBjVF85OGlZNGxrTW4tMHYxT2h6YVcxcFhGU2NpMDQ3VGYwVENNME8yTHNVRHVENDhCVjZwX3NOM2xSLVdHTUR3NkFVT1JDc0luVjdaNXdacXVMT3RwRTAyUXF1RFZpSlpMX01CV0h6dTNqc04tR0hCRFozaVhqTjZ0ZGhkUHZiRnpvQTNOUEJnTU5ZeGJmNDQ?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-11-02T13:58:39.000Z",
-      "summary": "Brøt loven 143 ganger under bygging av Googles datasenter &nbsp;&nbsp; Aftenposten"
-    },
     {
       "title": "Godkjenner plan for batterifabrikk og kjempe-datasenter i Trøndelag",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXN0WTI2RTVGWWtZXzFuYTdubWlTckh3SWFpcFlfblNLNmdVQXRQZkRkdkJNYmdlOTM4Wmx3d1h3czQ2Yzh5V09sZ054UVVLeWx6c2VzYnlXVklmTmZaZUwxWUdJNkl4Q0JwNFBWelB1ZHhRY0N4UmcyRmJ3YkFSUVU4R2NELXNzX3gteVBMTFZqVU9FZ0J3Y1MtVXQ5SEdYN1VfazA1bjF2S2Nj?oc=5",
       "source": "adressa.no",
       "published_at": "2026-11-02T08:34:42.000Z",
       "summary": "Godkjenner plan for batterifabrikk og kjempe-datasenter i Trøndelag &nbsp;&nbsp; adressa.no"
+    },
+    {
+      "title": "Brøt loven 143 ganger under bygging av Googles datasenter",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRThDZkRmWXJGYldaRFJITXZRanUzVGxsNW5XN1RyNjUwdy1BX09xSVhYcGxCOF9nc0dfaUI4NnBjVF85OGlZNGxrTW4tMHYxT2h6YVcxcFhGU2NpMDQ3VGYwVENNME8yTHNVRHVENDhCVjZwX3NOM2xSLVdHTUR3NkFVT1JDc0luVjdaNXdacXVMT3RwRTAyUXF1RFZpSlpMX01CV0h6dTNqc04tR0hCRFozaVhqTjZ0ZGhkUHZiRnpvQTNOUEJnTU5ZeGJmNDQ?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-11-02T13:58:39.000Z",
+      "summary": "Brøt loven 143 ganger under bygging av Googles datasenter &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "113 datasenter bygd i Norge: – Det er en utfordring",
@@ -31,11 +31,11 @@
       "summary": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget &nbsp;&nbsp; NRK"
     },
     {
-      "title": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVRKb3lpbkVoc0tmdTRka1owdGR4c3N2MDRGYzFCWUJjU0lCbTVKSjVIbkV4bDdlUnI4YTZQLVZtZmJMb3FLYXNEUjg0ZjBjVDlpYnFycUNPNkt4ZE9wR1lDSG5oSFdRYWl2NW1Kd2NMNndZT3F0SEVvODZIdUhXdFhCdFlFRUhGNFZGaFRSamxrSDhfQkE2OFUwaFpqNWhFS3pTVnI4OVpONzJRNjRTbnZOT2g?oc=5",
-      "source": "Rana Blad",
-      "published_at": "2026-11-02T13:26:26.000Z",
-      "summary": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil &nbsp;&nbsp; Rana Blad"
+      "title": "Tre av fire datasenter eies fra skatteparadis",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5scGJJbzhDWDZSb2Rvd3dYQkVsMFZVT1lmNkF5OFY5dVJHR1Z2R0JVWlA4OUZqbGlPcXEycFcwWEcxdGZCNlV6OWc1QUlWSDJxVTJlSHZMWm5RWFp2S2tvZEduY1QtTW4wNFg2MFQxeGRPbjUyREN5V2duXzFIbzA?oc=5",
+      "source": "driva.no",
+      "published_at": "2026-11-03T13:49:22.000Z",
+      "summary": "Tre av fire datasenter eies fra skatteparadis &nbsp;&nbsp; driva.no"
     },
     {
       "title": "Norske Skog bryter med Green Mountain og søker ny datasenterpartner",
@@ -52,13 +52,6 @@
       "summary": "Vil at myndighetene skal se på datasenter-skatt: – Må gi mer tilbake til samfunnet (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
-      "title": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0wxc2hQellrS2RBcHYyZGFySzAxaDJHN3VwNzU4dmVMQ3F1aUh6ZVJSSXZZbHV5RElmb1FHRk9tdU5rT2NvWUotSzVKSVdEXzBPSm1US29kQ09yZ0tIZEFGZlZRZUtTZUdLN1ViZ25nZkowSmRyanZQR2dmVGJiTGFNX2VXenI1WE90YkxBcVZlRFhXc29QeDFWTlRoWF9veVNfSWRiTVhUc0M3aUtoczZNeE03UQ?oc=5",
-      "source": "Halden Arbeiderblad",
-      "published_at": "2026-11-02T11:40:49.000Z",
-      "summary": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter &nbsp;&nbsp; Halden Arbeiderblad"
-    },
-    {
       "title": "Datasenter-boom i Norge: Agder og Telemark leder an",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnc4akdQQkpObFlTNkxBOExHRzNweWdaX1ZOT3ZHNTkwdkl0cTBDMWlFRzdPMnZZUVA5clpOdEtwYlRsa0pyaDZmakhiTk5Eb1daTXpiaTFSSXNLRm9QUGhsVS1INmN2QkdDTDU5X0JZMV81X1c1ODI3bTg2UXhWWkgtNjFWTmJpT0hJUHQ2SWFjb29CWEZXSw?oc=5",
       "source": "Dagsavisen",
@@ -66,18 +59,25 @@
       "summary": "Datasenter-boom i Norge: Agder og Telemark leder an &nbsp;&nbsp; Dagsavisen"
     },
     {
-      "title": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGJUTWFteVowMm5ZX2ZpdzU5LVV6blNyelpMZmFCc2Y5XzMwUnNyLU4tQzBYcTZkWXlKZjg0S2NEU01xVXRwaGhQamVXS0NPeUY5U0tHV3liRWV3aHhGOGtQUU9rN0dmcXg2eFFwaW1QNjRPdmY0VHB0djE5NmRlUS1GS1VJYXZXQ0xrd3RIMXpkdHNseFNoaTU3c1R4YUo5NWhObUkwZkp0QQ?oc=5",
-      "source": "digi.no",
-      "published_at": "2026-10-29T16:30:00.000Z",
-      "summary": "(+) Datasenter-toppene advarer mot frys: – Vil ramme de norskeide aktørene &nbsp;&nbsp; digi.no"
+      "title": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVRKb3lpbkVoc0tmdTRka1owdGR4c3N2MDRGYzFCWUJjU0lCbTVKSjVIbkV4bDdlUnI4YTZQLVZtZmJMb3FLYXNEUjg0ZjBjVDlpYnFycUNPNkt4ZE9wR1lDSG5oSFdRYWl2NW1Kd2NMNndZT3F0SEVvODZIdUhXdFhCdFlFRUhGNFZGaFRSamxrSDhfQkE2OFUwaFpqNWhFS3pTVnI4OVpONzJRNjRTbnZOT2g?oc=5",
+      "source": "Rana Blad",
+      "published_at": "2026-11-02T13:26:26.000Z",
+      "summary": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil &nbsp;&nbsp; Rana Blad"
     },
     {
-      "title": "Lakse-Norge vil ha datasenter-stopp",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVNYcy1lS2JESG5sYUp0UFotN2pfelQ4ZHhRaWZnNG1PVkNnTk5NTW1PdGxOTGhzYTNCRjFEbHBlVGZQOElaRERzSVptRHJzOUtWOFJSbU9vYjFOUDB0eUNIZ3dvWjJ4SjJ2VUI4TkF0MkhCaGlrS1cxQWdOWnowcFBCdHBLZw?oc=5",
-      "source": "Klassekampen",
-      "published_at": "2026-10-29T23:10:22.000Z",
-      "summary": "Lakse-Norge vil ha datasenter-stopp &nbsp;&nbsp; Klassekampen"
+      "title": "Klipp mandag: Solhjell antyder skatt på datasenter (+)",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM2FwR01YV3ktOGI5XzlQQXM4amV1WEo1TTZVZXpGdGpma21oQlIzS3FuQmxKdFFsWmZkbEpmYnZoc29iVFB6ZkIyLUJTeWpPb1B3bFZqcG1PVXlLeFFkNGNfVlVKYTRlX1pBUE13bVNPOEJTaWNPTHNfcDA3Z054ZDg3OE05ZTJkOURIVnRmVHFrSnh3ZkJVRFZ3?oc=5",
+      "source": "Europower",
+      "published_at": "2026-11-02T07:18:43.000Z",
+      "summary": "Klipp mandag: Solhjell antyder skatt på datasenter (+) &nbsp;&nbsp; Europower"
+    },
+    {
+      "title": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0wxc2hQellrS2RBcHYyZGFySzAxaDJHN3VwNzU4dmVMQ3F1aUh6ZVJSSXZZbHV5RElmb1FHRk9tdU5rT2NvWUotSzVKSVdEXzBPSm1US29kQ09yZ0tIZEFGZlZRZUtTZUdLN1ViZ25nZkowSmRyanZQR2dmVGJiTGFNX2VXenI1WE90YkxBcVZlRFhXc29QeDFWTlRoWF9veVNfSWRiTVhUc0M3aUtoczZNeE03UQ?oc=5",
+      "source": "Halden Arbeiderblad",
+      "published_at": "2026-11-02T11:40:49.000Z",
+      "summary": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter &nbsp;&nbsp; Halden Arbeiderblad"
     },
     {
       "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
