@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T23:41:10.809Z",
+  "updated_at": "2026-11-05T06:49:41.947Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -24,13 +24,6 @@
       "summary": "113 datasenter bygd i Norge: – Det er en utfordring &nbsp;&nbsp; TV 2"
     },
     {
-      "title": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026]",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TMF9NZUNMMUZWdTFHS00tM04xQkdDRmp5SFNscWloSmtURllJeGJVaGs5amZvZTlYNHJvT1BTU19mbVRfTV9XdkFFNjJtWGRMbk9weXJlR0hXdW5RSVNnZTJPT25DWEJ0WlVKWmROSQ?oc=5",
-      "source": "shattered.io",
-      "published_at": "2026-11-04T09:39:38.000Z",
-      "summary": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026] &nbsp;&nbsp; shattered.io"
-    },
-    {
       "title": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXF3RXFtNkM2MldGdkxrSGxSMG8zSktpVVNSQzNmbVpEYmhTcnQ1SFBXS2ZLaFhzNkZWb29pQWlMZEY5TFp0b2JMOHc0ZTVRY3NIV05UanBZZjR5aGJMSC1Vb1A0aVc2WGNXYkxzYkg1cWY0TEdycDRueThwRTJZRnhIZHNxUF9wQjFWUWJNLTZnNWU1TVRBWlJZbkFnOEt3VWZITzAyNzNHMlF5cTRF?oc=5",
       "source": "NRK",
@@ -43,6 +36,13 @@
       "source": "Finansavisen",
       "published_at": "2026-11-01T19:39:59.000Z",
       "summary": "Norske Skog bryter med Green Mountain og søker ny datasenterpartner &nbsp;&nbsp; Finansavisen"
+    },
+    {
+      "title": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026]",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TMF9NZUNMMUZWdTFHS00tM04xQkdDRmp5SFNscWloSmtURllJeGJVaGs5amZvZTlYNHJvT1BTU19mbVRfTV9XdkFFNjJtWGRMbk9weXJlR0hXdW5RSVNnZTJPT25DWEJ0WlVKWmROSQ?oc=5",
+      "source": "shattered.io",
+      "published_at": "2026-11-04T09:39:38.000Z",
+      "summary": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026] &nbsp;&nbsp; shattered.io"
     },
     {
       "title": "Vil at myndighetene skal se på datasenter-skatt: – Må gi mer tilbake til samfunnet (+)",
@@ -80,11 +80,11 @@
       "summary": "Datasenter-boom i Norge: Agder og Telemark leder an &nbsp;&nbsp; Dagsavisen"
     },
     {
-      "title": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0wxc2hQellrS2RBcHYyZGFySzAxaDJHN3VwNzU4dmVMQ3F1aUh6ZVJSSXZZbHV5RElmb1FHRk9tdU5rT2NvWUotSzVKSVdEXzBPSm1US29kQ09yZ0tIZEFGZlZRZUtTZUdLN1ViZ25nZkowSmRyanZQR2dmVGJiTGFNX2VXenI1WE90YkxBcVZlRFhXc29QeDFWTlRoWF9veVNfSWRiTVhUc0M3aUtoczZNeE03UQ?oc=5",
-      "source": "Halden Arbeiderblad",
-      "published_at": "2026-11-02T11:40:49.000Z",
-      "summary": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter &nbsp;&nbsp; Halden Arbeiderblad"
+      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-10-29T14:00:50.000Z",
+      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
     }
   ]
 }
