@@ -1,20 +1,27 @@
 {
-  "updated_at": "2026-11-05T06:49:41.947Z",
+  "updated_at": "2026-11-05T17:25:24.429Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Gi gass til datasenter",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Zl90RnA4c0ZhbTJxY1VmZHF2N281ODNCQk5GUzcxR0NMU0FHSkxVUng4UFczbVVwQXBwbndFcXYtZERTRnVJWVcyQ2MtUnBYT3BqSWlhQ0JKQWkwQjJFaW0wVm1BZkV3eFZZcmc0dw?oc=5",
+      "source": "E24",
+      "published_at": "2026-11-05T12:58:01.000Z",
+      "summary": "Gi gass til datasenter &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ01tOTFOcnRCNmhqSVVaU1NCdTNCYU5QSzVKVHhnOG1lQ1c5Um5MWWtlaE5NaWMwRVlrVmY1TWhudUxSR0Z4bFkzaThQYnJlZjg2WjhvOXZjY3hPRTc4S3d5akpIVVVQR3R2aTdRWVZCU0VRQ1N4aVNtSVdrQjZqUE45UmFtdE8xZWpONWdjdnhvYi1rUXQ5VzN3SzZubzd0Ulp2dTVfLXdRUjFSMldUdlpaUE1NbFU?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-11-05T11:05:32.000Z",
+      "summary": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig &nbsp;&nbsp; Aftenposten"
+    },
     {
       "title": "Godkjenner plan for batterifabrikk og kjempe-datasenter i Trøndelag",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXN0WTI2RTVGWWtZXzFuYTdubWlTckh3SWFpcFlfblNLNmdVQXRQZkRkdkJNYmdlOTM4Wmx3d1h3czQ2Yzh5V09sZ054UVVLeWx6c2VzYnlXVklmTmZaZUwxWUdJNkl4Q0JwNFBWelB1ZHhRY0N4UmcyRmJ3YkFSUVU4R2NELXNzX3gteVBMTFZqVU9FZ0J3Y1MtVXQ5SEdYN1VfazA1bjF2S2Nj?oc=5",
       "source": "adressa.no",
       "published_at": "2026-11-02T08:34:42.000Z",
       "summary": "Godkjenner plan for batterifabrikk og kjempe-datasenter i Trøndelag &nbsp;&nbsp; adressa.no"
-    },
-    {
-      "title": "Brøt loven 143 ganger under bygging av Googles datasenter",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRThDZkRmWXJGYldaRFJITXZRanUzVGxsNW5XN1RyNjUwdy1BX09xSVhYcGxCOF9nc0dfaUI4NnBjVF85OGlZNGxrTW4tMHYxT2h6YVcxcFhGU2NpMDQ3VGYwVENNME8yTHNVRHVENDhCVjZwX3NOM2xSLVdHTUR3NkFVT1JDc0luVjdaNXdacXVMT3RwRTAyUXF1RFZpSlpMX01CV0h6dTNqc04tR0hCRFozaVhqTjZ0ZGhkUHZiRnpvQTNOUEJnTU5ZeGJmNDQ?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-11-02T13:58:39.000Z",
-      "summary": "Brøt loven 143 ganger under bygging av Googles datasenter &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "113 datasenter bygd i Norge: – Det er en utfordring",
@@ -38,13 +45,6 @@
       "summary": "Norske Skog bryter med Green Mountain og søker ny datasenterpartner &nbsp;&nbsp; Finansavisen"
     },
     {
-      "title": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026]",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TMF9NZUNMMUZWdTFHS00tM04xQkdDRmp5SFNscWloSmtURllJeGJVaGs5amZvZTlYNHJvT1BTU19mbVRfTV9XdkFFNjJtWGRMbk9weXJlR0hXdW5RSVNnZTJPT25DWEJ0WlVKWmROSQ?oc=5",
-      "source": "shattered.io",
-      "published_at": "2026-11-04T09:39:38.000Z",
-      "summary": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026] &nbsp;&nbsp; shattered.io"
-    },
-    {
       "title": "Vil at myndighetene skal se på datasenter-skatt: – Må gi mer tilbake til samfunnet (+)",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWthMThFdko3ZDF6QmVKOGxWOG1SZ3doSmJjMUEyc1ZWVkxKdlpTSlJvNzhrU1h3VkVrblNOWnRsV194Z1hXTEg0RnpGZkxUOG9pSUYxdEpxQ3hhV0RUUk9rRUhxT2xYNzFrOEVEbkthWDBxam84dDMzd1Z1cHRncEhza0pQV21LWmxnUVZJYmkzejRXNF82S2QtblVqMkdpRGlYYzRUTU1UZ2RWb0xWSV9NQ1JqUVE?oc=5",
       "source": "Dagens Næringsliv",
@@ -55,8 +55,15 @@
       "title": "Tre av fire datasenter eies fra skatteparadis",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5scGJJbzhDWDZSb2Rvd3dYQkVsMFZVT1lmNkF5OFY5dVJHR1Z2R0JVWlA4OUZqbGlPcXEycFcwWEcxdGZCNlV6OWc1QUlWSDJxVTJlSHZMWm5RWFp2S2tvZEduY1QtTW4wNFg2MFQxeGRPbjUyREN5V2duXzFIbzA?oc=5",
       "source": "driva.no",
-      "published_at": "2026-11-03T07:30:00.000Z",
+      "published_at": "2026-11-03T13:49:22.000Z",
       "summary": "Tre av fire datasenter eies fra skatteparadis &nbsp;&nbsp; driva.no"
+    },
+    {
+      "title": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026]",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TMF9NZUNMMUZWdTFHS00tM04xQkdDRmp5SFNscWloSmtURllJeGJVaGs5amZvZTlYNHJvT1BTU19mbVRfTV9XdkFFNjJtWGRMbk9weXJlR0hXdW5RSVNnZTJPT25DWEJ0WlVKWmROSQ?oc=5",
+      "source": "shattered.io",
+      "published_at": "2026-11-04T09:39:38.000Z",
+      "summary": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026] &nbsp;&nbsp; shattered.io"
     },
     {
       "title": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil",
@@ -73,18 +80,11 @@
       "summary": "Klipp mandag: Solhjell antyder skatt på datasenter (+) &nbsp;&nbsp; Europower"
     },
     {
-      "title": "Datasenter-boom i Norge: Agder og Telemark leder an",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnc4akdQQkpObFlTNkxBOExHRzNweWdaX1ZOT3ZHNTkwdkl0cTBDMWlFRzdPMnZZUVA5clpOdEtwYlRsa0pyaDZmakhiTk5Eb1daTXpiaTFSSXNLRm9QUGhsVS1INmN2QkdDTDU5X0JZMV81X1c1ODI3bTg2UXhWWkgtNjFWTmJpT0hJUHQ2SWFjb29CWEZXSw?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-10-30T12:47:47.000Z",
-      "summary": "Datasenter-boom i Norge: Agder og Telemark leder an &nbsp;&nbsp; Dagsavisen"
-    },
-    {
-      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
+      "title": "Brøt loven 143 ganger under bygging av Googles datasenter",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRThDZkRmWXJGYldaRFJITXZRanUzVGxsNW5XN1RyNjUwdy1BX09xSVhYcGxCOF9nc0dfaUI4NnBjVF85OGlZNGxrTW4tMHYxT2h6YVcxcFhGU2NpMDQ3VGYwVENNME8yTHNVRHVENDhCVjZwX3NOM2xSLVdHTUR3NkFVT1JDc0luVjdaNXdacXVMT3RwRTAyUXF1RFZpSlpMX01CV0h6dTNqc04tR0hCRFozaVhqTjZ0ZGhkUHZiRnpvQTNOUEJnTU5ZeGJmNDQ?oc=5",
       "source": "Aftenposten",
-      "published_at": "2026-10-29T14:00:50.000Z",
-      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
+      "published_at": "2026-11-02T13:58:39.000Z",
+      "summary": "Brøt loven 143 ganger under bygging av Googles datasenter &nbsp;&nbsp; Aftenposten"
     }
   ]
 }
