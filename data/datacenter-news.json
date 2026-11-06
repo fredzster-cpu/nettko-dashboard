@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:39:04.892Z",
+  "updated_at": "2026-11-06T06:50:11.954Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -66,13 +66,6 @@
       "summary": "Datasenter-stans i Norge: NVE varsler 25 TWh [2026] &nbsp;&nbsp; shattered.io"
     },
     {
-      "title": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0wxc2hQellrS2RBcHYyZGFySzAxaDJHN3VwNzU4dmVMQ3F1aUh6ZVJSSXZZbHV5RElmb1FHRk9tdU5rT2NvWUotSzVKSVdEXzBPSm1US29kQ09yZ0tIZEFGZlZRZUtTZUdLN1ViZ25nZkowSmRyanZQR2dmVGJiTGFNX2VXenI1WE90YkxBcVZlRFhXc29QeDFWTlRoWF9veVNfSWRiTVhUc0M3aUtoczZNeE03UQ?oc=5",
-      "source": "Halden Arbeiderblad",
-      "published_at": "2026-11-02T11:40:49.000Z",
-      "summary": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter &nbsp;&nbsp; Halden Arbeiderblad"
-    },
-    {
       "title": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVRKb3lpbkVoc0tmdTRka1owdGR4c3N2MDRGYzFCWUJjU0lCbTVKSjVIbkV4bDdlUnI4YTZQLVZtZmJMb3FLYXNEUjg0ZjBjVDlpYnFycUNPNkt4ZE9wR1lDSG5oSFdRYWl2NW1Kd2NMNndZT3F0SEVvODZIdUhXdFhCdFlFRUhGNFZGaFRSamxrSDhfQkE2OFUwaFpqNWhFS3pTVnI4OVpONzJRNjRTbnZOT2g?oc=5",
       "source": "Rana Blad",
@@ -85,6 +78,13 @@
       "source": "Europower",
       "published_at": "2026-11-02T07:18:43.000Z",
       "summary": "Klipp mandag: Solhjell antyder skatt på datasenter (+) &nbsp;&nbsp; Europower"
+    },
+    {
+      "title": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS0wxc2hQellrS2RBcHYyZGFySzAxaDJHN3VwNzU4dmVMQ3F1aUh6ZVJSSXZZbHV5RElmb1FHRk9tdU5rT2NvWUotSzVKSVdEXzBPSm1US29kQ09yZ0tIZEFGZlZRZUtTZUdLN1ViZ25nZkowSmRyanZQR2dmVGJiTGFNX2VXenI1WE90YkxBcVZlRFhXc29QeDFWTlRoWF9veVNfSWRiTVhUc0M3aUtoczZNeE03UQ?oc=5",
+      "source": "Halden Arbeiderblad",
+      "published_at": "2026-11-02T11:40:49.000Z",
+      "summary": "Saugbrugs avslutter samarbeidet med Green Mountain – jakter ny partner for datasenter &nbsp;&nbsp; Halden Arbeiderblad"
     }
   ]
 }
