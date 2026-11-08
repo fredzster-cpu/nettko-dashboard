@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T17:56:20.332Z",
+  "updated_at": "2026-11-08T22:07:43.245Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -22,13 +22,6 @@
       "source": "Teknisk Ukeblad",
       "published_at": "2026-11-06T12:17:28.000Z",
       "summary": "Norsk satsing: Grønt lys til å bygge datasenter og batterifabrikk i Orkanger &nbsp;&nbsp; Teknisk Ukeblad"
-    },
-    {
-      "title": "113 datasenter bygd i Norge: – Det er en utfordring",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Na3Q1MDhzd3poUF81Z0RXblZIN0xRV1M3SHJwUjhBdEhEeFphM0FKTUVPYWdHS29pQW5GcnhwUG1xd0x2UWlvODM2VURLcHA4WWE2NWpUTkdkbTdJRlRzTjdZUkt2eHpn?oc=5",
-      "source": "TV 2",
-      "published_at": "2026-10-29T07:00:00.000Z",
-      "summary": "113 datasenter bygd i Norge: – Det er en utfordring &nbsp;&nbsp; TV 2"
     },
     {
       "title": "Datasenter i Fyresdal kan rammes av mulig stopp på Stortinget",
@@ -66,13 +59,6 @@
       "summary": "Skeptisk til full datasenter-stopp: – For meg er det én bruk jeg mener blir feil &nbsp;&nbsp; Rana Blad"
     },
     {
-      "title": "Tiktok vurderer nytt datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
-      "source": "E24",
-      "published_at": "2026-10-18T07:00:00.000Z",
-      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
-    },
-    {
       "title": "Her skulle en hemmelig kunde ha datasenter ved fjorden.",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaThiTWhqTDBDU3NwWUdlS01YZDgtcF9ESkJVbk9MQzM5b2NucER3QndZY1VXZm9zNEpXZ0hZWFFtYkpCaU1QZmNLR04wNE1Qc0Z3OWYxc3dHMmJEQ3BaT1ZFdXQ1QmRqWlpGQ3ZDaGVnRkRSU0tndU9EcHprTkJRZ3NJWDJmRHNy?oc=5",
       "source": "Bergens Tidende",
@@ -80,11 +66,25 @@
       "summary": "Her skulle en hemmelig kunde ha datasenter ved fjorden. &nbsp;&nbsp; Bergens Tidende"
     },
     {
+      "title": "Tiktok vurderer nytt datasenter i Norge",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-18T07:00:00.000Z",
+      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
+    },
+    {
       "title": "SV-topp fyrer over datasenter-vedtak: – Ville vesten",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS0lvbUlnZUpZamNpdENOT0RYTlhaeWVnWm8xVjlObXFaOG8wWFVnUERkdTBPTjJneVBQX2V1Mmo4VnNFbXQxSE5Za1JXZ2VzWlFoTHRTdXhqaFBVYWFOMVRiZFV6ck82RHMwc25adklGTkQ4OFBHeHUtVDRQTTUtMlFwbk83U3V5V0lnY2RuRGlEMTU4MHIxa1gtd242TXVyZEhSSWtaT3N5aHNJdVd3bHFqM1pZQTlra3ZvLUdQci1kdFpi?oc=5",
       "source": "Nettavisen",
       "published_at": "2026-11-06T09:49:37.000Z",
       "summary": "SV-topp fyrer over datasenter-vedtak: – Ville vesten &nbsp;&nbsp; Nettavisen"
+    },
+    {
+      "title": "Datasenter kan være på vei til Oslo Børs",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTVWQWhYU0lhcXQwVlVhWTJtYnRfamFQZTdlTUJsVkNZT1NSOUJSYzZVOXRSVUhCQjF0V092cVpRckVmNEdXRm93OGxWRmZOaTlzSTU4TWRuZmdsOW8yOEpoNWN0TExhX29ZMTlzRkN3cWZQRDlsNmQ3T05ZbWdmSnpOcmNBZ3NZOC04?oc=5",
+      "source": "E24",
+      "published_at": "2026-10-06T07:00:00.000Z",
+      "summary": "Datasenter kan være på vei til Oslo Børs &nbsp;&nbsp; E24"
     }
   ]
 }
