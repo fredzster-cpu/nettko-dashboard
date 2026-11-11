@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-10T21:18:25.326Z",
+  "updated_at": "2026-11-11T06:26:18.477Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Statsforvalteren i Agder stanser datasenter",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOME5CSjZDMlJXUWVjZWlQVzVHOUw3WkJGY1BVSFVoXzhrZ045NVpKUUsxRmx4QjBDdG00QlphQWQ3bGhQQ3ZYbkktQ3hkUVJ0aHFmYkw0U0h3NlI5UlFJN2hqZm5FZmtGQS1sTV8xeVpFeWhaSGt1Tmoyd2pxOFFSaGp0Y0djM25qR0pj?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-11-10T03:27:00.000Z",
-      "summary": "Statsforvalteren i Agder stanser datasenter &nbsp;&nbsp; Dagens Næringsliv"
-    },
     {
       "title": "Notodden, Nyheter | Avslører partneren: Tinfos og Skygard vil bygge datasenter",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRlJHQm5FVTgyUXdKVHlUa09SamNUeWo3Y29HZHRnSDQyMEZVOW95NDk4N2J5MnNLMXk3b0c3UFZfQmozRUVsZzJ1WkhSX2JkMm5aZ2dEQWFQc0tvYjkxMW9wUDVhYzZwbHA5MDVlcTgxdG9oS2xocld2NldHUHJNaFJVRURiMWhqd0xrTURlRHktNVl1U3ZJ?oc=5",
       "source": "Telen",
       "published_at": "2026-11-10T19:00:00.000Z",
       "summary": "Notodden, Nyheter | Avslører partneren: Tinfos og Skygard vil bygge datasenter &nbsp;&nbsp; Telen"
+    },
+    {
+      "title": "NHH-professor skeptisk til datasenter-grep",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcW9oV2F1QllZcGxob1hNRF9IZTBvUmpLcnZVbjYzRTdoejhKU0RVNHVtb19aUXk3NXloTC1IYlNLNmpEOExoemU1ek9vWmhCb29zTmJOWmpSSzh0QndabUNvN1o0US00cENydi0taTRfd09VcUtKQ29NTFQtQ3RFUjVkRy1FSURVOURGb3Z3ckZXbDRFTFpZMzRjbjY4anRHY2lEdG93?oc=5",
+      "source": "NHH",
+      "published_at": "2026-11-09T11:29:18.000Z",
+      "summary": "NHH-professor skeptisk til datasenter-grep &nbsp;&nbsp; NHH"
     },
     {
       "title": "Vi tar kontrollen over datasenter",
@@ -31,20 +31,6 @@
       "summary": "Anita Sollie (H) etter regjeringens datasenter-grep: – Dette er en viktig sak som betyr mye &nbsp;&nbsp; Rana No"
     },
     {
-      "title": "NHH-professor skeptisk til datasenter-grep",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcW9oV2F1QllZcGxob1hNRF9IZTBvUmpLcnZVbjYzRTdoejhKU0RVNHVtb19aUXk3NXloTC1IYlNLNmpEOExoemU1ek9vWmhCb29zTmJOWmpSSzh0QndabUNvN1o0US00cENydi0taTRfd09VcUtKQ29NTFQtQ3RFUjVkRy1FSURVOURGb3Z3ckZXbDRFTFpZMzRjbjY4anRHY2lEdG93?oc=5",
-      "source": "NHH",
-      "published_at": "2026-11-09T11:29:18.000Z",
-      "summary": "NHH-professor skeptisk til datasenter-grep &nbsp;&nbsp; NHH"
-    },
-    {
-      "title": "Ønsker datasenter til 30 milliarder: – Det bør komme strengere regulering",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHhnWmZncGRMaW9nZE5IZ0RQOGJlem9hN01FRHJpbzNEVDdiYlktMXdBT3VJWjFUal9ORE1MNXM4ajhSZVY0aThMV3FmRlBudzA3NXB5aUFPWEpqN3NESG5uVi03MWx6LVlXaFNyVGxjU2ZCckhBRHBhQmU1c2RZWWdZOWgwb0pCa05vMnVKUDZGVGEtLWNIM3NuNnpKUmV4R29tU1FIWEE0dFF1M3ppWktWTQ?oc=5",
-      "source": "Namdalsavisa",
-      "published_at": "2026-11-09T18:58:19.000Z",
-      "summary": "Ønsker datasenter til 30 milliarder: – Det bør komme strengere regulering &nbsp;&nbsp; Namdalsavisa"
-    },
-    {
       "title": "Skal bygge datasenter i Trøndelag – slik reagerer de på strømstansen",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWm5Ba1V0R2l1V3FGNmgwUVZxMVV5aDZWR1dSNk1MSG9iT1hPaUlmZ3dyazJCamJTRjNjRFRVeDNlbWk3N2hDMkdPVnFJV0xMbzdtYU9ZM2tzSzV3S0ZIbkhpX3k0QXptUHFDTXRmTF83ZzVRYWJRM0JFc2FrVTYxN3gxZWZYTkJxNUdFX2pCbi1nY1UtbE55aE5hQnBJUEZJaklCNEl3N2NCMGVKUEhjQ3ZZVjFiNUY4ZjVEbjJjZFQ?oc=5",
       "source": "adressa.no",
@@ -52,18 +38,18 @@
       "summary": "Skal bygge datasenter i Trøndelag – slik reagerer de på strømstansen &nbsp;&nbsp; adressa.no"
     },
     {
-      "title": "Statnett datasenter-stans: 9 100 MW i kø [2026]",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSTFzSHRzejBfcFJGem9xQlFUUllJemFhR0h1QmpQN1VMaWhUdllSSDVMRDNZZXRTczRsVXpIbjFlbFNUVFJqa1ZOcjdYanlnSVR3ckQtSzFGbnRDbkdubUJ4WkFha0tfWjN0SXBNa3VPb0pWSmxWMGZ0MlpWUWxISWpSaXA?oc=5",
-      "source": "shattered.io",
-      "published_at": "2026-11-10T08:53:29.000Z",
-      "summary": "Statnett datasenter-stans: 9 100 MW i kø [2026] &nbsp;&nbsp; shattered.io"
-    },
-    {
       "title": "Varsler datasenter-grep – men ingen forslag er klare",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYnp1ck50djBycU1mNFotbVRUQkp6dkkwTnpQYkUtQ0xkMkszNm9oSFRhNTFYN0NZOGxxYUdOQlFvMUNWdElXSFI5LXNWdjd6UHZpMGhzQXFweEpPY0ZMcjQ4bGI5MkFTMDFOYlB2UFVKaWpscGlXWENnSjhXYUtnX2h0cEFzTmNnek8zaXdnUXp3LXNKMVhyc05YMkk0QnJFeWU0bGhzblZQdw?oc=5",
       "source": "Finansavisen",
       "published_at": "2026-11-09T13:35:37.000Z",
       "summary": "Varsler datasenter-grep – men ingen forslag er klare &nbsp;&nbsp; Finansavisen"
+    },
+    {
+      "title": "Ønsker datasenter til 30 milliarder: – Det bør komme strengere regulering",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHhnWmZncGRMaW9nZE5IZ0RQOGJlem9hN01FRHJpbzNEVDdiYlktMXdBT3VJWjFUal9ORE1MNXM4ajhSZVY0aThMV3FmRlBudzA3NXB5aUFPWEpqN3NESG5uVi03MWx6LVlXaFNyVGxjU2ZCckhBRHBhQmU1c2RZWWdZOWgwb0pCa05vMnVKUDZGVGEtLWNIM3NuNnpKUmV4R29tU1FIWEE0dFF1M3ppWktWTQ?oc=5",
+      "source": "Namdalsavisa",
+      "published_at": "2026-11-09T18:58:19.000Z",
+      "summary": "Ønsker datasenter til 30 milliarder: – Det bør komme strengere regulering &nbsp;&nbsp; Namdalsavisa"
     },
     {
       "title": "Stopp i nye datasenter-reservasjoner og konsesjonsordning på gang",
@@ -80,11 +66,25 @@
       "summary": "Reagerer på datasenter-tiltak: – Skulle bare mangle &nbsp;&nbsp; Nettavisen"
     },
     {
-      "title": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ01tOTFOcnRCNmhqSVVaU1NCdTNCYU5QSzVKVHhnOG1lQ1c5Um5MWWtlaE5NaWMwRVlrVmY1TWhudUxSR0Z4bFkzaThQYnJlZjg2WjhvOXZjY3hPRTc4S3d5akpIVVVQR3R2aTdRWVZCU0VRQ1N4aVNtSVdrQjZqUE45UmFtdE8xZWpONWdjdnhvYi1rUXQ5VzN3SzZubzd0Ulp2dTVfLXdRUjFSMldUdlpaUE1NbFU?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-11-05T11:05:32.000Z",
-      "summary": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig &nbsp;&nbsp; Aftenposten"
+      "title": "Regjeringen vil kreve at datasenter produserer sin egen strøm",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQi1zaWRYX3JTUEhJT3hqU091YVNDVUVqcjNaQlh2UTdvbFF3VkE0VDM1SkZxT29LYUlnd01hWkpuRXBhMktMS29RM092REtoZW11cXp5TklLd0hKNTZKUlRuaHlIYmZ3NGxyMEN1eDJSZUVpUUl6d1FlQl8yY1ZIU0VndlFaSUgtelFVbXo3cVctbmY1MlJHMC1SVQ?oc=5",
+      "source": "Jærbladet",
+      "published_at": "2026-11-09T10:01:34.000Z",
+      "summary": "Regjeringen vil kreve at datasenter produserer sin egen strøm &nbsp;&nbsp; Jærbladet"
+    },
+    {
+      "title": "Gi gass til datasenter",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Zl90RnA4c0ZhbTJxY1VmZHF2N281ODNCQk5GUzcxR0NMU0FHSkxVUng4UFczbVVwQXBwbndFcXYtZERTRnVJWVcyQ2MtUnBYT3BqSWlhQ0JKQWkwQjJFaW0wVm1BZkV3eFZZcmc0dw?oc=5",
+      "source": "E24",
+      "published_at": "2026-11-05T12:58:01.000Z",
+      "summary": "Gi gass til datasenter &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Kraftig reaksjon på datasenter-stans: – Setter Norges rykte på spill",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMW9aa2pRak80MDV2bF9LQmF5TmdXWmNrdndiM080T2xzeUVQY3MxWnNMbUxsNlFwN2p5U0lJNGcxeDA3alBRRnhRUktFTnI3U3FuTHdtYjJ2akxsNmpRSmxldFVnMnJEOEFrY1VtVmIxNVlYdmZVTWw4QXRHVktOTWdvM2txR2Jsbi1HdW9LRG1BaWRULTNZUHBjb1pPLVBEQWk4Tnpn?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-11-09T10:33:43.000Z",
+      "summary": "Kraftig reaksjon på datasenter-stans: – Setter Norges rykte på spill &nbsp;&nbsp; Nettavisen"
     }
   ]
 }
