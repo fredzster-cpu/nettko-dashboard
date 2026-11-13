@@ -1,34 +1,13 @@
 {
-  "updated_at": "2026-11-13T01:50:30.032Z",
+  "updated_at": "2026-11-13T11:01:18.623Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
-    {
-      "title": "Arbeidere flys inn for å bygge datasenter",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMXByd0pYN0F0ZzJtMXp2bzE2OVZSdTVVbk5SbEJDOUpiOHNWYTlWNV9HQUV6ZzVwU2drMU1hNjdfUDNScjd5MHhqVFZpVWwwWGpJaTdZR2JmcXhlTXh2cGVOckZCQ1gtdzFfTGhfdjNoWmtZM2R4ZDhReXlrVE1kaE9wYXhqNmotX1FRb1F3?oc=5",
-      "source": "Klassekampen",
-      "published_at": "2026-11-13T00:01:11.000Z",
-      "summary": "Arbeidere flys inn for å bygge datasenter &nbsp;&nbsp; Klassekampen"
-    },
     {
       "title": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme»",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTJOQzF3d1Ziay00cWRUbThJd09yb0NRMFBUZlRrOC1hdGkxNUJpeE1FSDIzLVo1RmRiRHVXbTh0WmdVZkp4LWd5S1lYUXEtMXB1a1dKSzF4aE5BY3dsblVvY2E2QnpIMXdPRXc3WEt0Y3ZiUU5CMzF1TDNwN0taSndHMnQ2OGpRS0dHX1pEWVlUTW14UUJndWxDSEd0blFw?oc=5",
       "source": "E24",
       "published_at": "2026-11-10T20:49:47.000Z",
       "summary": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme» &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Slår alarm om datasenter-boom",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY25qdzdPaS1WWklKRDFsRThNQURwNkRxc1hBcEVGYWhjTk5nYkdRN2plTjg4enpjZmFvbWpock10REJTZU1qLTFlT3VhSjlLSzRaaE9kaTk0T2FmTzVsMmtPYjBmeU5RUTg0VUozbHhocW91NnFMWW1pZ3U4MnV0RzlnT2pfVWY2ZGlhc1ZBOXBzSkFETWpmUmtoU1llemdhVGZHU1ZVNmw2S3U2NjFVZ2g0by15c193eFg2RUkzZ1ZpeW8?oc=5",
-      "source": "Nettavisen",
-      "published_at": "2026-11-12T11:33:05.000Z",
-      "summary": "Slår alarm om datasenter-boom &nbsp;&nbsp; Nettavisen"
-    },
-    {
-      "title": "Meiningar, Luster | Datasenter i Gaupne er uansvarleg sløsing med straum",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3kydDR6dmZXY0lMckFZaDVHQ2ZXUDRDVEc4dnk2X1lpdGZnTGhGX1hQcy1wQzNFR2RLRGdDbXJCNldvN1VhSkZSaFFPSlE5clBHeFA0RW8xaUlZcmtaYWcwVWVMOEl4dl93RGRoM0Q4MThlbUUzaTc2Wld1cGNhakJVX19zWEh0bEhOV0JiWlA0S1BZU3c?oc=5",
-      "source": "Sogn Avis",
-      "published_at": "2026-11-12T17:22:40.000Z",
-      "summary": "Meiningar, Luster | Datasenter i Gaupne er uansvarleg sløsing med straum &nbsp;&nbsp; Sogn Avis"
     },
     {
       "title": "NHH-professor skeptisk til datasenter-grep",
@@ -38,18 +17,25 @@
       "summary": "NHH-professor skeptisk til datasenter-grep &nbsp;&nbsp; NHH"
     },
     {
+      "title": "Meiningar, Luster | Datasenter i Gaupne er uansvarleg sløsing med straum",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3kydDR6dmZXY0lMckFZaDVHQ2ZXUDRDVEc4dnk2X1lpdGZnTGhGX1hQcy1wQzNFR2RLRGdDbXJCNldvN1VhSkZSaFFPSlE5clBHeFA0RW8xaUlZcmtaYWcwVWVMOEl4dl93RGRoM0Q4MThlbUUzaTc2Wld1cGNhakJVX19zWEh0bEhOV0JiWlA0S1BZU3c?oc=5",
+      "source": "Sogn Avis",
+      "published_at": "2026-11-12T17:22:40.000Z",
+      "summary": "Meiningar, Luster | Datasenter i Gaupne er uansvarleg sløsing med straum &nbsp;&nbsp; Sogn Avis"
+    },
+    {
+      "title": "Slår alarm om datasenter-boom",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY25qdzdPaS1WWklKRDFsRThNQURwNkRxc1hBcEVGYWhjTk5nYkdRN2plTjg4enpjZmFvbWpock10REJTZU1qLTFlT3VhSjlLSzRaaE9kaTk0T2FmTzVsMmtPYjBmeU5RUTg0VUozbHhocW91NnFMWW1pZ3U4MnV0RzlnT2pfVWY2ZGlhc1ZBOXBzSkFETWpmUmtoU1llemdhVGZHU1ZVNmw2S3U2NjFVZ2g0by15c193eFg2RUkzZ1ZpeW8?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-11-12T11:33:05.000Z",
+      "summary": "Slår alarm om datasenter-boom &nbsp;&nbsp; Nettavisen"
+    },
+    {
       "title": "Datasenter-boom på Nordmøre: – Vi lever godt med de nye reglene",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRVQ4dnhQTHdwWFpQRi0yLUJwMElrTEJyUDlhTGtDbFF6akxodVJ1QmltSkU5MjBfaGRKTFFTRjZYaG1vNXB5SEdid0hwRUYzV0tHenRJeUg2bkY4Vjg5N1VSWTdCblZ6bGtncDZsellNVDJtSld6d1RVLTlLa2laYjdWZS1Yc2R1U0lpS05sYl82NHFfeFdj?oc=5",
       "source": "Tidens Krav",
       "published_at": "2026-11-12T09:53:49.000Z",
       "summary": "Datasenter-boom på Nordmøre: – Vi lever godt med de nye reglene &nbsp;&nbsp; Tidens Krav"
-    },
-    {
-      "title": "Datasenter, Flekkefjord | Får presentert datasenterplaner her",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbkV6Mldmb0k3c2pYV0ZscHBTa0JXLWZsdWYya1VKbFFNVWp2QUlpam1GOU1ONV9nU21NbXJFVlFxV3ZIbXRsRUxNVjN5Zlp1Y2lPQ0F0QjNKRkZqbW5qTTBOeUU5OFpXaWxfMTcwMWR1bzAwNm1tbEJ2LTV3WWk2Q0JR?oc=5",
-      "source": "Avisen Agder",
-      "published_at": "2026-11-12T08:57:39.000Z",
-      "summary": "Datasenter, Flekkefjord | Får presentert datasenterplaner her &nbsp;&nbsp; Avisen Agder"
     },
     {
       "title": "Stopp i nye datasenter-reservasjoner og konsesjonsordning på gang",
@@ -80,11 +66,25 @@
       "summary": "Skal bygge datasenter i Trøndelag – slik reagerer de på strømstansen &nbsp;&nbsp; adressa.no"
     },
     {
-      "title": "Vil bremse datasenter-boom: – Ikke lett å vite hva som er de riktige valgene her",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTU1sZHBqYXh3Q2RYYzZucFBSTnYtRzhwRmdyWWtVRlF6REs1ajFUZUtLVGdQQm1wMDViSmtpaHBkUDcyUUdBNzY5WmtLaWR2MEZfQmJERkk0QlhwQW1vOWVmdzdsT2R1cWVFUU9KRU1FZjVjOS1od0M0Ynh4dU9WM2NLa2kxeEo5azNiOUQ0bXZUVmI3S0tOSGRBWUZfMDFXdnQ2a1o2ZUJrUXptV0xpLUJsZnZ5anJtWUM2Zg?oc=5",
-      "source": "Dagsavisen",
-      "published_at": "2026-11-09T14:42:49.000Z",
-      "summary": "Vil bremse datasenter-boom: – Ikke lett å vite hva som er de riktige valgene her &nbsp;&nbsp; Dagsavisen"
+      "title": "Notodden, Nyheter | Avslører partneren: Tinfos og Skygard vil bygge datasenter",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRlJHQm5FVTgyUXdKVHlUa09SamNUeWo3Y29HZHRnSDQyMEZVOW95NDk4N2J5MnNLMXk3b0c3UFZfQmozRUVsZzJ1WkhSX2JkMm5aZ2dEQWFQc0tvYjkxMW9wUDVhYzZwbHA5MDVlcTgxdG9oS2xocld2NldHUHJNaFJVRURiMWhqd0xrTURlRHktNVl1U3ZJ?oc=5",
+      "source": "Telen",
+      "published_at": "2026-11-10T19:00:00.000Z",
+      "summary": "Notodden, Nyheter | Avslører partneren: Tinfos og Skygard vil bygge datasenter &nbsp;&nbsp; Telen"
+    },
+    {
+      "title": "Næringsliv, Nærøysund | Vil løse regjeringas datasenter-floke med gasskraft og oppdrett: – Vi har planene klare",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXFCMExHdGRVM1VjVVJXVllyR1RSUFNhc1dUX2wyb21XYVQyNGNZaHNLc3F1cXNqZWxEV3hCbmpJbVE3bjhoZjVfWmtsUHg5bUVpV2xpZ2RjYnRUWGVnOE9iMTVIZm9LOWhJZkx3c1FlUkZWOFdCT1ZhbmwtTXgwbTVFVHI1WE5NRHNVTm4yZTR3VEVPWTJweXNYcnRoX3I0VmtFSDM5OWY2NmtsMTdvX3MzYkxLeDRxemJyeUtGSjllNDFZc2c?oc=5",
+      "source": "Namdalsavisa",
+      "published_at": "2026-11-11T15:45:45.000Z",
+      "summary": "Næringsliv, Nærøysund | Vil løse regjeringas datasenter-floke med gasskraft og oppdrett: – Vi har planene klare &nbsp;&nbsp; Namdalsavisa"
+    },
+    {
+      "title": "Datasenter, Flekkefjord | Får presentert datasenterplaner her",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbkV6Mldmb0k3c2pYV0ZscHBTa0JXLWZsdWYya1VKbFFNVWp2QUlpam1GOU1ONV9nU21NbXJFVlFxV3ZIbXRsRUxNVjN5Zlp1Y2lPQ0F0QjNKRkZqbW5qTTBOeUU5OFpXaWxfMTcwMWR1bzAwNm1tbEJ2LTV3WWk2Q0JR?oc=5",
+      "source": "Avisen Agder",
+      "published_at": "2026-11-12T08:57:39.000Z",
+      "summary": "Datasenter, Flekkefjord | Får presentert datasenterplaner her &nbsp;&nbsp; Avisen Agder"
     }
   ]
 }
