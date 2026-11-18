@@ -1,13 +1,20 @@
 {
-  "updated_at": "2026-11-17T16:02:03.132Z",
+  "updated_at": "2026-11-18T11:45:15.849Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
-      "title": "Norsk datasenter-eier i Nvidia-bråk (+)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORUZwaHRpWkpEczZxa2hyd1FEY2hhdnF4RDVCZlFSQ0lNQzRJMHMzaldOWW1MdndrOUZKUTY5OFBQZ0lxOFFLLXhVZ3JaTmZ6VzFoWFlyNFQzZ1ZtMkN2RjhhWER4VF9FTGxyRVNBUkJmZWNxS0FRVUZvbHhGWEpRRWllTDI3U25aV2UwY19hejBuNW9IUXF5VDNSZFhqc1p6WG1rNVJFZHFUSGJIOGtyWFJFUXR6czlqZzBlUQ?oc=5",
+      "title": "Store tap for Nscales norske datasenter",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTzBqN0VWUFdncjVDZDVwUE44RDVYTnp2T3hmYWlLTk9sNk9teXNTOHFNZ0JTU2RwdGFsa195SkQyVTg0TTVpVmlSa3pCdGFhcmEwQVdKdzJuZFJnenlzVFRTaHdBclNWLWJXejcwS0l6TzVhYUU1bWxNRy1qS0hWWGUyZ1VMNkpnWk1z?oc=5",
       "source": "Dagens Næringsliv",
-      "published_at": "2026-11-16T15:01:00.000Z",
-      "summary": "Norsk datasenter-eier i Nvidia-bråk (+) &nbsp;&nbsp; Dagens Næringsliv"
+      "published_at": "2026-11-17T23:58:00.000Z",
+      "summary": "Store tap for Nscales norske datasenter &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Politikerne sa nei til datasenter i Ålesund",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjRiZTdZd3V2ZXJwVkthWWgtZjFUY2ZYeUhoVmpZNXhyZXVPdlY4ZFd1VVREOEV1a2RNbEFOaS12b3FCY2RFWmNXVERsekEybmxCTENQdzZwTXFSME52UUwtOThra3ZXZG80eDd0RThFUE5VdXRTc2pxSUlsN1ZDRkxxc0g3SFFyZGlfODNJMTZfbU9MekdWUmFFaw?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-11-17T19:49:56.000Z",
+      "summary": "Politikerne sa nei til datasenter i Ålesund &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "Trondheim kan bli hovedstad for datasenter",
@@ -17,60 +24,11 @@
       "summary": "Trondheim kan bli hovedstad for datasenter &nbsp;&nbsp; adressa.no"
     },
     {
-      "title": "«Slipsene» har tatt over: Første norske datasenter-rapport avslører hva investorene vil med Bodø",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnhZRHRMalYzTktzc0JaMFZhUXBSZVVqN2NSWlVpa0hSVXBFcjh1bnh6ekhSRklmSGVHSldpcWhJX1RCa21VQXZxM3dNNVdYR2VyeHE5MUxnMElsV0lfaC1SVnlqMHVnbS05TW1tWmJudEFDdzhCX0I0dV95UW5TTlF4TnNIYUNBRkN3LXdoOXFmdG9yR3I2VkhCd2ZwV25lUmF1RHJ6LVhZODhtVmxWTjJxTlAxVTQ1SlRTbDdQa1EwWUEzRFJmanF3?oc=5",
-      "source": "Bodø Nu",
-      "published_at": "2026-11-17T07:57:00.000Z",
-      "summary": "«Slipsene» har tatt over: Første norske datasenter-rapport avslører hva investorene vil med Bodø &nbsp;&nbsp; Bodø Nu"
-    },
-    {
-      "title": "Peker mot Melkøya og datasenter for forventet firedoblet strømpris i nord",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdmJBYWFoWlJaUlVmQzc4Zk5fYjVnMncxbXJneDNSZjMyb1ZzbHZUVTlYTEtjZG5QMm9uc0ZtSDNMcDNMZnpUTW9DNEljbFBuRGlFN1pkXzhGTC1iUXA3WE5fbXZCY1RBankteGY1N3VwdW0yR0xsSDIwOWFsQWtKbGdERDZkQ2djempieFhFX0FUSkcxa1dmaVNJakZ4cGZnem5EUEtMbTdOQWNGSmI0eXhqdnVvRFM0VkhFMlVjbjJkc2ZJRlRmcA?oc=5",
-      "source": "altaposten.no",
-      "published_at": "2026-11-14T15:30:00.000Z",
-      "summary": "Peker mot Melkøya og datasenter for forventet firedoblet strømpris i nord &nbsp;&nbsp; altaposten.no"
-    },
-    {
       "title": "113 datasenter bygd i Norge: – Det er en utfordring",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Na3Q1MDhzd3poUF81Z0RXblZIN0xRV1M3SHJwUjhBdEhEeFphM0FKTUVPYWdHS29pQW5GcnhwUG1xd0x2UWlvODM2VURLcHA4WWE2NWpUTkdkbTdJRlRzTjdZUkt2eHpn?oc=5",
       "source": "TV 2",
       "published_at": "2026-10-29T07:00:00.000Z",
       "summary": "113 datasenter bygd i Norge: – Det er en utfordring &nbsp;&nbsp; TV 2"
-    },
-    {
-      "title": "Her er datasenter-tomten: – Vi er en langsiktig aktør",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnl0T012LS1NTzhpb3dTd3F3QlNIT3VFWmpLYlpmZEIzNEFqcEk1LXEtV2ZPeE1DMG5pODBFR3B1cHEwVEJqLW1leHNEQ1RkNUZLLU01RTFneVh1REZEUk5acWg2bWJpWDltb2pWUzZZdGVuYVM3Z1NmZ3RESElGLUQ1dGNRUTNZT19nbk9BMno3SmRCNUE?oc=5",
-      "source": "Avisen Agder",
-      "published_at": "2026-11-16T02:22:00.000Z",
-      "summary": "Her er datasenter-tomten: – Vi er en langsiktig aktør &nbsp;&nbsp; Avisen Agder"
-    },
-    {
-      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-10-29T07:00:00.000Z",
-      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
-    },
-    {
-      "title": "Slår alarm om datasenter-boom",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY25qdzdPaS1WWklKRDFsRThNQURwNkRxc1hBcEVGYWhjTk5nYkdRN2plTjg4enpjZmFvbWpock10REJTZU1qLTFlT3VhSjlLSzRaaE9kaTk0T2FmTzVsMmtPYjBmeU5RUTg0VUozbHhocW91NnFMWW1pZ3U4MnV0RzlnT2pfVWY2ZGlhc1ZBOXBzSkFETWpmUmtoU1llemdhVGZHU1ZVNmw2S3U2NjFVZ2g0by15c193eFg2RUkzZ1ZpeW8?oc=5",
-      "source": "Nettavisen",
-      "published_at": "2026-11-12T11:33:05.000Z",
-      "summary": "Slår alarm om datasenter-boom &nbsp;&nbsp; Nettavisen"
-    },
-    {
-      "title": "Datasenter-boom på Nordmøre: – Vi lever godt med de nye reglene",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRVQ4dnhQTHdwWFpQRi0yLUJwMElrTEJyUDlhTGtDbFF6akxodVJ1QmltSkU5MjBfaGRKTFFTRjZYaG1vNXB5SEdid0hwRUYzV0tHenRJeUg2bkY4Vjg5N1VSWTdCblZ6bGtncDZsellNVDJtSld6d1RVLTlLa2laYjdWZS1Yc2R1U0lpS05sYl82NHFfeFdj?oc=5",
-      "source": "Tidens Krav",
-      "published_at": "2026-11-12T09:53:49.000Z",
-      "summary": "Datasenter-boom på Nordmøre: – Vi lever godt med de nye reglene &nbsp;&nbsp; Tidens Krav"
-    },
-    {
-      "title": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme»",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTJOQzF3d1Ziay00cWRUbThJd09yb0NRMFBUZlRrOC1hdGkxNUJpeE1FSDIzLVo1RmRiRHVXbTh0WmdVZkp4LWd5S1lYUXEtMXB1a1dKSzF4aE5BY3dsblVvY2E2QnpIMXdPRXc3WEt0Y3ZiUU5CMzF1TDNwN0taSndHMnQ2OGpRS0dHX1pEWVlUTW14UUJndWxDSEd0blFw?oc=5",
-      "source": "E24",
-      "published_at": "2026-11-10T20:49:47.000Z",
-      "summary": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme» &nbsp;&nbsp; E24"
     },
     {
       "title": "Datasenter-bråket: Fra norsk boom til bråstopp",
@@ -80,11 +38,53 @@
       "summary": "Datasenter-bråket: Fra norsk boom til bråstopp &nbsp;&nbsp; NRK Radio"
     },
     {
-      "title": "Satte ned foten mot datasenter: – En tapersak",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNXzBOZldxYVdHSDFiaW5PZG92OFhvVGRBTzBMREhHV1VlT2I4TFl4ajVjTHhLTFEtT0ltZXZzS0JldkFLSEhVZWRUQXBtUmNCT3hrS25DRWxNRkdMSDJfSFZPMHZ1RVBySl9HckR1OFRvcUhRYmtuRFRzaWloNERZdXNTT1ljQQ?oc=5",
-      "source": "TV 2",
-      "published_at": "2026-11-13T10:50:26.000Z",
-      "summary": "Satte ned foten mot datasenter: – En tapersak &nbsp;&nbsp; TV 2"
+      "title": "Peker mot Melkøya og datasenter for forventet firedoblet strømpris i nord",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdmJBYWFoWlJaUlVmQzc4Zk5fYjVnMncxbXJneDNSZjMyb1ZzbHZUVTlYTEtjZG5QMm9uc0ZtSDNMcDNMZnpUTW9DNEljbFBuRGlFN1pkXzhGTC1iUXA3WE5fbXZCY1RBankteGY1N3VwdW0yR0xsSDIwOWFsQWtKbGdERDZkQ2djempieFhFX0FUSkcxa1dmaVNJakZ4cGZnem5EUEtMbTdOQWNGSmI0eXhqdnVvRFM0VkhFMlVjbjJkc2ZJRlRmcA?oc=5",
+      "source": "altaposten.no",
+      "published_at": "2026-11-14T15:30:00.000Z",
+      "summary": "Peker mot Melkøya og datasenter for forventet firedoblet strømpris i nord &nbsp;&nbsp; altaposten.no"
+    },
+    {
+      "title": "Her er datasenter-tomten: – Vi er en langsiktig aktør",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSnl0T012LS1NTzhpb3dTd3F3QlNIT3VFWmpLYlpmZEIzNEFqcEk1LXEtV2ZPeE1DMG5pODBFR3B1cHEwVEJqLW1leHNEQ1RkNUZLLU01RTFneVh1REZEUk5acWg2bWJpWDltb2pWUzZZdGVuYVM3Z1NmZ3RESElGLUQ1dGNRUTNZT19nbk9BMno3SmRCNUE?oc=5",
+      "source": "Avisen Agder",
+      "published_at": "2026-11-16T02:22:00.000Z",
+      "summary": "Her er datasenter-tomten: – Vi er en langsiktig aktør &nbsp;&nbsp; Avisen Agder"
+    },
+    {
+      "title": "«Slipsene» har tatt over: Første norske datasenter-rapport avslører hva investorene vil med Bodø",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObnhZRHRMalYzTktzc0JaMFZhUXBSZVVqN2NSWlVpa0hSVXBFcjh1bnh6ekhSRklmSGVHSldpcWhJX1RCa21VQXZxM3dNNVdYR2VyeHE5MUxnMElsV0lfaC1SVnlqMHVnbS05TW1tWmJudEFDdzhCX0I0dV95UW5TTlF4TnNIYUNBRkN3LXdoOXFmdG9yR3I2VkhCd2ZwV25lUmF1RHJ6LVhZODhtVmxWTjJxTlAxVTQ1SlRTbDdQa1EwWUEzRFJmanF3?oc=5",
+      "source": "Bodø Nu",
+      "published_at": "2026-11-17T07:57:00.000Z",
+      "summary": "«Slipsene» har tatt over: Første norske datasenter-rapport avslører hva investorene vil med Bodø &nbsp;&nbsp; Bodø Nu"
+    },
+    {
+      "title": "Norsk datasenter-eier i Nvidia-bråk (+)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORUZwaHRpWkpEczZxa2hyd1FEY2hhdnF4RDVCZlFSQ0lNQzRJMHMzaldOWW1MdndrOUZKUTY5OFBQZ0lxOFFLLXhVZ3JaTmZ6VzFoWFlyNFQzZ1ZtMkN2RjhhWER4VF9FTGxyRVNBUkJmZWNxS0FRVUZvbHhGWEpRRWllTDI3U25aV2UwY19hejBuNW9IUXF5VDNSZFhqc1p6WG1rNVJFZHFUSGJIOGtyWFJFUXR6czlqZzBlUQ?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-11-16T15:01:00.000Z",
+      "summary": "Norsk datasenter-eier i Nvidia-bråk (+) &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Slår alarm om datasenter-boom",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY25qdzdPaS1WWklKRDFsRThNQURwNkRxc1hBcEVGYWhjTk5nYkdRN2plTjg4enpjZmFvbWpock10REJTZU1qLTFlT3VhSjlLSzRaaE9kaTk0T2FmTzVsMmtPYjBmeU5RUTg0VUozbHhocW91NnFMWW1pZ3U4MnV0RzlnT2pfVWY2ZGlhc1ZBOXBzSkFETWpmUmtoU1llemdhVGZHU1ZVNmw2S3U2NjFVZ2g0by15c193eFg2RUkzZ1ZpeW8?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-11-12T11:33:05.000Z",
+      "summary": "Slår alarm om datasenter-boom &nbsp;&nbsp; Nettavisen"
+    },
+    {
+      "title": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme»",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTJOQzF3d1Ziay00cWRUbThJd09yb0NRMFBUZlRrOC1hdGkxNUJpeE1FSDIzLVo1RmRiRHVXbTh0WmdVZkp4LWd5S1lYUXEtMXB1a1dKSzF4aE5BY3dsblVvY2E2QnpIMXdPRXc3WEt0Y3ZiUU5CMzF1TDNwN0taSndHMnQ2OGpRS0dHX1pEWVlUTW14UUJndWxDSEd0blFw?oc=5",
+      "source": "E24",
+      "published_at": "2026-11-10T20:49:47.000Z",
+      "summary": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme» &nbsp;&nbsp; E24"
+    },
+    {
+      "title": "Pressekonferanse om datasenter og kraft",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWUxaUTBKVEdva1JSSVB3QjF6ODN6cWVyVjcyU2VrNHNweDlib0pETzN6UHUyZDlxdlFCZFYyOEhQQXZudmFfLUh6dW9pUDZmRzVFUEgtM3dVS0ZjRTBFallVWDl1cVJuX1J5RUZhYzI3VzV4WkNrQlJ5Ri1NaUNnNTRlZV9ZQVFBdHc?oc=5",
+      "source": "Regjeringen.no",
+      "published_at": "2026-11-08T08:00:00.000Z",
+      "summary": "Pressekonferanse om datasenter og kraft &nbsp;&nbsp; Regjeringen.no"
     }
   ]
 }
