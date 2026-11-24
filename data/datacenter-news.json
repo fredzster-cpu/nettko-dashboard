@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-23T12:48:21.346Z",
+  "updated_at": "2026-11-24T02:13:47.710Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
+    {
+      "title": "Datasenter står i kø for å etablere seg",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHluRXFNNE9XaUlTRU00aG1CTGJWa1R5VjNyMDh0SlJmaExrXzVuQ04yY08tZkhlNUh3ZnJVV3dnSjFPbFc1T2tCbjZyaE9QdjREdGVNUTFINlVPWjU0Y2Zab0EwbHBpZzE3N0lSNjk3QlNYZUpySXdUeUFfdzRKWWJTbnU?oc=5",
+      "source": "l-a.no",
+      "published_at": "2026-11-23T17:19:12.000Z",
+      "summary": "Datasenter står i kø for å etablere seg &nbsp;&nbsp; l-a.no"
+    },
     {
       "title": "Full datasenter-stopp? Forbruket skal dobles i pauseperioden",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDdMRzVibXVRbXUzQWtLdkxOaldmeDV5NHplaVdoMlF6UzdjdFNVYzRld01hT014TlhUMDhlQTBYRHdUc1lxQ3VReTdBc3RVUWFqT2pHNjRvcGpzQjFKcUZ3bHdEN0J1YjVTdlo3bkx6UXNHM0RwN3o1Yzh4UTF6MnNRWnYzVW9vd0dJN0hFQnpkWXg5eDNsVzVua0pzOTZid1BUdlFVY3BLaUU5WGc?oc=5",
@@ -10,18 +17,18 @@
       "summary": "Full datasenter-stopp? Forbruket skal dobles i pauseperioden &nbsp;&nbsp; Nettavisen"
     },
     {
+      "title": "Store tap for Nscales norske datasenter",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTzBqN0VWUFdncjVDZDVwUE44RDVYTnp2T3hmYWlLTk9sNk9teXNTOHFNZ0JTU2RwdGFsa195SkQyVTg0TTVpVmlSa3pCdGFhcmEwQVdKdzJuZFJnenlzVFRTaHdBclNWLWJXejcwS0l6TzVhYUU1bWxNRy1qS0hWWGUyZ1VMNkpnWk1z?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-11-17T23:58:00.000Z",
+      "summary": "Store tap for Nscales norske datasenter &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
       "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
       "source": "Aftenposten",
       "published_at": "2026-10-29T07:00:00.000Z",
       "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
-    },
-    {
-      "title": "Norsk datasenter-eier i Nvidia-bråk (+)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORUZwaHRpWkpEczZxa2hyd1FEY2hhdnF4RDVCZlFSQ0lNQzRJMHMzaldOWW1MdndrOUZKUTY5OFBQZ0lxOFFLLXhVZ3JaTmZ6VzFoWFlyNFQzZ1ZtMkN2RjhhWER4VF9FTGxyRVNBUkJmZWNxS0FRVUZvbHhGWEpRRWllTDI3U25aV2UwY19hejBuNW9IUXF5VDNSZFhqc1p6WG1rNVJFZHFUSGJIOGtyWFJFUXR6czlqZzBlUQ?oc=5",
-      "source": "Dagens Næringsliv",
-      "published_at": "2026-11-16T15:01:00.000Z",
-      "summary": "Norsk datasenter-eier i Nvidia-bråk (+) &nbsp;&nbsp; Dagens Næringsliv"
     },
     {
       "title": "113 datasenter bygd i Norge: – Det er en utfordring",
@@ -45,18 +52,39 @@
       "summary": "«Slipsene» har tatt over: Første norske datasenter-rapport avslører hva investorene vil med Bodø &nbsp;&nbsp; Bodø Nu"
     },
     {
-      "title": "Tiktok vurderer nytt datasenter i Norge",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkFFUzJfQ3FNX1loNFlzQnR2WlY0VXpDS3BOU0w2NDlHNEdYQmpFNC1xSWlRalF0WjQ2TzdHQjNlNVRKa0NoaEM1YkhTWjJTREthVVFUMk44aExsY3YtV1k3amIzWVV3eGdRLXZVT3pIZ2lQaU9sWjA2VHZyWEI5RQ?oc=5",
-      "source": "E24",
-      "published_at": "2026-10-18T07:00:00.000Z",
-      "summary": "Tiktok vurderer nytt datasenter i Norge &nbsp;&nbsp; E24"
+      "title": "Debatt, Datasenter | I Norge gjelder norske regler, også for datasentre",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR3dYSHlJQTEzbTBLU3dCdnpNN05vU25ycTFTZnR6WGJjZGktT085YldOVmROWHNmRU1HRk51VDBvNHRmd2xlb3BaTGUxNThEenpKbXdBMmhQSVhvSWJOUTJwcHlnQUxTUF9WRnZqV0FjZktjMGtEejJnWTZzaXZKU2xQaE0wRFFo?oc=5",
+      "source": "Sarpsborg Arbeiderblad",
+      "published_at": "2026-11-06T11:43:51.000Z",
+      "summary": "Debatt, Datasenter | I Norge gjelder norske regler, også for datasentre &nbsp;&nbsp; Sarpsborg Arbeiderblad"
     },
     {
-      "title": "Ordfører raser etter stans av datasenter: – Har brutt loven",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmN2YmJiSDdqWEdZd28yRXVTMllvc0xyMm9hTmpjMUg4YWtnaHd5RzFQOHBWOTlITlhXVTJidnB6d3NVRDhLaVJsWlZIS3Q0TFZQa1RjMW5Gb2xuVFZnMldNNml5Q1M1SGhlVWcwN0pSS3R0eGxyRjVXbmMwN1B1amlCbWp4b29KREtkYUR4MmdOMW4wNkVQVg?oc=5",
-      "source": "TV 2",
-      "published_at": "2026-11-14T08:00:00.000Z",
-      "summary": "Ordfører raser etter stans av datasenter: – Har brutt loven &nbsp;&nbsp; TV 2"
+      "title": "Datasenter-boom i Norge: Agder og Telemark leder an",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnc4akdQQkpObFlTNkxBOExHRzNweWdaX1ZOT3ZHNTkwdkl0cTBDMWlFRzdPMnZZUVA5clpOdEtwYlRsa0pyaDZmakhiTk5Eb1daTXpiaTFSSXNLRm9QUGhsVS1INmN2QkdDTDU5X0JZMV81X1c1ODI3bTg2UXhWWkgtNjFWTmJpT0hJUHQ2SWFjb29CWEZXSw?oc=5",
+      "source": "Dagsavisen",
+      "published_at": "2026-10-30T12:47:47.000Z",
+      "summary": "Datasenter-boom i Norge: Agder og Telemark leder an &nbsp;&nbsp; Dagsavisen"
+    },
+    {
+      "title": "Norsk datasenter-eier i Nvidia-bråk (+)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORUZwaHRpWkpEczZxa2hyd1FEY2hhdnF4RDVCZlFSQ0lNQzRJMHMzaldOWW1MdndrOUZKUTY5OFBQZ0lxOFFLLXhVZ3JaTmZ6VzFoWFlyNFQzZ1ZtMkN2RjhhWER4VF9FTGxyRVNBUkJmZWNxS0FRVUZvbHhGWEpRRWllTDI3U25aV2UwY19hejBuNW9IUXF5VDNSZFhqc1p6WG1rNVJFZHFUSGJIOGtyWFJFUXR6czlqZzBlUQ?oc=5",
+      "source": "Dagens Næringsliv",
+      "published_at": "2026-11-16T15:01:00.000Z",
+      "summary": "Norsk datasenter-eier i Nvidia-bråk (+) &nbsp;&nbsp; Dagens Næringsliv"
+    },
+    {
+      "title": "Reagerer på datasenter-tiltak: – Skulle bare mangle",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdXAyWF95TWZfN29lYWtDangtMVNLVDdFcVpSdllUU2ltZ2dsR3dlUVlNY2NjWDV3UHFRMjY2NlNJV2NiTWxmZ1A0STdROFNPbmJKV01sa0l6YmFkZlFDZFZWeGIyQU5zQVR1eWtLa3dRX3VocGRzckFvTVZfcHBhblJPWTJlOC1VQ0tSRldmcEN3cHlpQ2c?oc=5",
+      "source": "Nettavisen",
+      "published_at": "2026-11-09T08:00:00.000Z",
+      "summary": "Reagerer på datasenter-tiltak: – Skulle bare mangle &nbsp;&nbsp; Nettavisen"
+    },
+    {
+      "title": "Gi gass til datasenter",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Zl90RnA4c0ZhbTJxY1VmZHF2N281ODNCQk5GUzcxR0NMU0FHSkxVUng4UFczbVVwQXBwbndFcXYtZERTRnVJWVcyQ2MtUnBYT3BqSWlhQ0JKQWkwQjJFaW0wVm1BZkV3eFZZcmc0dw?oc=5",
+      "source": "E24",
+      "published_at": "2026-11-05T12:58:01.000Z",
+      "summary": "Gi gass til datasenter &nbsp;&nbsp; E24"
     }
   ]
 }
