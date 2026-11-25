@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:38:13.724Z",
+  "updated_at": "2026-11-25T19:18:19.374Z",
   "query": "(datasenter OR \"data center\") Norge",
   "articles": [
     {
@@ -15,13 +15,6 @@
       "source": "E24",
       "published_at": "2026-11-10T08:00:00.000Z",
       "summary": "Datasenter-sjef reagerer på byggestans: «Svekker Norges omdømme» &nbsp;&nbsp; E24"
-    },
-    {
-      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
-      "source": "Aftenposten",
-      "published_at": "2026-10-29T07:00:00.000Z",
-      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "Norsk datasenter-eier i Nvidia-bråk (+)",
@@ -52,11 +45,11 @@
       "summary": "Peker mot Melkøya og datasenter for forventet firedoblet strømpris i nord &nbsp;&nbsp; altaposten.no"
     },
     {
-      "title": "Trondheim kan bli hovedstad for datasenter",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZWpGcEwxTzBrdDJseVlwSjZKblBNMUpHSVE3VGxrYklaNU5rTHc2MGhuVzJta2I3ZW5PcWExdlZxaC1pNHZ1Rk5vUThyOXM2b2ZkbWhHM1VXdnNKNzJkQnUtR19VcUtOaTczcTlZczY4TVNpdHZRaFNGaWNDMk93ZTk5X3pBLVFPSUM2WlluWm1TM0hxTnNBYU5tN0lIWU10cmdNRUxseG9JbzUxQjZoam9B?oc=5",
-      "source": "adressa.no",
-      "published_at": "2026-11-17T14:00:15.000Z",
-      "summary": "Trondheim kan bli hovedstad for datasenter &nbsp;&nbsp; adressa.no"
+      "title": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser.",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd2ZUZDcxeHF6bzRXcy0wVlVfNGVEZ0d6SkZOc0pyR3NqbDlVU05IZlY2ampHblFmczBBeUhSWjNOU09RM08zS2RzNXRVSlJVOHRHem5YSndhM0lLOGJwNnBrVHpMd1B1WFVjNGVOaUlKWll0b3ZOeXBNa1R3aWw1clR0QVpHQjBvaVRBRUFBTzdvX0JVcDlla0dJc3hMay1xSDZvQ0QyNFhRSlRjcTlTOVJnbGloLUk4Z1A1RnhGZHA2Uy1WLVIwNUVtX2RMN01DdkdrTTNKLUViWWZUN05yX1hNN2JleWNZaHU5TjN3?oc=5",
+      "source": "Aftenposten",
+      "published_at": "2026-10-29T07:00:00.000Z",
+      "summary": "Nesten all datasenter-verdiskapning i Norge er utenlandsk eid. Samtidig varsler NVE betydelig høyere strømpriser. &nbsp;&nbsp; Aftenposten"
     },
     {
       "title": "Store tap for Nscales norske datasenter",
@@ -69,8 +62,15 @@
       "title": "Politikerne sa nei til datasenter i Ålesund",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjRiZTdZd3V2ZXJwVkthWWgtZjFUY2ZYeUhoVmpZNXhyZXVPdlY4ZFd1VVREOEV1a2RNbEFOaS12b3FCY2RFWmNXVERsekEybmxCTENQdzZwTXFSME52UUwtOThra3ZXZG80eDd0RThFUE5VdXRTc2pxSUlsN1ZDRkxxc0g3SFFyZGlfODNJMTZfbU9MekdWUmFFaw?oc=5",
       "source": "Aftenposten",
-      "published_at": "2026-11-17T19:49:56.000Z",
+      "published_at": "2026-11-17T08:00:00.000Z",
       "summary": "Politikerne sa nei til datasenter i Ålesund &nbsp;&nbsp; Aftenposten"
+    },
+    {
+      "title": "Gi gass til datasenter",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Zl90RnA4c0ZhbTJxY1VmZHF2N281ODNCQk5GUzcxR0NMU0FHSkxVUng4UFczbVVwQXBwbndFcXYtZERTRnVJWVcyQ2MtUnBYT3BqSWlhQ0JKQWkwQjJFaW0wVm1BZkV3eFZZcmc0dw?oc=5",
+      "source": "E24",
+      "published_at": "2026-11-05T08:00:00.000Z",
+      "summary": "Gi gass til datasenter &nbsp;&nbsp; E24"
     },
     {
       "title": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig",
@@ -80,11 +80,11 @@
       "summary": "Vil ha svar fra Google om datasenter-bygging: – Direkte pinlig &nbsp;&nbsp; Aftenposten"
     },
     {
-      "title": "Gi gass til datasenter",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Zl90RnA4c0ZhbTJxY1VmZHF2N281ODNCQk5GUzcxR0NMU0FHSkxVUng4UFczbVVwQXBwbndFcXYtZERTRnVJWVcyQ2MtUnBYT3BqSWlhQ0JKQWkwQjJFaW0wVm1BZkV3eFZZcmc0dw?oc=5",
-      "source": "E24",
-      "published_at": "2026-11-05T08:00:00.000Z",
-      "summary": "Gi gass til datasenter &nbsp;&nbsp; E24"
+      "title": "Trondheim kan bli hovedstad for datasenter",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZWpGcEwxTzBrdDJseVlwSjZKblBNMUpHSVE3VGxrYklaNU5rTHc2MGhuVzJta2I3ZW5PcWExdlZxaC1pNHZ1Rk5vUThyOXM2b2ZkbWhHM1VXdnNKNzJkQnUtR19VcUtOaTczcTlZczY4TVNpdHZRaFNGaWNDMk93ZTk5X3pBLVFPSUM2WlluWm1TM0hxTnNBYU5tN0lIWU10cmdNRUxseG9JbzUxQjZoam9B?oc=5",
+      "source": "adressa.no",
+      "published_at": "2026-11-17T14:00:15.000Z",
+      "summary": "Trondheim kan bli hovedstad for datasenter &nbsp;&nbsp; adressa.no"
     }
   ]
 }
